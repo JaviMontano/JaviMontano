@@ -1,11 +1,20 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,100:22D3EE&height=200&section=header&text=Javier%20Montaño&fontSize=42&fontColor=FFFFFF&fontAlignY=35&desc=Architect%20%C2%B7%20Builder%20%C2%B7%20Methodologist&descSize=18&descAlignY=55&descColor=E0E7FF&animation=fadeIn">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,100:22D3EE&height=200&section=header&text=Javier%20Montaño&fontSize=42&fontColor=FFFFFF&fontAlignY=35&desc=Architect%20%C2%B7%20Builder%20%C2%B7%20Methodologist&descSize=18&descAlignY=55&descColor=E0E7FF&animation=fadeIn" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,100:22D3EE&height=200&section=header&text=Javier%20Montaño&fontSize=42&fontColor=FFFFFF&fontAlignY=32&desc=Chief%20Empowerment%20Officer%20%C2%B7%20System%20Designer%20%C2%B7%20Methodologist&descSize=16&descAlignY=55&descColor=E0E7FF&animation=fadeIn">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,100:22D3EE&height=200&section=header&text=Javier%20Montaño&fontSize=42&fontColor=FFFFFF&fontAlignY=32&desc=Chief%20Empowerment%20Officer%20%C2%B7%20System%20Designer%20%C2%B7%20Methodologist&descSize=16&descAlignY=55&descColor=E0E7FF&animation=fadeIn" width="100%">
 </picture>
 
-### Building agentic systems that think before they act.
+<p align="center">
+  <em>"El verdadero poder esta en disenar sistemas que trabajen por ti."</em><br>
+  <sub>True power lies in designing systems that work for you.</sub>
+</p>
 
-I design **methodology-driven AI architectures** — frameworks where specialized agents collaborate through structured pipelines, evidence protocols, and quality gates. No hallucinations. No guesswork. Just rigorous, auditable discovery.
+---
+
+### I design systems that empower.
+
+Strategist and system architect specializing in **AI integration**, **high-performance methodologies**, and **organizational (R)Evolution**. I build agentic frameworks where hundreds of specialized AI agents collaborate through structured pipelines, evidence protocols, and quality gates to deliver enterprise-grade results.
+
+My mission: **strategic sovereignty** — empowering professionals and organizations to achieve independence through integrated methodology and technology.
 
 ---
 
@@ -13,27 +22,29 @@ I design **methodology-driven AI architectures** — frameworks where specialize
 <tr>
 <td width="50%" valign="top">
 
-#### What I Build
+#### Roles
 
-**Agentic Frameworks** — Multi-agent orchestration systems that transform Claude Code into specialized consulting platforms. 300+ agents, 500+ skills, zero-hallucination protocols.
+**Chief Empowerment Officer** @ [MetodologIA](https://metodologia.info)
+Founder. Designing systems and methodologies that turn potential into results. Open-source methodology, radical transparency, copyleft.
 
-**Discovery Pipelines** — Structured technical assessment workflows with quality gates, evidence tagging, and automated session management.
+**PreSales Architect** @ [Sofka Technologies](https://sofka.com.co)
+Manager, Center of Excellence. 10+ years leading cross-functional teams, driving agile adoption, and building enterprise discovery frameworks.
 
-**Methodology as Code** — Operational blueprints encoded as executable skills: architecture assessment, feasibility validation, risk quantification, executive deliverables.
+**Creator** @ JM Labs
+Personal innovation lab. Sovereign Architect, Plugin QA, Scriba, and experimental agentic frameworks.
 
 </td>
 <td width="50%" valign="top">
 
-#### The Ecosystem
+#### Areas of Expertise
 
-| Framework | Focus | Scale |
-|-----------|-------|-------|
-| **SAGE** | Enterprise PreSales Discovery | 48 agents · 107 skills |
-| **MetodologIA** | Open Discovery Methodology | 101 agents · 108 skills |
-| **APEX** | Project Management | 55 agents · 100 skills |
-| **Sovereign Architect** | Software Architecture Analysis | 70+ agents · 170+ skills |
-| **Scriba** | K-12 Editorial Production | 14 agents · 30 skills |
-| **Plugin QA** | Plugin Development Lifecycle | 4 agents · 20 skills |
+**System Design** — Agentic architectures, multi-agent orchestration, structured pipelines with quality gates and evidence protocols.
+
+**Strategic AI Integration** — Transforming AI from tool to methodology. 300+ specialized agents, 500+ executable skills, zero-hallucination protocols.
+
+**High-Performance Methodologies** — Scrum, Kanban, SAFe, Lean, Design Thinking, PIVOTE Framework. Methodology as code.
+
+**Organizational (R)Evolution** — From operational chaos to strategic sovereignty. Frameworks that scale without friction.
 
 </td>
 </tr>
@@ -41,64 +52,95 @@ I design **methodology-driven AI architectures** — frameworks where specialize
 
 ---
 
-#### Philosophy
+### The Agentic Ecosystem
+
+Six plugin frameworks, one orchestration network:
 
 ```
-"El éxito depende más de cómo te apalancas que de cuánto te esfuerzas."
+                    ┌─────────────────────────────────────────┐
+                    │         Meta-Orchestrator Network        │
+                    │                                         │
+  ┌──────────┐     │  ┌──────────┐  ┌──────────┐            │
+  │   SAGE   │     │  │MetodologIA│  │   APEX   │            │
+  │Enterprise│     │  │  Open    │  │ Project  │            │
+  │ PreSales │     │  │Discovery │  │Management│            │
+  │48 agents │     │  │101 agents│  │55 agents │            │
+  │107 skills│     │  │108 skills│  │100 skills│            │
+  └──────────┘     │  └──────────┘  └──────────┘            │
+                    │  ┌──────────┐  ┌──────────┐  ┌────────┐│
+  Sofka ©           │  │Sovereign │  │  Scriba  │  │Plugin  ││
+                    │  │Architect │  │  K-12    │  │  QA    ││
+                    │  │170+ skill│  │Editorial │  │20 skill││
+                    │  └──────────┘  └──────────┘  └────────┘│
+                    │                                         │
+                    │  512 skills · 298 agents · 36 hooks     │
+                    └─────────────────────────────────────────┘
 ```
 
-Every claim tagged with evidence: `[CODE]` `[CONFIG]` `[DOC]` `[INFERENCE]` `[ASSUMPTION]`
-Every deliverable scored against 10 excellence criteria.
-Every pipeline gated — no phase advances without validation.
+| Framework | Purpose | Scale | License |
+|-----------|---------|-------|---------|
+| **SAGE** | Enterprise pre-sales discovery | 48 agents, 107 skills, 104 commands | All Rights Reserved |
+| **MetodologIA** | Universal discovery methodology | 101 agents, 108 skills, 109 commands | GPL-3.0 |
+| **APEX** | Project management (PMBOK/Agile/SAFe) | 55 agents, 100 skills, 104 commands | All Rights Reserved |
+| **Sovereign Architect** | Software architecture analysis | 70+ agents, 170+ skills | MIT |
+| **Scriba** | K-12 editorial content pipeline | 14 agents, 30 skills | MIT |
+| **Plugin QA** | Plugin development lifecycle | 4 agents, 20 skills, 31 commands | MIT |
+
+---
+
+### How It Works
+
+Every framework follows the same core principles:
+
+**Zero-Hallucination Protocol** — Every claim tagged with evidence: `[CODE]` `[CONFIG]` `[DOC]` `[INFERENCE]` `[ASSUMPTION]`. If >30% assumptions, mandatory warning.
+
+**Quality Gates** — No phase advances without validation. Hard stops at G0 (security), G1, G1.5, G2, G3.
+
+**MOAT Pattern** — Each skill ships with Methods, Ontology, Assets, and Templates. Progressive loading (L1/L2/L3) for context efficiency.
 
 **Fundamentar antes de acelerar.** Ground before you accelerate.
 
 ---
 
-#### Roles
+### MetodologIA: The Team
 
-**PreSales Architect** @ [Sofka Technologies](https://sofka.com.co) — Manager, Center of Excellence. Building enterprise discovery frameworks that turn pre-sales into a rigorous technical discipline.
+Building this alongside an extraordinary team:
 
-**Founder** @ [MetodologIA](https://metodologia.info) — Open methodology for AI-amplified consulting. Copyleft. Community-driven. The methodology that methodologizes itself.
+| Role | Name | Focus |
+|------|------|-------|
+| **Chief Empowerment Officer** | Javier Montano | System Design, Strategic AI, (R)Evolution |
+| **Chief Efficiency Officer** | Daniel Zuluaga | Process Optimization, Intelligent Automation |
+| **Chief Ecosystem Officer** | German Sepulveda | Communities, Strategic Alliances |
+| **Chief Enablement Officer** | Katherine Oquendo | Experience Design, Service Quality |
 
-**Creator** @ JM Labs — Personal innovation lab. Sovereign Architect, Plugin QA, Scriba, and experimental frameworks.
-
----
-
-#### Numbers
-
-```
-  512 skills    ██████████████████████████████  MOAT-hardened
-  298 agents    ████████████████████           specialized
-   36 hooks     ████                           automated
-    7 MCP       █                              connected
-    6 plugins   █                              orchestrated
-```
+> *"Estrategas para cocrear entornos de abundancia."*
+> Strategists cocreating abundance environments.
 
 ---
 
 <details>
-<summary><b>Tech & Methodology Stack</b></summary>
+<summary><b>Open Source Contributions</b></summary>
 <br>
 
-**AI Orchestration**: Claude Code Plugins, Multi-Agent Pipelines, NL-HP Prompts, RAG Priming, MOAT Pattern
-**Architecture**: C4 Model, TOGAF, DDD, Event-Driven, Microservices Decomposition
-**Methodology**: Scrum, Kanban, SAFe, Lean, Design Thinking, PIVOTE Framework
-**Cloud**: AWS, Azure, GCP — Migration (7R), Cloud-Native, FinOps
-**Quality**: Zero-Hallucination Protocol, Evidence Tagging, Quality Gates (G0-G3), Excellence Loop
-**Output**: Markdown-Excellence, Mermaid Diagrams, Branded HTML/DOCX/XLSX/PPTX, Ghost Menus
+- **MetodologIA** (GPL-3.0) — Universal discovery framework. The methodology that methodologizes itself.
+- **Sovereign Architect** (MIT) — 5-phase software architecture analysis with 70+ specialist agents.
+- **Plugin QA** (MIT) — Full 9-movement plugin development lifecycle. The plugin that audits plugins.
+- **Scriba** (MIT) — K-12 editorial pipeline with curriculum alignment and DUA accessibility.
+
+All frameworks built on Claude Code's plugin architecture.
 
 </details>
 
 <details>
-<summary><b>Open Source</b></summary>
+<summary><b>Tech Stack</b></summary>
 <br>
 
-- **MetodologIA** (GPL-3.0) — Universal discovery framework. 101 agents, 108 skills, 109 commands.
-- **Plugin QA** (MIT) — Full plugin development lifecycle. Create, validate, audit, fix.
-- **Scriba** (MIT) — K-12 editorial pipeline with curriculum alignment and DUA accessibility.
-
-*All frameworks built on Claude Code's plugin architecture.*
+**AI Orchestration**: Claude Code Plugins, Multi-Agent Pipelines, NL-HP Prompts, RAG Priming, MOAT Pattern
+**Architecture**: C4 Model, TOGAF, DDD, Event-Driven, Microservices
+**Methodology**: Scrum, Kanban, SAFe, Lean, Design Thinking, PIVOTE
+**Cloud**: AWS, Azure, GCP — 7R Migration, Cloud-Native, FinOps
+**Quality**: Evidence Tagging, Quality Gates (G0-G3), Excellence Loop
+**Output**: Markdown-Excellence, Mermaid, Branded HTML/DOCX/XLSX/PPTX
 
 </details>
 
@@ -106,6 +148,7 @@ Every pipeline gated — no phase advances without validation.
 
 <p align="center">
   <a href="https://metodologia.info">metodologia.info</a> ·
+  <a href="https://metodologia.info/nosotros/">the team</a> ·
   <a href="https://sofka.com.co">sofka.com.co</a> ·
   <a href="https://co.linkedin.com/in/javier-andr%C3%A9s-monta%C3%B1o-guzm%C3%A1n-35b02756/en">LinkedIn</a>
 </p>
