@@ -28,7 +28,7 @@ My mission: **strategic sovereignty** — empowering professionals and organizat
 Founder. Designing systems and methodologies that turn potential into results. Open-source methodology, radical transparency, copyleft.
 
 **GenAI Champion & PreSales Architect** @ [Sofka Technologies](https://sofka.com.co)
-Leading generative AI adoption across the organization. Building agentic discovery frameworks for enterprise pre-sales. Former Manager, Center of Excellence.
+Leading generative AI adoption across the organization. Former Manager, Center of Excellence.
 
 **Creator** @ JM Labs
 Personal innovation lab. Sovereign Architect, Plugin QA, Scriba, and experimental agentic frameworks.
@@ -54,34 +54,32 @@ Personal innovation lab. Sovereign Architect, Plugin QA, Scriba, and experimenta
 
 ### The Agentic Ecosystem
 
-Six plugin frameworks, one orchestration network:
+Agentic frameworks built on Claude Code's plugin architecture:
 
 ```
-                    ┌─────────────────────────────────────────┐
-                    │         Meta-Orchestrator Network        │
-                    │                                         │
-  ┌──────────┐     │  ┌──────────┐  ┌──────────┐            │
-  │   SAGE   │     │  │MetodologIA│  │   APEX   │            │
-  │Enterprise│     │  │  Open    │  │ Project  │            │
-  │ PreSales │     │  │Discovery │  │Management│            │
-  │48 agents │     │  │101 agents│  │55 agents │            │
-  │107 skills│     │  │108 skills│  │100 skills│            │
-  └──────────┘     │  └──────────┘  └──────────┘            │
-                    │  ┌──────────┐  ┌──────────┐  ┌────────┐│
-  Sofka ©           │  │Sovereign │  │  Scriba  │  │Plugin  ││
-                    │  │Architect │  │  K-12    │  │  QA    ││
-                    │  │170+ skill│  │Editorial │  │20 skill││
-                    │  └──────────┘  └──────────┘  └────────┘│
-                    │                                         │
-                    │  512 skills · 298 agents · 36 hooks     │
-                    └─────────────────────────────────────────┘
+  ┌─────────────────────────────────────────────────────┐
+  │            Meta-Orchestrator Network                 │
+  │                                                     │
+  │  ┌────────────┐  ┌────────────┐  ┌────────────┐    │
+  │  │ MetodologIA│  │ Sovereign  │  │   Scriba   │    │
+  │  │   Open     │  │ Architect  │  │    K-12    │    │
+  │  │ Discovery  │  │ Software   │  │  Editorial │    │
+  │  │ 101 agents │  │  Analysis  │  │  Pipeline  │    │
+  │  │ 108 skills │  │ 170+ skills│  │  30 skills │    │
+  │  │  GPL-3.0   │  │    MIT     │  │    MIT     │    │
+  │  └────────────┘  └────────────┘  └────────────┘    │
+  │  ┌────────────┐                                     │
+  │  │ Plugin QA  │  + more experimental frameworks     │
+  │  │ Lifecycle  │                                     │
+  │  │  20 skills │                                     │
+  │  │    MIT     │                                     │
+  │  └────────────┘                                     │
+  └─────────────────────────────────────────────────────┘
 ```
 
 | Framework | Purpose | Scale | License |
 |-----------|---------|-------|---------|
-| **SAGE** | Enterprise pre-sales discovery | 48 agents, 107 skills, 104 commands | All Rights Reserved |
 | **MetodologIA** | Universal discovery methodology | 101 agents, 108 skills, 109 commands | GPL-3.0 |
-| **APEX** | Project management (PMBOK/Agile/SAFe) | 55 agents, 100 skills, 104 commands | All Rights Reserved |
 | **Sovereign Architect** | Software architecture analysis | 70+ agents, 170+ skills | MIT |
 | **Scriba** | K-12 editorial content pipeline | 14 agents, 30 skills | MIT |
 | **Plugin QA** | Plugin development lifecycle | 4 agents, 20 skills, 31 commands | MIT |
@@ -149,7 +147,6 @@ All frameworks built on Claude Code's plugin architecture.
 <p align="center">
   <a href="https://metodologia.info">metodologia.info</a> ·
   <a href="https://metodologia.info/nosotros/">the team</a> ·
-  <a href="https://sofka.com.co">sofka.com.co</a> ·
   <a href="https://co.linkedin.com/in/javier-andr%C3%A9s-monta%C3%B1o-guzm%C3%A1n-35b02756/en">LinkedIn</a>
 </p>
 
