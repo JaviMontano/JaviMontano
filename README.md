@@ -54,35 +54,37 @@ Personal innovation lab. Sovereign Architect, Plugin QA, Scriba, and experimenta
 
 ### The Agentic Ecosystem
 
-Agentic frameworks built on Claude Code's plugin architecture:
+Agentic frameworks built on Claude Code's plugin architecture, all under the **MetodologIA** umbrella:
 
 ```
-  ┌─────────────────────────────────────────────────────┐
-  │            Meta-Orchestrator Network                 │
-  │                                                     │
-  │  ┌────────────┐  ┌────────────┐  ┌────────────┐    │
-  │  │ MetodologIA│  │ Sovereign  │  │   Scriba   │    │
-  │  │   Open     │  │ Architect  │  │    K-12    │    │
-  │  │ Discovery  │  │ Software   │  │  Editorial │    │
-  │  │ 101 agents │  │  Analysis  │  │  Pipeline  │    │
-  │  │ 108 skills │  │ 170+ skills│  │  30 skills │    │
-  │  │  GPL-3.0   │  │    MIT     │  │    MIT     │    │
-  │  └────────────┘  └────────────┘  └────────────┘    │
-  │  ┌────────────┐                                     │
-  │  │ Plugin QA  │  + more experimental frameworks     │
-  │  │ Lifecycle  │                                     │
-  │  │  20 skills │                                     │
-  │  │    MIT     │                                     │
-  │  └────────────┘                                     │
-  └─────────────────────────────────────────────────────┘
+  ┌─────────────────────────────────────────────────────────┐
+  │                   MetodologIA Ecosystem                  │
+  │                                                         │
+  │  ┌────────────┐  ┌────────────┐  ┌────────────┐        │
+  │  │    MAO     │  │ Sovereign  │  │    APEX    │        │
+  │  │ Discovery  │  │ Architect  │  │  Project   │        │
+  │  │ Framework  │  │  Software  │  │ Management │        │
+  │  │ 101 agents │  │  Analysis  │  │ 55 agents  │        │
+  │  │ 108 skills │  │ 170+ skills│  │ 100 skills │        │
+  │  └────────────┘  └────────────┘  └────────────┘        │
+  │  ┌────────────┐  ┌────────────┐                         │
+  │  │   Scriba   │  │ Plugin QA  │  JM Labs                │
+  │  │    K-12    │  │ Lifecycle  │  ┌────────────┐         │
+  │  │  Editorial │  │  20 skills │  │  PQA v3.0  │         │
+  │  │  30 skills │  └────────────┘  │  MIT       │         │
+  │  └────────────┘                   └────────────┘         │
+  │                                                         │
+  │  300+ agents · 400+ skills · Open source (GPL-3.0/MIT)  │
+  └─────────────────────────────────────────────────────────┘
 ```
 
-| Framework | Purpose | Scale | License |
-|-----------|---------|-------|---------|
-| **MetodologIA** | Universal discovery methodology | 101 agents, 108 skills, 109 commands | GPL-3.0 |
-| **Sovereign Architect** | Software architecture analysis | 70+ agents, 170+ skills | MIT |
-| **Scriba** | K-12 editorial content pipeline | 14 agents, 30 skills | MIT |
-| **Plugin QA** | Plugin development lifecycle | 4 agents, 20 skills, 31 commands | MIT |
+| Framework | Brand | Purpose | Scale |
+|-----------|-------|---------|-------|
+| **MAO** | MetodologIA | Universal discovery methodology | 101 agents, 108 skills, 109 commands |
+| **Sovereign Architect** | MetodologIA | Software architecture analysis | 70+ agents, 170+ skills |
+| **APEX** | MetodologIA | Project management (PMBOK/Agile/SAFe) | 55 agents, 100 skills, 104 commands |
+| **Scriba** | MetodologIA | K-12 editorial content pipeline | 14 agents, 30 skills |
+| **Plugin QA** | JM Labs | Plugin development lifecycle | 4 agents, 20 skills, 31 commands |
 
 ---
 
@@ -120,10 +122,14 @@ Building this alongside an extraordinary team:
 <summary><b>Open Source Contributions</b></summary>
 <br>
 
-- **MetodologIA** (GPL-3.0) — Universal discovery framework. The methodology that methodologizes itself.
-- **Sovereign Architect** (MIT) — 5-phase software architecture analysis with 70+ specialist agents.
-- **Plugin QA** (MIT) — Full 9-movement plugin development lifecycle. The plugin that audits plugins.
-- **Scriba** (MIT) — K-12 editorial pipeline with curriculum alignment and DUA accessibility.
+**MetodologIA Ecosystem** (GPL-3.0 / MIT):
+- **MAO** — Universal discovery framework. The methodology that methodologizes itself. 101 agents, 108 skills.
+- **Sovereign Architect** — 5-phase software architecture analysis with 70+ specialist agents.
+- **APEX** — Full project management framework. PMBOK, Agile, SAFe, Hybrid. 55 agents, 100 skills.
+- **Scriba** — K-12 editorial pipeline with curriculum alignment and DUA accessibility.
+
+**JM Labs** (MIT):
+- **Plugin QA** — Full 9-movement plugin development lifecycle. The plugin that audits plugins.
 
 All frameworks built on Claude Code's plugin architecture.
 
