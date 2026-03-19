@@ -27,8 +27,8 @@ My mission: **strategic sovereignty** — empowering professionals and organizat
 **Chief Empowerment Officer** @ [MetodologIA](https://metodologia.info)
 Founder. Designing systems and methodologies that turn potential into results. Open-source methodology, radical transparency, copyleft.
 
-**PreSales Architect** @ [Sofka Technologies](https://sofka.com.co)
-Manager, Center of Excellence. 10+ years leading cross-functional teams, driving agile adoption, and building enterprise discovery frameworks.
+**GenAI Champion & PreSales Architect** @ [Sofka Technologies](https://sofka.com.co)
+Leading generative AI adoption across the organization. Building agentic discovery frameworks for enterprise pre-sales. Former Manager, Center of Excellence.
 
 **Creator** @ JM Labs
 Personal innovation lab. Sovereign Architect, Plugin QA, Scriba, and experimental agentic frameworks.
