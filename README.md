@@ -122,11 +122,13 @@ Building this alongside an extraordinary team:
 <summary><b>Open Source Contributions</b></summary>
 <br>
 
-**MetodologIA Ecosystem** (GPL-3.0 / MIT):
+**MetodologIA Ecosystem** ([MIT - MetodologIA Terms](https://metodologia.info/legal/terminos.html)):
 - **MAO** — Universal discovery framework. The methodology that methodologizes itself. 101 agents, 108 skills.
 - **Sovereign Architect** — 5-phase software architecture analysis with 70+ specialist agents.
 - **APEX** — Full project management framework. PMBOK, Agile, SAFe, Hybrid. 55 agents, 100 skills.
 - **Scriba** — K-12 editorial pipeline with curriculum alignment and DUA accessibility.
+
+> Copyright (c) 2026 MetodologIA. Free to use, modify, and distribute with attribution.
 
 **JM Labs** (MIT):
 - **Plugin QA** — Full 9-movement plugin development lifecycle. The plugin that audits plugins.
