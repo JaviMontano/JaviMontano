@@ -12,7 +12,7 @@
 
 ### I design systems that empower.
 
-Contador Publico turned system architect. 13+ years bridging **finance, methodology, and AI** across 11 countries. I build agentic frameworks where hundreds of specialized AI agents collaborate through structured pipelines, evidence protocols, and quality gates to deliver enterprise-grade results.
+Contador Público turned system architect. 13+ years bridging **finance, methodology, and AI** across 11 countries. I build agentic frameworks where hundreds of specialized AI agents collaborate through structured pipelines, evidence protocols, and quality gates to deliver enterprise-grade results.
 
 My philosophy: **Accountability from accounting. Discipline from agility. Scale from AI.** Not transformation — **(R)Evolution**.
 
@@ -45,7 +45,7 @@ Led generative AI adoption enterprise-wide. Management Head, CoE Lead. 300% reve
 - Specialization in Organizational Control — Universidad EAFIT (2013)
 
 **Impact**
-- 40,000+ professional flight hours
+- 40,000+ hours turning challenges into wins
 - 500+ people trained (Operative to C-Level)
 - 11 countries: CO, CA, US, MX, PA, EC, PE, CL, UY, AR, ES
 - GenAI adoption: -30% cycle time, +20% productivity
