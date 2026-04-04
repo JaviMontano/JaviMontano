@@ -65,15 +65,16 @@ Agentic frameworks built on Claude Code's plugin architecture, organized under t
 | Repo | Purpose | Scale |
 |------|---------|-------|
 | [**MetodologIA**](https://github.com/JaviMontano/MetodologIA) | MAO — Universal discovery framework | 102 agents, 214 skills |
-| [**metodologia-discovery-framework**](https://github.com/JaviMontano/metodologia-discovery-framework) | Public discovery framework | 102 agents, 214 skills |
-| [**pm-project-framework**](https://github.com/JaviMontano/pm-project-framework) | APEX — Project management | 55 agents, 214 skills |
-| [**sdd-metodologia**](https://github.com/JaviMontano/sdd-metodologia) | SDD — Spec Driven Development | Plugin |
-| [**iic-metodologia**](https://github.com/JaviMontano/iic-metodologia) | IIC — Intent-Integrity Chain | ADR Kit |
-| [**metodologia-propuesta-agent-public**](https://github.com/JaviMontano/metodologia-propuesta-agent-public) | Proposal agent — 7-phase pipeline | 145 skills, 6 sub-agents |
+| [**mao-discovery-framework**](https://github.com/JaviMontano/mao-discovery-framework) | Public discovery framework | 102 agents, 214 skills |
+| [**mao-pm-apex**](https://github.com/JaviMontano/mao-pm-apex) | APEX — Project management | 55 agents, 214 skills |
+| [**mao-sdd**](https://github.com/JaviMontano/mao-sdd) | SDD — Spec Driven Development | Plugin |
+| [**mao-iic**](https://github.com/JaviMontano/mao-iic) | IIC — Intent-Integrity Chain | ADR Kit |
+| [**mao-propuesta-agent**](https://github.com/JaviMontano/mao-propuesta-agent) | Proposal agent — 7-phase pipeline | 145 skills, 6 sub-agents |
 | [**playbook-forge**](https://github.com/JaviMontano/playbook-forge) | Branded HTML playbook generator | 13 workflows |
-| [**prolipa-plugins**](https://github.com/JaviMontano/prolipa-plugins) | Scriba — K-12 editorial assistant | SOAP pipeline |
-| [**site-metodologia**](https://github.com/JaviMontano/site-metodologia) | Official website | Hostinger deploy |
-| [**plugin-qa**](https://github.com/JaviMontano/plugin-qa) | Plugin development lifecycle | 4 agents, 20 skills |
+| [**mao-scriba**](https://github.com/JaviMontano/mao-scriba) | Scriba — K-12 editorial assistant | SOAP pipeline |
+| [**mao-site**](https://github.com/JaviMontano/mao-site) | Official website | Hostinger deploy |
+| [**mao-plugin-qa**](https://github.com/JaviMontano/mao-plugin-qa) | Plugin development lifecycle | 4 agents, 20 skills |
+| [**mao-brand-assets**](https://github.com/ejemplo-deo-repo/mao-brand-assets) | Logos, icons, brand materials | Storage |
 
 #### Sofka — Enterprise
 
@@ -86,10 +87,10 @@ Agentic frameworks built on Claude Code's plugin architecture, organized under t
 
 | Repo | Purpose | Scale |
 |------|---------|-------|
-| [**sovereign-architect**](https://github.com/JaviMontano/sovereign-architect) | Evidence-based technical leadership | 66 agents, 128 skills |
-| [**jm-agentic-development-kit**](https://github.com/JaviMontano/jm-agentic-development-kit) | Pristino Agent | 142 skills, 101 agents |
-| [**jm-agentic-development-kit-alfa**](https://github.com/JaviMontano/jm-agentic-development-kit-alfa) | ADK Alfa — Full agentic development kit | 11K+ files |
-| [**nexus-architecture-deep-dive**](https://github.com/JaviMontano/nexus-architecture-deep-dive) | Nexus Assistant OS — Architecture discovery | MAO + SDD |
+| [**mao-sovereign-architect**](https://github.com/JaviMontano/mao-sovereign-architect) | Evidence-based technical leadership | 66 agents, 128 skills |
+| [**jm-adk**](https://github.com/JaviMontano/jm-adk) | Pristino Agent | 142 skills, 101 agents |
+| [**jm-adk-alfa**](https://github.com/JaviMontano/jm-adk-alfa) | ADK Alfa — Full agentic development kit | 11K+ files |
+| [**jm-nexus-deep-dive**](https://github.com/JaviMontano/jm-nexus-deep-dive) | Nexus Assistant OS — Architecture discovery | MAO + SDD |
 | [**pristino-agent-sdk**](https://github.com/JaviMontano/pristino-agent-sdk) | Pristino on Claude Agent SDK | TypeScript |
 
 ---
