@@ -27,11 +27,11 @@ My philosophy: **Accountability from accounting. Discipline from agility. Scale 
 **Founder** @ [MetodologIA](https://metodologia.info)
 Open-source methodology and systems. Cocreating abundance environments. Ideas to traction in 21 days.
 
-**GenAI Champion & PreSales Architect** @ [Sofka Technologies](https://sofka.com.co)
-Leading generative AI adoption enterprise-wide. Former Management Head, CoE Lead. 300% revenue growth (USD 1M to USD 3M).
-
 **Creator** @ JM Labs
 Personal innovation lab. Sovereign Architect, Plugin QA, and experimental agentic frameworks.
+
+**Former GenAI Champion & PreSales Architect** @ [Sofka Technologies](https://sofka.com.co)
+Led generative AI adoption enterprise-wide. Management Head, CoE Lead. 300% revenue growth (USD 1M to USD 3M).
 
 </td>
 <td width="50%" valign="top">
@@ -58,36 +58,39 @@ Personal innovation lab. Sovereign Architect, Plugin QA, and experimental agenti
 
 ### The Agentic Ecosystem
 
-Agentic frameworks built on Claude Code's plugin architecture, all under the **MetodologIA** umbrella:
+Agentic frameworks built on Claude Code's plugin architecture, organized under three brands:
 
-```
-  ┌─────────────────────────────────────────────────────────┐
-  │                   MetodologIA Ecosystem                  │
-  │                                                         │
-  │  ┌────────────┐  ┌────────────┐  ┌────────────┐        │
-  │  │    MAO     │  │ Sovereign  │  │    APEX    │        │
-  │  │ Discovery  │  │ Architect  │  │  Project   │        │
-  │  │ Framework  │  │  Software  │  │ Management │        │
-  │  │ 102 agents │  │  Analysis  │  │ 55 agents  │        │
-  │  │ 214 skills │  │ 128 skills │  │ 214 skills │        │
-  │  └────────────┘  └────────────┘  └────────────┘        │
-  │  ┌────────────┐                                         │
-  │  │ Plugin QA  │  JM Labs                                │
-  │  │ Lifecycle  │  ┌────────────┐                         │
-  │  │  20 skills │  │  PQA v2.0  │                         │
-  │  └────────────┘  │  MIT       │                         │
-  │                   └────────────┘                         │
-  │                                                         │
-  │  280+ agents · 500+ skills · Open source (GPL-3.0/MIT)  │
-  └─────────────────────────────────────────────────────────┘
-```
+#### MetodologIA — Open Methodology
 
-| Framework | Brand | Purpose | Scale |
-|-----------|-------|---------|-------|
-| **MAO** | MetodologIA | Universal discovery methodology | 102 agents, 214 skills, 109 commands |
-| **Sovereign Architect** | JM Labs | Evidence-based software architecture | 66 agents, 128 skills, 120 commands |
-| **APEX** | MetodologIA | Project management (PMBOK/Agile/SAFe) | 55 agents, 214 skills, 104 commands |
-| **Plugin QA** | JM Labs | Plugin development lifecycle | 4 agents, 20 skills, 31 commands |
+| Repo | Purpose | Scale |
+|------|---------|-------|
+| [**MetodologIA**](https://github.com/JaviMontano/MetodologIA) | MAO — Universal discovery framework | 102 agents, 214 skills |
+| [**metodologia-discovery-framework**](https://github.com/JaviMontano/metodologia-discovery-framework) | Public discovery framework | 102 agents, 214 skills |
+| [**pm-project-framework**](https://github.com/JaviMontano/pm-project-framework) | APEX — Project management | 55 agents, 214 skills |
+| [**sdd-metodologia**](https://github.com/JaviMontano/sdd-metodologia) | SDD — Spec Driven Development | Plugin |
+| [**iic-metodologia**](https://github.com/JaviMontano/iic-metodologia) | IIC — Intent-Integrity Chain | ADR Kit |
+| [**metodologia-propuesta-agent-public**](https://github.com/JaviMontano/metodologia-propuesta-agent-public) | Proposal agent — 7-phase pipeline | 145 skills, 6 sub-agents |
+| [**playbook-forge**](https://github.com/JaviMontano/playbook-forge) | Branded HTML playbook generator | 13 workflows |
+| [**prolipa-plugins**](https://github.com/JaviMontano/prolipa-plugins) | Scriba — K-12 editorial assistant | SOAP pipeline |
+| [**site-metodologia**](https://github.com/JaviMontano/site-metodologia) | Official website | Hostinger deploy |
+| [**plugin-qa**](https://github.com/JaviMontano/plugin-qa) | Plugin development lifecycle | 4 agents, 20 skills |
+
+#### Sofka — Enterprise
+
+| Repo | Purpose |
+|------|---------|
+| [**sofka-sage**](https://github.com/JaviMontano/sofka-sage) | SAGE — Enterprise pre-sales discovery |
+| [**sofka-tariff-plugin**](https://github.com/JaviMontano/sofka-tariff-plugin) | SAP tariff analysis |
+
+#### JM Labs — Personal Innovation
+
+| Repo | Purpose | Scale |
+|------|---------|-------|
+| [**sovereign-architect**](https://github.com/JaviMontano/sovereign-architect) | Evidence-based technical leadership | 66 agents, 128 skills |
+| [**jm-agentic-development-kit**](https://github.com/JaviMontano/jm-agentic-development-kit) | Pristino Agent | 142 skills, 101 agents |
+| [**jm-agentic-development-kit-alfa**](https://github.com/JaviMontano/jm-agentic-development-kit-alfa) | ADK Alfa — Full agentic development kit | 11K+ files |
+| [**nexus-architecture-deep-dive**](https://github.com/JaviMontano/nexus-architecture-deep-dive) | Nexus Assistant OS — Architecture discovery | MAO + SDD |
+| [**pristino-agent-sdk**](https://github.com/JaviMontano/pristino-agent-sdk) | Pristino on Claude Agent SDK | TypeScript |
 
 ---
 
