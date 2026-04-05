@@ -16,17 +16,17 @@
 </p>
 
 <p align="center">
-  <a href="https://metodologia.info"><img src="https://img.shields.io/badge/metodologia.info-%236366F1?style=for-the-badge&logoColor=white" alt="MetodologIA"></a>
-  <a href="https://co.linkedin.com/in/javier-andr%C3%A9s-monta%C3%B1o-guzm%C3%A1n-35b02756/en"><img src="https://img.shields.io/badge/LinkedIn-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:javier.montano.guz@gmail.com"><img src="https://img.shields.io/badge/Email-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://metodologia.info"><img src="https://img.shields.io/badge/metodologia.info-6366F1?style=for-the-badge&logo=globe&logoColor=white" alt="MetodologIA"></a>
+  <a href="https://co.linkedin.com/in/javier-andr%C3%A9s-monta%C3%B1o-guzm%C3%A1n-35b02756/en"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:javier.montano.guz@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/280%2B_Agentes_IA-%236366F1?style=flat-square" alt="280+ Agentes IA">
-  <img src="https://img.shields.io/badge/500%2B_Skills-%2322D3EE?style=flat-square" alt="500+ Skills">
-  <img src="https://img.shields.io/badge/11_Pa%C3%ADses-%23FFD700?style=flat-square&labelColor=FFD700" alt="11 Países">
-  <img src="https://img.shields.io/badge/40K%2B_Horas-%238B5CF6?style=flat-square" alt="40K+ Horas">
-  <img src="https://img.shields.io/badge/300%25_Revenue_Growth-%2310B981?style=flat-square" alt="300% Revenue Growth">
+  <img src="https://img.shields.io/badge/Agentes_IA-280%2B-6366F1?style=flat-square&logo=robot&logoColor=white" alt="280+ Agentes IA">
+  <img src="https://img.shields.io/badge/Skills-500%2B-22D3EE?style=flat-square&logo=puzzle-piece&logoColor=white" alt="500+ Skills">
+  <img src="https://img.shields.io/badge/Pa%C3%ADses-11-FFD700?style=flat-square&logo=earth-americas&logoColor=white" alt="11 Países">
+  <img src="https://img.shields.io/badge/Horas-40K%2B-8B5CF6?style=flat-square&logo=clock&logoColor=white" alt="40K+ Horas">
+  <img src="https://img.shields.io/badge/Revenue_Growth-300%25-10B981?style=flat-square&logo=trending-up&logoColor=white" alt="300% Revenue Growth">
 </p>
 
 ---
@@ -35,7 +35,7 @@
 
 Contador Público convertido en arquitecto de sistemas. 13+ años conectando **finanzas, metodología e IA** en 11 países. Construyo frameworks agénticos donde cientos de agentes IA colaboran mediante pipelines estructurados, protocolos de evidencia y puertas de calidad.
 
-Mi filosofía: **Accountability from accounting. Discipline from agility. Scale from AI.** No es transformación — es **(R)Evolución**.
+Mi filosofía: **Managerial Accountability from accounting. Discipline from agility. Scale from AI.** No es transformación — es **(R)Evolución**.
 
 ---
 
@@ -118,7 +118,7 @@ Mi filosofía: **Accountability from accounting. Discipline from agility. Scale 
 
 ### 🔷 Tres Pilares
 
-> **Accountability** — Herencia contable. Lo que no se mide, es solo una buena intención. Cada resultado con trazabilidad.
+> **Managerial Accountability** — Contador Público de origen. Contabilidad gerencial aplicada a la toma de decisiones: lo que no se mide, es solo una buena intención. Cada inversión con retorno visible.
 >
 > **Method Engineering** — La agilidad no es saltar procesos. Es disciplina para *catalizar* la entrega de valor.
 >
