@@ -16,17 +16,17 @@
 </p>
 
 <p align="center">
-  <a href="https://metodologia.info"><img src="https://img.shields.io/badge/metodologia.info-6366F1?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNiAzNiI+PHJlY3Qgd2lkdGg9IjM2IiBoZWlnaHQ9IjM2IiByeD0iMTAiIGZpbGw9IiMwQTEyMkEiLz48cGF0aCBkPSJNMTAgMTJoM3YxMmgtM1YxMnptNiAwaDN2OGgtM3YtOHptMCAxMGgzdjJoLTN2LTJ6bTYtMTBoM3Y2aC0zdi02em0wIDhoM3Y0aC0zdi00eiIgZmlsbD0iI2ZmZiIvPjxjaXJjbGUgY3g9IjE4IiBjeT0iOCIgcj0iMiIgZmlsbD0iI0ZGRDcwMCIvPjwvc3ZnPg==&logoColor=white" alt="MetodologIA"></a>
-  <a href="https://co.linkedin.com/in/javier-andr%C3%A9s-monta%C3%B1o-guzm%C3%A1n-35b02756/en"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:javier.montano.guz@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://metodologia.info"><img src="https://img.shields.io/badge/metodologia.info-%236366F1?style=for-the-badge&logoColor=white" alt="MetodologIA"></a>
+  <a href="https://co.linkedin.com/in/javier-andr%C3%A9s-monta%C3%B1o-guzm%C3%A1n-35b02756/en"><img src="https://img.shields.io/badge/LinkedIn-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:javier.montano.guz@gmail.com"><img src="https://img.shields.io/badge/Email-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/280%2B-Agentes%20IA-6366F1?style=flat-square" alt="280+ Agentes">
-  <img src="https://img.shields.io/badge/500%2B-Skills-22D3EE?style=flat-square" alt="500+ Skills">
-  <img src="https://img.shields.io/badge/11-Pa%C3%ADses-FFD700?style=flat-square" alt="11 Países">
-  <img src="https://img.shields.io/badge/40K%2B-Horas-8B5CF6?style=flat-square" alt="40K+ Horas">
-  <img src="https://img.shields.io/badge/300%25-Revenue%20Growth-10B981?style=flat-square" alt="300% Growth">
+  <img src="https://img.shields.io/badge/280%2B_Agentes_IA-%236366F1?style=flat-square" alt="280+ Agentes IA">
+  <img src="https://img.shields.io/badge/500%2B_Skills-%2322D3EE?style=flat-square" alt="500+ Skills">
+  <img src="https://img.shields.io/badge/11_Pa%C3%ADses-%23FFD700?style=flat-square&labelColor=FFD700" alt="11 Países">
+  <img src="https://img.shields.io/badge/40K%2B_Horas-%238B5CF6?style=flat-square" alt="40K+ Horas">
+  <img src="https://img.shields.io/badge/300%25_Revenue_Growth-%2310B981?style=flat-square" alt="300% Revenue Growth">
 </p>
 
 ---
@@ -60,8 +60,8 @@ Mi filosofía: **Accountability from accounting. Discipline from agility. Scale 
 <td width="33%" valign="top">
 
 #### 🏢 Sofka Technologies
-**Ex GenAI Champion & PreSales Architect**<br>
-<sub>Lideré adopción de IA generativa. Head of Management, CoE Lead. Crecimiento 300% (USD 1M → USD 3M).</sub>
+**GenAI Champion & PreSales Architect**<br>
+<sub>Liderando adopción de IA generativa enterprise-wide. Ex Head of Management CoE. Crecimiento 300% (USD 1M → USD 3M).</sub>
 
 </td>
 </tr>
@@ -183,9 +183,9 @@ Cada framework sigue los mismos principios:
 - Framework open-source de metodología. De idea a tracción en 21 días.
 - Ecosistema agéntico: 280+ agentes, 500+ skills en 4 plugins.
 
-**Sofka Technologies** (2020–2025) — Head of Management, GenAI Champion, Digital Transformation Manager
-- Centro de Excelencia Ágil, luego Management.
-- Crecimiento 300% de ingresos (USD 1M a USD 3M). Rompiendo silos en 11 países.
+**Sofka Technologies** (2020–Presente) — GenAI Champion & PreSales Architect
+- Liderando adopción de IA generativa enterprise-wide.
+- Ex Head of Management CoE. Crecimiento 300% (USD 1M a USD 3M). 11 países.
 
 **Tech and Solve** (2016–2020) — Consultoría de Gestión, Agile Coach
 - Transformaciones Ágil/DevOps en Banca, Finanzas, Seguros, Retail, Servicios Públicos.
