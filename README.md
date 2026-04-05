@@ -84,19 +84,23 @@ Mi filosofía: **Managerial Accountability from accounting. Discipline from agil
 | [**mao-iic**](https://github.com/JaviMontano/mao-iic) | IIC — Intent-Integrity Chain | ADR Kit |
 | [**mao-propuesta-agent**](https://github.com/JaviMontano/mao-propuesta-agent) | Agente de propuestas — pipeline 7 fases | 145 skills, 6 sub-agentes |
 | [**playbook-forge**](https://github.com/JaviMontano/playbook-forge) | Generador de playbooks HTML con marca | 13 workflows |
-| [**mao-scriba**](https://github.com/JaviMontano/mao-scriba) | Scriba — Asistente editorial K-12 | Pipeline SOAP |
 | [**mao-plugin-qa**](https://github.com/JaviMontano/mao-plugin-qa) | Ciclo de vida de plugins | 4 agentes, 20 skills |
 
 </details>
 
 <details>
-<summary><b>Sofka — Enterprise</b></summary>
+<summary><b>Sofka Technologies — Enterprise</b></summary>
 <br>
 
-| Repo | Propósito |
-|------|-----------|
-| [**sofka-sage**](https://github.com/JaviMontano/sofka-sage) | SAGE — Discovery enterprise de pre-venta |
-| [**sofka-tariff-plugin**](https://github.com/JaviMontano/sofka-tariff-plugin) | Análisis tarifario SAP |
+Frameworks agénticos propietarios para pre-venta, discovery y transformación digital enterprise. Repos privados — soluciones desplegadas en clientes de 11 países.
+
+</details>
+
+<details>
+<summary><b>Clientes — Soluciones a Medida</b></summary>
+<br>
+
+Plugins y asistentes construidos para clientes específicos bajo acuerdos de confidencialidad. Incluyen editorial, automatización de procesos y análisis sectorial. Repos privados.
 
 </details>
 
