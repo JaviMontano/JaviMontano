@@ -1,67 +1,56 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,100:22D3EE&height=200&section=header&text=Javier%20Montaño&fontSize=42&fontColor=FFFFFF&fontAlignY=32&desc=40.000%20horas%20convirtiendo%20retos%20en%20casos%20de%20%C3%A9xito&descSize=16&descAlignY=55&descColor=E0E7FF&animation=fadeIn">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,100:22D3EE&height=200&section=header&text=Javier%20Montaño&fontSize=42&fontColor=FFFFFF&fontAlignY=32&desc=40.000%20horas%20convirtiendo%20retos%20en%20casos%20de%20%C3%A9xito&descSize=16&descAlignY=55&descColor=E0E7FF&animation=fadeIn" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:172554,50:0F766E,100:F59E0B&height=190&section=header&text=Javier%20Monta%C3%B1o&fontSize=44&fontColor=FFFFFF&fontAlignY=34&desc=Sistemas%20agenticos%20%7C%20metodologia%20%7C%20pedagogia%20%7C%20delivery%20con%20IA&descSize=15&descAlignY=56&descColor=E0F2FE&animation=fadeIn">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:172554,50:0F766E,100:F59E0B&height=190&section=header&text=Javier%20Monta%C3%B1o&fontSize=44&fontColor=FFFFFF&fontAlignY=34&desc=Sistemas%20agenticos%20%7C%20metodologia%20%7C%20pedagogia%20%7C%20delivery%20con%20IA&descSize=15&descAlignY=56&descColor=E0F2FE&animation=fadeIn" width="100%" alt="Javier Montaño - sistemas agenticos, metodologia, pedagogia y delivery con IA">
 </picture>
 
-<!-- HERO: Photo + Bio -->
-<p align="center">
-  <img src="https://github.com/ejemplo-deo-repo/mao-brand-assets/blob/main/team_javier-montano.webp?raw=true" width="180" alt="Javier Montaño" style="border-radius:50%;">
-</p>
-
-<h3 align="center">Disruption Enabler · System Designer · Methodologist</h3>
+<h3 align="center">Senior Consultant / Offer Manager @ Amaris Consulting</h3>
 
 <p align="center">
-  <em>"Lo que no se mide, es solo una buena intención."</em><br>
-  <sub>What's not measured is just good intention.</sub>
+  Contador Publico, consultor y constructor de sistemas para convertir conocimiento experto en activos operables: repos, agentes, prompts, playbooks, cursos, artefactos y flujos de trabajo con evidencia.
 </p>
 
 <p align="center">
-  <a href="https://metodologia.info"><img src="https://img.shields.io/badge/metodologia.info-6366F1?style=for-the-badge&logo=globe&logoColor=white" alt="MetodologIA"></a>
-  <a href="https://co.linkedin.com/in/javier-andr%C3%A9s-monta%C3%B1o-guzm%C3%A1n-35b02756/en"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:javier.montano.guz@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://metodologia.info"><img src="https://img.shields.io/badge/MetodologIA-metodologia.info-0F766E?style=for-the-badge" alt="MetodologIA"></a>
+  <a href="https://github.com/JaviMontano/jm-adk-alfa"><img src="https://img.shields.io/badge/Pristino_Alfa-repo_publico-172554?style=for-the-badge" alt="Pristino Alfa"></a>
+  <a href="https://co.linkedin.com/in/javier-andr%C3%A9s-monta%C3%B1o-guzm%C3%A1n-35b02756/en"><img src="https://img.shields.io/badge/LinkedIn-Javier_Monta%C3%B1o-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Javier Montaño"></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Agentes_IA-280%2B-6366F1?style=flat-square&logo=robot&logoColor=white" alt="280+ Agentes IA">
-  <img src="https://img.shields.io/badge/Skills-500%2B-22D3EE?style=flat-square&logo=puzzle-piece&logoColor=white" alt="500+ Skills">
-  <img src="https://img.shields.io/badge/Pa%C3%ADses-11-FFD700?style=flat-square&logo=earth-americas&logoColor=white" alt="11 Países">
-  <img src="https://img.shields.io/badge/Horas-40K%2B-8B5CF6?style=flat-square&logo=clock&logoColor=white" alt="40K+ Horas">
-  <img src="https://img.shields.io/badge/Revenue_Growth-300%25-10B981?style=flat-square&logo=trending-up&logoColor=white" alt="300% Revenue Growth">
+  <img src="https://img.shields.io/badge/Actual-Amaris_Consulting-111827?style=flat-square" alt="Actual: Amaris Consulting">
+  <img src="https://img.shields.io/badge/Marca-MetodologIA-0F766E?style=flat-square" alt="MetodologIA">
+  <img src="https://img.shields.io/badge/Lab-JM_Labs-172554?style=flat-square" alt="JM Labs">
+  <img src="https://img.shields.io/badge/Empresa-Marba_Blanca-F59E0B?style=flat-square" alt="Marba Blanca">
 </p>
 
 ---
 
-### Diseño sistemas que empoderan.
+## Que estoy construyendo
 
-Contador Público convertido en arquitecto de sistemas. 13+ años conectando **finanzas, metodología e IA** en 11 países. Construyo frameworks agénticos donde cientos de agentes IA colaboran mediante pipelines estructurados, protocolos de evidencia y puertas de calidad.
+Diseno sistemas para que una persona, equipo o comunidad pueda pasar de una idea a un metodo repetible. Mi trabajo cruza consultoria, arquitectura de conocimiento, IA generativa, agentes, entrenamiento, calidad y producto.
 
-Mi filosofía: **Managerial Accountability from accounting. Discipline from agility. Scale from AI.** No es transformación — es **(R)Evolución**.
+Mi rol profesional actual esta en **Amaris Consulting**. Mis lineas propias son **Marba Blanca**, **MetodologIA** y **JM Labs**. Sofka hace parte de mi trayectoria previa, no de mi rol actual.
 
----
-
-<!-- ROLES -->
 <table>
 <tr>
 <td width="33%" valign="top">
 
-#### 🏛️ MetodologIA
-**Founder & CEO**<br>
-<a href="https://metodologia.info">metodologia.info</a><br>
-<sub>Metodología open-source y sistemas. Cocreando entornos de abundancia. De idea a tracción en 21 días.</sub>
+### Marba Blanca
+
+Empresa y consultoria para convertir criterio experto en servicios, sistemas y activos digitales.
 
 </td>
 <td width="33%" valign="top">
 
-#### ⚡ JM Labs
-**Creator**<br>
-<sub>Laboratorio de innovación personal. Sovereign Architect, Plugin QA, y frameworks agénticos experimentales.</sub>
+### MetodologIA
+
+Metodologia abierta, comunidad y material pedagogico para trabajar mejor con IA sin perder gobierno, claridad ni oficio.
 
 </td>
 <td width="33%" valign="top">
 
-#### 🏢 Sofka Technologies
-**GenAI Champion & PreSales Architect**<br>
-<sub>Liderando adopción de IA generativa enterprise-wide. Ex Head of Management CoE. Crecimiento 300% (USD 1M → USD 3M).</sub>
+### JM Labs
+
+Laboratorio personal para explorar agentes, plugins, prompts, sistemas operativos de conocimiento y prototipos.
 
 </td>
 </tr>
@@ -69,171 +58,174 @@ Mi filosofía: **Managerial Accountability from accounting. Discipline from agil
 
 ---
 
-### 🔷 Ecosistema Agéntico
+## Repo destacado: Pristino Alfa
+
+<table>
+<tr>
+<td width="68%" valign="top">
+
+### [jm-adk-alfa](https://github.com/JaviMontano/jm-adk-alfa)
+
+Pristino Alfa es mi frente publico principal para experimentar con sistemas agenticos, gobierno de repos, habilidades, validadores, prompts y delivery asistido por IA. Lo uso como base para convertir metodologia en un sistema operable: leer, rutear, ejecutar, validar y cerrar con evidencia.
+
+**Enfoque:** agentic development, multi-agent workflows, Pristino, Hostinger, vibe coding, sistemas de trabajo con IA.
+
+</td>
+<td width="32%" valign="top">
+
+**Lenguaje principal:** Python<br>
+**Estado:** publico, activo<br>
+**Lectura recomendada:**
+
+- [Repo](https://github.com/JaviMontano/jm-adk-alfa)
+- [Landing HTML](https://github.com/JaviMontano/jm-adk-alfa/blob/main/landing.html)
+
+</td>
+</tr>
+</table>
+
+---
+
+## Repos publicos curados
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Material pedagogico abierto
+
+- [trabajar-amplificado](https://github.com/JaviMontano/trabajar-amplificado) - Bootcamp para managers con Claude Cowork y MetodologIA, con material ES/EN/PT.
+- [material-educativo-metodologia](https://github.com/JaviMontano/material-educativo-metodologia) - Biblioteca Universal de Prompting, playbook y skill operativa.
+- [prompt-amplificado](https://github.com/JaviMontano/prompt-amplificado) - Ingenieria de prompts, contexto y arneses.
+- [discovery-producto](https://github.com/JaviMontano/discovery-producto) - Set guiado para descubrimiento de producto con IA.
+
+</td>
+<td width="50%" valign="top">
+
+### Sistemas agenticos y Pristino
+
+- [jm-adk-alfa](https://github.com/JaviMontano/jm-adk-alfa) - Workspace publico para Pristino Alfa.
+- [jm-adk](https://github.com/JaviMontano/jm-adk) - Pristino Agent y capacidades de desarrollo agentico.
+- [mao-sovereign-architect](https://github.com/JaviMontano/mao-sovereign-architect) - Liderazgo tecnico basado en evidencia.
+- [jm-nexus-deep-dive](https://github.com/JaviMontano/jm-nexus-deep-dive) - Arquitectura deep dive con MAO + SDD.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### MetodologIA y plugins
+
+- [mao-discovery-framework](https://github.com/JaviMontano/mao-discovery-framework) - Framework publico de discovery para profesionales de la era IA.
+- [mao-sdd](https://github.com/JaviMontano/mao-sdd) - Spec Driven Development para desarrollo con IA.
+- [mao-plugin-qa](https://github.com/JaviMontano/mao-plugin-qa) - Ciclo de vida de plugins para Claude Code.
+- [mao-iic](https://github.com/JaviMontano/mao-iic) - Intent-Integrity Chain para decisiones y trazabilidad.
+
+</td>
+<td width="50%" valign="top">
+
+### Artefactos, playbooks y casos
+
+- [playbook-forge](https://github.com/JaviMontano/playbook-forge) - Generador de playbooks HTML con marca.
+- [mao-scriba](https://github.com/JaviMontano/mao-scriba) - Asistente editorial agentico para contexto educativo K-12.
+- [mao-pm-apex](https://github.com/JaviMontano/mao-pm-apex) - Marco APEX para gestion de proyectos en la era IA.
+- [metodologia-campana-ecuador-1](https://github.com/JaviMontano/metodologia-campana-ecuador-1) - Mirror publico de campana MetodologIA CAO Bootcamp.
+
+</td>
+</tr>
+</table>
+
+---
+
+## Principios de trabajo
+
+<table>
+<tr>
+<td width="25%" valign="top">
+
+### Evidencia
+
+Las decisiones importantes deben tener fuente, codigo, configuracion, documento o supuesto declarado.
+
+</td>
+<td width="25%" valign="top">
+
+### Metodo
+
+La IA acelera cuando hay estructura: rutas, contratos, criterios de done y validacion.
+
+</td>
+<td width="25%" valign="top">
+
+### Pedagogia
+
+El conocimiento vale mas cuando otra persona puede aprenderlo, usarlo y adaptarlo.
+
+</td>
+<td width="25%" valign="top">
+
+### Delivery
+
+Un artefacto no esta completo hasta que puede probarse, compartirse o mantenerse.
+
+</td>
+</tr>
+</table>
+
+---
 
 <details open>
-<summary><b>MetodologIA — Metodología Abierta</b></summary>
+<summary><b>Trayectoria actual y previa</b></summary>
 <br>
 
-| Repo | Propósito | Escala |
-|------|-----------|--------|
-| [**MetodologIA**](https://github.com/JaviMontano/MetodologIA) | MAO — Framework universal de discovery | 102 agentes, 214 skills |
-| [**mao-discovery-framework**](https://github.com/JaviMontano/mao-discovery-framework) | Framework público de discovery | 102 agentes, 214 skills |
-| [**mao-pm-apex**](https://github.com/JaviMontano/mao-pm-apex) | APEX — Gestión de proyectos | 55 agentes, 214 skills |
-| [**mao-sdd**](https://github.com/JaviMontano/mao-sdd) | SDD — Spec Driven Development | Plugin |
-| [**mao-iic**](https://github.com/JaviMontano/mao-iic) | IIC — Intent-Integrity Chain | ADR Kit |
-| [**mao-propuesta-agent**](https://github.com/JaviMontano/mao-propuesta-agent) | Agente de propuestas — pipeline 7 fases | 145 skills, 6 sub-agentes |
-| [**playbook-forge**](https://github.com/JaviMontano/playbook-forge) | Generador de playbooks HTML con marca | 13 workflows |
-| [**mao-plugin-qa**](https://github.com/JaviMontano/mao-plugin-qa) | Ciclo de vida de plugins | 4 agentes, 20 skills |
+**Amaris Consulting - actual**<br>
+Senior Consultant / Offer Manager. Trabajo en consultoria, ofertas, habilitacion y adopcion de IA aplicada a delivery, preventa y sistemas de trabajo.
+
+**Marba Blanca / MetodologIA / JM Labs - lineas propias**<br>
+Consultoria, metodologia abierta, comunidad, material pedagogico y laboratorios de sistemas agenticos.
+
+**Sofka Technologies - experiencia previa**<br>
+GenAI Champion, PreSales Architect y liderazgo en gestion, preventa y transformacion. Hoy queda como etapa anterior.
+
+**Tech and Solve / Clinica Pajonal - experiencia previa**<br>
+Consultoria de gestion, agilidad, proyectos, transformacion digital, procesos y operaciones.
 
 </details>
 
 <details>
-<summary><b>Sofka Technologies — Enterprise</b></summary>
+<summary><b>Stack de trabajo</b></summary>
 <br>
 
-Frameworks agénticos propietarios para pre-venta, discovery y transformación digital enterprise. Repos privados — soluciones desplegadas en clientes de 11 países.
+**IA y agentes:** Claude Code, Codex, NotebookLM, prompts, skills, plugins, workflows multiagente, RAG operativo.<br>
+**Arquitectura de conocimiento:** Markdown, repos gobernados, ontologias ligeras, source ledgers, quality gates, sistemas de contexto.<br>
+**Delivery y producto:** discovery, preventa, entrenamiento, playbooks, workshops, HTML estatico, docs, decks, paquetes de habilitacion.<br>
+**Gestion:** accountability, mejora continua, agile/lean, operaciones comerciales, gobierno de decisiones y seguimiento.
 
 </details>
 
 <details>
-<summary><b>Clientes — Soluciones a Medida</b></summary>
+<summary><b>Como leer este perfil</b></summary>
 <br>
 
-Plugins y asistentes construidos para clientes específicos bajo acuerdos de confidencialidad. Incluyen editorial, automatización de procesos y análisis sectorial. Repos privados.
-
-</details>
-
-<details>
-<summary><b>JM Labs — Innovación Personal</b></summary>
-<br>
-
-| Repo | Propósito | Escala |
-|------|-----------|--------|
-| [**mao-sovereign-architect**](https://github.com/JaviMontano/mao-sovereign-architect) | Liderazgo técnico basado en evidencia | 66 agentes, 128 skills |
-| [**jm-adk**](https://github.com/JaviMontano/jm-adk) | Pristino Agent | 142 skills, 101 agentes |
-| [**jm-adk-alfa**](https://github.com/JaviMontano/jm-adk-alfa) | ADK Alfa — Kit de desarrollo agéntico | 11K+ archivos |
-| [**jm-nexus-deep-dive**](https://github.com/JaviMontano/jm-nexus-deep-dive) | Nexus — Arquitectura deep dive | MAO + SDD |
-| [**pristino-agent-sdk**](https://github.com/JaviMontano/pristino-agent-sdk) | Pristino en Claude Agent SDK | TypeScript |
-
-</details>
-
----
-
-### 🔷 Tres Pilares
-
-> **Managerial Accountability** — Contador Público de origen. Contabilidad gerencial aplicada a la toma de decisiones: lo que no se mide, es solo una buena intención. Cada inversión con retorno visible.
->
-> **Method Engineering** — La agilidad no es saltar procesos. Es disciplina para *catalizar* la entrega de valor.
->
-> **Tech Humanism** — La IA *amplifica* al experto. Diseño sistemas donde los humanos aportan criterio y las máquinas aportan escala.
-
----
-
-### 🔷 Cómo Funciona
-
-Cada framework sigue los mismos principios:
-
-**Protocolo Cero Alucinación** — Cada claim etiquetado con evidencia: `[CÓDIGO]` `[CONFIG]` `[DOC]` `[INFERENCIA]` `[SUPUESTO]`. Si >30% supuestos, alerta obligatoria.
-
-**Puertas de Calidad** — Ninguna fase avanza sin validación. Hard stops en G0 (seguridad), G1, G1.5, G2, G3.
-
-**Patrón MOAT** — Cada skill incluye Methods, Ontology, Assets y Templates. Carga progresiva (L1/L2/L3).
-
-*Fundamentar antes de acelerar.*
-
----
-
-### 🔷 El Equipo MetodologIA
-
-<table>
-<tr>
-<td align="center" width="25%">
-  <img src="https://github.com/ejemplo-deo-repo/mao-brand-assets/blob/main/team_javier-montano.webp?raw=true" width="80" alt="Javier Montaño" style="border-radius:50%;"><br>
-  <sub><b>Javier Montaño</b></sub><br>
-  <sub>Chief Empowerment Officer</sub><br>
-  <sub><kbd>Diseño de Sistemas · IA Estratégica</kbd></sub>
-</td>
-<td align="center" width="25%">
-  <img src="https://github.com/ejemplo-deo-repo/mao-brand-assets/blob/main/team_daniel-zuluaga.jpg?raw=true" width="80" alt="Daniel Zuluaga" style="border-radius:50%;"><br>
-  <sub><b>Daniel Zuluaga</b></sub><br>
-  <sub>Chief Efficiency Officer</sub><br>
-  <sub><kbd>Optimización · Automatización</kbd></sub>
-</td>
-<td align="center" width="25%">
-  <img src="https://github.com/ejemplo-deo-repo/mao-brand-assets/blob/main/team_german-sepulveda.png?raw=true" width="80" alt="Germán Sepúlveda" style="border-radius:50%;"><br>
-  <sub><b>Germán Sepúlveda</b></sub><br>
-  <sub>Chief Ecosystem Officer</sub><br>
-  <sub><kbd>Comunidades · Alianzas</kbd></sub>
-</td>
-<td align="center" width="25%">
-  <img src="https://github.com/ejemplo-deo-repo/mao-brand-assets/blob/main/team_kathe-oquendo.png?raw=true" width="80" alt="Katherin Oquendo" style="border-radius:50%;"><br>
-  <sub><b>Katherin Oquendo</b></sub><br>
-  <sub>Chief Enablement Officer</sub><br>
-  <sub><kbd>Experiencia · Calidad</kbd></sub>
-</td>
-</tr>
-</table>
-
-<p align="center"><em>"Estrategas para cocrear entornos de abundancia."</em></p>
-
----
-
-<details>
-<summary><b>📋 Trayectoria Profesional</b></summary>
-<br>
-
-**MetodologIA** (2024–Presente) — Founder & Líder
-- Framework open-source de metodología. De idea a tracción en 21 días.
-- Ecosistema agéntico: 280+ agentes, 500+ skills en 4 plugins.
-
-**Sofka Technologies** (2020–Presente) — GenAI Champion & PreSales Architect
-- Liderando adopción de IA generativa enterprise-wide.
-- Ex Head of Management CoE. Crecimiento 300% (USD 1M a USD 3M). 11 países.
-
-**Tech and Solve** (2016–2020) — Consultoría de Gestión, Agile Coach
-- Transformaciones Ágil/DevOps en Banca, Finanzas, Seguros, Retail, Servicios Públicos.
-
-**Clínica Pajonal** (2012–2016) — Project Manager
-- Transformación digital: operaciones paperless, optimización de procesos.
-
-</details>
-
-<details>
-<summary><b>📋 Formación</b></summary>
-<br>
-
-- **Máster Ejecutivo en IA** — IIA (en curso)
-- **Conscious Business** — Centro de Negocios Conscientes (2023)
-- **Esp. Planeación y Evaluación de Proyectos** — Universidad de Antioquia (2014)
-- **Esp. Control Organizacional** — Universidad EAFIT (2013)
-- **Contador Público** — Base de accountability
-
-</details>
-
-<details>
-<summary><b>📋 Stack Tecnológico</b></summary>
-<br>
-
-**Orquestación IA**: Claude Code Plugins, Pipelines Multi-Agente, NL-HP Prompts, RAG Priming, Patrón MOAT<br>
-**Arquitectura**: C4 Model, TOGAF, DDD, Event-Driven, Microservicios<br>
-**Metodología**: Scrum, Kanban, SAFe, Lean, Design Thinking, PIVOTE<br>
-**Cloud**: AWS, Azure, GCP — Migración 7R, Cloud-Native, FinOps<br>
-**Calidad**: Evidence Tagging, Quality Gates (G0-G3), Excellence Loop<br>
-**Output**: Markdown-Excellence, Mermaid, HTML/DOCX/XLSX/PPTX con marca
+Este README no intenta listar todo. Prioriza repos publicos activos y material que muestra una direccion clara: convertir experiencia profesional, metodologia y aprendizaje en sistemas reutilizables. Algunos proyectos privados o archivados quedan fuera para mantener foco, privacidad y actualidad.
 
 </details>
 
 ---
 
 <p align="center">
-  <a href="https://metodologia.info">metodologia.info</a> ·
-  <a href="https://metodologia.info/nosotros/">el equipo</a> ·
-  <a href="https://co.linkedin.com/in/javier-andr%C3%A9s-monta%C3%B1o-guzm%C3%A1n-35b02756/en">LinkedIn</a> ·
-  <a href="mailto:javier.montano.guz@gmail.com">javier.montano.guz@gmail.com</a>
+  <a href="https://metodologia.info">metodologia.info</a>
+  ·
+  <a href="https://github.com/JaviMontano/jm-adk-alfa">Pristino Alfa</a>
+  ·
+  <a href="https://github.com/JaviMontano/trabajar-amplificado">Trabajo Amplificado</a>
+  ·
+  <a href="https://github.com/JaviMontano/material-educativo-metodologia">Material educativo</a>
+  ·
+  <a href="https://co.linkedin.com/in/javier-andr%C3%A9s-monta%C3%B1o-guzm%C3%A1n-35b02756/en">LinkedIn</a>
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,100:22D3EE&height=100&section=footer">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,100:22D3EE&height=100&section=footer" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:F59E0B,50:0F766E,100:172554&height=90&section=footer">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F59E0B,50:0F766E,100:172554&height=90&section=footer" width="100%" alt="">
 </picture>
