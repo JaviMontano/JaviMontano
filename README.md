@@ -1,231 +1,159 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:172554,50:0F766E,100:F59E0B&height=190&section=header&text=Javier%20Monta%C3%B1o&fontSize=44&fontColor=FFFFFF&fontAlignY=34&desc=Sistemas%20agenticos%20%7C%20metodologia%20%7C%20pedagogia%20%7C%20delivery%20con%20IA&descSize=15&descAlignY=56&descColor=E0F2FE&animation=fadeIn">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:172554,50:0F766E,100:F59E0B&height=190&section=header&text=Javier%20Monta%C3%B1o&fontSize=44&fontColor=FFFFFF&fontAlignY=34&desc=Sistemas%20agenticos%20%7C%20metodologia%20%7C%20pedagogia%20%7C%20delivery%20con%20IA&descSize=15&descAlignY=56&descColor=E0F2FE&animation=fadeIn" width="100%" alt="Javier Montaño - sistemas agenticos, metodologia, pedagogia y delivery con IA">
-</picture>
-
-<h3 align="center">Senior Consultant / Offer Manager @ Amaris Consulting</h3>
-
 <p align="center">
-  Contador Publico, consultor y constructor de sistemas para convertir conocimiento experto en activos operables: repos, agentes, prompts, playbooks, cursos, artefactos y flujos de trabajo con evidencia.
+  <img src="./assets/hero.svg" alt="Javier Montaño banner" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://metodologia.info"><img src="https://img.shields.io/badge/MetodologIA-metodologia.info-0F766E?style=for-the-badge" alt="MetodologIA"></a>
-  <a href="https://github.com/JaviMontano/jm-adk-alfa"><img src="https://img.shields.io/badge/Pristino_Alfa-repo_publico-172554?style=for-the-badge" alt="Pristino Alfa"></a>
-  <a href="https://co.linkedin.com/in/javier-andr%C3%A9s-monta%C3%B1o-guzm%C3%A1n-35b02756/en"><img src="https://img.shields.io/badge/LinkedIn-Javier_Monta%C3%B1o-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Javier Montaño"></a>
+  <img src="https://github.com/JaviMontano.png" alt="Javier Montaño" width="168" />
+</p>
+
+<h1 align="center">Javier Montaño</h1>
+
+<p align="center"><strong>Senior Consultant / Offer Manager @ Amaris Consulting | Constructor de sistemas agenticos | MetodologIA | Pristino Alfa</strong></p>
+
+<p align="center">
+  <a href="https://metodologia.info">
+    <img src="https://img.shields.io/badge/MetodologIA-open%20methodology-08111F?style=for-the-badge&labelColor=0F766E" alt="MetodologIA" />
+  </a>
+  <a href="https://github.com/JaviMontano/jm-adk-alfa">
+    <img src="https://img.shields.io/badge/Pristino%20Alfa-agentic%20workspace-08111F?style=for-the-badge&labelColor=172554" alt="Pristino Alfa" />
+  </a>
+  <a href="https://github.com/JaviMontano/trabajar-amplificado">
+    <img src="https://img.shields.io/badge/Trabajo%20Amplificado-pedagogia%20IA-08111F?style=for-the-badge&labelColor=F59E0B" alt="Trabajo Amplificado" />
+  </a>
+  <a href="https://co.linkedin.com/in/javier-andr%C3%A9s-monta%C3%B1o-guzm%C3%A1n-35b02756/en">
+    <img src="https://img.shields.io/badge/LinkedIn-Javier%20Monta%C3%B1o-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Javier Montaño" />
+  </a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Actual-Amaris_Consulting-111827?style=flat-square" alt="Actual: Amaris Consulting">
-  <img src="https://img.shields.io/badge/Marca-MetodologIA-0F766E?style=flat-square" alt="MetodologIA">
-  <img src="https://img.shields.io/badge/Lab-JM_Labs-172554?style=flat-square" alt="JM Labs">
-  <img src="https://img.shields.io/badge/Empresa-Marba_Blanca-F59E0B?style=flat-square" alt="Marba Blanca">
+  <img src="https://img.shields.io/static/v1?label=28&message=repos%20publicos&color=08111F&labelColor=38BDF8&style=flat-square" alt="28 repos publicos" />
+  <img src="https://img.shields.io/static/v1?label=19&message=repos%20activos%20no%20fork&color=08111F&labelColor=34D399&style=flat-square" alt="19 repos publicos activos no fork" />
+  <img src="https://img.shields.io/static/v1?label=4&message=frentes%20pedagogicos&color=08111F&labelColor=FBBF24&style=flat-square" alt="4 frentes pedagogicos publicos" />
+  <img src="https://img.shields.io/static/v1?label=Amaris&message=rol%20actual&color=08111F&labelColor=111827&style=flat-square" alt="Amaris rol actual" />
 </p>
 
----
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=Pristino&message=agentic%20OS&color=08111F&labelColor=172554&style=flat-square" alt="Pristino agentic OS" />
+  <img src="https://img.shields.io/static/v1?label=MetodologIA&message=metodo%20abierto&color=08111F&labelColor=0F766E&style=flat-square" alt="MetodologIA metodo abierto" />
+  <img src="https://img.shields.io/static/v1?label=JM%20Labs&message=experimentacion&color=08111F&labelColor=7C3AED&style=flat-square" alt="JM Labs experimentacion" />
+  <img src="https://img.shields.io/static/v1?label=Marba%20Blanca&message=consultoria&color=08111F&labelColor=F59E0B&style=flat-square" alt="Marba Blanca consultoria" />
+</p>
 
-## Que estoy construyendo
+## Diseño sistemas que convierten criterio en operacion
 
-Diseno sistemas para que una persona, equipo o comunidad pueda pasar de una idea a un metodo repetible. Mi trabajo cruza consultoria, arquitectura de conocimiento, IA generativa, agentes, entrenamiento, calidad y producto.
+Construyo repos, playbooks, agentes, prompts, cursos y artefactos para que el conocimiento experto no se quede en conversaciones sueltas. Mi foco esta en pasar de **idea a metodo**, de **metodo a sistema**, y de **sistema a entrega verificable**.
 
-Mi rol profesional actual esta en **Amaris Consulting**. Mis lineas propias son **Marba Blanca**, **MetodologIA** y **JM Labs**. Sofka hace parte de mi trayectoria previa, no de mi rol actual.
+Hoy mi rol profesional es **Senior Consultant / Offer Manager en Amaris Consulting**. Mis lineas propias son **Marba Blanca**, **MetodologIA** y **JM Labs**. **Sofka Technologies** pertenece a mi trayectoria previa.
 
-<table>
-<tr>
-<td width="33%" valign="top">
+## Escala publica verificable
 
-### Marba Blanca
+| Capa | Estado publico | Que significa |
+|---|---:|---|
+| **Repos publicos** | **28** | Superficie visible en GitHub para productos, material, plugins, experimentos y perfil |
+| **Repos activos no fork/no archivados** | **19** | Parte viva del ecosistema publico actual |
+| **Material pedagogico abierto** | **4 frentes** | Trabajo Amplificado, Material Educativo, Prompt Amplificado y Discovery de Producto |
+| **Pristino / agentic systems** | **3 frentes principales** | `jm-adk-alfa`, `jm-adk` y `jm-nexus-deep-dive` |
+| **MetodologIA / MAO plugins** | **varios repos publicos** | Discovery, SDD, IIC, Plugin QA, PM APEX, Sovereign Architect y Scriba |
 
-Empresa y consultoria para convertir criterio experto en servicios, sistemas y activos digitales.
+No vendo esta tabla como un inventario total. Es la parte publica, legible y enlazable de un sistema de trabajo mas amplio.
 
-</td>
-<td width="33%" valign="top">
+## Que ya esta vivo
 
-### MetodologIA
+| Sistema | Que hace | Estado |
+|---|---|---|
+| [**jm-adk-alfa**](https://github.com/JaviMontano/jm-adk-alfa) | Workspace publico para Pristino Alfa: gobierno de repos, skills, prompts, validadores y delivery asistido por IA | Publico / activo |
+| [**trabajar-amplificado**](https://github.com/JaviMontano/trabajar-amplificado) | Bootcamp para managers con Claude Cowork y MetodologIA, con material ES/EN/PT | Publico / pedagogico |
+| [**material-educativo-metodologia**](https://github.com/JaviMontano/material-educativo-metodologia) | Biblioteca Universal de Prompting, playbook y skill operativa | Publico / educativo |
+| [**prompt-amplificado**](https://github.com/JaviMontano/prompt-amplificado) | Ingenieria de prompts, contexto y arneses para trabajar con IA | Publico / metodologia |
+| [**jm-adk**](https://github.com/JaviMontano/jm-adk) | Pristino Agent: capacidades de desarrollo agentico y modos MAO / SA | Publico / agentic systems |
+| [**mao-discovery-framework**](https://github.com/JaviMontano/mao-discovery-framework) | Framework publico de discovery para profesionales de la era IA | Publico / MAO |
+| [**mao-sdd**](https://github.com/JaviMontano/mao-sdd) | Spec Driven Development aplicado al desarrollo con IA | Publico / plugin |
+| [**playbook-forge**](https://github.com/JaviMontano/playbook-forge) | Generador de playbooks HTML con marca y flujos AI-native | Publico / artifact engine |
 
-Metodologia abierta, comunidad y material pedagogico para trabajar mejor con IA sin perder gobierno, claridad ni oficio.
+## Lo que estoy construyendo ahora
 
-</td>
-<td width="33%" valign="top">
+### Pristino Alfa
 
-### JM Labs
+Un frente de trabajo para convertir repos en sistemas operables: leer contexto, rutear decisiones, ejecutar con herramientas, validar resultados y cerrar con evidencia. Alfa no es solo un repositorio; es un laboratorio de disciplina para trabajo asistido por IA.
 
-Laboratorio personal para explorar agentes, plugins, prompts, sistemas operativos de conocimiento y prototipos.
+### MetodologIA como pedagogia abierta
 
-</td>
-</tr>
-</table>
+Materiales, bootcamps, prompts, playbooks y guias que ayudan a equipos y profesionales a usar IA con metodo, no solo con entusiasmo. El objetivo es que otra persona pueda aprender, adaptar y ejecutar.
 
----
+### Consultoria aplicada en Amaris Consulting
 
-## Repo destacado: Pristino Alfa
+Trabajo en contextos reales de oferta, habilitacion y adopcion de IA. La clave no es prometer automatizacion: es detectar oportunidades, estructurar valor, aterrizar delivery y dejar sistemas repetibles.
 
-<table>
-<tr>
-<td width="68%" valign="top">
+### JM Labs y Marba Blanca
 
-### [jm-adk-alfa](https://github.com/JaviMontano/jm-adk-alfa)
+JM Labs es mi laboratorio de exploracion. Marba Blanca es la capa empresarial/consultiva para convertir esas capacidades en servicios, activos y propuestas sostenibles.
 
-Pristino Alfa es mi frente publico principal para experimentar con sistemas agenticos, gobierno de repos, habilidades, validadores, prompts y delivery asistido por IA. Lo uso como base para convertir metodologia en un sistema operable: leer, rutear, ejecutar, validar y cerrar con evidencia.
+## Superficies que domino
 
-**Enfoque:** agentic development, multi-agent workflows, Pristino, Hostinger, vibe coding, sistemas de trabajo con IA.
+- **Agentes y subagentes:** roles especializados para separar estrategia, ejecucion, soporte y guardiania.
+- **Skills y prompts:** capacidades reutilizables con instrucciones, contexto minimo, plantillas y criterios de salida.
+- **Repos gobernados:** README, rutas, validadores, source ledgers, checks y cierre con evidencia.
+- **Material pedagogico:** cursos, bootcamps, playbooks, guias y artefactos HTML compartibles.
+- **Delivery consultivo:** discovery, ofertas, preventa, habilitacion, transferencia y operacion.
+- **Arquitectura de conocimiento:** convertir informacion dispersa en sistemas navegables y mantenibles.
 
-</td>
-<td width="32%" valign="top">
+## Repositorios publicos clave
 
-**Lenguaje principal:** Python<br>
-**Estado:** publico, activo<br>
-**Lectura recomendada:**
+| Linea | Repos |
+|---|---|
+| **Pristino / JM Labs** | [jm-adk-alfa](https://github.com/JaviMontano/jm-adk-alfa)<br>[jm-adk](https://github.com/JaviMontano/jm-adk)<br>[jm-nexus-deep-dive](https://github.com/JaviMontano/jm-nexus-deep-dive)<br>[mao-sovereign-architect](https://github.com/JaviMontano/mao-sovereign-architect) |
+| **Material pedagogico** | [trabajar-amplificado](https://github.com/JaviMontano/trabajar-amplificado)<br>[material-educativo-metodologia](https://github.com/JaviMontano/material-educativo-metodologia)<br>[prompt-amplificado](https://github.com/JaviMontano/prompt-amplificado)<br>[discovery-producto](https://github.com/JaviMontano/discovery-producto) |
+| **MetodologIA / MAO** | [mao-discovery-framework](https://github.com/JaviMontano/mao-discovery-framework)<br>[mao-sdd](https://github.com/JaviMontano/mao-sdd)<br>[mao-iic](https://github.com/JaviMontano/mao-iic)<br>[mao-plugin-qa](https://github.com/JaviMontano/mao-plugin-qa)<br>[mao-pm-apex](https://github.com/JaviMontano/mao-pm-apex) |
+| **Artefactos y casos** | [playbook-forge](https://github.com/JaviMontano/playbook-forge)<br>[mao-scriba](https://github.com/JaviMontano/mao-scriba)<br>[metodologia-campana-ecuador-1](https://github.com/JaviMontano/metodologia-campana-ecuador-1) |
 
-- [Repo](https://github.com/JaviMontano/jm-adk-alfa)
-- [Landing HTML](https://github.com/JaviMontano/jm-adk-alfa/blob/main/landing.html)
+## Principios operativos
 
-</td>
-</tr>
-</table>
+- **Evidencia antes que velocidad:** si una afirmacion importa, debe poder rastrearse.
+- **Metodo antes que herramienta:** la IA acelera mejor cuando existe una ruta de trabajo.
+- **Pedagogia antes que dependencia:** un buen sistema debe poder explicarse y transferirse.
+- **Delivery antes que vitrina:** el artefacto debe poder probarse, usarse o mantenerse.
+- **Marca con frontera:** Amaris es mi contexto profesional actual; Marba Blanca, MetodologIA y JM Labs son mis lineas propias.
 
----
+## Stack de trabajo
 
-## Repos publicos curados
+**AI & orchestration**<br>
+Codex | Claude Code | NotebookLM | prompts | skills | plugins | workflows multiagente | RAG operativo
 
-<table>
-<tr>
-<td width="50%" valign="top">
+**Knowledge systems**<br>
+Markdown | GitHub | source ledgers | quality gates | context routers | validators | static HTML artifacts
 
-### Material pedagogico abierto
+**Delivery & product**<br>
+Discovery | ofertas | preventa | talleres | playbooks | bootcamps | documentacion viva | enablement
 
-- [trabajar-amplificado](https://github.com/JaviMontano/trabajar-amplificado) - Bootcamp para managers con Claude Cowork y MetodologIA, con material ES/EN/PT.
-- [material-educativo-metodologia](https://github.com/JaviMontano/material-educativo-metodologia) - Biblioteca Universal de Prompting, playbook y skill operativa.
-- [prompt-amplificado](https://github.com/JaviMontano/prompt-amplificado) - Ingenieria de prompts, contexto y arneses.
-- [discovery-producto](https://github.com/JaviMontano/discovery-producto) - Set guiado para descubrimiento de producto con IA.
+**Management & consulting**<br>
+Accountability | agile/lean | gobierno de decisiones | operaciones comerciales | transferencia de conocimiento
 
-</td>
-<td width="50%" valign="top">
+## Trayectoria
 
-### Sistemas agenticos y Pristino
+- **Amaris Consulting** - Senior Consultant / Offer Manager<br>
+  Consultoria, ofertas, habilitacion y adopcion de IA aplicada a delivery, preventa y sistemas de trabajo.
 
-- [jm-adk-alfa](https://github.com/JaviMontano/jm-adk-alfa) - Workspace publico para Pristino Alfa.
-- [jm-adk](https://github.com/JaviMontano/jm-adk) - Pristino Agent y capacidades de desarrollo agentico.
-- [mao-sovereign-architect](https://github.com/JaviMontano/mao-sovereign-architect) - Liderazgo tecnico basado en evidencia.
-- [jm-nexus-deep-dive](https://github.com/JaviMontano/jm-nexus-deep-dive) - Arquitectura deep dive con MAO + SDD.
+- **Marba Blanca / MetodologIA / JM Labs** - lineas propias<br>
+  Consultoria, metodologia abierta, comunidad, material pedagogico y laboratorios de sistemas agenticos.
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+- **Sofka Technologies** - experiencia previa<br>
+  GenAI Champion, PreSales Architect y liderazgo en gestion, preventa y transformacion.
 
-### MetodologIA y plugins
+- **Tech and Solve / Clinica Pajonal** - experiencia previa<br>
+  Consultoria de gestion, agilidad, proyectos, transformacion digital, procesos y operaciones.
 
-- [mao-discovery-framework](https://github.com/JaviMontano/mao-discovery-framework) - Framework publico de discovery para profesionales de la era IA.
-- [mao-sdd](https://github.com/JaviMontano/mao-sdd) - Spec Driven Development para desarrollo con IA.
-- [mao-plugin-qa](https://github.com/JaviMontano/mao-plugin-qa) - Ciclo de vida de plugins para Claude Code.
-- [mao-iic](https://github.com/JaviMontano/mao-iic) - Intent-Integrity Chain para decisiones y trazabilidad.
+## Conversemos
 
-</td>
-<td width="50%" valign="top">
-
-### Artefactos, playbooks y casos
-
-- [playbook-forge](https://github.com/JaviMontano/playbook-forge) - Generador de playbooks HTML con marca.
-- [mao-scriba](https://github.com/JaviMontano/mao-scriba) - Asistente editorial agentico para contexto educativo K-12.
-- [mao-pm-apex](https://github.com/JaviMontano/mao-pm-apex) - Marco APEX para gestion de proyectos en la era IA.
-- [metodologia-campana-ecuador-1](https://github.com/JaviMontano/metodologia-campana-ecuador-1) - Mirror publico de campana MetodologIA CAO Bootcamp.
-
-</td>
-</tr>
-</table>
-
----
-
-## Principios de trabajo
-
-<table>
-<tr>
-<td width="25%" valign="top">
-
-### Evidencia
-
-Las decisiones importantes deben tener fuente, codigo, configuracion, documento o supuesto declarado.
-
-</td>
-<td width="25%" valign="top">
-
-### Metodo
-
-La IA acelera cuando hay estructura: rutas, contratos, criterios de done y validacion.
-
-</td>
-<td width="25%" valign="top">
-
-### Pedagogia
-
-El conocimiento vale mas cuando otra persona puede aprenderlo, usarlo y adaptarlo.
-
-</td>
-<td width="25%" valign="top">
-
-### Delivery
-
-Un artefacto no esta completo hasta que puede probarse, compartirse o mantenerse.
-
-</td>
-</tr>
-</table>
-
----
-
-<details open>
-<summary><b>Trayectoria actual y previa</b></summary>
-<br>
-
-**Amaris Consulting - actual**<br>
-Senior Consultant / Offer Manager. Trabajo en consultoria, ofertas, habilitacion y adopcion de IA aplicada a delivery, preventa y sistemas de trabajo.
-
-**Marba Blanca / MetodologIA / JM Labs - lineas propias**<br>
-Consultoria, metodologia abierta, comunidad, material pedagogico y laboratorios de sistemas agenticos.
-
-**Sofka Technologies - experiencia previa**<br>
-GenAI Champion, PreSales Architect y liderazgo en gestion, preventa y transformacion. Hoy queda como etapa anterior.
-
-**Tech and Solve / Clinica Pajonal - experiencia previa**<br>
-Consultoria de gestion, agilidad, proyectos, transformacion digital, procesos y operaciones.
-
-</details>
-
-<details>
-<summary><b>Stack de trabajo</b></summary>
-<br>
-
-**IA y agentes:** Claude Code, Codex, NotebookLM, prompts, skills, plugins, workflows multiagente, RAG operativo.<br>
-**Arquitectura de conocimiento:** Markdown, repos gobernados, ontologias ligeras, source ledgers, quality gates, sistemas de contexto.<br>
-**Delivery y producto:** discovery, preventa, entrenamiento, playbooks, workshops, HTML estatico, docs, decks, paquetes de habilitacion.<br>
-**Gestion:** accountability, mejora continua, agile/lean, operaciones comerciales, gobierno de decisiones y seguimiento.
-
-</details>
-
-<details>
-<summary><b>Como leer este perfil</b></summary>
-<br>
-
-Este README no intenta listar todo. Prioriza repos publicos activos y material que muestra una direccion clara: convertir experiencia profesional, metodologia y aprendizaje en sistemas reutilizables. Algunos proyectos privados o archivados quedan fuera para mantener foco, privacidad y actualidad.
-
-</details>
-
----
+Si quieres hablar de **sistemas agenticos, IA aplicada a delivery, oferta consultiva, pedagogia o repos que se comportan como sistemas operativos**, este perfil te deja las rutas principales:
 
 <p align="center">
   <a href="https://metodologia.info">metodologia.info</a>
-  ·
+  |
   <a href="https://github.com/JaviMontano/jm-adk-alfa">Pristino Alfa</a>
-  ·
+  |
   <a href="https://github.com/JaviMontano/trabajar-amplificado">Trabajo Amplificado</a>
-  ·
+  |
   <a href="https://github.com/JaviMontano/material-educativo-metodologia">Material educativo</a>
-  ·
+  |
   <a href="https://co.linkedin.com/in/javier-andr%C3%A9s-monta%C3%B1o-guzm%C3%A1n-35b02756/en">LinkedIn</a>
 </p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:F59E0B,50:0F766E,100:172554&height=90&section=footer">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F59E0B,50:0F766E,100:172554&height=90&section=footer" width="100%" alt="">
-</picture>
