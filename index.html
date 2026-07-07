@@ -18,7 +18,7 @@
     <link rel="icon" href="./assets/team_javier-montano.webp" type="image/webp" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Poppins:wght@700;800;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -53,15 +53,15 @@
     </script>
     <style>
       :root {
-        --blueprint: #122562;
-        --gold: #FFD700;
-        --signal: #137DC5;
-        --ink: #1F2833;
-        --soft: #BBA0CC;
-        --muted: #808080;
+        --blueprint: #07356b;
+        --gold: #D4AF37;
+        --signal: #003366;
+        --ink: #f5f7fa;
+        --soft: #a0b0c8;
+        --muted: #a0b0c8;
         --font-title: "Poppins", system-ui, sans-serif;
         --font-body: "Montserrat", system-ui, sans-serif;
-        --font-note: "Trebuchet MS", system-ui, sans-serif;
+        --font-note: "JetBrains Mono", ui-monospace, monospace;
         --radius: 8px;
         --shadow: 0 24px 70px rgba(31, 40, 51, .26);
         --line: rgba(31, 40, 51, .22);
@@ -725,6 +725,360 @@
         html { scroll-behavior: auto; }
         * { transition: none !important; }
       }
+
+      /* Blueprint manifesto theme adapted from versiones-html/javier.html */
+      :root {
+        --bp-bg: #07356b;
+        --bp-card: rgba(0, 51, 102, .6);
+        --bp-card-strong: rgba(0, 40, 80, .72);
+        --bp-ink: #f5f7fa;
+        --bp-gold: #D4AF37;
+        --bp-gold-dim: rgba(212, 175, 55, .15);
+        --bp-grid: rgba(255, 255, 255, .07);
+        --bp-muted: rgba(255, 255, 255, .70);
+        --bp-border: rgba(212, 175, 55, .3);
+        --font-title: "Poppins", system-ui, sans-serif;
+        --font-body: "Montserrat", system-ui, sans-serif;
+        --font-note: "JetBrains Mono", ui-monospace, monospace;
+        --radius: 4px;
+        --shadow: 0 0 30px rgba(212, 175, 55, .08);
+        --line: var(--bp-border);
+        --soft-line: var(--bp-border);
+        --gold-line: var(--bp-border);
+        --blueprint: var(--bp-gold);
+        --gold: var(--bp-gold);
+        --signal: var(--bp-gold);
+        --ink: var(--bp-ink);
+        --soft: var(--bp-muted);
+        --muted: var(--bp-muted);
+      }
+
+      body {
+        color: var(--bp-ink);
+        background-color: var(--bp-bg);
+        background-image:
+          linear-gradient(var(--bp-grid) 1px, transparent 1px),
+          linear-gradient(90deg, var(--bp-grid) 1px, transparent 1px);
+        background-size: 40px 40px;
+        font-weight: 500;
+        line-height: 1.75;
+      }
+
+      strong { color: var(--bp-ink); }
+
+      .skip-link {
+        border-color: var(--bp-gold);
+        background: var(--bp-bg);
+        color: var(--bp-gold);
+        font-family: var(--font-note);
+      }
+
+      .top {
+        background: rgba(0, 51, 102, .85);
+        border-bottom: 1px solid var(--bp-border);
+      }
+
+      .brand {
+        color: var(--bp-ink);
+        font-family: var(--font-note);
+        font-size: .9rem;
+        letter-spacing: .05em;
+        text-transform: uppercase;
+      }
+
+      .brand-logo {
+        width: 40px;
+        height: 40px;
+        border: 1px solid var(--bp-border);
+        border-radius: 50%;
+        background: transparent;
+        color: var(--bp-gold);
+        box-shadow: 0 0 24px rgba(212, 175, 55, .12);
+      }
+
+      .brand-text span,
+      .top-actions a,
+      .mini-link,
+      .tab-button small,
+      .sidebar-note,
+      .eyebrow,
+      .slide-meta,
+      .chip,
+      .metric span,
+      .stage span,
+      .data-table th,
+      .repo-card small,
+      .swatch,
+      .footer {
+        font-family: var(--font-note);
+      }
+
+      .top-actions a,
+      .mini-link {
+        border-radius: 4px;
+        border-color: var(--bp-border);
+        background: transparent;
+        color: var(--bp-muted);
+        letter-spacing: .08em;
+        text-transform: uppercase;
+      }
+
+      .top-actions a:hover,
+      .top-actions a:focus-visible,
+      .mini-link:hover,
+      .mini-link:focus-visible {
+        background: var(--bp-gold-dim);
+        color: var(--bp-gold);
+      }
+
+      .shell {
+        max-width: 1280px;
+        gap: 0;
+      }
+
+      .sidebar {
+        border-right: 1px solid var(--bp-border);
+        background: rgba(0, 40, 80, .36);
+      }
+
+      .profile-card,
+      .story-card,
+      .visual-card,
+      .panel-card,
+      .metric,
+      .stage,
+      .mermaid-wrap,
+      .repo-card {
+        border: 1px solid var(--bp-border);
+        border-radius: 0;
+        background: var(--bp-card);
+        box-shadow: none;
+      }
+
+      .profile-card,
+      .story-card,
+      .panel-card,
+      .repo-card {
+        position: relative;
+      }
+
+      .story-card::before,
+      .panel-card::before,
+      .repo-card::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 3px;
+        background: var(--bp-gold);
+      }
+
+      .profile-photo {
+        border-radius: 50%;
+        border-color: var(--bp-gold);
+        box-shadow: 0 0 30px rgba(212, 175, 55, .15);
+      }
+
+      .profile-card h1,
+      .section-head h2,
+      .story-card h3,
+      .panel-card h3,
+      .stage b,
+      .metric strong,
+      .repo-card strong {
+        color: var(--bp-ink);
+      }
+
+      .profile-card p,
+      .section-head p,
+      .story-card p,
+      .panel-card p,
+      .stage span,
+      .data-table td,
+      .repo-card span,
+      .footer {
+        color: var(--bp-muted);
+      }
+
+      .tabs { gap: 6px; }
+
+      .tab-button {
+        border-radius: 4px;
+        border-color: var(--bp-border);
+        background: transparent;
+        color: var(--bp-muted);
+        font-family: var(--font-note);
+        font-size: .78rem;
+        letter-spacing: .04em;
+        text-transform: uppercase;
+      }
+
+      .tab-button:hover,
+      .tab-button:focus-visible,
+      .tab-button[aria-selected="true"] {
+        background: var(--bp-gold-dim);
+        border-color: var(--bp-gold);
+        color: var(--bp-gold);
+      }
+
+      .tab-button[aria-selected="true"] small,
+      .tab-button:hover small,
+      .tab-button:focus-visible small {
+        color: var(--bp-gold);
+      }
+
+      .sidebar-note {
+        border-color: var(--bp-border);
+        background: var(--bp-gold-dim);
+        color: var(--bp-muted);
+        letter-spacing: .02em;
+      }
+
+      .hero {
+        min-height: 640px;
+        padding: clamp(1rem, 2vw, 1.4rem);
+        border: 2px solid var(--bp-gold);
+        background: rgba(0, 40, 80, .3);
+      }
+
+      .hero-copy {
+        background: transparent;
+        border: 0;
+        box-shadow: none;
+      }
+
+      .hero-copy::before { display: none; }
+
+      .hero-title {
+        color: var(--bp-ink);
+        letter-spacing: -.02em;
+      }
+
+      .hero-lead {
+        color: var(--bp-muted);
+        font-weight: 500;
+      }
+
+      .hero-hook,
+      .quote-block {
+        border-left: 3px solid var(--bp-gold);
+        background: var(--bp-gold-dim);
+        color: var(--bp-muted);
+      }
+
+      .btn {
+        border-radius: 4px;
+        border-color: var(--bp-gold);
+        background: var(--bp-gold);
+        color: var(--bp-bg);
+        font-family: var(--font-note);
+        letter-spacing: .08em;
+        text-transform: uppercase;
+      }
+
+      .btn.secondary {
+        background: transparent;
+        color: var(--bp-gold);
+      }
+
+      .hero-visual {
+        background:
+          linear-gradient(var(--bp-grid) 1px, transparent 1px),
+          linear-gradient(90deg, var(--bp-grid) 1px, transparent 1px),
+          rgba(0, 40, 80, .28);
+        background-size: 40px 40px;
+      }
+
+      .metric-strip {
+        padding: 1rem;
+        border: 2px solid var(--bp-gold);
+        background: rgba(0, 40, 80, .24);
+      }
+
+      .metric strong,
+      .metric .stat-num {
+        color: var(--bp-gold);
+        font-family: var(--font-note);
+      }
+
+      .metric span {
+        color: var(--bp-muted);
+        letter-spacing: .08em;
+        text-transform: uppercase;
+      }
+
+      .section-head {
+        padding: 1rem 0 .5rem;
+        border-bottom: 1px solid var(--bp-border);
+      }
+
+      .section-head h2::after {
+        content: "";
+        display: block;
+        height: 1px;
+        margin-top: .65rem;
+        background: linear-gradient(to right, var(--bp-gold), transparent);
+      }
+
+      .eyebrow,
+      .slide-meta,
+      .page-label {
+        color: var(--bp-gold);
+        letter-spacing: .22em;
+      }
+
+      .eyebrow::before,
+      .slide-meta::before {
+        border-radius: 0;
+        transform: rotate(45deg);
+        background: transparent;
+        border: 2px solid var(--bp-gold);
+      }
+
+      .stage {
+        border-top: 0;
+        border-left: 3px solid var(--bp-gold);
+      }
+
+      .data-table th {
+        background: rgba(0, 40, 80, .82);
+        color: var(--bp-gold);
+      }
+
+      .data-table td {
+        background: var(--bp-card);
+      }
+
+      .repo-card small,
+      .metric,
+      .chip {
+        color: var(--bp-gold);
+      }
+
+      .chip {
+        border-color: var(--bp-border);
+        border-radius: 0;
+        background: transparent;
+      }
+
+      .swatch {
+        border-color: var(--bp-border);
+      }
+
+      .swatch[data-color="bp-bg"] { background: #07356b; }
+      .swatch[data-color="bp-card"] { background: #003366; }
+      .swatch[data-color="bp-gold"] { background: #D4AF37; color: #07356b; }
+      .swatch[data-color="bp-ink"] { background: #f5f7fa; color: #07356b; }
+      .swatch[data-color="bp-muted"] { background: #a0b0c8; color: #07356b; }
+      .swatch[data-color="bp-grid"] { background: rgba(255, 255, 255, .07); }
+
+      @media (max-width: 760px) {
+        .hero {
+          min-height: auto;
+          padding: .75rem;
+        }
+      }
     </style>
   </head>
   <body>
@@ -806,12 +1160,12 @@
             <svg class="story-svg" viewBox="0 0 720 520" role="img" aria-label="Explainer visual: reto, metodo, sistema y evidencia">
               <defs>
                 <linearGradient id="softGradient" x1="0" x2="1">
-                  <stop offset="0%" stop-color="#BBA0CC" />
-                  <stop offset="100%" stop-color="#137DC5" />
+                  <stop offset="0%" stop-color="#D4AF37" />
+                  <stop offset="100%" stop-color="#f5f7fa" />
                 </linearGradient>
               </defs>
-              <rect x="28" y="34" width="664" height="452" rx="8" fill="#BBA0CC" stroke="#1F2833" stroke-width="2" />
-              <g opacity=".28" stroke="#122562" stroke-width="1">
+              <rect x="28" y="34" width="664" height="452" rx="4" fill="#003366" stroke="#D4AF37" stroke-width="2" />
+              <g opacity=".18" stroke="#f5f7fa" stroke-width="1">
                 <path d="M64 90H650" />
                 <path d="M64 150H650" />
                 <path d="M64 210H650" />
@@ -824,33 +1178,33 @@
                 <path d="M480 64V456" />
                 <path d="M590 64V456" />
               </g>
-              <circle cx="162" cy="164" r="54" fill="#FFD700" />
-              <path d="M132 232C148 205 178 205 194 232L220 318H106L132 232Z" fill="#122562" />
-              <circle cx="164" cy="160" r="30" fill="#BBA0CC" stroke="#122562" stroke-width="8" />
-              <rect x="258" y="88" width="318" height="76" rx="8" fill="#1F2833" />
-              <text x="282" y="120" fill="#FFD700" font-family="Poppins, sans-serif" font-size="18" font-weight="900">Reto ambiguo</text>
-              <text x="282" y="145" fill="#BBA0CC" font-family="Montserrat, sans-serif" font-size="14" font-weight="700">Contexto disperso, presion de tiempo, decisiones incompletas.</text>
-              <rect x="258" y="190" width="206" height="58" rx="8" fill="#122562" />
-              <text x="282" y="225" fill="#FFD700" font-family="Trebuchet MS, sans-serif" font-size="14" font-weight="900">01 · METODO</text>
-              <rect x="486" y="190" width="90" height="58" rx="8" fill="#137DC5" />
-              <text x="531" y="225" fill="#1F2833" font-family="Poppins, sans-serif" font-size="20" font-weight="900" text-anchor="middle">25'</text>
-              <rect x="258" y="272" width="318" height="122" rx="8" fill="#1F2833" />
-              <text x="282" y="306" fill="#FFD700" font-family="Poppins, sans-serif" font-size="18" font-weight="900">Sistema accionable</text>
-              <g font-family="Montserrat, sans-serif" font-size="14" font-weight="800" fill="#BBA0CC">
+              <circle cx="162" cy="164" r="54" fill="#D4AF37" />
+              <path d="M132 232C148 205 178 205 194 232L220 318H106L132 232Z" fill="#07356b" />
+              <circle cx="164" cy="160" r="30" fill="#f5f7fa" stroke="#07356b" stroke-width="8" />
+              <rect x="258" y="88" width="318" height="76" rx="4" fill="#07356b" />
+              <text x="282" y="120" fill="#D4AF37" font-family="Poppins, sans-serif" font-size="18" font-weight="900">Reto ambiguo</text>
+              <text x="282" y="145" fill="#a0b0c8" font-family="Montserrat, sans-serif" font-size="14" font-weight="700">Contexto disperso, presion de tiempo, decisiones incompletas.</text>
+              <rect x="258" y="190" width="206" height="58" rx="4" fill="#003366" />
+              <text x="282" y="225" fill="#D4AF37" font-family="JetBrains Mono, monospace" font-size="14" font-weight="900">01 · METODO</text>
+              <rect x="486" y="190" width="90" height="58" rx="4" fill="#D4AF37" />
+              <text x="531" y="225" fill="#07356b" font-family="Poppins, sans-serif" font-size="20" font-weight="900" text-anchor="middle">25'</text>
+              <rect x="258" y="272" width="318" height="122" rx="4" fill="#07356b" />
+              <text x="282" y="306" fill="#D4AF37" font-family="Poppins, sans-serif" font-size="18" font-weight="900">Sistema accionable</text>
+              <g font-family="Montserrat, sans-serif" font-size="14" font-weight="800" fill="#a0b0c8">
                 <text x="318" y="338">Lenguaje comun</text>
                 <text x="318" y="366">Criterios de decision</text>
                 <text x="318" y="394">Revision humana</text>
               </g>
-              <g stroke="#FFD700" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <g stroke="#D4AF37" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M286 332l10 10 18-24" />
                 <path d="M286 360l10 10 18-24" />
                 <path d="M286 388l10 10 18-24" />
               </g>
               <path d="M186 354C266 438 454 438 582 352" fill="none" stroke="url(#softGradient)" stroke-width="10" stroke-linecap="round" />
-              <rect x="102" y="354" width="164" height="58" rx="8" fill="#FFD700" />
-              <text x="184" y="389" fill="#1F2833" font-family="Poppins, sans-serif" font-size="15" font-weight="900" text-anchor="middle">EVIDENCIA</text>
-              <rect x="506" y="406" width="128" height="42" rx="8" fill="#122562" />
-              <text x="570" y="432" fill="#FFD700" font-family="Trebuchet MS, sans-serif" font-size="13" font-weight="900" text-anchor="middle">CASO DE EXITO</text>
+              <rect x="102" y="354" width="164" height="58" rx="4" fill="#D4AF37" />
+              <text x="184" y="389" fill="#07356b" font-family="Poppins, sans-serif" font-size="15" font-weight="900" text-anchor="middle">EVIDENCIA</text>
+              <rect x="506" y="406" width="128" height="42" rx="4" fill="#003366" stroke="#D4AF37" />
+              <text x="570" y="432" fill="#D4AF37" font-family="JetBrains Mono, monospace" font-size="13" font-weight="900" text-anchor="middle">CASO DE EXITO</text>
             </svg>
           </aside>
         </section>
@@ -1018,34 +1372,34 @@ flowchart LR
           <div class="section-head">
             <div>
               <span class="slide-meta">Sistema visual</span>
-              <h2>Neo-Swiss Clean and Soft Explainer.</h2>
+              <h2>Blueprint Professional Manifesto.</h2>
             </div>
             <p>
-              Corporate Clean and Premium: grid suizo, columnas claras, vector flat, mucho espacio de lectura,
-              chips, checklists, timers, sombras suaves y micro-gradientes discretos.
+              Estetica tipo manifiesto profesional: fondo blueprint, grid tecnico, tarjetas sobrias,
+              metadatos en mono, oro para jerarquia y lectura de oficio.
             </p>
           </div>
 
           <div class="visual-system-grid">
             <article class="panel-card"><span class="slide-meta">Titulares</span><h3>Poppins</h3><p>Titulares grandes, contundentes, con alto contraste y jerarquia editorial.</p></article>
             <article class="panel-card"><span class="slide-meta">Cuerpo</span><h3>Montserrat</h3><p>Texto legible para lectura de negocio, reclutamiento tecnico y gestion humana.</p></article>
-            <article class="panel-card"><span class="slide-meta">Notas</span><h3>Trebuchet</h3><p>Metadatos, hooks, footnotes, chips y callouts compactos.</p></article>
+            <article class="panel-card"><span class="slide-meta">Notas</span><h3>JetBrains Mono</h3><p>Metadatos, hooks, footnotes, chips, folios y callouts compactos.</p></article>
           </div>
 
           <div class="section-head">
             <div>
-              <span class="slide-meta">Paleta exclusiva</span>
-              <h2>Seis colores, una voz.</h2>
+              <span class="slide-meta">Paleta blueprint</span>
+              <h2>Azul tecnico, oro editorial.</h2>
             </div>
-            <p>El objetivo es claridad: contraste alto, fondos no ruidosos y senales visuales consistentes.</p>
+            <p>El objetivo es autoridad sobria: fondo tecnico, borde dorado, texto claro y tarjetas con estructura de dossier.</p>
           </div>
           <div class="palette" aria-label="Paleta de marca">
-            <div class="swatch" data-color="blueprint">#122562</div>
-            <div class="swatch" data-color="gold">#FFD700</div>
-            <div class="swatch" data-color="signal">#137DC5</div>
-            <div class="swatch" data-color="ink">#1F2833</div>
-            <div class="swatch" data-color="soft">#BBA0CC</div>
-            <div class="swatch" data-color="muted">#808080</div>
+            <div class="swatch" data-color="bp-bg">#07356b</div>
+            <div class="swatch" data-color="bp-card">#003366</div>
+            <div class="swatch" data-color="bp-gold">#D4AF37</div>
+            <div class="swatch" data-color="bp-ink">#f5f7fa</div>
+            <div class="swatch" data-color="bp-muted">#a0b0c8</div>
+            <div class="swatch" data-color="bp-grid">grid</div>
           </div>
         </section>
 
@@ -1096,12 +1450,12 @@ flowchart LR
           theme: "base",
           securityLevel: "loose",
           themeVariables: {
-            primaryColor: "#BBA0CC",
-            primaryTextColor: "#1F2833",
-            primaryBorderColor: "#122562",
-            lineColor: "#137DC5",
-            secondaryColor: "#FFD700",
-            tertiaryColor: "#BBA0CC",
+            primaryColor: "#003366",
+            primaryTextColor: "#f5f7fa",
+            primaryBorderColor: "#D4AF37",
+            lineColor: "#D4AF37",
+            secondaryColor: "#07356b",
+            tertiaryColor: "#003366",
             fontFamily: "Montserrat, system-ui, sans-serif"
           }
         });
