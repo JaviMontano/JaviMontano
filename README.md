@@ -45,9 +45,9 @@
   <img src="https://img.shields.io/static/v1?label=Mamba&message=consultoria&color=08111F&labelColor=F59E0B&style=flat-square" alt="Mamba consultoria" />
 </p>
 
-## Diseño sistemas que convierten criterio en operacion
+## Consulting, operations, management, AI y digital disruption
 
-Construyo repos, playbooks, agentes, prompts, cursos y artefactos para que el conocimiento experto no se quede en conversaciones sueltas. Mi foco esta en pasar de **idea a metodo**, de **metodo a sistema**, y de **sistema a entrega verificable**.
+Construyo repos, playbooks, agentes, prompts, cursos y artefactos para que el conocimiento experto no se quede en conversaciones sueltas. Mi campo de accion cruza **consultoria**, **operaciones**, **management**, **adopcion de IA** y **disrupcion digital**: pasar de **idea a metodo**, de **metodo a sistema**, y de **sistema a entrega verificable**.
 
 Primero, soy **Founder & Empowerment Officer en MetodologIA**. En mi rol profesional actual soy **Senior Consultant / Offer Manager en Amaris Consulting**. Mis lineas propias se separan en **MetodologIA** para metodo abierto, **Mamba** para consultoria aplicada y **JM Labs** para experimentacion. Trabajo con **OpenAI Codex** como runtime de ejecucion agentica para convertir contexto, repos y decisiones en entregables verificables.
 
@@ -101,12 +101,13 @@ JM Labs es mi laboratorio de exploracion: pruebo agentes, prompts, repos, automa
 
 ## Superficies que domino
 
-- **Agentes y subagentes:** roles especializados para separar estrategia, ejecucion, soporte y guardiania.
-- **Skills y prompts:** capacidades reutilizables con instrucciones, contexto minimo, plantillas y criterios de salida.
-- **Repos gobernados:** README, rutas, validadores, source ledgers, checks y cierre con evidencia.
-- **Material pedagogico:** cursos, bootcamps, playbooks, guias y artefactos HTML compartibles.
-- **Delivery consultivo:** discovery, ofertas, preventa, habilitacion, transferencia y operacion.
-- **Arquitectura de conocimiento:** convertir informacion dispersa en sistemas navegables y mantenibles.
+- **Trabajo agentico y orquestacion:** agentes, asistentes y subagentes con roles separados para estrategia, ejecucion, soporte y guardiania.
+- **SDLC deterministico con IA:** especificaciones, criterios de aceptacion, validadores, pruebas, trazabilidad y gates para llevar salidas probabilisticas a software y artefactos auditables.
+- **Segundos cerebros y digital twins:** bases de conocimiento, notebooks, repos y mapas de contexto que convierten conocimiento tacito en sistemas navegables.
+- **Skills, prompts y plugins:** capacidades reutilizables con instrucciones, contexto minimo, plantillas, fuentes y criterios de salida.
+- **Prototipado hiper acelerado:** pasar de boceto a prototipo funcional, mini app, dashboard o HTML publicable para validar hipotesis de negocio.
+- **Gestion consultiva y cambio:** discovery, ofertas, preventa, adopcion de IA, enablement, transferencia y operacion.
+- **Material pedagogico:** cursos, bootcamps, playbooks, guias y artefactos compartibles para que otros aprendan a operar con metodo.
 
 ## Rutas y repositorios clave
 
@@ -125,19 +126,36 @@ JM Labs es mi laboratorio de exploracion: pruebo agentes, prompts, repos, automa
 - **Delivery antes que vitrina:** el artefacto debe poder probarse, usarse o mantenerse.
 - **Marca con frontera:** Amaris es mi contexto profesional actual; Mamba, MetodologIA y JM Labs son mis lineas propias.
 
-## Stack de trabajo
+## Herramientas y sistemas de trabajo
 
-**AI & orchestration**<br>
-OpenAI Codex | Claude Code | NotebookLM | prompts | skills | plugins | workflows multiagente | RAG operativo
+**AI workbench**<br>
+OpenAI Codex | Claude Code | Claude Desktop | ChatGPT | Claude | Gemini | Copilot | Perplexity | DeepSeek | Kimi | Grok | NotebookLM
 
-**Knowledge systems & digital twins**<br>
-Segundos cerebros | digital twins de conocimiento y operacion | GitHub como sistema operativo | trazabilidad de decisiones | source ledgers | context routers | quality gates | artefactos HTML publicables
+**Agentic engineering & automation**<br>
+Pristino Beta | Antigravity | n8n | Make | Zapier | OpenAI Agents SDK | Promster | prompts | skills | plugins | workflows multiagente | RAG operativo
 
-**Delivery & product**<br>
-Discovery | ofertas | preventa | talleres | playbooks | bootcamps | documentacion viva | enablement
+**Knowledge, collaboration & governance**<br>
+Google Drive | Google Workspace | Google Meet | Microsoft 365 | Notion | Obsidian | Miro | Mermaid | GitHub | Campus | source ledgers | context routers | quality gates | validators
 
-**Management & consulting**<br>
-Accountability | agile/lean | gobierno de decisiones | operaciones comerciales | transferencia de conocimiento
+**Product, UI & media prototyping**<br>
+Google Stitch | Google AI Studio | V0 by Vercel | Vercel | Hostinger | Figma | Canva | Napkin AI | Gamma | ElevenLabs | Leonardo AI | Powtoon | SketchNow | Pomeli | Nano Banana | HTML artifacts | dashboards | mini apps
+
+**Methods & delivery patterns**<br>
+BMAD | IIKit / IKIIT | Spec Driven Development | agile/lean | Design Thinking | PARA | Zettelkasten | SOPs | OKRs | change plans | digital culture blueprints | capstones | innovation labs
+
+## Capacidades que capitalizo
+
+| Capacidad | Impacto legible para negocio |
+|---|---|
+| **SDLC deterministico con IA** | Convierto intencion, contexto y prompts en specs, arquitectura, pruebas, validadores y gates para que el desarrollo con IA sea trazable, repetible y menos dependiente de improvisacion. |
+| **Aceleracion del SDLC con Trabajo Agentico** | Uso agentes y asistentes para reducir friccion entre discovery, diseno, desarrollo, QA, documentacion y cierre, sin perder criterio tecnico ni control humano. |
+| **BMAD e IIKit / IKIIT** | Adapto patrones de Agile AI Driven Development, cadenas Intent-to-Spec, roles especializados, debate multiperspectiva y readiness gates a contextos reales de producto, procesos y consultoria. |
+| **Segundos cerebros y digital twins** | Transformo conocimiento disperso en notebooks, bases RAG, repos gobernados y digital twins de conocimiento u operacion para que equipos recuperen contexto, aprendan y decidan mejor. |
+| **Prototipado hiper acelerado** | Paso de bocetos y oportunidades a prototipos funcionales, mini apps, dashboards o artefactos HTML en ciclos cortos para validar hipotesis antes de comprometer inversion grande. |
+| **Gestion del cambio y adopcion de IA** | Diseno rutas de adopcion, champions, rituales, playbooks, OKRs y planes de habilitacion para que la IA se vuelva capacidad instalada, no demostracion aislada. |
+| **Transformacion y disrupcion digital** | Redisenio procesos, sistemas de trabajo y modelos de decision para capturar oportunidades digitales antes de que se vuelvan urgencias competitivas. |
+| **Operations & management** | Conecto accountability, agilidad, Lean, SOPs, dashboards y gobierno de decisiones para que estrategia, preventa y delivery operen con mayor claridad. |
+| **Pedagogia y empowerment** | Creo programas, cartillas y experiencias de aprendizaje donde la IA aumenta agencia humana, practica deliberada y transferencia, no dependencia. |
 
 ## Trayectoria
 
@@ -161,7 +179,7 @@ Accountability | agile/lean | gobierno de decisiones | operaciones comerciales |
 
 ## Conversemos
 
-Si quieres hablar de **sistemas agenticos, IA aplicada a delivery, oferta consultiva, pedagogia o repos que se comportan como sistemas operativos**, este perfil te deja las rutas principales:
+Si quieres hablar de **sistemas agenticos, SDLC deterministico, segundos cerebros, digital twins, IA aplicada a delivery, oferta consultiva, pedagogia o prototipado hiper acelerado**, este perfil te deja las rutas principales:
 
 <p align="center">
   <a href="https://metodologia.info">metodologia.info</a>
