@@ -8,7 +8,7 @@
 
 <h1 align="center">Javier Montaño</h1>
 
-<p align="center"><strong>Senior Consultant / Offer Manager @ Amaris Consulting | Constructor de sistemas agenticos | MetodologIA | Pristino Beta</strong></p>
+<p align="center"><strong>Founder & Empowerment Officer @ MetodologIA | Senior Consultant / Offer Manager @ Amaris Consulting | Pristino Beta</strong></p>
 
 <p align="center">
   <a href="https://metodologia.info">
@@ -24,10 +24,11 @@
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/static/v1?label=MetodologIA&message=Founder%20%26%20Empowerment%20Officer&color=08111F&labelColor=0F766E&style=flat-square" alt="MetodologIA Founder and Empowerment Officer" />
+  <img src="https://img.shields.io/static/v1?label=Amaris&message=Senior%20Consultant%20%2F%20Offer%20Manager&color=08111F&labelColor=111827&style=flat-square" alt="Amaris Senior Consultant and Offer Manager" />
   <img src="https://img.shields.io/static/v1?label=27&message=repos%20publicos&color=08111F&labelColor=38BDF8&style=flat-square" alt="27 repos publicos" />
   <img src="https://img.shields.io/static/v1?label=18&message=repos%20activos%20no%20fork&color=08111F&labelColor=34D399&style=flat-square" alt="18 repos publicos activos no fork" />
   <img src="https://img.shields.io/static/v1?label=4&message=frentes%20pedagogicos&color=08111F&labelColor=FBBF24&style=flat-square" alt="4 frentes pedagogicos publicos" />
-  <img src="https://img.shields.io/static/v1?label=Amaris&message=rol%20actual&color=08111F&labelColor=111827&style=flat-square" alt="Amaris rol actual" />
 </p>
 
 <p align="center">
@@ -41,7 +42,7 @@
 
 Construyo repos, playbooks, agentes, prompts, cursos y artefactos para que el conocimiento experto no se quede en conversaciones sueltas. Mi foco esta en pasar de **idea a metodo**, de **metodo a sistema**, y de **sistema a entrega verificable**.
 
-Hoy mi rol profesional es **Senior Consultant / Offer Manager en Amaris Consulting**. Mis lineas propias son **Marba Blanca**, **MetodologIA** y **JM Labs**. **Sofka Technologies** pertenece a mi trayectoria previa.
+Primero, soy **Founder & Empowerment Officer en MetodologIA**. En mi rol profesional actual soy **Senior Consultant / Offer Manager en Amaris Consulting**. Mis otras lineas propias son **Marba Blanca** y **JM Labs**. **Sofka Technologies** pertenece a mi trayectoria previa.
 
 ## Escala publica verificable
 
@@ -128,11 +129,14 @@ Accountability | agile/lean | gobierno de decisiones | operaciones comerciales |
 
 ## Trayectoria
 
+- **MetodologIA** - Founder & Empowerment Officer<br>
+  Metodologia abierta, comunidad, material pedagogico y sistemas de empoderamiento para trabajar mejor con IA.
+
 - **Amaris Consulting** - Senior Consultant / Offer Manager<br>
   Consultoria, ofertas, habilitacion y adopcion de IA aplicada a delivery, preventa y sistemas de trabajo.
 
-- **Marba Blanca / MetodologIA / JM Labs** - lineas propias<br>
-  Consultoria, metodologia abierta, comunidad, material pedagogico y laboratorios de sistemas agenticos.
+- **Marba Blanca / JM Labs** - lineas propias<br>
+  Consultoria, experimentacion y laboratorios de sistemas agenticos.
 
 - **Sofka Technologies** - experiencia previa<br>
   GenAI Champion, PreSales Architect y liderazgo en gestion, preventa y transformacion.
