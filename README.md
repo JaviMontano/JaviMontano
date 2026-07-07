@@ -61,7 +61,7 @@ Primero, soy **Founder & Empowerment Officer en MetodologIA**. En mi rol profesi
 | **Repos publicos** | **27** | Superficie visible en GitHub para productos, material, plugins, experimentos y perfil |
 | **Repos activos no fork/no archivados** | **18** | Parte viva del ecosistema publico actual |
 | **Material pedagogico abierto** | **4 frentes** | Trabajo Amplificado, Material Educativo, Prompt Amplificado y Discovery de Producto |
-| **Pristino / agentic systems** | **Beta privado** | [Pristino Beta](https://github.com/JaviMontano/jm-adk-beta) es la linea principal, sin exponer tracks anteriores |
+| **Pristino / agentic systems** | **Beta privado** | [Pristino Beta](https://github.com/JaviMontano/jm-adk-beta) concentra el trabajo privado de sistemas agenticos |
 | **MetodologIA / MAO plugins** | **varios repos publicos** | Discovery, SDD, IIC, Plugin QA, PM APEX, Sovereign Architect y Scriba |
 
 No vendo esta tabla como un inventario total. Es la parte publica, legible y enlazable de un sistema de trabajo mas amplio.
@@ -70,7 +70,7 @@ No vendo esta tabla como un inventario total. Es la parte publica, legible y enl
 
 | Sistema | Que hace | Estado |
 |---|---|---|
-| [**Pristino Beta**](https://github.com/JaviMontano/jm-adk-beta) | Harness privado orientado a catalogos, vibe coders y knowledge workers AI-native | Privado / linea principal |
+| [**Pristino Beta**](https://github.com/JaviMontano/jm-adk-beta) | Harness privado orientado a catalogos, vibe coders y knowledge workers AI-native | Privado / beta |
 | [**trabajar-amplificado**](https://github.com/JaviMontano/trabajar-amplificado) | Bootcamp para managers con Claude Cowork y MetodologIA, con material ES/EN/PT | Publico / pedagogico |
 | [**Cartilla Aprender, Aprehender y Revolucionar**](https://github.com/JaviMontano/material-educativo-metodologia/blob/main/playbook-aprender-aprehender-revolucionar-2026.html) | Guia HTML para aprender a aprender, transferir conocimiento y usar IA con metodo | Publico / cartilla |
 | [**Conocer a Javier / Dashboard**](https://javimontano.github.io/JaviMontano/) | GitHub Page full brand con CV publico, ecosistema, kanban de tareas, procedimientos y productividad | Publico / dashboard |
@@ -85,7 +85,7 @@ No vendo esta tabla como un inventario total. Es la parte publica, legible y enl
 
 ### Pristino Beta
 
-La linea principal de Pristino se mueve a Beta: un harness privado, orientado por catalogos, para convertir repos en sistemas operables. Beta concentra el trabajo de leer contexto, rutear decisiones, ejecutar con herramientas, validar resultados y cerrar con evidencia.
+Pristino Beta es un harness privado, orientado por catalogos, para convertir repos en sistemas operables. Concentra el trabajo de leer contexto, rutear decisiones, ejecutar con herramientas, validar resultados y cerrar con evidencia.
 
 ### MetodologIA como pedagogia abierta
 
