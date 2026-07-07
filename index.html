@@ -936,27 +936,59 @@
       }
 
       .hero {
-        min-height: 640px;
-        padding: clamp(1rem, 2vw, 1.4rem);
+        position: relative;
+        min-height: clamp(560px, calc(100vh - 138px), 680px);
+        padding: clamp(.9rem, 1.6vw, 1.15rem);
         border: 2px solid var(--bp-gold);
-        background: rgba(0, 40, 80, .3);
+        grid-template-columns: minmax(0, 1.08fr) minmax(320px, .92fr);
+        gap: clamp(.9rem, 1.5vw, 1.2rem);
+        overflow: hidden;
+        background:
+          linear-gradient(135deg, rgba(0, 51, 102, .86), rgba(7, 53, 107, .64) 52%, rgba(0, 40, 80, .9)),
+          linear-gradient(var(--bp-grid) 1px, transparent 1px),
+          linear-gradient(90deg, var(--bp-grid) 1px, transparent 1px);
+        background-size: auto, 40px 40px, 40px 40px;
+      }
+
+      .hero::after {
+        content: "";
+        position: absolute;
+        inset: auto -12% 18% 48%;
+        height: 2px;
+        transform: rotate(-18deg);
+        background: linear-gradient(90deg, transparent, rgba(212, 175, 55, .74), transparent);
+        pointer-events: none;
       }
 
       .hero-copy {
+        position: relative;
+        z-index: 1;
+        min-height: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 1.2rem;
         background: transparent;
         border: 0;
         box-shadow: none;
+        padding: clamp(1rem, 2vw, 1.5rem);
       }
 
       .hero-copy::before { display: none; }
 
       .hero-title {
         color: var(--bp-ink);
-        letter-spacing: -.02em;
+        max-width: 820px;
+        font-size: clamp(2.25rem, 3vw, 3.1rem);
+        line-height: .98;
+        letter-spacing: 0;
       }
 
       .hero-lead {
+        max-width: 720px;
         color: var(--bp-muted);
+        font-size: .98rem;
+        line-height: 1.55;
         font-weight: 500;
       }
 
@@ -983,11 +1015,218 @@
       }
 
       .hero-visual {
+        position: relative;
+        z-index: 1;
+        min-height: 0;
+        display: grid;
+        grid-template-rows: auto auto auto;
+        align-content: start;
+        gap: .75rem;
+        padding: clamp(.85rem, 1.4vw, 1rem);
         background:
           linear-gradient(var(--bp-grid) 1px, transparent 1px),
           linear-gradient(90deg, var(--bp-grid) 1px, transparent 1px),
           rgba(0, 40, 80, .28);
         background-size: 40px 40px;
+      }
+
+      .hero-field-row,
+      .hero-method-map,
+      .hero-proof-list,
+      .brand-lockup,
+      .hero-nameplate,
+      .hero-signal-grid {
+        display: grid;
+        gap: .55rem;
+      }
+
+      .hero-field-row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1rem 0 1.25rem;
+      }
+
+      .hero-field-row span,
+      .hero-method-map span,
+      .hero-proof-list span,
+      .hero-signal-grid span {
+        min-height: 34px;
+        display: inline-flex;
+        flex: 0 1 auto;
+        align-items: center;
+        justify-content: center;
+        padding: .3rem .45rem;
+        border: 1px solid var(--bp-border);
+        background: rgba(0, 40, 80, .36);
+        color: var(--bp-muted);
+        font-family: var(--font-note);
+        font-size: .66rem;
+        font-weight: 900;
+        letter-spacing: .08em;
+        line-height: 1.2;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      .hero-field-row span {
+        white-space: nowrap;
+      }
+
+      .hero-method-map {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        margin-top: .95rem;
+      }
+
+      .hero-method-map span {
+        position: relative;
+        min-height: 42px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: .6rem .55rem;
+        color: var(--bp-ink);
+        text-align: left;
+      }
+
+      .hero-method-map span::after {
+        content: "";
+        position: absolute;
+        right: .65rem;
+        bottom: .65rem;
+        width: 18px;
+        height: 2px;
+        background: var(--bp-gold);
+      }
+
+      .hero-hook {
+        max-width: 700px;
+        padding: .72rem .85rem;
+        font-size: .86rem;
+        line-height: 1.45;
+      }
+
+      .hero-portrait-lockup {
+        display: grid;
+        grid-template-columns: 112px minmax(0, 1fr);
+        gap: .75rem;
+        align-items: stretch;
+      }
+
+      .portrait-shell {
+        min-height: 158px;
+        display: grid;
+        place-items: center;
+        border: 1px solid var(--bp-gold);
+        background:
+          linear-gradient(135deg, rgba(212, 175, 55, .96), rgba(212, 175, 55, .58)),
+          linear-gradient(var(--bp-grid) 1px, transparent 1px),
+          linear-gradient(90deg, var(--bp-grid) 1px, transparent 1px);
+        background-size: auto, 28px 28px, 28px 28px;
+      }
+
+      .hero-photo {
+        width: min(126px, 72%);
+        aspect-ratio: 1;
+        object-fit: cover;
+        border: 6px solid var(--bp-ink);
+        border-radius: 50%;
+        background: var(--bp-gold);
+        box-shadow: 0 18px 38px rgba(0, 0, 0, .22);
+      }
+
+      .hero-nameplate {
+        align-content: center;
+        padding: .8rem;
+        border: 1px solid var(--bp-border);
+        background: rgba(0, 40, 80, .5);
+      }
+
+      .hero-nameplate small,
+      .hero-proof-list small,
+      .brand-lockup small,
+      .hero-signal-grid small {
+        color: var(--bp-gold);
+        font-family: var(--font-note);
+        font-size: .72rem;
+        font-weight: 900;
+        letter-spacing: .14em;
+        text-transform: uppercase;
+      }
+
+      .hero-nameplate strong {
+        display: block;
+        color: var(--bp-ink);
+        font-family: var(--font-title);
+        font-size: clamp(1.25rem, 1.8vw, 1.55rem);
+        line-height: 1;
+      }
+
+      .hero-nameplate p {
+        color: var(--bp-muted);
+        font-size: .82rem;
+        line-height: 1.32;
+      }
+
+      .brand-lockup {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .brand-lockup a {
+        min-height: 96px;
+        display: grid;
+        grid-template-columns: 40px minmax(0, 1fr);
+        gap: .6rem;
+        align-items: center;
+        padding: .68rem;
+        border: 1px solid var(--bp-border);
+        background: rgba(0, 40, 80, .44);
+      }
+
+      .brand-lockup img {
+        width: 40px;
+        aspect-ratio: 1;
+        object-fit: contain;
+        background: rgba(245, 247, 250, .92);
+      }
+
+      .brand-lockup b {
+        display: block;
+        color: var(--bp-ink);
+        font-family: var(--font-title);
+        font-size: .95rem;
+        line-height: 1.1;
+      }
+
+      .hero-signal-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        align-content: end;
+      }
+
+      .hero-signal-grid div {
+        min-height: 88px;
+        padding: .62rem .68rem;
+        border: 1px solid var(--bp-border);
+        background: rgba(0, 40, 80, .44);
+      }
+
+      .hero-signal-grid div:nth-child(3) {
+        grid-column: 1 / -1;
+        min-height: 74px;
+      }
+
+      .hero-signal-grid strong {
+        display: block;
+        margin: .35rem 0 .2rem;
+        color: var(--bp-ink);
+        font-family: var(--font-title);
+        font-size: .88rem;
+        line-height: 1.05;
+      }
+
+      .hero-signal-grid p {
+        color: var(--bp-muted);
+        font-size: .74rem;
+        line-height: 1.28;
       }
 
       .metric-strip {
@@ -1073,10 +1312,78 @@
       .swatch[data-color="bp-muted"] { background: #a0b0c8; color: #07356b; }
       .swatch[data-color="bp-grid"] { background: rgba(255, 255, 255, .07); }
 
+      @media (max-width: 1100px) {
+        .hero {
+          grid-template-columns: 1fr;
+        }
+
+        .hero-visual {
+          grid-template-rows: auto auto auto;
+        }
+      }
+
       @media (max-width: 760px) {
+        .tabs {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .sidebar-note {
+          display: none;
+        }
+
         .hero {
           min-height: auto;
           padding: .75rem;
+        }
+
+        .hero-copy {
+          gap: .9rem;
+        }
+
+        .hero-field-row,
+        .hero-method-map,
+        .hero-signal-grid {
+          display: none;
+        }
+
+        .cta-row {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .btn {
+          min-height: 42px;
+          padding: .6rem .45rem;
+          font-size: .68rem;
+          letter-spacing: .04em;
+          text-align: center;
+        }
+
+        .hero-portrait-lockup {
+          grid-template-columns: 96px minmax(0, 1fr);
+        }
+
+        .brand-lockup {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .brand-lockup a {
+          min-height: 108px;
+          grid-template-columns: 1fr;
+          justify-items: center;
+          text-align: center;
+        }
+
+        .brand-lockup img {
+          width: 36px;
+        }
+
+        .portrait-shell {
+          min-height: 136px;
+        }
+
+        .hero-photo {
+          width: min(112px, 86%);
         }
       }
     </style>
@@ -1138,17 +1445,30 @@
 
       <main class="main" id="content">
         <section class="hero" aria-label="Resumen ejecutivo">
-          <article class="hero-copy story-card">
+          <article class="hero-copy">
             <div>
-              <span class="eyebrow">Method first · AI next · Soberania digital</span>
-              <h2 class="hero-title">El reto no es usar IA. Es convertirla en criterio, sistema y resultado.</h2>
+              <span class="eyebrow">Consulting · Operations · Management · AI · Digital disruption</span>
+              <h2 class="hero-title">Convierto retos en casos de exito.</h2>
+              <div class="hero-field-row" aria-label="Campos de accion">
+                <span>Consulting</span>
+                <span>Operations</span>
+                <span>Management</span>
+                <span>AI adoption</span>
+                <span>Digital disruption</span>
+              </div>
               <p class="hero-lead">
-                Ayudo a lideres y equipos a encontrar su propio metodo para convertir retos en oportunidades,
-                oportunidades en sistemas de trabajo y sistemas en casos de exito con evidencia.
+                Metodo primero, IA despues: oportunidades difusas convertidas en sistemas accionables,
+                adopcion humana y evidencia transferible.
               </p>
               <p class="hero-hook">
-                Si tu equipo ya probo herramientas pero todavia no cambio su forma de decidir, esta historia empieza ahi.
+                Busco mi siguiente caso de exito y mi proximo aliado. Si puedes ser uno, conversemos desde un reto real.
               </p>
+              <div class="hero-method-map" aria-label="Ruta de conversion">
+                <span>01 Reto</span>
+                <span>02 Criterio</span>
+                <span>03 Sistema</span>
+                <span>04 Evidencia</span>
+              </div>
             </div>
             <div class="cta-row">
               <a class="btn" href="#trust" data-open-tab="trust">Ver se&ntilde;ales</a>
@@ -1156,56 +1476,46 @@
             </div>
           </article>
 
-          <aside class="hero-visual visual-card" aria-label="Ilustracion de metodo y evidencia">
-            <svg class="story-svg" viewBox="0 0 720 520" role="img" aria-label="Explainer visual: reto, metodo, sistema y evidencia">
-              <defs>
-                <linearGradient id="softGradient" x1="0" x2="1">
-                  <stop offset="0%" stop-color="#D4AF37" />
-                  <stop offset="100%" stop-color="#f5f7fa" />
-                </linearGradient>
-              </defs>
-              <rect x="28" y="34" width="664" height="452" rx="4" fill="#003366" stroke="#D4AF37" stroke-width="2" />
-              <g opacity=".18" stroke="#f5f7fa" stroke-width="1">
-                <path d="M64 90H650" />
-                <path d="M64 150H650" />
-                <path d="M64 210H650" />
-                <path d="M64 270H650" />
-                <path d="M64 330H650" />
-                <path d="M64 390H650" />
-                <path d="M150 64V456" />
-                <path d="M260 64V456" />
-                <path d="M370 64V456" />
-                <path d="M480 64V456" />
-                <path d="M590 64V456" />
-              </g>
-              <circle cx="162" cy="164" r="54" fill="#D4AF37" />
-              <path d="M132 232C148 205 178 205 194 232L220 318H106L132 232Z" fill="#07356b" />
-              <circle cx="164" cy="160" r="30" fill="#f5f7fa" stroke="#07356b" stroke-width="8" />
-              <rect x="258" y="88" width="318" height="76" rx="4" fill="#07356b" />
-              <text x="282" y="120" fill="#D4AF37" font-family="Poppins, sans-serif" font-size="18" font-weight="900">Reto ambiguo</text>
-              <text x="282" y="145" fill="#a0b0c8" font-family="Montserrat, sans-serif" font-size="14" font-weight="700">Contexto disperso, presion de tiempo, decisiones incompletas.</text>
-              <rect x="258" y="190" width="206" height="58" rx="4" fill="#003366" />
-              <text x="282" y="225" fill="#D4AF37" font-family="JetBrains Mono, monospace" font-size="14" font-weight="900">01 · METODO</text>
-              <rect x="486" y="190" width="90" height="58" rx="4" fill="#D4AF37" />
-              <text x="531" y="225" fill="#07356b" font-family="Poppins, sans-serif" font-size="20" font-weight="900" text-anchor="middle">25'</text>
-              <rect x="258" y="272" width="318" height="122" rx="4" fill="#07356b" />
-              <text x="282" y="306" fill="#D4AF37" font-family="Poppins, sans-serif" font-size="18" font-weight="900">Sistema accionable</text>
-              <g font-family="Montserrat, sans-serif" font-size="14" font-weight="800" fill="#a0b0c8">
-                <text x="318" y="338">Lenguaje comun</text>
-                <text x="318" y="366">Criterios de decision</text>
-                <text x="318" y="394">Revision humana</text>
-              </g>
-              <g stroke="#D4AF37" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M286 332l10 10 18-24" />
-                <path d="M286 360l10 10 18-24" />
-                <path d="M286 388l10 10 18-24" />
-              </g>
-              <path d="M186 354C266 438 454 438 582 352" fill="none" stroke="url(#softGradient)" stroke-width="10" stroke-linecap="round" />
-              <rect x="102" y="354" width="164" height="58" rx="4" fill="#D4AF37" />
-              <text x="184" y="389" fill="#07356b" font-family="Poppins, sans-serif" font-size="15" font-weight="900" text-anchor="middle">EVIDENCIA</text>
-              <rect x="506" y="406" width="128" height="42" rx="4" fill="#003366" stroke="#D4AF37" />
-              <text x="570" y="432" fill="#D4AF37" font-family="JetBrains Mono, monospace" font-size="13" font-weight="900" text-anchor="middle">CASO DE EXITO</text>
-            </svg>
+          <aside class="hero-visual" aria-label="Identidad, marca y evidencia">
+            <div class="hero-portrait-lockup">
+              <div class="portrait-shell">
+                <img class="hero-photo" src="./assets/team_javier-montano.webp" alt="Javier Monta&ntilde;o" />
+              </div>
+              <div class="hero-nameplate">
+                <small>Javier Monta&ntilde;o</small>
+                <strong>Method first. AI next.</strong>
+                <p>Founder & Empowerment Officer en MetodologIA. Pristino Author. Senior Consultant / Offer Manager.</p>
+              </div>
+            </div>
+
+            <div class="brand-lockup" aria-label="Marcas y productos">
+              <a href="https://metodologia.info/">
+                <img src="./assets/metodologia_logo_primary.png" alt="MetodologIA" />
+                <span><small>Metodo abierto</small><b>MetodologIA</b></span>
+              </a>
+              <a href="https://github.com/JaviMontano/jm-adk-beta">
+                <img src="./assets/pristino_logo_primary.png" alt="Pristino" />
+                <span><small>Publico / beta</small><b>Pristino</b></span>
+              </a>
+            </div>
+
+            <div class="hero-signal-grid" aria-label="Se&ntilde;ales de impacto">
+              <div>
+                <small>Operacion</small>
+                <strong>Decisiones con ruta</strong>
+                <p>Contexto, criterio y siguiente accion visible.</p>
+              </div>
+              <div>
+                <small>Delivery</small>
+                <strong>Artefactos usables</strong>
+                <p>Playbooks, dashboards, repos y prototipos verificables.</p>
+              </div>
+              <div>
+                <small>Adopcion</small>
+                <strong>Transferencia real</strong>
+                <p>Capacidad que el equipo puede repetir y gobernar.</p>
+              </div>
+            </div>
           </aside>
         </section>
 
