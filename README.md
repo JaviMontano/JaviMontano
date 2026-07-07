@@ -1,14 +1,6 @@
 <p align="center">
-  <img src="./assets/hero.svg" alt="Javier Montaño banner" width="100%" />
+  <img src="./assets/hero.png" alt="Javier Montaño banner" width="100%" />
 </p>
-
-<p align="center">
-  <img src="./assets/team_javier-montano.webp" alt="Javier Montaño" width="168" />
-</p>
-
-<h1 align="center">Javier Montaño</h1>
-
-<p align="center"><strong>Founder & Empowerment Officer @ MetodologIA | Pristino Author | Senior Consultant / Offer Manager @ Amaris Consulting</strong></p>
 
 <p align="center">
   <a href="https://metodologia.info">
