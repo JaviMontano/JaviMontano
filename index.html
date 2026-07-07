@@ -3,32 +3,80 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Conocer a Javier Monta&ntilde;o</title>
+    <title>Javier Monta&ntilde;o · Conocer a Javier</title>
     <meta
       name="description"
-      content="Javier Monta&ntilde;o convierte retos en oportunidades y oportunidades en casos de exito con metodo, IA, consultoria, operaciones y sistemas agenticos."
+      content="Javier Monta&ntilde;o ayuda a lideres a encontrar su propio metodo para convertir retos en oportunidades y oportunidades en casos de exito con metodo, IA, consultoria y operaciones."
     />
-    <meta property="og:title" content="Conocer a Javier Monta&ntilde;o" />
+    <meta property="og:title" content="Javier Monta&ntilde;o · Conocer a Javier" />
     <meta
       property="og:description"
-      content="Method first, AI next. Consulting, operations, management, AI adoption and digital disruption."
+      content="Metodo primero, IA despues. Consulting, operations, management, AI adoption and digital disruption."
     />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="./assets/team_javier-montano.webp" />
     <link rel="icon" href="./assets/team_javier-montano.webp" type="image/webp" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Javier Montano",
+        "url": "https://javimontano.github.io/JaviMontano/",
+        "image": "https://javimontano.github.io/JaviMontano/assets/team_javier-montano.webp",
+        "jobTitle": "Senior Consultant / Offer Manager",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Amaris Consulting"
+        },
+        "affiliation": [
+          {
+            "@type": "Organization",
+            "name": "MetodologIA"
+          },
+          {
+            "@type": "Organization",
+            "name": "Mamba"
+          },
+          {
+            "@type": "Organization",
+            "name": "JM Labs"
+          }
+        ],
+        "sameAs": [
+          "https://github.com/JaviMontano",
+          "https://metodologia.info",
+          "https://co.linkedin.com/in/javier-andr%C3%A9s-monta%C3%B1o-guzm%C3%A1n-35b02756/en"
+        ],
+        "knowsAbout": [
+          "Generative AI",
+          "Agentic systems",
+          "Digital transformation",
+          "Change management",
+          "Consulting",
+          "Operations",
+          "Spec Driven Development",
+          "Knowledge systems"
+        ]
+      }
+    </script>
     <style>
       :root {
-        --ink: #10151d;
-        --muted: #5a6472;
-        --line: #d8dee7;
-        --paper: #f7f4ee;
+        --navy: #0a122a;
+        --navy-deep: #070b1a;
+        --surface: #111b37;
+        --surface-2: #172033;
+        --gold: #ffd700;
+        --gold-deep: #b8860b;
+        --cream: #fff8df;
+        --paper: #f8fafc;
+        --ink: #101827;
+        --muted: #667085;
+        --line: rgba(10, 18, 42, 0.14);
         --white: #ffffff;
         --teal: #0f766e;
         --blue: #1d4ed8;
-        --amber: #b45309;
-        --green: #15803d;
         --coral: #c2410c;
-        --shadow: 0 18px 50px rgba(16, 21, 29, 0.1);
+        --shadow: 0 24px 70px rgba(7, 11, 26, 0.18);
       }
 
       * {
@@ -55,7 +103,7 @@
 
       a {
         color: inherit;
-        text-decoration-color: rgba(15, 118, 110, 0.4);
+        text-decoration-color: rgba(184, 134, 11, 0.5);
         text-underline-offset: 0.22em;
       }
 
@@ -63,28 +111,58 @@
         text-decoration-color: currentColor;
       }
 
+      .skip-link {
+        position: absolute;
+        left: 12px;
+        top: 12px;
+        z-index: 100;
+        transform: translateY(-150%);
+        padding: 10px 12px;
+        background: var(--gold);
+        color: var(--navy);
+        border-radius: 8px;
+        font-weight: 800;
+      }
+
+      .skip-link:focus {
+        transform: translateY(0);
+      }
+
       .site-header {
         position: sticky;
         top: 0;
-        z-index: 10;
-        border-bottom: 1px solid rgba(16, 21, 29, 0.08);
-        background: rgba(247, 244, 238, 0.9);
-        backdrop-filter: blur(16px);
+        z-index: 20;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        background: rgba(7, 11, 26, 0.93);
+        color: var(--white);
+        backdrop-filter: blur(18px);
       }
 
       .nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: min(1120px, calc(100% - 32px));
-        min-height: 64px;
+        width: min(1160px, calc(100% - 32px));
+        min-height: 68px;
         margin: 0 auto;
-        gap: 20px;
+        gap: 22px;
       }
 
       .brand {
-        font-weight: 800;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 900;
         letter-spacing: 0;
+        text-decoration: none;
+      }
+
+      .brand-mark {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: var(--gold);
+        box-shadow: 0 0 0 5px rgba(255, 215, 0, 0.12);
       }
 
       .nav-links {
@@ -93,7 +171,7 @@
         align-items: center;
         justify-content: flex-end;
         gap: 14px;
-        color: var(--muted);
+        color: #d8deea;
         font-size: 0.92rem;
       }
 
@@ -102,34 +180,34 @@
       }
 
       .hero {
-        position: relative;
-        min-height: calc(100svh - 64px);
-        overflow: hidden;
-        border-bottom: 1px solid var(--line);
+        min-height: calc(100svh - 68px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+        color: var(--white);
         background:
-          linear-gradient(90deg, rgba(247, 244, 238, 1) 0%, rgba(247, 244, 238, 0.95) 44%, rgba(247, 244, 238, 0.3) 100%),
-          url("./assets/team_javier-montano.webp") right center / min(46vw, 520px) auto no-repeat,
-          var(--paper);
+          linear-gradient(90deg, rgba(7, 11, 26, 0.98) 0%, rgba(10, 18, 42, 0.94) 47%, rgba(10, 18, 42, 0.54) 100%),
+          url("./assets/team_javier-montano.webp") right center / min(44vw, 540px) auto no-repeat,
+          var(--navy);
       }
 
       .hero-inner {
-        width: min(1120px, calc(100% - 32px));
-        min-height: calc(100svh - 64px);
+        width: min(1160px, calc(100% - 32px));
+        min-height: calc(100svh - 68px);
         margin: 0 auto;
         display: grid;
         align-content: center;
-        padding: 72px 0 96px;
+        padding: 76px 0 112px;
       }
 
       .eyebrow {
         width: fit-content;
-        margin: 0 0 22px;
-        padding: 8px 10px;
-        border-left: 4px solid var(--teal);
-        color: var(--muted);
-        background: rgba(255, 255, 255, 0.72);
-        font-size: 0.82rem;
-        font-weight: 800;
+        margin: 0 0 24px;
+        padding: 8px 11px;
+        border: 1px solid rgba(255, 215, 0, 0.35);
+        border-left: 5px solid var(--gold);
+        color: var(--gold);
+        background: rgba(255, 215, 0, 0.08);
+        font-size: 0.8rem;
+        font-weight: 900;
         letter-spacing: 0.08em;
         text-transform: uppercase;
       }
@@ -137,27 +215,28 @@
       h1,
       h2,
       h3,
+      h4,
       p {
         margin-top: 0;
       }
 
       h1 {
-        max-width: 760px;
-        margin-bottom: 22px;
-        font-size: clamp(3rem, 8vw, 6.8rem);
-        line-height: 0.92;
+        max-width: 860px;
+        margin-bottom: 24px;
+        font-size: clamp(3.1rem, 7.8vw, 7rem);
+        line-height: 0.9;
         letter-spacing: 0;
       }
 
       .hero-copy {
-        max-width: 720px;
+        max-width: 760px;
         margin-bottom: 28px;
-        color: #303846;
-        font-size: clamp(1.08rem, 2vw, 1.36rem);
+        color: #e7ecf5;
+        font-size: clamp(1.1rem, 2vw, 1.36rem);
       }
 
       .hero-copy strong {
-        color: var(--ink);
+        color: var(--gold);
       }
 
       .hero-actions,
@@ -173,17 +252,54 @@
         justify-content: center;
         min-height: 44px;
         padding: 0 18px;
-        border: 1px solid var(--ink);
+        border: 1px solid var(--gold);
         border-radius: 8px;
-        background: var(--ink);
-        color: var(--white);
-        font-weight: 750;
+        background: var(--gold);
+        color: var(--navy);
+        font-weight: 850;
         text-decoration: none;
       }
 
       .button.secondary {
         background: transparent;
-        color: var(--ink);
+        color: var(--white);
+      }
+
+      .proof-strip {
+        border-top: 1px solid rgba(255, 255, 255, 0.12);
+        background: var(--navy-deep);
+        color: var(--white);
+      }
+
+      .proof-grid {
+        width: min(1160px, calc(100% - 32px));
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+      }
+
+      .proof-item {
+        padding: 22px 16px;
+        border-left: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .proof-item:last-child {
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .proof-number {
+        display: block;
+        color: var(--gold);
+        font-size: clamp(1.45rem, 3vw, 2.1rem);
+        font-weight: 950;
+        line-height: 1;
+      }
+
+      .proof-label {
+        display: block;
+        margin-top: 6px;
+        color: #cbd5e1;
+        font-size: 0.84rem;
       }
 
       main {
@@ -191,8 +307,13 @@
       }
 
       .section {
-        padding: 76px 0;
+        padding: 78px 0;
         border-bottom: 1px solid var(--line);
+      }
+
+      .section.dark {
+        background: var(--navy);
+        color: var(--white);
       }
 
       .section.alt {
@@ -200,21 +321,21 @@
       }
 
       .wrap {
-        width: min(1120px, calc(100% - 32px));
+        width: min(1160px, calc(100% - 32px));
         margin: 0 auto;
       }
 
       .section-head {
         display: grid;
         grid-template-columns: minmax(0, 0.9fr) minmax(280px, 1.1fr);
-        gap: 40px;
+        gap: 42px;
         align-items: end;
-        margin-bottom: 32px;
+        margin-bottom: 34px;
       }
 
       h2 {
         margin-bottom: 0;
-        font-size: clamp(2rem, 4vw, 3.25rem);
+        font-size: clamp(2rem, 4vw, 3.35rem);
         line-height: 1;
         letter-spacing: 0;
       }
@@ -225,9 +346,21 @@
         font-size: 1.05rem;
       }
 
+      .dark .lead,
+      .dark .card p,
+      .dark .matrix-value,
+      .dark .role-body,
+      .dark .pill {
+        color: #d6deeb;
+      }
+
       .grid {
         display: grid;
         gap: 16px;
+      }
+
+      .grid.two {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
       }
 
       .grid.three {
@@ -246,13 +379,18 @@
         background: var(--white);
       }
 
-      .card h3 {
-        margin-bottom: 10px;
-        font-size: 1.04rem;
+      .dark .card {
+        border-color: rgba(255, 255, 255, 0.12);
+        background: rgba(255, 255, 255, 0.05);
       }
 
-      .card p {
-        margin-bottom: 0;
+      .card h3 {
+        margin-bottom: 10px;
+        font-size: 1.05rem;
+      }
+
+      .card p,
+      .card li {
         color: var(--muted);
       }
 
@@ -261,19 +399,15 @@
         width: 42px;
         height: 4px;
         margin-bottom: 18px;
+        background: var(--gold);
+      }
+
+      .accent.teal {
         background: var(--teal);
       }
 
       .accent.blue {
         background: var(--blue);
-      }
-
-      .accent.amber {
-        background: var(--amber);
-      }
-
-      .accent.green {
-        background: var(--green);
       }
 
       .accent.coral {
@@ -282,7 +416,7 @@
 
       .matrix {
         display: grid;
-        grid-template-columns: 0.85fr 1.15fr;
+        grid-template-columns: 0.82fr 1.18fr;
         border: 1px solid var(--line);
         border-radius: 8px;
         overflow: hidden;
@@ -304,7 +438,7 @@
       }
 
       .matrix-label {
-        font-weight: 800;
+        font-weight: 850;
         background: #f4f7f5;
       }
 
@@ -314,28 +448,66 @@
 
       .timeline {
         display: grid;
-        gap: 14px;
+        gap: 0;
+        border-top: 1px solid var(--line);
       }
 
       .role {
         display: grid;
-        grid-template-columns: 240px minmax(0, 1fr);
-        gap: 20px;
-        padding: 20px 0;
-        border-top: 1px solid var(--line);
-      }
-
-      .role:first-child {
-        border-top: 0;
+        grid-template-columns: 235px minmax(0, 1fr);
+        gap: 22px;
+        padding: 22px 0;
+        border-bottom: 1px solid var(--line);
       }
 
       .role-title {
-        font-weight: 850;
+        font-weight: 900;
+      }
+
+      .role-title span {
+        display: block;
+        margin-top: 4px;
+        color: var(--muted);
+        font-size: 0.88rem;
+        font-weight: 650;
       }
 
       .role-body {
         margin: 0;
         color: var(--muted);
+      }
+
+      .role-body ul {
+        margin: 0;
+        padding-left: 18px;
+      }
+
+      .role-body li {
+        margin-bottom: 8px;
+      }
+
+      .pill-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .pill {
+        display: inline-flex;
+        align-items: center;
+        min-height: 30px;
+        padding: 4px 10px;
+        border: 1px solid rgba(10, 18, 42, 0.16);
+        border-radius: 999px;
+        color: #475467;
+        background: rgba(255, 255, 255, 0.75);
+        font-size: 0.88rem;
+        font-weight: 700;
+      }
+
+      .dark .pill {
+        border-color: rgba(255, 215, 0, 0.25);
+        background: rgba(255, 255, 255, 0.06);
       }
 
       .repo-list {
@@ -362,6 +534,15 @@
         color: var(--muted);
       }
 
+      .quote-band {
+        border-left: 6px solid var(--gold);
+        padding: 22px 24px;
+        background: rgba(255, 215, 0, 0.08);
+        color: #f8fafc;
+        font-size: clamp(1.1rem, 2.2vw, 1.45rem);
+        font-weight: 800;
+      }
+
       .closing {
         display: grid;
         grid-template-columns: minmax(0, 1fr) auto;
@@ -371,8 +552,8 @@
 
       .footer {
         padding: 28px 0;
-        color: var(--muted);
-        background: var(--ink);
+        color: #cbd5e1;
+        background: var(--navy-deep);
       }
 
       .footer .wrap {
@@ -386,7 +567,27 @@
         color: var(--white);
       }
 
-      @media (max-width: 860px) {
+      @media (max-width: 920px) {
+        .proof-grid {
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+
+        .section-head,
+        .matrix,
+        .role,
+        .closing {
+          grid-template-columns: 1fr;
+        }
+
+        .grid.two,
+        .grid.three,
+        .grid.four,
+        .repo-list {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 680px) {
         .nav {
           align-items: flex-start;
           flex-direction: column;
@@ -400,40 +601,37 @@
 
         .hero {
           background:
-            linear-gradient(180deg, rgba(247, 244, 238, 0.72) 0%, rgba(247, 244, 238, 1) 58%),
-            url("./assets/team_javier-montano.webp") top right / 240px auto no-repeat,
-            var(--paper);
+            linear-gradient(180deg, rgba(7, 11, 26, 0.55) 0%, rgba(7, 11, 26, 0.97) 45%, rgba(10, 18, 42, 1) 100%),
+            url("./assets/team_javier-montano.webp") top right / 245px auto no-repeat,
+            var(--navy);
         }
 
         .hero-inner {
-          padding-top: 210px;
-        }
-
-        .section-head,
-        .matrix,
-        .role,
-        .closing {
-          grid-template-columns: 1fr;
-        }
-
-        .grid.three,
-        .grid.four,
-        .repo-list {
-          grid-template-columns: 1fr;
+          padding-top: 250px;
         }
 
         h1 {
-          font-size: clamp(3rem, 16vw, 5rem);
+          font-size: clamp(3rem, 15vw, 5rem);
+        }
+
+        .proof-grid {
+          grid-template-columns: 1fr 1fr;
         }
       }
     </style>
   </head>
   <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
     <header class="site-header">
       <nav class="nav" aria-label="Principal">
-        <a class="brand" href="#top">Javier Monta&ntilde;o</a>
+        <a class="brand" href="#top">
+          <span class="brand-mark" aria-hidden="true"></span>
+          Javier Monta&ntilde;o
+        </a>
         <div class="nav-links">
           <a href="#metodo">Metodo</a>
+          <a href="#cv">CV</a>
           <a href="#capacidades">Capacidades</a>
           <a href="#ecosistema">Ecosistema</a>
           <a href="https://github.com/JaviMontano">GitHub</a>
@@ -444,128 +642,267 @@
 
     <section class="hero" id="top">
       <div class="hero-inner">
-        <p class="eyebrow">Method first, AI next</p>
-        <h1>Javier Monta&ntilde;o</h1>
+        <p class="eyebrow">Metodo primero · IA despues</p>
+        <h1>Ayudo a lideres a encontrar su propio metodo.</h1>
         <p class="hero-copy">
-          Convierto retos en oportunidades y oportunidades en casos de exito. Trabajo en la interseccion de
-          <strong>consultoria</strong>, <strong>operaciones</strong>, <strong>management</strong>,
-          <strong>adopcion de IA</strong> y <strong>disrupcion digital</strong>.
+          Soy Javier Monta&ntilde;o. Convierto <strong>retos en oportunidades</strong> y
+          <strong>oportunidades en casos de exito</strong> combinando consultoria, operaciones,
+          management, IA aplicada y sistemas agenticos.
         </p>
         <div class="hero-actions">
-          <a class="button" href="#capacidades">Conocer mi enfoque</a>
-          <a class="button secondary" href="https://github.com/JaviMontano/JaviMontano">Ver perfil GitHub</a>
+          <a class="button" href="#cv">Ver CV completo</a>
+          <a class="button secondary" href="https://github.com/JaviMontano/JaviMontano">README GitHub</a>
         </div>
       </div>
     </section>
 
-    <main>
+    <aside class="proof-strip" aria-label="Indicadores publicables">
+      <div class="proof-grid">
+        <div class="proof-item">
+          <span class="proof-number">13+</span>
+          <span class="proof-label">a&ntilde;os de trayectoria</span>
+        </div>
+        <div class="proof-item">
+          <span class="proof-number">40k+</span>
+          <span class="proof-label">horas de oficio</span>
+        </div>
+        <div class="proof-item">
+          <span class="proof-number">6</span>
+          <span class="proof-label">paises con alcance regional</span>
+        </div>
+        <div class="proof-item">
+          <span class="proof-number">110+</span>
+          <span class="proof-label">equipo escalado</span>
+        </div>
+        <div class="proof-item">
+          <span class="proof-number">160+</span>
+          <span class="proof-label">iniciativas gobernadas</span>
+        </div>
+        <div class="proof-item">
+          <span class="proof-number">50+</span>
+          <span class="proof-label">nodos MetodologIA</span>
+        </div>
+      </div>
+    </aside>
+
+    <main id="contenido">
       <section class="section" id="metodo">
         <div class="wrap">
           <div class="section-head">
             <h2>Metodo antes que herramienta.</h2>
             <p class="lead">
-              La IA acelera mejor cuando existe una ruta: criterio, contexto, evidencia, sistema y cierre.
-              Por eso mi trabajo empieza por ordenar el problema antes de escoger el modelo, plugin o
-              automatizacion.
+              No empiezo preguntando que IA usar. Empiezo por entender que trabajo debe mejorar,
+              que evidencia lo prueba, que riesgo existe y que sistema debe quedar funcionando cuando
+              la conversacion termina.
             </p>
           </div>
 
           <div class="grid four">
             <article class="card">
               <span class="accent"></span>
-              <h3>Reto</h3>
-              <p>Leo restricciones, dolores, deuda operativa y oportunidades escondidas en la friccion.</p>
+              <h3>Diagnosticar el reto</h3>
+              <p>Separar ruido, restricciones, friccion operativa, deuda de metodo y oportunidad real.</p>
             </article>
             <article class="card">
-              <span class="accent amber"></span>
-              <h3>Oportunidad</h3>
-              <p>Convierto hallazgos en casos de uso, hipotesis, ofertas, pilotos y rutas de adopcion.</p>
+              <span class="accent coral"></span>
+              <h3>Convertirlo en oportunidad</h3>
+              <p>Formular casos de uso, hipotesis, pilotos, ofertas o rutas de adopcion con criterio.</p>
             </article>
             <article class="card">
               <span class="accent blue"></span>
-              <h3>Sistema</h3>
-              <p>Dise&ntilde;o repos, playbooks, skills, prompts, agentes, SOPs y validadores reutilizables.</p>
+              <h3>Construir sistema</h3>
+              <p>Dise&ntilde;ar repos, playbooks, prompts, skills, workflows, agentes, dashboards y gates.</p>
             </article>
             <article class="card">
-              <span class="accent green"></span>
-              <h3>Caso de exito</h3>
-              <p>Cierro con artefactos usables, evidencia, transferencia y decisiones que pueden sostenerse.</p>
+              <span class="accent teal"></span>
+              <h3>Cerrar con evidencia</h3>
+              <p>Entregar activos usables, aprendizaje transferible, validacion y siguiente decision.</p>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section alt" id="capacidades">
+      <section class="section dark" id="cv">
         <div class="wrap">
           <div class="section-head">
-            <h2>Campos de accion.</h2>
+            <h2>CV completo, version publica.</h2>
             <p class="lead">
-              No presento IA como vitrina tecnica. La conecto con delivery, gestion humana, preventa,
-              operaciones, cambio organizacional y resultados que un equipo puede entender.
+              Sintesis publicable de mi CV full brand: actualizada para Amaris, MetodologIA, Mamba y
+              JM Labs; sin telefono, correo personal ni referencias nominales.
+            </p>
+          </div>
+
+          <div class="quote-band">
+            Senior Consultant / Offer Manager @ Amaris Consulting · Founder & Empowerment Officer en
+            MetodologIA · Pristino Author · Constructor de sistemas para que otros trabajen con metodo.
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Trayectoria.</h2>
+            <p class="lead">
+              Una carrera construida entre consultoria, preventa, delivery, operaciones, salud,
+              pedagogia, IA generativa y sistemas de conocimiento.
+            </p>
+          </div>
+
+          <div class="timeline">
+            <div class="role">
+              <div class="role-title">Amaris Consulting<span>Senior Consultant / Offer Manager · Actual</span></div>
+              <div class="role-body">
+                <ul>
+                  <li>Articulacion de ofertas, capacidades Data & IA y narrativas consultivas con rigor de delivery.</li>
+                  <li>Puente entre estrategia, preventa, adopcion de IA aplicada y sistemas de trabajo repetibles.</li>
+                  <li>Contexto profesional vigente; no es marca propia.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="role">
+              <div class="role-title">MetodologIA<span>Founder & Empowerment Officer · 2025 - presente</span></div>
+              <div class="role-body">
+                <ul>
+                  <li>Metodo abierto para aprender, trabajar y decidir mejor con IA.</li>
+                  <li>Ecosistema con 50+ nodos, programas, bootcamps, cartillas, GPTs, Gems, workflows y mini apps.</li>
+                  <li>Frameworks propios como P.I.V.O.T.E. y rutas de empoderamiento con practica, evidencia y transferencia.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="role">
+              <div class="role-title">Mamba<span>Consultoria propia</span></div>
+              <div class="role-body">
+                <ul>
+                  <li>Linea para empaquetar estrategia, IA, operaciones y gestion en servicios comprensibles y ejecutables.</li>
+                  <li>Enfoque en convertir intencion estrategica en sistemas, ofertas y activos de trabajo.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="role">
+              <div class="role-title">JM Labs<span>Laboratorio personal</span></div>
+              <div class="role-body">
+                <ul>
+                  <li>Experimentacion con agentes, prompts, automatizacion, repos gobernados y prototipos publicables.</li>
+                  <li>Conversion de aprendizaje tecnico en activos reutilizables para MetodologIA y trabajo agentico.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="role">
+              <div class="role-title">Experiencia regional previa<span>GenAI, preventa, delivery y escalamiento</span></div>
+              <div class="role-body">
+                <ul>
+                  <li>Adopcion regional de IA generativa en 6 paises, con ROI &gt;50%, -30% time-to-market y +30% productividad reportada.</li>
+                  <li>Escalamiento de centro de excelencia de 8 a 110+ profesionales, revenue de USD 1M a USD 3M y margen de 35% a 45%.</li>
+                  <li>Gobierno de capacidad, flow, predictability y decision systems para 160+ iniciativas concurrentes.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="role">
+              <div class="role-title">Tech and Solve<span>Consultoria, agilidad y transformacion</span></div>
+              <div class="role-body">
+                <ul>
+                  <li>Transformacion digital y agilidad en banca, servicios publicos y operaciones.</li>
+                  <li>PMO, gestion de demanda, priorizacion, coaching, cultura y delivery adaptativo.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="role">
+              <div class="role-title">Clinica Pajonal<span>Procesos, salud y operacion</span></div>
+              <div class="role-body">
+                <ul>
+                  <li>Transformacion digital hacia modelo paperless en contexto de salud.</li>
+                  <li>Procesos, calidad, habilitacion, operacion regulada y arquitectura de TI conectada al negocio clinico.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="capacidades">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Capacidades que capitalizo.</h2>
+            <p class="lead">
+              Redacto, facilito y construyo para que lectores no tecnicos entiendan el impacto, y para que
+              perfiles tecnicos encuentren arquitectura, evidencia y criterio.
             </p>
           </div>
 
           <div class="matrix" role="list">
             <div class="matrix-row" role="listitem">
-              <div class="matrix-label">Consulting & offers</div>
-              <div class="matrix-value">
-                Discovery, estructuracion de valor, narrativas ejecutivas, preventa, habilitacion y adopcion.
-              </div>
+              <div class="matrix-label">Retos a oportunidades</div>
+              <div class="matrix-value">Leo restricciones, dolores y fricciones como materia prima de valor; despues las traduzco en casos de uso, ofertas, pilotos, sistemas y evidencia.</div>
             </div>
             <div class="matrix-row" role="listitem">
-              <div class="matrix-label">Operations & management</div>
-              <div class="matrix-value">
-                Accountability, Lean/agile, SOPs, dashboards, decision governance y transferencia de conocimiento.
-              </div>
+              <div class="matrix-label">SDLC deterministico con IA</div>
+              <div class="matrix-value">Specs, criterios de aceptacion, validadores, pruebas, gates y trazabilidad para reducir improvisacion en trabajo con IA.</div>
             </div>
             <div class="matrix-row" role="listitem">
-              <div class="matrix-label">AI & agentic systems</div>
-              <div class="matrix-value">
-                OpenAI Codex, Claude Code, NotebookLM, prompts, skills, plugins, workflows multiagente y RAG operativo.
-              </div>
+              <div class="matrix-label">Trabajo agentico</div>
+              <div class="matrix-value">OpenAI Codex, Claude Code, NotebookLM, prompts, skills, plugins, workflows multiagente, RAG operativo y guardiania.</div>
             </div>
             <div class="matrix-row" role="listitem">
-              <div class="matrix-label">Digital disruption</div>
-              <div class="matrix-value">
-                Prototipado hiper acelerado, validacion de hipotesis de negocio, mini apps y sistemas de aprendizaje.
-              </div>
+              <div class="matrix-label">Gestion del cambio</div>
+              <div class="matrix-value">Rutas de adopcion, champions, rituales, OKRs, playbooks y enablement para convertir IA en capacidad instalada.</div>
             </div>
             <div class="matrix-row" role="listitem">
-              <div class="matrix-label">Deterministic SDLC</div>
-              <div class="matrix-value">
-                Spec Driven Development, BMAD, IIKit/IKIIT, gates, validadores, trazabilidad y pruebas.
-              </div>
+              <div class="matrix-label">Prototipado hiper acelerado</div>
+              <div class="matrix-value">Boceto a prototipo, mini app, dashboard o HTML publicable para validar hipotesis de negocio antes de invertir de mas.</div>
+            </div>
+            <div class="matrix-row" role="listitem">
+              <div class="matrix-label">Segundos cerebros y digital twins</div>
+              <div class="matrix-value">Bases de conocimiento, notebooks, source ledgers, context routers y sistemas de recuperacion de criterio.</div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section">
+      <section class="section dark">
         <div class="wrap">
           <div class="section-head">
-            <h2>Lo que construyo.</h2>
+            <h2>Dominios y herramientas.</h2>
             <p class="lead">
-              Artefactos que sirven para operar, aprender, vender, validar o mejorar. Menos demo aislada;
-              mas capacidad instalada.
+              La herramienta cambia; el metodo queda. Esta es la superficie que uso para convertir contexto
+              en ejecucion verificable.
             </p>
           </div>
 
           <div class="grid three">
             <article class="card">
-              <span class="accent coral"></span>
-              <h3>Segundos cerebros y digital twins</h3>
-              <p>Bases de conocimiento, notebooks, source ledgers y mapas de contexto para recuperar criterio.</p>
-            </article>
-            <article class="card">
               <span class="accent"></span>
-              <h3>Trabajo agentico</h3>
-              <p>Roles, subagentes, guardianes, rutas de handoff y cierres con evidencia verificable.</p>
+              <h3>AI workbench</h3>
+              <p>OpenAI Codex, Claude Code, Claude Desktop, ChatGPT, Claude, Gemini, Copilot, Perplexity, DeepSeek, Kimi, Grok y NotebookLM.</p>
             </article>
             <article class="card">
-              <span class="accent amber"></span>
-              <h3>Material pedagogico</h3>
-              <p>Cartillas, bootcamps, playbooks, guias HTML y programas para aprender IA con metodo.</p>
+              <span class="accent teal"></span>
+              <h3>Agentic engineering</h3>
+              <p>Pristino Beta, Antigravity, n8n, Make, Zapier, OpenAI Agents SDK, prompts, skills, plugins y RAG operativo.</p>
             </article>
+            <article class="card">
+              <span class="accent blue"></span>
+              <h3>Product & media</h3>
+              <p>Google Stitch, Google AI Studio, V0 by Vercel, Figma, Canva, Napkin AI, Gamma, ElevenLabs, HTML artifacts y dashboards.</p>
+            </article>
+          </div>
+
+          <div class="pill-row" style="margin-top: 18px">
+            <span class="pill">BMAD</span>
+            <span class="pill">IIKit / IKIIT</span>
+            <span class="pill">Spec Driven Development</span>
+            <span class="pill">Design Thinking</span>
+            <span class="pill">Lean</span>
+            <span class="pill">Scrum</span>
+            <span class="pill">Kanban</span>
+            <span class="pill">SAFe</span>
+            <span class="pill">ADKAR</span>
+            <span class="pill">Kotter</span>
+            <span class="pill">Management 3.0</span>
+            <span class="pill">OKRs</span>
+            <span class="pill">P.I.V.O.T.E.</span>
+            <span class="pill">BFSI</span>
+            <span class="pill">HealthTech</span>
           </div>
         </div>
       </section>
@@ -611,57 +948,46 @@
       <section class="section">
         <div class="wrap">
           <div class="section-head">
-            <h2>Trayectoria en una frase.</h2>
+            <h2>Educacion y base profesional.</h2>
             <p class="lead">
-              Una combinacion de consultoria, gestion, operaciones, salud, tecnologia, pedagogia y sistemas de IA.
+              Finanzas, control, proyectos, IA, gestion del cambio y aprendizaje aplicado. Esa mezcla explica
+              por que conecto negocio, tecnologia y adopcion humana.
             </p>
           </div>
 
-          <div class="timeline">
-            <div class="role">
-              <div class="role-title">MetodologIA</div>
-              <p class="role-body">
-                Founder & Empowerment Officer: metodologia abierta, comunidad, programas, cartillas y sistemas de
-                aprendizaje con IA.
-              </p>
-            </div>
-            <div class="role">
-              <div class="role-title">Amaris Consulting</div>
-              <p class="role-body">
-                Senior Consultant / Offer Manager: ofertas, habilitacion, adopcion de IA aplicada y sistemas de
-                trabajo para delivery.
-              </p>
-            </div>
-            <div class="role">
-              <div class="role-title">Mamba</div>
-              <p class="role-body">
-                Consultoria propia para empaquetar estrategia, IA, operaciones y gestion en servicios comprensibles
-                y ejecutables.
-              </p>
-            </div>
-            <div class="role">
-              <div class="role-title">JM Labs</div>
-              <p class="role-body">
-                Laboratorio personal de agentes, automatizacion, prompts, repos gobernados y prototipos reutilizables.
-              </p>
-            </div>
-            <div class="role">
-              <div class="role-title">Experiencia previa</div>
-              <p class="role-body">
-                Transformacion digital, agilidad, proyectos, procesos, operaciones y mejora organizacional en
-                entornos tecnologicos y de salud.
-              </p>
-            </div>
+          <div class="grid two">
+            <article class="card">
+              <span class="accent"></span>
+              <h3>Formacion</h3>
+              <ul>
+                <li>Master Ejecutivo en Inteligencia Artificial · IIA · en progreso.</li>
+                <li>Programa Negocios Conscientes · Centro de Negocios Conscientes.</li>
+                <li>Especializacion en Planificacion y Evaluacion de Proyectos · Universidad de Antioquia.</li>
+                <li>Especializacion en Control Organizacional · Universidad EAFIT.</li>
+                <li>Contaduria Publica · Universidad de Medellin.</li>
+              </ul>
+            </article>
+            <article class="card">
+              <span class="accent teal"></span>
+              <h3>Fronteras de marca</h3>
+              <ul>
+                <li>Amaris es mi contexto profesional vigente.</li>
+                <li>MetodologIA es metodo abierto, comunidad, pedagogia y empoderamiento.</li>
+                <li>Mamba es consultoria aplicada propia.</li>
+                <li>JM Labs es laboratorio de experimentacion y sistemas agenticos.</li>
+              </ul>
+            </article>
           </div>
         </div>
       </section>
 
-      <section class="section alt">
+      <section class="section dark">
         <div class="wrap closing">
           <div>
             <h2>Conversemos con metodo.</h2>
             <p class="lead">
-              Si el reto necesita claridad, sistema, adopcion o un prototipo que permita decidir, esta es la ruta.
+              Si el reto necesita claridad, sistema, adopcion, una oferta o un prototipo para decidir,
+              esta es la ruta.
             </p>
           </div>
           <div class="link-row">
@@ -674,7 +1000,7 @@
 
     <footer class="footer">
       <div class="wrap">
-        <span>Javier Monta&ntilde;o. Method first, AI next.</span>
+        <span>Javier Monta&ntilde;o · Metodo primero, IA despues.</span>
         <a href="https://github.com/JaviMontano/JaviMontano">README del perfil</a>
       </div>
     </footer>
