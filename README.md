@@ -137,19 +137,19 @@ Accountability | agile/lean | gobierno de decisiones | operaciones comerciales |
 ## Trayectoria
 
 - **MetodologIA** - Founder & Empowerment Officer<br>
-  Metodologia abierta, comunidad, material pedagogico y sistemas de empoderamiento para trabajar mejor con IA.
+  Creo metodologia abierta, comunidad y material pedagogico para que profesionales y equipos aprendan IA con criterio, conviertan conocimiento en practicas transferibles y ganen autonomia operativa.
 
 - **Amaris Consulting** - Senior Consultant / Offer Manager<br>
-  Consultoria, ofertas, habilitacion y adopcion de IA aplicada a delivery, preventa y sistemas de trabajo.
+  Conecto estrategia, preventa y delivery para convertir necesidades de negocio en ofertas claras, casos de uso priorizados y planes de adopcion de IA que equipos tecnicos, comerciales y de gestion pueden entender, vender y ejecutar.
 
-- **Marba Blanca / JM Labs** - lineas propias<br>
-  Consultoria, experimentacion y laboratorios de sistemas agenticos.
+- **Marba Blanca / MetodologIA / JM Labs** - lineas propias<br>
+  Desarrollo activos, laboratorios y marcos de consultoria dentro de mi ecosistema propio para transformar experimentos con IA en capacidades repetibles: discovery, playbooks, agentes, automatizacion y sistemas de trabajo con impacto visible.
 
 - **Sofka Technologies** - experiencia previa<br>
-  GenAI Champion, PreSales Architect y liderazgo en gestion, preventa y transformacion.
+  Impulse iniciativas GenAI, arquitectura de preventa y habilitacion consultiva, traduciendo oportunidades tecnicas en propuestas, narrativas ejecutivas y rutas de adopcion para equipos de negocio y tecnologia.
 
 - **Tech and Solve / Clinica Pajonal** - experiencia previa<br>
-  Consultoria de gestion, agilidad, proyectos, transformacion digital, procesos y operaciones.
+  Acompane gestion, agilidad, proyectos, transformacion digital, procesos y operaciones, con foco en ordenar prioridades, mejorar coordinacion y convertir cambios organizacionales en resultados medibles.
 
 ## Conversemos
 
