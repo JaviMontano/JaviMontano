@@ -160,7 +160,7 @@ BMAD | IIKit / IKIIT | Spec Driven Development | agile/lean | Design Thinking | 
 | **Gestion del cambio y adopcion de IA** | Diseno rutas de adopcion, champions, rituales, playbooks, OKRs y planes de habilitacion para que la IA se vuelva capacidad instalada, no demostracion aislada. |
 | **Transformacion y disrupcion digital** | Redisenio procesos, sistemas de trabajo y modelos de decision para capturar oportunidades digitales antes de que se vuelvan urgencias competitivas. |
 | **Operations & management** | Conecto accountability, agilidad, Lean, SOPs, dashboards y gobierno de decisiones para que estrategia, preventa y delivery operen con mayor claridad. |
-| **Pedagogia y empowerment** | Creo programas, cartillas y experiencias de aprendizaje donde la IA aumenta agencia humana, practica deliberada y transferencia, no dependencia. |
+| **Pedagogia y empowerment** | Creo programas, cartillas y experiencias de aprendizaje donde la IA aumenta agencia humana, practica deliberada y transferencia real: que el equipo entienda, adapte y sostenga el metodo sin depender del facilitador o de una herramienta especifica. |
 
 ## Trayectoria
 
