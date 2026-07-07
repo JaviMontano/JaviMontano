@@ -3,19 +3,22 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Javier Monta&ntilde;o · Dashboard de productividad</title>
+    <title>Javier Monta&ntilde;o · Retos a casos de exito con metodo e IA</title>
     <meta
       name="description"
-      content="Dashboard publico de Javier Monta&ntilde;o: metodo, CV, kanban de tareas, procedimientos, ecosistema y productividad con IA."
+      content="Historia navegable de Javier Monta&ntilde;o: metodo primero, IA despues. Consultoria, adopcion de IA, sistemas de trabajo y activos pedagogicos para convertir retos en casos de exito."
     />
-    <meta property="og:title" content="Javier Monta&ntilde;o · Dashboard de productividad" />
+    <meta property="og:title" content="Javier Monta&ntilde;o · Retos a casos de exito con metodo e IA" />
     <meta
       property="og:description"
-      content="Metodo primero, IA despues. Retos a oportunidades, oportunidades a casos de exito."
+      content="Si tienes un reto real, esta pagina muestra como Javier lo convierte en oportunidad, sistema, evidencia y capacidad instalada."
     />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="./assets/team_javier-montano.webp" />
+    <meta property="og:image" content="./assets/hero.png" />
     <link rel="icon" href="./assets/team_javier-montano.webp" type="image/webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Poppins:wght@700;800;900&display=swap" rel="stylesheet" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -30,11 +33,6 @@
           { "@type": "Organization", "name": "Mamba Blanca" },
           { "@type": "Organization", "name": "JM Labs" }
         ],
-        "sameAs": [
-          "https://github.com/JaviMontano",
-          "https://metodologia.info",
-          "https://javimontano.github.io/trabajar-amplificado/"
-        ],
         "knowsAbout": [
           "Generative AI",
           "Agentic systems",
@@ -43,33 +41,33 @@
           "Consulting",
           "Operations",
           "Spec Driven Development",
-          "Knowledge systems"
+          "Knowledge systems",
+          "AI adoption"
+        ],
+        "sameAs": [
+          "https://github.com/JaviMontano",
+          "https://metodologia.info",
+          "https://javimontano.github.io/trabajar-amplificado/"
         ]
       }
     </script>
     <style>
       :root {
-        --brand-dark: #0a122a;
-        --brand-darker: #070b1a;
-        --brand-surface: #1e293b;
-        --brand-surface-alt: #172033;
-        --brand-gold: #ffd700;
-        --brand-gold-text: #ffd700;
-        --brand-gold-soft: #ffe875;
-        --brand-text: #f8fafc;
-        --brand-text-soft: #e2e8f0;
-        --brand-muted: #94a3b8;
-        --brand-border: rgba(255, 255, 255, .1);
-        --brand-border-hover: rgba(255, 215, 0, .36);
-        --brand-blue: #137dc5;
-        --brand-green: #16a34a;
-        --brand-orange: #f97316;
-        --brand-red: #ef4444;
-        --brand-radius: 8px;
-        --brand-radius-lg: 10px;
+        --blueprint: #122562;
+        --gold: #FFD700;
+        --signal: #137DC5;
+        --ink: #1F2833;
+        --soft: #BBA0CC;
+        --muted: #808080;
+        --font-title: "Poppins", system-ui, sans-serif;
+        --font-body: "Montserrat", system-ui, sans-serif;
+        --font-note: "Trebuchet MS", system-ui, sans-serif;
+        --radius: 8px;
+        --shadow: 0 24px 70px rgba(31, 40, 51, .26);
+        --line: rgba(31, 40, 51, .22);
+        --soft-line: rgba(187, 160, 204, .34);
+        --gold-line: rgba(255, 215, 0, .42);
         --ease: cubic-bezier(.4, 0, .2, 1);
-        --shadow: 0 24px 70px rgba(0, 0, 0, .35);
-        --sidebar-w: 292px;
       }
 
       * { box-sizing: border-box; }
@@ -82,62 +80,62 @@
       body {
         margin: 0;
         min-height: 100vh;
-        color: var(--brand-text);
+        color: var(--ink);
         background:
-          linear-gradient(135deg, rgba(255, 215, 0, .08), transparent 36%),
-          linear-gradient(180deg, var(--brand-dark), var(--brand-darker));
-        font-family:
-          "Montserrat",
-          "Montserrat Fallback",
-          -apple-system,
-          BlinkMacSystemFont,
-          "Segoe UI",
-          system-ui,
-          sans-serif;
-        font-size: 15.5px;
-        line-height: 1.55;
+          linear-gradient(90deg, rgba(18, 37, 98, .08) 1px, transparent 1px),
+          linear-gradient(0deg, rgba(18, 37, 98, .08) 1px, transparent 1px),
+          var(--soft);
+        background-size: 64px 64px;
+        font-family: var(--font-body);
+        font-size: 16px;
+        line-height: 1.58;
         -webkit-font-smoothing: antialiased;
       }
 
       a { color: inherit; text-decoration: none; }
-      button { font: inherit; color: inherit; }
-      h1, h2, h3, h4, p { margin-top: 0; }
+      button { color: inherit; font: inherit; }
+      img, svg { max-width: 100%; height: auto; }
+      p, h1, h2, h3, h4 { margin-top: 0; }
+      p { margin-bottom: 0; }
+      strong { color: var(--blueprint); }
+      code { font-family: var(--font-note); }
+
       h1, h2, h3, h4 {
-        font-family: "Poppins", "Poppins Fallback", system-ui, sans-serif;
+        font-family: var(--font-title);
         letter-spacing: 0;
-        line-height: 1.08;
+        line-height: 1.05;
       }
-      p { color: var(--brand-text-soft); }
-      strong { color: #fff; }
 
       .skip-link {
         position: absolute;
         top: 12px;
         left: 12px;
-        z-index: 200;
+        z-index: 120;
         transform: translateY(-150%);
         padding: .7rem .9rem;
-        border-radius: 10px;
-        background: var(--brand-gold);
-        color: var(--brand-dark);
+        border: 2px solid var(--ink);
+        border-radius: var(--radius);
+        background: var(--gold);
+        color: var(--ink);
         font-weight: 900;
       }
+
       .skip-link:focus { transform: translateY(0); }
 
       .top {
         position: sticky;
         top: 0;
-        z-index: 80;
-        border-bottom: 1px solid var(--brand-border);
-        background: rgba(7, 11, 26, .92);
+        z-index: 90;
+        border-bottom: 1px solid var(--soft-line);
+        background: rgba(31, 40, 51, .94);
         backdrop-filter: blur(18px);
       }
 
       .top-in {
-        min-height: 72px;
         max-width: 1440px;
+        min-height: 72px;
         margin: 0 auto;
-        padding: .65rem clamp(1rem, 3vw, 2rem);
+        padding: .7rem clamp(1rem, 3vw, 2rem);
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -147,25 +145,23 @@
       .brand {
         display: inline-flex;
         align-items: center;
-        gap: .7rem;
+        gap: .72rem;
         min-width: 0;
-        font-family: "Poppins", system-ui, sans-serif;
+        color: var(--soft);
+        font-family: var(--font-title);
         font-weight: 900;
       }
 
       .brand-logo {
-        width: 38px;
-        height: 38px;
-        border-radius: 12px;
-        border: 1px solid rgba(255, 255, 255, .16);
-        background:
-          linear-gradient(135deg, rgba(255, 215, 0, .24), transparent 48%),
-          linear-gradient(135deg, #0a122a, #1e293b);
+        width: 42px;
+        height: 42px;
+        border: 2px solid var(--gold);
+        border-radius: var(--radius);
         display: grid;
         place-items: center;
-        color: var(--brand-gold);
-        font-weight: 950;
-        box-shadow: inset 0 0 0 1px rgba(255, 215, 0, .12);
+        background: var(--blueprint);
+        color: var(--gold);
+        font-size: .82rem;
       }
 
       .brand-text {
@@ -175,9 +171,12 @@
       }
 
       .brand-text span {
-        color: var(--brand-gold);
-        font-size: .72rem;
-        letter-spacing: .08em;
+        margin-top: .18rem;
+        color: var(--gold);
+        font-family: var(--font-note);
+        font-size: .68rem;
+        font-weight: 800;
+        letter-spacing: .12em;
         text-transform: uppercase;
       }
 
@@ -189,115 +188,137 @@
       }
 
       .top-actions a,
-      .mini-btn {
-        min-height: 38px;
+      .mini-link {
+        min-height: 40px;
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        padding: .48rem .82rem;
-        border: 1px solid var(--brand-border);
-        border-radius: 10px;
-        background: rgba(30, 41, 59, .74);
-        color: var(--brand-text);
+        padding: .52rem .82rem;
+        border: 1px solid var(--soft-line);
+        border-radius: var(--radius);
+        background: rgba(187, 160, 204, .08);
+        color: var(--soft);
+        font-family: var(--font-note);
         font-size: .78rem;
-        font-weight: 760;
+        font-weight: 800;
       }
 
       .top-actions a:hover,
-      .mini-btn:hover,
       .top-actions a:focus-visible,
-      .mini-btn:focus-visible {
-        border-color: var(--brand-gold);
-        background: var(--brand-gold);
-        color: var(--brand-dark);
+      .mini-link:hover,
+      .mini-link:focus-visible {
+        border-color: var(--gold);
+        background: var(--gold);
+        color: var(--ink);
         outline: none;
       }
 
       .shell {
-        display: grid;
-        grid-template-columns: var(--sidebar-w) minmax(0, 1fr);
         max-width: 1440px;
         margin: 0 auto;
+        display: grid;
+        grid-template-columns: 292px minmax(0, 1fr);
       }
 
       .sidebar {
         position: sticky;
         top: 72px;
         height: calc(100vh - 72px);
-        padding: 1.15rem;
-        border-right: 1px solid var(--brand-border);
-        background: rgba(7, 11, 26, .54);
+        padding: 1rem;
+        border-right: 1px solid var(--line);
         overflow: auto;
+      }
+
+      .profile-card,
+      .story-card,
+      .visual-card,
+      .panel-card {
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: rgba(187, 160, 204, .7);
+        box-shadow: var(--shadow);
       }
 
       .profile-card {
         padding: 1rem;
-        border: 1px solid var(--brand-border);
-        border-radius: var(--brand-radius);
-        background: rgba(255, 255, 255, .055);
-        box-shadow: var(--shadow);
       }
 
       .profile-photo {
         width: 112px;
         aspect-ratio: 1;
         object-fit: cover;
-        border-radius: 14px;
-        border: 1px solid var(--brand-border-hover);
-        box-shadow: 0 20px 48px rgba(0, 0, 0, .35);
+        border: 3px solid var(--gold);
+        border-radius: var(--radius);
+        background: var(--blueprint);
       }
 
       .profile-card h1 {
-        margin: .95rem 0 .3rem;
-        font-size: 1.65rem;
+        margin: .95rem 0 .32rem;
+        color: var(--blueprint);
+        font-size: 1.62rem;
       }
 
       .profile-card p {
-        margin: 0;
-        color: var(--brand-text-soft);
-        font-size: .92rem;
+        color: var(--ink);
+        font-size: .9rem;
+        font-weight: 650;
       }
 
-      .nav-tabs {
+      .tabs {
         display: grid;
-        gap: .55rem;
+        gap: .52rem;
         margin-top: 1rem;
       }
 
       .tab-button {
         width: 100%;
+        min-height: 48px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: .7rem;
-        padding: .82rem .9rem;
-        border: 1px solid var(--brand-border);
-        border-radius: 12px;
-        background: rgba(30, 41, 59, .54);
+        gap: .8rem;
+        padding: .74rem .82rem;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: rgba(187, 160, 204, .54);
+        color: var(--ink);
         text-align: left;
         cursor: pointer;
+        font-weight: 850;
+      }
+
+      .tab-button small {
+        color: var(--blueprint);
+        font-family: var(--font-note);
+        font-size: .68rem;
+        font-weight: 900;
       }
 
       .tab-button:hover,
       .tab-button:focus-visible,
       .tab-button[aria-selected="true"] {
-        border-color: var(--brand-gold);
-        background: rgba(255, 215, 0, .11);
+        border-color: var(--gold);
+        background: var(--blueprint);
+        color: var(--gold);
         outline: none;
       }
 
-      .tab-button small {
-        color: var(--brand-muted);
-        font-weight: 800;
+      .tab-button[aria-selected="true"] small,
+      .tab-button:hover small,
+      .tab-button:focus-visible small {
+        color: var(--soft);
       }
 
       .sidebar-note {
         margin-top: 1rem;
         padding: .9rem;
-        border: 1px dashed rgba(255, 215, 0, .32);
-        border-radius: 14px;
-        color: var(--brand-muted);
-        font-size: .84rem;
+        border: 1px dashed var(--gold-line);
+        border-radius: var(--radius);
+        background: rgba(255, 215, 0, .09);
+        color: var(--ink);
+        font-family: var(--font-note);
+        font-size: .82rem;
+        font-weight: 700;
       }
 
       .main {
@@ -306,143 +327,159 @@
       }
 
       .hero {
+        min-height: 540px;
         display: grid;
-        grid-template-columns: minmax(0, 1.05fr) minmax(320px, .95fr);
+        grid-template-columns: minmax(0, 1.02fr) minmax(340px, .98fr);
         gap: 1rem;
         align-items: stretch;
         margin-bottom: 1rem;
       }
 
-      .hero-panel,
-      .x-card,
-      .dashboard-panel {
-        border: 1px solid var(--brand-border);
-        border-radius: var(--brand-radius-lg);
-        background:
-          linear-gradient(180deg, rgba(255, 255, 255, .075), rgba(255, 255, 255, .04));
-        box-shadow: var(--shadow);
-      }
-
-      .hero-panel {
-        padding: clamp(1.2rem, 3vw, 2rem);
-        min-height: 320px;
+      .hero-copy {
+        padding: clamp(1.35rem, 4vw, 2.4rem);
         display: grid;
         align-content: space-between;
-        overflow: hidden;
-        position: relative;
+        background:
+          linear-gradient(135deg, rgba(19, 125, 197, .18), transparent 54%),
+          var(--ink);
+        color: var(--soft);
       }
 
-      .kicker {
+      .eyebrow,
+      .slide-meta {
         display: inline-flex;
         width: fit-content;
         align-items: center;
-        gap: .45rem;
-        color: var(--brand-gold);
-        font-size: 10.5px;
+        gap: .42rem;
+        color: var(--gold);
+        font-family: var(--font-note);
+        font-size: .72rem;
         font-weight: 900;
-        letter-spacing: .26em;
+        letter-spacing: .16em;
         text-transform: uppercase;
       }
 
-      .kicker::before {
+      .eyebrow::before,
+      .slide-meta::before {
         content: "";
         width: 9px;
         height: 9px;
-        border-radius: 50%;
-        background: var(--brand-gold);
-        box-shadow: 0 0 0 5px rgba(255, 215, 0, .14);
+        border-radius: 999px;
+        background: var(--gold);
       }
 
       .hero-title {
-        margin: .85rem 0 .75rem;
-        max-width: 680px;
-        font-size: 2.45rem;
-        line-height: 1.04;
-        font-weight: 950;
-      }
-
-      .gradient-text {
-        background: linear-gradient(135deg, #f8fafc 0%, var(--brand-gold) 100%);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        color: transparent;
+        max-width: 780px;
+        margin: .9rem 0 .85rem;
+        color: var(--gold);
+        font-size: clamp(2.35rem, 6vw, 5.2rem);
+        font-weight: 900;
       }
 
       .hero-lead {
         max-width: 760px;
-        margin: 0 0 1.25rem;
-        color: var(--brand-text-soft);
-        font-size: 1rem;
+        color: var(--soft);
+        font-size: clamp(1rem, 1.6vw, 1.22rem);
+        font-weight: 650;
       }
 
-      .cta-row {
+      .hero-hook {
+        margin-top: 1.1rem;
+        padding: .9rem 1rem;
+        border-left: 6px solid var(--gold);
+        background: rgba(18, 37, 98, .48);
+        color: var(--soft);
+        font-family: var(--font-note);
+        font-size: .95rem;
+        font-weight: 800;
+      }
+
+      .cta-row,
+      .chip-row {
         display: flex;
         flex-wrap: wrap;
-        gap: .75rem;
+        gap: .65rem;
       }
 
       .btn {
+        min-height: 46px;
         display: inline-flex;
-        min-height: 44px;
         align-items: center;
         justify-content: center;
-        padding: .75rem 1.15rem;
-        border: 2px solid var(--brand-gold);
-        border-radius: 10px;
-        color: var(--brand-dark);
-        background: var(--brand-gold);
-        font-weight: 850;
+        padding: .78rem 1.1rem;
+        border: 2px solid var(--gold);
+        border-radius: var(--radius);
+        background: var(--gold);
+        color: var(--ink);
+        font-weight: 900;
       }
 
       .btn.secondary {
-        color: var(--brand-gold);
         background: transparent;
+        color: var(--gold);
       }
 
-      .command-map {
+      .chip {
+        display: inline-flex;
+        align-items: center;
+        min-height: 28px;
+        padding: .28rem .62rem;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: rgba(18, 37, 98, .08);
+        color: var(--blueprint);
+        font-family: var(--font-note);
+        font-size: .78rem;
+        font-weight: 900;
+      }
+
+      .hero-visual {
         padding: 1rem;
         display: grid;
-        grid-template-rows: auto minmax(0, 1fr);
-        align-content: start;
-        gap: 1rem;
+        align-content: stretch;
+        background:
+          linear-gradient(90deg, rgba(18, 37, 98, .14) 1px, transparent 1px),
+          linear-gradient(0deg, rgba(18, 37, 98, .14) 1px, transparent 1px),
+          var(--soft);
+        background-size: 42px 42px;
       }
 
-      .command-map h3 {
-        align-self: start;
-      }
-
-      .svg-map {
+      .story-svg {
         width: 100%;
-        min-height: 270px;
+        min-height: 360px;
+        align-self: center;
       }
 
-      .metric-grid {
+      .metric-strip {
         display: grid;
         grid-template-columns: repeat(4, minmax(0, 1fr));
-        gap: .75rem;
+        gap: .72rem;
         margin: 1rem 0;
       }
 
       .metric {
-        padding: 1rem;
-        border: 1px solid var(--brand-border);
-        border-radius: 8px;
-        background: rgba(255, 255, 255, .065);
+        min-height: 116px;
+        padding: .92rem;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: rgba(187, 160, 204, .7);
       }
 
       .metric strong {
         display: block;
-        color: var(--brand-gold);
-        font-size: 1.85rem;
+        color: var(--blueprint);
+        font-family: var(--font-title);
+        font-size: clamp(1.55rem, 3vw, 2.2rem);
         line-height: 1;
       }
 
       .metric span {
         display: block;
-        margin-top: .45rem;
-        color: var(--brand-muted);
+        margin-top: .48rem;
+        color: var(--ink);
+        font-family: var(--font-note);
         font-size: .82rem;
+        font-weight: 800;
       }
 
       .tab-panel { display: none; }
@@ -450,235 +487,202 @@
 
       .section-head {
         display: grid;
-        grid-template-columns: minmax(0, .88fr) minmax(280px, 1.12fr);
-        gap: 1.3rem;
+        grid-template-columns: minmax(0, .9fr) minmax(300px, 1.1fr);
+        gap: 1.2rem;
         align-items: end;
-        margin: 1.5rem 0 1rem;
+        margin: 1.45rem 0 1rem;
       }
 
       .section-head h2 {
-        margin: 0;
-        font-size: 2.05rem;
+        margin: .55rem 0 0;
+        color: var(--blueprint);
+        font-size: clamp(1.7rem, 4vw, 2.75rem);
       }
 
-      .section-head p { margin: 0; }
+      .section-head p {
+        color: var(--ink);
+        font-weight: 650;
+      }
 
-      .dashboard-grid {
+      .story-grid,
+      .proof-grid,
+      .repo-grid,
+      .cv-grid,
+      .visual-system-grid {
         display: grid;
-        grid-template-columns: minmax(0, 1fr) minmax(320px, .72fr);
-        gap: 1rem;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: .85rem;
       }
 
-      .x-card,
-      .dashboard-panel {
+      .story-card,
+      .panel-card {
         padding: 1rem;
       }
 
-      .x-card h3,
-      .dashboard-panel h3 {
-        margin: 0 0 .7rem;
+      .story-card h3,
+      .panel-card h3 {
+        margin: .45rem 0 .6rem;
+        color: var(--blueprint);
+        font-size: 1.03rem;
+      }
+
+      .story-card p,
+      .panel-card p {
+        color: var(--ink);
+        font-size: .92rem;
+        font-weight: 620;
+      }
+
+      .stage-line {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: .5rem;
+        margin: 1rem 0;
+      }
+
+      .stage {
+        min-height: 116px;
+        padding: .9rem;
+        border: 1px solid var(--line);
+        border-top: 5px solid var(--gold);
+        border-radius: var(--radius);
+        background: rgba(187, 160, 204, .72);
+      }
+
+      .stage b {
+        display: block;
+        color: var(--blueprint);
+        font-family: var(--font-title);
         font-size: 1rem;
       }
 
-      .compact-list {
-        display: grid;
-        gap: .65rem;
-        margin: 0;
-        padding: 0;
-        list-style: none;
+      .stage span {
+        display: block;
+        margin-top: .42rem;
+        color: var(--ink);
+        font-family: var(--font-note);
+        font-size: .82rem;
+        font-weight: 760;
       }
 
-      .compact-list li {
-        display: grid;
-        grid-template-columns: 108px minmax(0, 1fr);
-        gap: .8rem;
-        padding: .7rem;
-        border: 1px solid var(--brand-border);
-        border-radius: 12px;
-        background: rgba(255, 255, 255, .045);
+      .mermaid-wrap {
+        padding: 1rem;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: rgba(187, 160, 204, .72);
+        overflow: auto;
       }
 
-      .compact-list b { color: var(--brand-gold); }
-      .compact-list span { color: var(--brand-text-soft); }
-
-      .kanban {
-        display: grid;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: .8rem;
-      }
-
-      .kanban-col {
-        min-height: 320px;
-        padding: .8rem;
-        border: 1px solid var(--brand-border);
-        border-radius: var(--brand-radius);
-        background: rgba(7, 11, 26, .34);
-      }
-
-      .kanban-head {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: .75rem;
-        margin-bottom: .75rem;
-      }
-
-      .kanban-head h3 {
-        margin: 0;
-        font-size: .95rem;
-      }
-
-      .count-pill,
-      .status-pill,
-      .chip {
-        display: inline-flex;
-        align-items: center;
-        min-height: 26px;
-        padding: .24rem .55rem;
-        border: 1px solid var(--brand-border);
-        border-radius: 999px;
-        color: var(--brand-muted);
-        background: rgba(255, 255, 255, .055);
-        font-size: .76rem;
-        font-weight: 800;
-      }
-
-      .task-card {
-        display: grid;
-        gap: .55rem;
-        padding: .85rem;
-        margin-bottom: .7rem;
-        border: 1px solid var(--brand-border);
-        border-left: 4px solid var(--brand-gold);
-        border-radius: 14px;
-        background: rgba(255, 255, 255, .075);
-      }
-
-      .task-card[data-status="wip"] { border-left-color: var(--brand-orange); }
-      .task-card[data-status="closed"] { border-left-color: var(--brand-green); }
-
-      .task-title {
-        font-weight: 900;
-        color: #fff;
-      }
-
-      .task-meta {
-        display: flex;
-        flex-wrap: wrap;
-        gap: .4rem;
-      }
-
-      .chip-row {
-        display: flex;
-        flex-wrap: wrap;
-        gap: .35rem;
-      }
-
-      .task-note {
-        color: var(--brand-muted);
-        font-size: .84rem;
+      .mermaid {
+        min-width: 700px;
+        color: var(--ink);
       }
 
       .data-table {
         width: 100%;
         border-collapse: collapse;
         overflow: hidden;
-        border-radius: 14px;
-        font-size: .9rem;
+        border-radius: var(--radius);
+        font-size: .92rem;
       }
 
       .data-table th,
       .data-table td {
-        padding: .72rem .75rem;
-        border-bottom: 1px solid var(--brand-border);
+        padding: .78rem .8rem;
+        border-bottom: 1px solid var(--line);
         text-align: left;
         vertical-align: top;
       }
 
       .data-table th {
-        color: var(--brand-gold);
-        background: rgba(255, 215, 0, .08);
-        font-size: .78rem;
-        letter-spacing: .06em;
+        color: var(--gold);
+        background: var(--blueprint);
+        font-family: var(--font-note);
+        font-size: .76rem;
+        letter-spacing: .08em;
         text-transform: uppercase;
       }
 
-      .data-table td { color: var(--brand-text-soft); }
-
-      .procedure-grid,
-      .repo-grid,
-      .cv-grid {
-        display: grid;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: .8rem;
-      }
-
-      .procedure-card {
-        padding: 1rem;
-        border: 1px solid var(--brand-border);
-        border-radius: 8px;
-        background: rgba(255, 255, 255, .055);
-      }
-
-      .procedure-card h3 {
-        margin: 0 0 .45rem;
-      }
-
-      .procedure-card p {
-        margin-bottom: .65rem;
-        font-size: .9rem;
-      }
-
-      .mermaid-wrap {
-        padding: 1rem;
-        border: 1px solid var(--brand-border);
-        border-radius: var(--brand-radius-lg);
-        background: rgba(255, 255, 255, .06);
-        overflow: auto;
-      }
-
-      .mermaid {
-        min-width: 620px;
-        color: #fff;
+      .data-table td {
+        color: var(--ink);
+        background: rgba(187, 160, 204, .64);
+        font-weight: 620;
       }
 
       .repo-card {
-        min-height: 126px;
+        min-height: 148px;
         padding: 1rem;
-        border: 1px solid var(--brand-border);
-        border-radius: 8px;
-        background: rgba(255, 255, 255, .055);
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: rgba(187, 160, 204, .72);
         display: grid;
         align-content: space-between;
-        gap: .75rem;
+        gap: .8rem;
       }
 
       .repo-card strong {
         display: block;
-        color: #fff;
+        color: var(--blueprint);
+        font-family: var(--font-title);
       }
 
       .repo-card span {
-        color: var(--brand-muted);
+        color: var(--ink);
         font-size: .9rem;
+        font-weight: 640;
       }
+
+      .repo-card small {
+        color: var(--signal);
+        font-family: var(--font-note);
+        font-size: .74rem;
+        font-weight: 900;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+      }
+
+      .palette {
+        display: grid;
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+        gap: .5rem;
+      }
+
+      .swatch {
+        min-height: 96px;
+        padding: .7rem;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        display: grid;
+        align-content: end;
+        color: var(--soft);
+        font-family: var(--font-note);
+        font-size: .72rem;
+        font-weight: 900;
+      }
+
+      .swatch[data-color="blueprint"] { background: var(--blueprint); }
+      .swatch[data-color="gold"] { background: var(--gold); color: var(--ink); }
+      .swatch[data-color="signal"] { background: var(--signal); }
+      .swatch[data-color="ink"] { background: var(--ink); }
+      .swatch[data-color="soft"] { background: var(--soft); color: var(--ink); }
+      .swatch[data-color="muted"] { background: var(--muted); color: var(--ink); }
 
       .footer {
         margin-top: 2rem;
         padding: 1rem 0;
-        color: var(--brand-muted);
-        font-size: .86rem;
+        color: var(--ink);
+        font-family: var(--font-note);
+        font-size: .84rem;
+        font-weight: 760;
       }
 
-      .hidden { display: none !important; }
-
-      @media (max-width: 1080px) {
+      @media (max-width: 1100px) {
         .shell { grid-template-columns: 1fr; }
         .sidebar {
           position: static;
           height: auto;
           border-right: 0;
-          border-bottom: 1px solid var(--brand-border);
+          border-bottom: 1px solid var(--line);
         }
         .profile-card {
           display: grid;
@@ -687,46 +691,34 @@
           align-items: center;
         }
         .profile-card h1 { margin-top: 0; }
-        .nav-tabs { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-        .hero,
-        .dashboard-grid { grid-template-columns: 1fr; }
+        .tabs { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+        .hero { grid-template-columns: 1fr; }
       }
 
       @media (max-width: 760px) {
-        .top-in { align-items: flex-start; flex-direction: column; display: flex; }
+        .top-in {
+          align-items: flex-start;
+          flex-direction: column;
+        }
         .top-actions { justify-content: flex-start; }
-        .nav-tabs,
-        .kanban,
-        .procedure-grid,
+        .tabs,
+        .metric-strip,
+        .section-head,
+        .story-grid,
+        .proof-grid,
         .repo-grid,
         .cv-grid,
-        .section-head {
+        .visual-system-grid,
+        .stage-line,
+        .palette {
           grid-template-columns: 1fr;
         }
         .profile-card {
-          display: grid;
-          grid-template-columns: 82px minmax(0, 1fr);
-          gap: .85rem;
-          align-items: center;
+          grid-template-columns: 84px minmax(0, 1fr);
+          gap: .8rem;
         }
-        .profile-photo {
-          width: 82px;
-          border-radius: 10px;
-        }
-        .profile-card h1 {
-          margin: 0 0 .25rem;
-          font-size: 1.35rem;
-        }
-        .profile-card p { font-size: .84rem; }
-        .nav-tabs { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-        .tab-button {
-          min-height: 46px;
-          padding: .68rem .72rem;
-        }
-        .metric-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-        .compact-list li { grid-template-columns: 1fr; }
-        .hero-panel { min-height: auto; }
-        .hero-title { font-size: 2.05rem; }
+        .profile-photo { width: 84px; }
+        .hero-title { font-size: 2.15rem; }
       }
 
       @media (prefers-reduced-motion: reduce) {
@@ -736,19 +728,19 @@
     </style>
   </head>
   <body>
-    <a class="skip-link" href="#content">Saltar al dashboard</a>
+    <a class="skip-link" href="#content">Saltar a la historia</a>
 
     <header class="top">
       <div class="top-in">
-        <a class="brand" href="#content" aria-label="Javier Monta&ntilde;o dashboard">
+        <a class="brand" href="#content" aria-label="Javier Monta&ntilde;o historia navegable">
           <span class="brand-logo" aria-hidden="true">JM</span>
-          <span class="brand-text">Javier Monta&ntilde;o <span>Productividad con metodo</span></span>
+          <span class="brand-text">Javier Monta&ntilde;o <span>Retos a casos de exito</span></span>
         </a>
         <nav class="top-actions" aria-label="Enlaces principales">
-          <a href="https://javimontano.github.io/trabajar-amplificado/">Trabajo Amplificado</a>
-          <a href="https://github.com/JaviMontano/mao-site">MAO site</a>
+          <a href="mailto:contacto@metodologia.info">Contacto</a>
+          <a href="https://metodologia.info/">MetodologIA</a>
+          <a href="https://co.linkedin.com/in/javier-andr%C3%A9s-monta%C3%B1o-guzm%C3%A1n-35b02756/en">LinkedIn</a>
           <a href="https://metodologia.info/recursos/">Recursos</a>
-          <a href="https://github.com/JaviMontano">GitHub</a>
         </nav>
       </div>
     </header>
@@ -763,242 +755,238 @@
           </div>
         </section>
 
-        <div class="nav-tabs" role="tablist" aria-label="Vistas del dashboard">
+        <div class="tabs" role="tablist" aria-label="Vistas de la historia">
           <button class="tab-button" type="button" role="tab" aria-selected="true" data-tab="overview">
-            Vision <small>01</small>
+            Historia <small>01</small>
           </button>
-          <button class="tab-button" type="button" role="tab" aria-selected="false" data-tab="kanban">
-            Kanban work/ <small>02</small>
+          <button class="tab-button" type="button" role="tab" aria-selected="false" data-tab="trust">
+            Confianza <small>02</small>
           </button>
           <button class="tab-button" type="button" role="tab" aria-selected="false" data-tab="procedures">
             Procedimientos <small>03</small>
           </button>
           <button class="tab-button" type="button" role="tab" aria-selected="false" data-tab="cv">
-            CV completo <small>04</small>
+            Trayectoria <small>04</small>
           </button>
           <button class="tab-button" type="button" role="tab" aria-selected="false" data-tab="ecosystem">
-            Ecosistema <small>05</small>
+            Rutas <small>05</small>
           </button>
-          <button class="tab-button" type="button" role="tab" aria-selected="false" data-tab="method">
-            Metodo <small>06</small>
+          <button class="tab-button" type="button" role="tab" aria-selected="false" data-tab="visual">
+            Sistema visual <small>06</small>
           </button>
         </div>
 
         <p class="sidebar-note">
-          Snapshot publico. Las tareas se derivan de carpetas fechadas en <code>work/</code>. Si no hay evidencia
-          de cierre o sesion iniciada, se marca WIP. No se publica contenido privado.
+          Hook de lectura: si tienes un reto ambiguo, entra por Historia. Si quieres saber como se vuelve metodo,
+          entra por Procedimientos. Si necesitas credenciales, entra por Trayectoria.
         </p>
       </aside>
 
       <main class="main" id="content">
         <section class="hero" aria-label="Resumen ejecutivo">
-          <div class="hero-panel">
+          <article class="hero-copy story-card">
             <div>
-              <span class="kicker">Metodo primero · IA despues</span>
-              <h2 class="hero-title">Convierto retos en <span class="gradient-text">oportunidades</span> y oportunidades en casos de exito.</h2>
+              <span class="eyebrow">Method first · AI next · Soberania digital</span>
+              <h2 class="hero-title">El reto no es usar IA. Es convertirla en criterio, sistema y resultado.</h2>
               <p class="hero-lead">
-                Dashboard publico para entender mi perfil, mi sistema de trabajo y el estado de productividad
-                derivado del repo operativo. Denso, navegable y extensible: tabs, kanban, procedimientos,
-                diagramas y rutas de accion.
+                Ayudo a lideres y equipos a encontrar su propio metodo para convertir retos en oportunidades,
+                oportunidades en sistemas de trabajo y sistemas en casos de exito con evidencia.
               </p>
-              <div class="cta-row">
-                <a class="btn" href="#kanban" data-open-tab="kanban">Ver kanban</a>
-                <a class="btn secondary" href="#cv" data-open-tab="cv">Ver CV</a>
-              </div>
+              <p class="hero-hook">
+                Si tu equipo ya probo herramientas pero todavia no cambio su forma de decidir, esta historia empieza ahi.
+              </p>
             </div>
-            <div class="metric-grid" aria-label="Indicadores publicos">
-              <div class="metric"><strong>13+</strong><span>a&ntilde;os de trayectoria</span></div>
-              <div class="metric"><strong>40k+</strong><span>horas de oficio</span></div>
-              <div class="metric"><strong>5</strong><span>tareas fechadas work/</span></div>
-              <div class="metric"><strong>8</strong><span>procedimientos detectados</span></div>
+            <div class="cta-row">
+              <a class="btn" href="#trust" data-open-tab="trust">Ver se&ntilde;ales</a>
+              <a class="btn secondary" href="#procedures" data-open-tab="procedures">Ver metodo</a>
             </div>
-          </div>
+          </article>
 
-          <aside class="dashboard-panel command-map">
-            <h3>Mapa operativo</h3>
-            <svg class="svg-map" viewBox="0 0 680 420" role="img" aria-label="Flujo reto oportunidad sistema evidencia">
+          <aside class="hero-visual visual-card" aria-label="Ilustracion de metodo y evidencia">
+            <svg class="story-svg" viewBox="0 0 720 520" role="img" aria-label="Explainer visual: reto, metodo, sistema y evidencia">
               <defs>
-                <linearGradient id="goldLine" x1="0" x2="1">
-                  <stop offset="0%" stop-color="#ffd700" />
-                  <stop offset="100%" stop-color="#137dc5" />
+                <linearGradient id="softGradient" x1="0" x2="1">
+                  <stop offset="0%" stop-color="#BBA0CC" />
+                  <stop offset="100%" stop-color="#137DC5" />
                 </linearGradient>
-                <filter id="glow">
-                  <feGaussianBlur stdDeviation="4" result="coloredBlur" />
-                  <feMerge>
-                    <feMergeNode in="coloredBlur" />
-                    <feMergeNode in="SourceGraphic" />
-                  </feMerge>
-                </filter>
               </defs>
-              <rect x="14" y="18" width="652" height="384" rx="24" fill="rgba(255,255,255,.035)" stroke="rgba(255,255,255,.14)" />
-              <path d="M112 210 C190 90 286 90 340 210 C394 330 490 330 568 210" fill="none" stroke="url(#goldLine)" stroke-width="5" filter="url(#glow)" />
-              <g fill="#0a122a" stroke="#ffd700" stroke-width="3">
-                <circle cx="112" cy="210" r="58" />
-                <circle cx="340" cy="210" r="58" />
-                <circle cx="568" cy="210" r="58" />
+              <rect x="28" y="34" width="664" height="452" rx="8" fill="#BBA0CC" stroke="#1F2833" stroke-width="2" />
+              <g opacity=".28" stroke="#122562" stroke-width="1">
+                <path d="M64 90H650" />
+                <path d="M64 150H650" />
+                <path d="M64 210H650" />
+                <path d="M64 270H650" />
+                <path d="M64 330H650" />
+                <path d="M64 390H650" />
+                <path d="M150 64V456" />
+                <path d="M260 64V456" />
+                <path d="M370 64V456" />
+                <path d="M480 64V456" />
+                <path d="M590 64V456" />
               </g>
-              <g font-family="Poppins, system-ui" font-weight="900" font-size="18" text-anchor="middle" fill="#f8fafc">
-                <text x="112" y="204">Reto</text>
-                <text x="112" y="226" font-size="12" fill="#94a3b8">friccion</text>
-                <text x="340" y="204">Sistema</text>
-                <text x="340" y="226" font-size="12" fill="#94a3b8">metodo + IA</text>
-                <text x="568" y="204">Evidencia</text>
-                <text x="568" y="226" font-size="12" fill="#94a3b8">caso exito</text>
+              <circle cx="162" cy="164" r="54" fill="#FFD700" />
+              <path d="M132 232C148 205 178 205 194 232L220 318H106L132 232Z" fill="#122562" />
+              <circle cx="164" cy="160" r="30" fill="#BBA0CC" stroke="#122562" stroke-width="8" />
+              <rect x="258" y="88" width="318" height="76" rx="8" fill="#1F2833" />
+              <text x="282" y="120" fill="#FFD700" font-family="Poppins, sans-serif" font-size="18" font-weight="900">Reto ambiguo</text>
+              <text x="282" y="145" fill="#BBA0CC" font-family="Montserrat, sans-serif" font-size="14" font-weight="700">Contexto disperso, presion de tiempo, decisiones incompletas.</text>
+              <rect x="258" y="190" width="206" height="58" rx="8" fill="#122562" />
+              <text x="282" y="225" fill="#FFD700" font-family="Trebuchet MS, sans-serif" font-size="14" font-weight="900">01 · METODO</text>
+              <rect x="486" y="190" width="90" height="58" rx="8" fill="#137DC5" />
+              <text x="531" y="225" fill="#1F2833" font-family="Poppins, sans-serif" font-size="20" font-weight="900" text-anchor="middle">25'</text>
+              <rect x="258" y="272" width="318" height="122" rx="8" fill="#1F2833" />
+              <text x="282" y="306" fill="#FFD700" font-family="Poppins, sans-serif" font-size="18" font-weight="900">Sistema accionable</text>
+              <g font-family="Montserrat, sans-serif" font-size="14" font-weight="800" fill="#BBA0CC">
+                <text x="318" y="338">Lenguaje comun</text>
+                <text x="318" y="366">Criterios de decision</text>
+                <text x="318" y="394">Revision humana</text>
               </g>
-              <g fill="#ffd700" font-family="Trebuchet MS, system-ui" font-size="12" font-weight="900" letter-spacing="2">
-                <text x="76" y="82">DIAGNOSTICO</text>
-                <text x="286" y="358">PROCEDIMIENTOS</text>
-                <text x="514" y="82">PRODUCTIVIDAD</text>
+              <g stroke="#FFD700" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M286 332l10 10 18-24" />
+                <path d="M286 360l10 10 18-24" />
+                <path d="M286 388l10 10 18-24" />
               </g>
+              <path d="M186 354C266 438 454 438 582 352" fill="none" stroke="url(#softGradient)" stroke-width="10" stroke-linecap="round" />
+              <rect x="102" y="354" width="164" height="58" rx="8" fill="#FFD700" />
+              <text x="184" y="389" fill="#1F2833" font-family="Poppins, sans-serif" font-size="15" font-weight="900" text-anchor="middle">EVIDENCIA</text>
+              <rect x="506" y="406" width="128" height="42" rx="8" fill="#122562" />
+              <text x="570" y="432" fill="#FFD700" font-family="Trebuchet MS, sans-serif" font-size="13" font-weight="900" text-anchor="middle">CASO DE EXITO</text>
             </svg>
           </aside>
         </section>
 
+        <div class="metric-strip" aria-label="Se&ntilde;ales ejecutivas">
+          <div class="metric"><strong>13+</strong><span>a&ntilde;os entre gestion, delivery y transformacion</span></div>
+          <div class="metric"><strong>40k+</strong><span>horas de oficio convertidas en metodo</span></div>
+          <div class="metric"><strong>IA</strong><span>aplicada a criterio, adopcion y sistemas de trabajo</span></div>
+          <div class="metric"><strong>Beta</strong><span>Pristino como linea privada de sistemas agenticos</span></div>
+        </div>
+
         <section class="tab-panel active" id="panel-overview" role="tabpanel" data-panel="overview">
           <div class="section-head">
-            <h2>Dashboard ejecutivo.</h2>
+            <div>
+              <span class="slide-meta">Hook de la diapositiva</span>
+              <h2>De reto ambiguo a caso de exito.</h2>
+            </div>
             <p>
-              El usuario de esta interfaz necesita decidir rapido: quien soy, que hago, que esta en curso,
-              que ya cerro, y que procedimientos se desprenden del trabajo real.
+              Esta pagina no busca impresionar con cargos. Busca responder tres preguntas:
+              quien facilita, como ense&ntilde;a y que capacidad deja instalada.
             </p>
           </div>
 
-          <div class="dashboard-grid">
-            <article class="x-card">
-              <h3>Lectura rapida</h3>
-              <ul class="compact-list">
-                <li><b>Posicionamiento</b><span>Method first, AI next. Consulting, operations, management, AI adoption y digital disruption.</span></li>
-                <li><b>Oferta humana</b><span>Convierto retos en oportunidades y oportunidades en casos de exito verificables.</span></li>
-                <li><b>Modo operativo</b><span>Repos gobernados, kanban de trabajo, procedimientos, validadores y evidencia proporcional.</span></li>
-                <li><b>Frontera</b><span>Amaris es contexto profesional. MetodologIA, Mamba Blanca y JM Labs son lineas propias.</span></li>
-              </ul>
-            </article>
-            <article class="x-card">
-              <h3>Estado del trabajo</h3>
-              <div class="metric-grid" style="grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 0">
-                <div class="metric"><strong id="metric-total">5</strong><span>tareas fechadas</span></div>
-                <div class="metric"><strong id="metric-wip">2</strong><span>WIP / sin cierre</span></div>
-                <div class="metric"><strong id="metric-closed">3</strong><span>cerradas</span></div>
-                <div class="metric"><strong id="metric-procedures">8</strong><span>procedimientos</span></div>
-              </div>
-            </article>
+          <div class="stage-line" aria-label="Narrativa de conversion">
+            <div class="stage"><b>Reto</b><span>Dolor real, friccion o decision pendiente.</span></div>
+            <div class="stage"><b>Lectura</b><span>Contexto, riesgos, restricciones y criterio de negocio.</span></div>
+            <div class="stage"><b>Metodo</b><span>Ruta simple antes de herramienta compleja.</span></div>
+            <div class="stage"><b>Sistema</b><span>Playbook, asistente, workflow, repositorio o prototipo.</span></div>
+            <div class="stage"><b>Evidencia</b><span>Resultado visible, reusable y transferible.</span></div>
           </div>
 
-          <div class="section-head">
-            <h2>Flujo de productividad.</h2>
-            <p>Los procedimientos no nacen como teoria; salen de tareas con fecha, evidencia y cierre.</p>
-          </div>
-          <div class="mermaid-wrap">
-            <pre class="mermaid">
-flowchart LR
-  A["work/ con fecha"] --> B{"Sesion iniciada?"}
-  B -- "No" --> C["WIP"]
-  B -- "Si" --> D["Tarea en procedimiento"]
-  D --> E{"Cierre / resultado?"}
-  E -- "No" --> C
-  E -- "Si" --> F["Cerrada"]
-  F --> G["Procedimiento reutilizable"]
-  G --> H["Dashboard / evidencia publica sanitizada"]
-            </pre>
+          <div class="story-grid">
+            <article class="story-card">
+              <span class="slide-meta">Tesis</span>
+              <h3>Tecnologia sin metodo es velocidad en la direccion equivocada.</h3>
+              <p>La IA amplifica lo que ya existe. Si el proceso esta roto, escala la disfuncion; si el criterio esta claro, acelera el resultado.</p>
+            </article>
+            <article class="story-card">
+              <span class="slide-meta">Oferta humana</span>
+              <h3>Trabajo con evidencia antes que con promesas.</h3>
+              <p>Prefiero casos, documentos autorizados, datos sinteticos y materiales verificables antes que demos abstractas.</p>
+            </article>
+            <article class="story-card">
+              <span class="slide-meta">Transferencia</span>
+              <h3>Termino cuando el equipo ya no depende de mi.</h3>
+              <p>El objetivo es que el aprendizaje quede como activo: prompts, reglas, guias, sistemas guiados y criterio compartido.</p>
+            </article>
           </div>
         </section>
 
-        <section class="tab-panel" id="panel-kanban" role="tabpanel" data-panel="kanban">
+        <section class="tab-panel" id="panel-trust" role="tabpanel" data-panel="trust">
           <div class="section-head">
-            <h2>Kanban desde work/.</h2>
+            <div>
+              <span class="slide-meta">Se&ntilde;ales de confianza</span>
+              <h2>Perfil para decidir con claridad.</h2>
+            </div>
             <p>
-              Cada carpeta fechada detectada en <code>work/</code> se trata como tarea. El dashboard publica
-              solo metadatos sanitizados: fecha, slug, estado inferido y tipos de procedimiento.
+              Javier trabaja entre finanzas, gestion de proyectos, control organizacional, formacion,
+              consultoria, sistemas de conocimiento e IA aplicada.
             </p>
           </div>
-          <div class="kanban" id="kanban-board" aria-label="Kanban de tareas"></div>
 
-          <div class="section-head">
-            <h2>Tabla de tareas.</h2>
-            <p>Vista compacta para auditar origen, estado y procedimientos sin entrar a contenido privado.</p>
-          </div>
-          <div class="x-card" style="overflow:auto">
-            <table class="data-table">
-              <thead>
-                <tr>
-                  <th>Fecha</th>
-                  <th>Tarea</th>
-                  <th>Estado</th>
-                  <th>Procedimientos</th>
-                  <th>Origen</th>
-                </tr>
-              </thead>
-              <tbody id="task-table"></tbody>
-            </table>
+          <div class="proof-grid">
+            <article class="panel-card"><span class="slide-meta">Rol</span><h3>Facilitador de IA aplicada</h3><p>Programas, productividad, trabajo agentico, adopcion practica y sistemas de trabajo para equipos reales.</p></article>
+            <article class="panel-card"><span class="slide-meta">Formacion</span><h3>Control, proyectos e IA</h3><p>Contador publico, especialista en Project Management y Control Organizacional; ruta de formacion avanzada en IA aplicada.</p></article>
+            <article class="panel-card"><span class="slide-meta">Practica</span><h3>Activos reutilizables</h3><p>Dise&ntilde;o de asistentes, skills, agentes, workflows, prototipos, playbooks y material pedagogico.</p></article>
+            <article class="panel-card"><span class="slide-meta">Sello</span><h3>Hooks sin costo</h3><p>Compartir valor baja friccion, demuestra criterio y permite que la conversacion llegue mejor informada.</p></article>
+            <article class="panel-card"><span class="slide-meta">Frontera</span><h3>Marca con limites claros</h3><p>Amaris es contexto profesional actual. MetodologIA, Mamba Blanca y JM Labs son lineas propias.</p></article>
+            <article class="panel-card"><span class="slide-meta">Resultado</span><h3>Autonomia operativa</h3><p>La meta no es una demo brillante. La meta es que el equipo pueda repetir, ajustar y gobernar lo aprendido.</p></article>
           </div>
         </section>
 
         <section class="tab-panel" id="panel-procedures" role="tabpanel" data-panel="procedures">
           <div class="section-head">
-            <h2>Procedimientos derivados.</h2>
+            <div>
+              <span class="slide-meta">Metodo de facilitacion</span>
+              <h2>Metodo primero, herramienta despues.</h2>
+            </div>
             <p>
-              Los procedimientos aparecen cuando una tarea deja estructura repetible. Si una tarea no muestra
-              sesion/cierre, no se promueve a procedimiento maduro.
+              La pregunta no es "que herramienta usamos". La pregunta util es: que trabajo queremos hacer mejor,
+              con que evidencia, bajo que limites y con que criterio humano.
             </p>
           </div>
-          <div class="procedure-grid" id="procedure-grid"></div>
+
+          <div class="story-grid">
+            <article class="story-card"><span class="slide-meta">01 · Lenguaje</span><h3>Crear lenguaje comun</h3><p>Prompt, asistente, skill, agente y workflow se explican con ejemplos antes de usarlos.</p></article>
+            <article class="story-card"><span class="slide-meta">02 · Practica</span><h3>Practicar con entregables</h3><p>Cada sesion debe dejar una plantilla, guia, asistente, sistema de revision o prototipo.</p></article>
+            <article class="story-card"><span class="slide-meta">03 · Criterio</span><h3>Revisar antes de adoptar</h3><p>La IA propone; la persona valida fuentes, supuestos, riesgos y decisiones sensibles.</p></article>
+            <article class="story-card"><span class="slide-meta">04 · Capacidad</span><h3>Dejar capacidad instalada</h3><p>Lo aprendido queda como material editable, corregible y gobernable por el equipo.</p></article>
+            <article class="story-card"><span class="slide-meta">05 · Sistema</span><h3>Hacer repetible lo valioso</h3><p>Cuando una practica funciona, se vuelve procedimiento, checklist, prompt o flujo reutilizable.</p></article>
+            <article class="story-card"><span class="slide-meta">06 · Evidencia</span><h3>Cerrar con prueba</h3><p>Un avance serio deja resultado visible, criterio de aceptacion o siguiente decision clara.</p></article>
+          </div>
 
           <div class="section-head">
-            <h2>Arquitectura de procedimiento.</h2>
-            <p>Ruta canonica para convertir trabajo en metodo reutilizable.</p>
+            <div>
+              <span class="slide-meta">Diagrama</span>
+              <h2>La curva de conversion.</h2>
+            </div>
+            <p>Un reto no se resuelve por velocidad; se resuelve por lectura, ruta, ejecucion y cierre.</p>
           </div>
           <div class="mermaid-wrap">
             <pre class="mermaid">
-flowchart TD
-  P["Brief / intencion"] --> R["Ruta de trabajo"]
-  R --> S["Scripts / automatizacion"]
-  R --> V["Validacion"]
-  V --> E["Evidencia JSON / reporte"]
-  E --> C["Closeout sanitizado"]
-  C --> K["Procedimiento reusable"]
-  K --> D["Dashboard de productividad"]
+flowchart LR
+  A["Reto real"] --> B["Lectura de contexto"]
+  B --> C["Metodo y criterios"]
+  C --> D["Sistema accionable"]
+  D --> E["Revision humana"]
+  E --> F["Evidencia"]
+  F --> G["Capacidad instalada"]
             </pre>
           </div>
         </section>
 
         <section class="tab-panel" id="panel-cv" role="tabpanel" data-panel="cv">
           <div class="section-head">
-            <h2>CV completo, version publica.</h2>
+            <div>
+              <span class="slide-meta">Trayectoria</span>
+              <h2>Donde he construido.</h2>
+            </div>
             <p>
-              Sintesis full brand sanitizada: sin telefono, correo personal, referencias nominales ni contenido
-              sensible de <code>work/privado</code>.
+              Lectura business-readable para reclutadores tecnicos, gestion humana y aliados:
+              gestion, delivery, preventa, adopcion de IA, cambio y sistemas de trabajo.
             </p>
           </div>
-          <div class="cv-grid">
-            <article class="x-card">
-              <h3>Rol actual</h3>
-              <p>Senior Consultant / Offer Manager @ Amaris Consulting. Foco en ofertas, habilitacion, adopcion de IA aplicada y sistemas de trabajo para delivery.</p>
-            </article>
-            <article class="x-card">
-              <h3>Lineas propias</h3>
-              <p>MetodologIA para metodo abierto y pedagogia; Mamba Blanca para desarrollo de assets digitales; JM Labs para experimentacion y sistemas agenticos.</p>
-            </article>
-            <article class="x-card">
-              <h3>Tesis</h3>
-              <p>Ayudo a lideres a encontrar su propio metodo para convertir retos en oportunidades con best practices e IA.</p>
-            </article>
-          </div>
 
-          <div class="section-head">
-            <h2>Trayectoria.</h2>
-            <p>Lectura business-readable para reclutadores tecnicos y gestion humana.</p>
-          </div>
-          <div class="x-card" style="overflow:auto">
+          <div class="panel-card" style="overflow:auto">
             <table class="data-table">
               <thead>
-                <tr><th>Linea</th><th>Impacto</th></tr>
+                <tr><th>Linea</th><th>Impacto legible</th></tr>
               </thead>
               <tbody>
-                <tr><td>Amaris Consulting</td><td>Consultoria, ofertas, habilitacion y adopcion de IA aplicada a delivery, preventa y sistemas de trabajo.</td></tr>
-                <tr><td>MetodologIA</td><td>Metodo abierto, programas, comunidad, cartillas, GPTs, Gems, workflows, playbooks y mini apps.</td></tr>
+                <tr><td>Amaris Consulting</td><td>Senior Consultant / Offer Manager. Consultoria, ofertas, habilitacion y adopcion de IA aplicada a delivery, preventa y sistemas de trabajo.</td></tr>
+                <tr><td>MetodologIA</td><td>Founder & Empowerment Officer. Metodo abierto, programas, comunidad, cartillas, recursos, workflows, playbooks y pedagogia de IA.</td></tr>
                 <tr><td>Mamba Blanca</td><td>Consultora propia para desarrollar assets digitales: playbooks, dashboards, mini apps, sitios, sistemas de conocimiento y artefactos de IA reutilizables.</td></tr>
-                <tr><td>JM Labs</td><td>Laboratorio personal de agentes, prompts, automatizacion, repos gobernados y prototipos reutilizables.</td></tr>
-                <tr><td>Sofka Technologies</td><td>Experiencia previa como GenAI Champion y PreSales Architect, conectando transformacion, preventa, liderazgo regional y adopcion de IA con ofertas, habilitacion y casos de negocio.</td></tr>
+                <tr><td>JM Labs</td><td>Laboratorio de sistemas agenticos, prompts, automatizacion, repos gobernados, segundos cerebros, digital twins y prototipos reutilizables.</td></tr>
+                <tr><td>Sofka Technologies</td><td>Experiencia previa en GenAI, preventa, liderazgo de gestion, delivery, transformacion y adopcion de IA con ofertas y habilitacion.</td></tr>
                 <tr><td>Tech and Solve / Clinica Pajonal</td><td>Gestion, agilidad, proyectos, transformacion digital, procesos, operaciones, salud y entornos regulados.</td></tr>
               </tbody>
             </table>
@@ -1007,201 +995,71 @@ flowchart TD
 
         <section class="tab-panel" id="panel-ecosystem" role="tabpanel" data-panel="ecosystem">
           <div class="section-head">
-            <h2>Ecosistema navegable.</h2>
-            <p>Rutas publicas para revisar metodo, repos, recursos y material pedagogico.</p>
+            <div>
+              <span class="slide-meta">Rutas publicas</span>
+              <h2>Hooks sin costo para probar criterio.</h2>
+            </div>
+            <p>
+              Estos enlaces permiten revisar como pienso, como ense&ntilde;o y como convierto una idea en trabajo repetible
+              antes de pedir una conversacion comercial.
+            </p>
           </div>
           <div class="repo-grid">
-            <a class="repo-card" href="https://javimontano.github.io/trabajar-amplificado/"><strong>Trabajo Amplificado</strong><span>Referencia visual, pedagogica y de marca para managers AI-native.</span></a>
-            <a class="repo-card" href="https://github.com/JaviMontano/mao-site"><strong>MAO site</strong><span>Sistema visual MetodologIA y shell Neo-Swiss.</span></a>
-            <a class="repo-card" href="https://metodologia.info/recursos/"><strong>Recursos MetodologIA</strong><span>Hub publico de GPTs, Gems, NotebookLM y recursos IA.</span></a>
-            <a class="repo-card" href="https://github.com/JaviMontano/material-educativo-metodologia"><strong>Material educativo</strong><span>Cartillas, playbooks y recursos pedagogicos.</span></a>
-            <a class="repo-card" href="https://github.com/JaviMontano/mao-sdd"><strong>MAO SDD</strong><span>Spec Driven Development aplicado al desarrollo con IA.</span></a>
-            <a class="repo-card" href="https://github.com/JaviMontano/jm-adk-beta"><strong>Pristino Beta</strong><span>Linea privada principal para sistemas agenticos.</span></a>
+            <a class="repo-card" href="https://metodologia.info/"><small>Sitio</small><strong>metodologia.info</strong><span>Entrada principal a metodo, comunidad y recursos.</span></a>
+            <a class="repo-card" href="https://metodologia.info/recursos/"><small>Biblioteca</small><strong>Recursos MetodologIA</strong><span>GPTs, Gems, NotebookLM, prompts y playbooks para aprender IA con metodo.</span></a>
+            <a class="repo-card" href="https://github.com/JaviMontano/jm-adk-beta"><small>Pristino</small><strong>Pristino Beta</strong><span>Linea privada principal para sistemas agenticos y trabajo asistido por repos.</span></a>
+            <a class="repo-card" href="https://javimontano.github.io/trabajar-amplificado/"><small>Programa</small><strong>Trabajo Amplificado</strong><span>Ruta pedagogica para managers y equipos AI-native.</span></a>
+            <a class="repo-card" href="https://github.com/JaviMontano/material-educativo-metodologia/blob/main/playbook-aprender-aprehender-revolucionar-2026.html"><small>Cartilla</small><strong>Aprender, Aprehender y Revolucionar</strong><span>Guia para aprender a aprender, transferir conocimiento y usar IA con criterio.</span></a>
+            <a class="repo-card" href="https://github.com/JaviMontano/material-educativo-metodologia"><small>Repositorio</small><strong>Material educativo</strong><span>Cartillas, playbooks y recursos pedagogicos abiertos.</span></a>
           </div>
         </section>
 
-        <section class="tab-panel" id="panel-method" role="tabpanel" data-panel="method">
+        <section class="tab-panel" id="panel-visual" role="tabpanel" data-panel="visual">
           <div class="section-head">
-            <h2>UX/UI del sistema.</h2>
+            <div>
+              <span class="slide-meta">Sistema visual</span>
+              <h2>Neo-Swiss Clean and Soft Explainer.</h2>
+            </div>
             <p>
-              Este dashboard se disena para lectura repetida: denso, escaneable, sin hero decorativo excesivo,
-              con controles esperables y datos cerca de las decisiones.
+              Corporate Clean and Premium: grid suizo, columnas claras, vector flat, mucho espacio de lectura,
+              chips, checklists, timers, sombras suaves y micro-gradientes discretos.
             </p>
           </div>
-          <div class="dashboard-grid">
-            <article class="x-card">
-              <h3>Principios de interfaz</h3>
-              <ul class="compact-list">
-                <li><b>Densidad util</b><span>Muchas senales, poco adorno. Cada bloque debe ayudar a decidir.</span></li>
-                <li><b>Navegacion estable</b><span>Tabs por vista, sidebar persistente, tabla para auditoria y kanban para operacion.</span></li>
-                <li><b>Extensible</b><span>Las tareas y procedimientos salen de datos; agregar nuevos slugs no exige redisenar la pagina.</span></li>
-                <li><b>Privacidad</b><span>Los datos privados quedan como origen local; la pagina muestra metadatos publicables.</span></li>
-              </ul>
-            </article>
-            <article class="x-card">
-              <h3>Decision model</h3>
-              <p>Si hay fecha, hay tarea. Si hay estructura, hay procedimiento candidato. Si hay cierre y evidencia, puede convertirse en procedimiento reusable. Si no hay sesion/cierre, queda WIP.</p>
-            </article>
+
+          <div class="visual-system-grid">
+            <article class="panel-card"><span class="slide-meta">Titulares</span><h3>Poppins</h3><p>Titulares grandes, contundentes, con alto contraste y jerarquia editorial.</p></article>
+            <article class="panel-card"><span class="slide-meta">Cuerpo</span><h3>Montserrat</h3><p>Texto legible para lectura de negocio, reclutamiento tecnico y gestion humana.</p></article>
+            <article class="panel-card"><span class="slide-meta">Notas</span><h3>Trebuchet</h3><p>Metadatos, hooks, footnotes, chips y callouts compactos.</p></article>
+          </div>
+
+          <div class="section-head">
+            <div>
+              <span class="slide-meta">Paleta exclusiva</span>
+              <h2>Seis colores, una voz.</h2>
+            </div>
+            <p>El objetivo es claridad: contraste alto, fondos no ruidosos y senales visuales consistentes.</p>
+          </div>
+          <div class="palette" aria-label="Paleta de marca">
+            <div class="swatch" data-color="blueprint">#122562</div>
+            <div class="swatch" data-color="gold">#FFD700</div>
+            <div class="swatch" data-color="signal">#137DC5</div>
+            <div class="swatch" data-color="ink">#1F2833</div>
+            <div class="swatch" data-color="soft">#BBA0CC</div>
+            <div class="swatch" data-color="muted">#808080</div>
           </div>
         </section>
 
         <footer class="footer">
-          Javier Monta&ntilde;o · Dashboard publico construido con estilo MetodologIA / Trabajo Amplificado.
-          Snapshot derivado de repos publicos y metadatos sanitizados de trabajo local.
+          Javier Monta&ntilde;o · Method first, AI next · Busco mi siguiente caso de exito y mi proximo aliado.
         </footer>
       </main>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
     <script>
-      const TASKS = [
-        {
-          date: "2026-07-06",
-          title: "amaris-taller-publico-aliados",
-          status: "closed",
-          source: "work/privado/[sanitizado]",
-          procedures: ["brief", "automatizacion", "validacion", "publicacion", "cierre", "evidencia-json"],
-          note: "Paquete con brief, deck publico para aliados, scripts, validacion y cierre sanitizado."
-        },
-        {
-          date: "2026-07-06",
-          title: "assessment-ia-side-wing",
-          status: "wip",
-          source: "work/privado/[sanitizado]",
-          procedures: [],
-          note: "Carpeta fechada sin sesion/cierre detectable; se mantiene como WIP."
-        },
-        {
-          date: "2026-07-06",
-          title: "feedback-loop-final",
-          status: "closed",
-          source: "work/update-runs",
-          procedures: ["evidencia-json", "reporte"],
-          note: "Run con doctor, prime, reporte y resultado."
-        },
-        {
-          date: "2026-07-06",
-          title: "feedback-loop-final-fb5c073",
-          status: "closed",
-          source: "work/update-runs",
-          procedures: ["evidencia-json", "reporte"],
-          note: "Run final con reporte, retrospectiva y result.json."
-        },
-        {
-          date: "2026-07-06",
-          title: "stash-archive-before-closeout",
-          status: "wip",
-          source: "work/update-runs",
-          procedures: ["respaldo-git"],
-          note: "Archivo de respaldo Git sin cierre operativo promovible."
-        }
-      ];
-
-      const PROCEDURE_LABELS = {
-        "brief": "Brief",
-        "automatizacion": "Automatizacion",
-        "validacion": "Validacion",
-        "publicacion": "Publicacion",
-        "cierre": "Cierre",
-        "evidencia-json": "Evidencia JSON",
-        "reporte": "Reporte",
-        "respaldo-git": "Respaldo Git"
-      };
-
-      const STATUS = {
-        wip: { label: "WIP / sin sesion", column: "WIP", order: 1 },
-        active: { label: "En procedimiento", column: "En procedimiento", order: 2 },
-        closed: { label: "Cerrada", column: "Cerradas", order: 3 }
-      };
-
-      function byId(id) { return document.getElementById(id); }
-      function chip(text) { return `<span class="chip">${text}</span>`; }
-      function statusPill(status) { return `<span class="status-pill">${STATUS[status].label}</span>`; }
-
-      function renderKanban() {
-        const board = byId("kanban-board");
-        const columns = [
-          { key: "wip", title: "WIP / sin sesion" },
-          { key: "active", title: "En procedimiento" },
-          { key: "closed", title: "Cerradas" }
-        ];
-        board.innerHTML = columns.map(col => {
-          const tasks = TASKS.filter(task => task.status === col.key);
-          return `
-            <section class="kanban-col" aria-label="${col.title}">
-              <div class="kanban-head">
-                <h3>${col.title}</h3>
-                <span class="count-pill">${tasks.length}</span>
-              </div>
-              ${tasks.map(task => `
-                <article class="task-card" data-status="${task.status}">
-                  <div class="task-title">${task.title}</div>
-                  <div class="task-meta">${chip(task.date)}${statusPill(task.status)}</div>
-                  <div class="chip-row">${task.procedures.length ? task.procedures.map(p => chip(PROCEDURE_LABELS[p] || p)).join("") : chip("sin procedimiento")}</div>
-                  <div class="task-note">${task.note}</div>
-                </article>
-              `).join("") || `<p class="task-note">Sin tareas en esta columna.</p>`}
-            </section>
-          `;
-        }).join("");
-      }
-
-      function renderTable() {
-        const tbody = byId("task-table");
-        tbody.innerHTML = TASKS.map(task => `
-          <tr>
-            <td>${task.date}</td>
-            <td><strong>${task.title}</strong><br><span class="task-note">${task.note}</span></td>
-            <td>${statusPill(task.status)}</td>
-            <td>${task.procedures.length ? task.procedures.map(p => chip(PROCEDURE_LABELS[p] || p)).join(" ") : chip("sin procedimiento")}</td>
-            <td>${task.source}</td>
-          </tr>
-        `).join("");
-      }
-
-      function renderProcedures() {
-        const counts = TASKS.reduce((acc, task) => {
-          task.procedures.forEach(proc => {
-            if (!acc[proc]) acc[proc] = { count: 0, tasks: [] };
-            acc[proc].count += 1;
-            acc[proc].tasks.push(task.title);
-          });
-          return acc;
-        }, {});
-
-        byId("procedure-grid").innerHTML = Object.entries(counts)
-          .sort((a, b) => b[1].count - a[1].count || a[0].localeCompare(b[0]))
-          .map(([proc, data]) => `
-            <article class="procedure-card">
-              <h3>${PROCEDURE_LABELS[proc] || proc}</h3>
-              <p>Detectado en ${data.count} tarea${data.count === 1 ? "" : "s"} fechada${data.count === 1 ? "" : "s"}.</p>
-              <div class="chip-row">${data.tasks.slice(0, 3).map(chip).join("")}</div>
-            </article>
-          `).join("");
-      }
-
-      function updateMetrics() {
-        byId("metric-total").textContent = TASKS.length;
-        byId("metric-wip").textContent = TASKS.filter(t => t.status === "wip").length;
-        byId("metric-closed").textContent = TASKS.filter(t => t.status === "closed").length;
-        byId("metric-procedures").textContent = new Set(TASKS.flatMap(t => t.procedures)).size;
-      }
-
-      function renderActiveMermaid() {
-        if (!window.mermaid || !mermaid.run) return;
-        const nodes = Array.from(document.querySelectorAll(".tab-panel.active .mermaid"))
-          .filter(node => node.getAttribute("data-processed") !== "true");
-        if (!nodes.length) return;
-        requestAnimationFrame(() => {
-          mermaid.run({ nodes }).catch(error => {
-            console.error("Mermaid render failed", error);
-          });
-        });
-      }
-
       function activateTab(tab) {
-        document.querySelectorAll(".tab-button").forEach(btn => {
-          btn.setAttribute("aria-selected", btn.dataset.tab === tab ? "true" : "false");
+        document.querySelectorAll(".tab-button").forEach(button => {
+          button.setAttribute("aria-selected", button.dataset.tab === tab ? "true" : "false");
         });
         document.querySelectorAll(".tab-panel").forEach(panel => {
           panel.classList.toggle("active", panel.dataset.panel === tab);
@@ -1210,43 +1068,47 @@ flowchart TD
         renderActiveMermaid();
       }
 
-      function setupTabs() {
-        document.querySelectorAll(".tab-button").forEach(btn => {
-          btn.addEventListener("click", () => activateTab(btn.dataset.tab));
+      function renderActiveMermaid() {
+        if (!window.mermaid || !mermaid.run) return;
+        const nodes = Array.from(document.querySelectorAll(".tab-panel.active .mermaid"))
+          .filter(node => node.getAttribute("data-processed") !== "true");
+        if (!nodes.length) return;
+        requestAnimationFrame(() => {
+          mermaid.run({ nodes }).catch(error => console.error("Mermaid render failed", error));
         });
-        document.querySelectorAll("[data-open-tab]").forEach(link => {
-          link.addEventListener("click", event => {
-            event.preventDefault();
-            activateTab(link.dataset.openTab);
-            document.getElementById("content").scrollIntoView({ behavior: "smooth" });
-          });
-        });
-        const requested = location.hash.replace("#", "");
-        if (requested && document.querySelector(`[data-tab="${requested}"]`)) activateTab(requested);
       }
+
+      document.querySelectorAll(".tab-button").forEach(button => {
+        button.addEventListener("click", () => activateTab(button.dataset.tab));
+      });
+
+      document.querySelectorAll("[data-open-tab]").forEach(link => {
+        link.addEventListener("click", event => {
+          event.preventDefault();
+          activateTab(link.dataset.openTab);
+          document.getElementById("content").scrollIntoView({ behavior: "smooth" });
+        });
+      });
 
       if (window.mermaid) {
         mermaid.initialize({
           startOnLoad: false,
-          theme: "dark",
+          theme: "base",
           securityLevel: "loose",
           themeVariables: {
-            primaryColor: "#172033",
-            primaryTextColor: "#f8fafc",
-            primaryBorderColor: "#ffd700",
-            lineColor: "#ffd700",
-            secondaryColor: "#0a122a",
-            tertiaryColor: "#1e293b",
-            fontFamily: "Poppins, system-ui, sans-serif"
+            primaryColor: "#BBA0CC",
+            primaryTextColor: "#1F2833",
+            primaryBorderColor: "#122562",
+            lineColor: "#137DC5",
+            secondaryColor: "#FFD700",
+            tertiaryColor: "#BBA0CC",
+            fontFamily: "Montserrat, system-ui, sans-serif"
           }
         });
       }
 
-      renderKanban();
-      renderTable();
-      renderProcedures();
-      updateMetrics();
-      setupTabs();
+      const requested = location.hash.replace("#", "");
+      if (requested && document.querySelector(`[data-tab="${requested}"]`)) activateTab(requested);
       renderActiveMermaid();
     </script>
   </body>
