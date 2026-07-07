@@ -130,8 +130,8 @@ JM Labs es mi laboratorio de exploracion: pruebo agentes, prompts, repos, automa
 **AI & orchestration**<br>
 OpenAI Codex | Claude Code | NotebookLM | prompts | skills | plugins | workflows multiagente | RAG operativo
 
-**Knowledge systems**<br>
-Markdown | GitHub | source ledgers | quality gates | context routers | validators | static HTML artifacts
+**Knowledge systems & digital twins**<br>
+Segundos cerebros | digital twins de conocimiento y operacion | GitHub como sistema operativo | trazabilidad de decisiones | source ledgers | context routers | quality gates | artefactos HTML publicables
 
 **Delivery & product**<br>
 Discovery | ofertas | preventa | talleres | playbooks | bootcamps | documentacion viva | enablement
