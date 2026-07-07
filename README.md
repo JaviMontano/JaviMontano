@@ -42,14 +42,14 @@
   <img src="https://img.shields.io/static/v1?label=Pristino&message=agentic%20OS&color=08111F&labelColor=172554&style=flat-square" alt="Pristino agentic OS" />
   <img src="https://img.shields.io/static/v1?label=MetodologIA&message=metodo%20abierto&color=08111F&labelColor=0F766E&style=flat-square" alt="MetodologIA metodo abierto" />
   <img src="https://img.shields.io/static/v1?label=JM%20Labs&message=experimentacion&color=08111F&labelColor=7C3AED&style=flat-square" alt="JM Labs experimentacion" />
-  <img src="https://img.shields.io/static/v1?label=Marba%20Blanca&message=consultoria&color=08111F&labelColor=F59E0B&style=flat-square" alt="Marba Blanca consultoria" />
+  <img src="https://img.shields.io/static/v1?label=Mamba&message=consultoria&color=08111F&labelColor=F59E0B&style=flat-square" alt="Mamba consultoria" />
 </p>
 
 ## Diseño sistemas que convierten criterio en operacion
 
 Construyo repos, playbooks, agentes, prompts, cursos y artefactos para que el conocimiento experto no se quede en conversaciones sueltas. Mi foco esta en pasar de **idea a metodo**, de **metodo a sistema**, y de **sistema a entrega verificable**.
 
-Primero, soy **Founder & Empowerment Officer en MetodologIA**. En mi rol profesional actual soy **Senior Consultant / Offer Manager en Amaris Consulting**. Mis otras lineas propias son **Marba Blanca** y **JM Labs**. Trabajo con **OpenAI Codex** como runtime de ejecucion agentica para convertir contexto, repos y decisiones en entregables verificables.
+Primero, soy **Founder & Empowerment Officer en MetodologIA**. En mi rol profesional actual soy **Senior Consultant / Offer Manager en Amaris Consulting**. Mis lineas propias se separan en **MetodologIA** para metodo abierto, **Mamba** para consultoria aplicada y **JM Labs** para experimentacion. Trabajo con **OpenAI Codex** como runtime de ejecucion agentica para convertir contexto, repos y decisiones en entregables verificables.
 
 ## Escala publica verificable
 
@@ -91,9 +91,13 @@ Materiales, bootcamps, prompts, playbooks y guias que ayudan a equipos y profesi
 
 Trabajo en contextos reales de oferta, habilitacion y adopcion de IA. La clave no es prometer automatizacion: es detectar oportunidades, estructurar valor, aterrizar delivery y dejar sistemas repetibles.
 
-### JM Labs y Marba Blanca
+### Mamba como consultoria propia
 
-JM Labs es mi laboratorio de exploracion. Marba Blanca es la capa empresarial/consultiva para convertir esas capacidades en servicios, activos y propuestas sostenibles.
+Mamba es la linea consultiva para empaquetar estrategia, IA, operaciones y gestion en servicios, activos y propuestas que una organizacion puede entender, comprar y ejecutar.
+
+### JM Labs como laboratorio
+
+JM Labs es mi laboratorio de exploracion: pruebo agentes, prompts, repos, automatizaciones y flujos de trabajo hasta convertir aprendizaje tecnico en prototipos reutilizables.
 
 ## Superficies que domino
 
@@ -119,7 +123,7 @@ JM Labs es mi laboratorio de exploracion. Marba Blanca es la capa empresarial/co
 - **Metodo antes que herramienta:** la IA acelera mejor cuando existe una ruta de trabajo.
 - **Pedagogia antes que dependencia:** un buen sistema debe poder explicarse y transferirse.
 - **Delivery antes que vitrina:** el artefacto debe poder probarse, usarse o mantenerse.
-- **Marca con frontera:** Amaris es mi contexto profesional actual; Marba Blanca, MetodologIA y JM Labs son mis lineas propias.
+- **Marca con frontera:** Amaris es mi contexto profesional actual; Mamba, MetodologIA y JM Labs son mis lineas propias.
 
 ## Stack de trabajo
 
@@ -138,16 +142,22 @@ Accountability | agile/lean | gobierno de decisiones | operaciones comerciales |
 ## Trayectoria
 
 - **MetodologIA** - Founder & Empowerment Officer<br>
-  Creo metodologia abierta, comunidad y material pedagogico para que profesionales y equipos aprendan IA con criterio, conviertan conocimiento en practicas transferibles y ganen autonomia operativa.
+  Construyo metodologia abierta, comunidad, frameworks, programas y cartillas para que profesionales y equipos aprendan IA con criterio, conviertan conocimiento en practicas transferibles y ganen autonomia operativa.
 
 - **Amaris Consulting** - Senior Consultant / Offer Manager<br>
   Conecto estrategia, preventa y delivery para convertir necesidades de negocio en ofertas claras, casos de uso priorizados y planes de adopcion de IA que equipos tecnicos, comerciales y de gestion pueden entender, vender y ejecutar.
 
-- **Marba Blanca / MetodologIA / JM Labs** - lineas propias<br>
-  Desarrollo activos, laboratorios y marcos de consultoria dentro de mi ecosistema propio para transformar experimentos con IA en capacidades repetibles: discovery, playbooks, agentes, automatizacion y sistemas de trabajo con impacto visible.
+- **Mamba** - consultoria propia<br>
+  Traduzco criterio de gestion, IA y operaciones en servicios consultivos, ofertas y activos de trabajo que ayudan a organizaciones a pasar de intencion estrategica a ejecucion repetible.
 
-- **Tech and Solve / Clinica Pajonal** - experiencia previa<br>
-  Acompane gestion, agilidad, proyectos, transformacion digital, procesos y operaciones, con foco en ordenar prioridades, mejorar coordinacion y convertir cambios organizacionales en resultados medibles.
+- **JM Labs** - laboratorio propio<br>
+  Exploro sistemas agenticos, prompts, automatizacion y repos gobernados para convertir experimentos tecnicos en aprendizajes, prototipos y capacidades reutilizables.
+
+- **Tech and Solve** - experiencia previa<br>
+  Lidere proyectos y transformacion digital con equipos multidisciplinarios, conectando agilidad, coordinacion operativa y delivery para ordenar prioridades y mejorar ejecucion.
+
+- **Clinica Pajonal** - experiencia previa<br>
+  Dirigi transformacion digital, procesos y operaciones en salud, con foco en modelo paperless, calidad, habilitacion regulatoria y mejoras organizacionales medibles.
 
 ## Conversemos
 
