@@ -57,9 +57,6 @@ Primero, soy **Founder & Empowerment Officer en MetodologIA**. En mi rol profesi
 | [**Recursos MetodologIA**](https://metodologia.info/recursos/) | Hub publico de GPTs, Gems y NotebookLM para navegar recursos IA de MetodologIA | Publico / recursos |
 | [**material-educativo-metodologia**](https://github.com/JaviMontano/material-educativo-metodologia) | Repo de recursos pedagogicos, cartillas, playbooks y skills educativas | Publico / educativo |
 | [**Biblioteca Universal de Prompts**](https://javimontano.github.io/prompt-amplificado/) | Ingenieria de prompts, contexto y arneses para trabajar con IA | Publico / GitHub Page |
-| [**mao-discovery-framework**](https://github.com/JaviMontano/mao-discovery-framework) | Framework publico de discovery para profesionales de la era IA | Publico / MAO |
-| [**mao-sdd**](https://github.com/JaviMontano/mao-sdd) | Spec Driven Development aplicado al desarrollo con IA | Publico / plugin |
-| [**playbook-forge**](https://github.com/JaviMontano/playbook-forge) | Generador de playbooks HTML con marca y flujos AI-native | Publico / artifact engine |
 
 ## Lo que estoy construyendo ahora
 
@@ -99,8 +96,8 @@ JM Labs es mi laboratorio de exploracion: pruebo agentes, prompts, repos, automa
 |---|---|
 | **Pristino** | [Pristino Beta](https://github.com/JaviMontano/jm-adk-beta) (privado) |
 | **Material pedagogico** | [Cartilla Aprender, Aprehender y Revolucionar](https://github.com/JaviMontano/material-educativo-metodologia/blob/main/playbook-aprender-aprehender-revolucionar-2026.html)<br>[Recursos MetodologIA](https://metodologia.info/recursos/)<br>[material-educativo-metodologia](https://github.com/JaviMontano/material-educativo-metodologia)<br>[trabajar-amplificado](https://github.com/JaviMontano/trabajar-amplificado)<br>[Biblioteca Universal de Prompts](https://javimontano.github.io/prompt-amplificado/)<br>[discovery-producto](https://github.com/JaviMontano/discovery-producto) |
-| **MetodologIA / MAO** | [mao-discovery-framework](https://github.com/JaviMontano/mao-discovery-framework)<br>[mao-sdd](https://github.com/JaviMontano/mao-sdd)<br>[mao-iic](https://github.com/JaviMontano/mao-iic)<br>[mao-plugin-qa](https://github.com/JaviMontano/mao-plugin-qa)<br>[mao-pm-apex](https://github.com/JaviMontano/mao-pm-apex)<br>[mao-sovereign-architect](https://github.com/JaviMontano/mao-sovereign-architect) |
-| **Artefactos y casos** | [playbook-forge](https://github.com/JaviMontano/playbook-forge)<br>[mao-scriba](https://github.com/JaviMontano/mao-scriba)<br>[jm-nexus-deep-dive](https://github.com/JaviMontano/jm-nexus-deep-dive)<br>[metodologia-campana-ecuador-1](https://github.com/JaviMontano/metodologia-campana-ecuador-1) |
+| **MetodologIA / MAO** | [mao-iic](https://github.com/JaviMontano/mao-iic)<br>[mao-plugin-qa](https://github.com/JaviMontano/mao-plugin-qa)<br>[mao-pm-apex](https://github.com/JaviMontano/mao-pm-apex)<br>[mao-sovereign-architect](https://github.com/JaviMontano/mao-sovereign-architect) |
+| **Artefactos y casos** | [mao-scriba](https://github.com/JaviMontano/mao-scriba)<br>[jm-nexus-deep-dive](https://github.com/JaviMontano/jm-nexus-deep-dive)<br>[metodologia-campana-ecuador-1](https://github.com/JaviMontano/metodologia-campana-ecuador-1) |
 
 ## Principios operativos
 
