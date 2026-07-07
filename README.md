@@ -45,9 +45,9 @@
   <img src="https://img.shields.io/static/v1?label=Mamba&message=consultoria&color=08111F&labelColor=F59E0B&style=flat-square" alt="Mamba consultoria" />
 </p>
 
-## Consulting, operations, management, AI y digital disruption
+## Convierto retos en oportunidades y oportunidades en casos de exito
 
-Construyo repos, playbooks, agentes, prompts, cursos y artefactos para que el conocimiento experto no se quede en conversaciones sueltas. Mi campo de accion cruza **consultoria**, **operaciones**, **management**, **adopcion de IA** y **disrupcion digital**: pasar de **idea a metodo**, de **metodo a sistema**, y de **sistema a entrega verificable**.
+**Method first, AI next.** Construyo repos, playbooks, agentes, prompts, cursos y artefactos para que los retos no se queden en diagnosticos y las oportunidades no se queden en intenciones. Mi campo de accion cruza **consultoria**, **operaciones**, **management**, **adopcion de IA** y **disrupcion digital**: pasar de **reto a oportunidad**, de **oportunidad a metodo**, de **metodo a sistema**, y de **sistema a caso de exito verificable**.
 
 Primero, soy **Founder & Empowerment Officer en MetodologIA**. En mi rol profesional actual soy **Senior Consultant / Offer Manager en Amaris Consulting**. Mis lineas propias se separan en **MetodologIA** para metodo abierto, **Mamba** para consultoria aplicada y **JM Labs** para experimentacion. Trabajo con **OpenAI Codex** como runtime de ejecucion agentica para convertir contexto, repos y decisiones en entregables verificables.
 
@@ -85,11 +85,11 @@ La linea principal de Pristino se mueve a Beta: un harness privado, orientado po
 
 ### MetodologIA como pedagogia abierta
 
-Materiales, bootcamps, prompts, playbooks y guias que ayudan a equipos y profesionales a usar IA con metodo, no solo con entusiasmo. La ruta principal empieza en la [Cartilla Aprender, Aprehender y Revolucionar](https://github.com/JaviMontano/material-educativo-metodologia/blob/main/playbook-aprender-aprehender-revolucionar-2026.html) y continua en el [hub de recursos de MetodologIA](https://metodologia.info/recursos/).
+Materiales, bootcamps, prompts, playbooks y guias que ayudan a equipos y profesionales a operar **method first, AI next**: primero criterio, ruta y evidencia; despues herramientas, modelos y automatizacion. La ruta principal empieza en la [Cartilla Aprender, Aprehender y Revolucionar](https://github.com/JaviMontano/material-educativo-metodologia/blob/main/playbook-aprender-aprehender-revolucionar-2026.html) y continua en el [hub de recursos de MetodologIA](https://metodologia.info/recursos/).
 
 ### Consultoria aplicada en Amaris Consulting
 
-Trabajo en contextos reales de oferta, habilitacion y adopcion de IA. La clave no es prometer automatizacion: es detectar oportunidades, estructurar valor, aterrizar delivery y dejar sistemas repetibles.
+Trabajo en contextos reales de oferta, habilitacion y adopcion de IA. La clave no es prometer automatizacion: es leer retos, detectar oportunidades, estructurar valor, aterrizar delivery y dejar sistemas repetibles.
 
 ### Mamba como consultoria propia
 
@@ -121,7 +121,7 @@ JM Labs es mi laboratorio de exploracion: pruebo agentes, prompts, repos, automa
 ## Principios operativos
 
 - **Evidencia antes que velocidad:** si una afirmacion importa, debe poder rastrearse.
-- **Metodo antes que herramienta:** la IA acelera mejor cuando existe una ruta de trabajo.
+- **Method first, AI next:** primero metodo, criterio y evidencia; luego IA, herramientas y automatizacion.
 - **Pedagogia antes que dependencia:** un buen sistema debe poder explicarse y transferirse.
 - **Delivery antes que vitrina:** el artefacto debe poder probarse, usarse o mantenerse.
 - **Marca con frontera:** Amaris es mi contexto profesional actual; Mamba, MetodologIA y JM Labs son mis lineas propias.
@@ -147,6 +147,7 @@ BMAD | IIKit / IKIIT | Spec Driven Development | agile/lean | Design Thinking | 
 
 | Capacidad | Impacto legible para negocio |
 |---|---|
+| **Retos a oportunidades; oportunidades a casos de exito** | Leo restricciones, dolores y fricciones como materia prima de valor; despues los convierto en casos de uso, ofertas, pilotos, sistemas y evidencia de avance. |
 | **SDLC deterministico con IA** | Convierto intencion, contexto y prompts en specs, arquitectura, pruebas, validadores y gates para que el desarrollo con IA sea trazable, repetible y menos dependiente de improvisacion. |
 | **Aceleracion del SDLC con Trabajo Agentico** | Uso agentes y asistentes para reducir friccion entre discovery, diseno, desarrollo, QA, documentacion y cierre, sin perder criterio tecnico ni control humano. |
 | **BMAD e IIKit / IKIIT** | Adapto patrones de Agile AI Driven Development, cadenas Intent-to-Spec, roles especializados, debate multiperspectiva y readiness gates a contextos reales de producto, procesos y consultoria. |
