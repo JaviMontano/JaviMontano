@@ -23,6 +23,7 @@
   <a href="https://metodologia.info/recursos/">
     <img src="https://img.shields.io/badge/Recursos%20MetodologIA-hub%20IA-08111F?style=for-the-badge&labelColor=0F766E" alt="Recursos MetodologIA" />
   </a>
+  <img src="https://img.shields.io/badge/OpenAI%20Codex-agentic%20execution-08111F?style=for-the-badge&labelColor=111827" alt="OpenAI Codex agentic execution" />
   <a href="https://co.linkedin.com/in/javier-andr%C3%A9s-monta%C3%B1o-guzm%C3%A1n-35b02756/en">
     <img src="https://img.shields.io/badge/LinkedIn-Javier%20Monta%C3%B1o-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Javier Montaño" />
   </a>
@@ -48,7 +49,7 @@
 
 Construyo repos, playbooks, agentes, prompts, cursos y artefactos para que el conocimiento experto no se quede en conversaciones sueltas. Mi foco esta en pasar de **idea a metodo**, de **metodo a sistema**, y de **sistema a entrega verificable**.
 
-Primero, soy **Founder & Empowerment Officer en MetodologIA**. En mi rol profesional actual soy **Senior Consultant / Offer Manager en Amaris Consulting**. Mis otras lineas propias son **Marba Blanca** y **JM Labs**. **Sofka Technologies** pertenece a mi trayectoria previa.
+Primero, soy **Founder & Empowerment Officer en MetodologIA**. En mi rol profesional actual soy **Senior Consultant / Offer Manager en Amaris Consulting**. Mis otras lineas propias son **Marba Blanca** y **JM Labs**. Trabajo con **OpenAI Codex** como runtime de ejecucion agentica para convertir contexto, repos y decisiones en entregables verificables.
 
 ## Escala publica verificable
 
@@ -123,7 +124,7 @@ JM Labs es mi laboratorio de exploracion. Marba Blanca es la capa empresarial/co
 ## Stack de trabajo
 
 **AI & orchestration**<br>
-Codex | Claude Code | NotebookLM | prompts | skills | plugins | workflows multiagente | RAG operativo
+OpenAI Codex | Claude Code | NotebookLM | prompts | skills | plugins | workflows multiagente | RAG operativo
 
 **Knowledge systems**<br>
 Markdown | GitHub | source ledgers | quality gates | context routers | validators | static HTML artifacts
@@ -144,9 +145,6 @@ Accountability | agile/lean | gobierno de decisiones | operaciones comerciales |
 
 - **Marba Blanca / MetodologIA / JM Labs** - lineas propias<br>
   Desarrollo activos, laboratorios y marcos de consultoria dentro de mi ecosistema propio para transformar experimentos con IA en capacidades repetibles: discovery, playbooks, agentes, automatizacion y sistemas de trabajo con impacto visible.
-
-- **Sofka Technologies** - experiencia previa<br>
-  Impulse iniciativas GenAI, arquitectura de preventa y habilitacion consultiva, traduciendo oportunidades tecnicas en propuestas, narrativas ejecutivas y rutas de adopcion para equipos de negocio y tecnologia.
 
 - **Tech and Solve / Clinica Pajonal** - experiencia previa<br>
   Acompane gestion, agilidad, proyectos, transformacion digital, procesos y operaciones, con foco en ordenar prioridades, mejorar coordinacion y convertir cambios organizacionales en resultados medibles.
