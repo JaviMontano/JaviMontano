@@ -142,7 +142,7 @@ Pristino Beta | Antigravity | n8n | Make | Zapier | OpenAI Agents SDK | Prompste
 Google Drive | Google Workspace | Google Meet | Microsoft 365 | Notion | Obsidian | Miro | Mermaid | GitHub | Campus | source ledgers | context routers | quality gates | validators
 
 **Product, UI & media prototyping**<br>
-Google Stitch | Google AI Studio | V0 by Vercel | Vercel | Hostinger | Figma | Canva | Napkin AI | Gamma | ElevenLabs | Leonardo AI | Powtoon | SketchNow | Pomeli | Nano Banana | HTML artifacts | dashboards | mini apps
+Google Stitch | Google AI Studio | V0 by Vercel | Vercel | Hostinger | Figma | Canva | Napkin AI | Gamma | ElevenLabs | Lovable | Powtoon | SketchNow | Pomeli | Nano Banana | HTML artifacts | dashboards | mini apps
 
 **Methods & delivery patterns**<br>
 BMAD | IIKit / IKIIT | Spec Driven Development | agile/lean | Design Thinking | PARA | Zettelkasten | SOPs | OKRs | change plans | digital culture blueprints | capstones | innovation labs
