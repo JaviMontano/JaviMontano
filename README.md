@@ -187,7 +187,7 @@ BMAD | IIKit / IKIIT | Spec Driven Development | agile/lean | Design Thinking | 
 
 ## Conversemos
 
-Si quieres hablar de **sistemas agenticos, SDLC deterministico, segundos cerebros, digital twins, IA aplicada a delivery, oferta consultiva, pedagogia o prototipado hiper acelerado**, este perfil te deja las rutas principales:
+Busco mi siguiente caso de exito y mi proximo aliado: una organizacion, equipo o lider con un reto real que pueda convertirse en oportunidad, metodo, sistema y resultado visible. Si al leer este perfil sientes que puedes ser ese aliado, conversemos.
 
 <p align="center">
   <a href="https://metodologia.info">metodologia.info</a>
