@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/badge/MetodologIA-open%20methodology-08111F?style=for-the-badge&labelColor=0F766E" alt="MetodologIA" />
   </a>
   <a href="https://github.com/JaviMontano/jm-adk-beta">
-    <img src="https://img.shields.io/badge/Pristino%20Beta-private%20release%20track-08111F?style=for-the-badge&labelColor=172554" alt="Pristino Beta private release track" />
+    <img src="https://img.shields.io/badge/Pristino%20Beta-public%20beta%20track-08111F?style=for-the-badge&labelColor=172554" alt="Pristino Beta public beta track" />
   </a>
   <a href="https://github.com/JaviMontano/trabajar-amplificado">
     <img src="https://img.shields.io/badge/Trabajo%20Amplificado-pedagogia%20IA-08111F?style=for-the-badge&labelColor=F59E0B" alt="Trabajo Amplificado" />
@@ -50,7 +50,7 @@ Primero, soy **Founder & Empowerment Officer en MetodologIA**. En mi rol profesi
 
 | Sistema | Que hace | Estado |
 |---|---|---|
-| [**Pristino Beta**](https://github.com/JaviMontano/jm-adk-beta) | Harness privado orientado a catalogos, vibe coders y knowledge workers AI-native | Privado / beta |
+| [**Pristino Beta**](https://github.com/JaviMontano/jm-adk-beta) | Harness publico orientado a catalogos, vibe coders y knowledge workers AI-native | Publico / beta |
 | [**trabajar-amplificado**](https://github.com/JaviMontano/trabajar-amplificado) | Bootcamp para managers con Claude Cowork y MetodologIA, con material ES/EN/PT | Publico / pedagogico |
 | [**Cartilla Aprender, Aprehender y Revolucionar**](https://github.com/JaviMontano/material-educativo-metodologia/blob/main/playbook-aprender-aprehender-revolucionar-2026.html) | Guia HTML para aprender a aprender, transferir conocimiento y usar IA con metodo | Publico / cartilla |
 | [**Conocer a Javier / Dashboard**](https://javimontano.github.io/JaviMontano/) | GitHub Page full brand con CV publico, ecosistema, kanban de tareas, procedimientos y productividad | Publico / dashboard |
@@ -62,7 +62,7 @@ Primero, soy **Founder & Empowerment Officer en MetodologIA**. En mi rol profesi
 
 ### Pristino Beta
 
-Pristino Beta es un harness privado, orientado por catalogos, para convertir repos en sistemas operables. Concentra el trabajo de leer contexto, rutear decisiones, ejecutar con herramientas, validar resultados y cerrar con evidencia.
+Pristino Beta ya esta publico: es un harness orientado por catalogos para convertir repos en sistemas operables. Concentra el trabajo de leer contexto, rutear decisiones, ejecutar con herramientas, validar resultados y cerrar con evidencia.
 
 ### MetodologIA como pedagogia abierta
 
@@ -94,7 +94,7 @@ JM Labs es mi laboratorio de exploracion: pruebo agentes, prompts, repos, automa
 
 | Linea | Repos |
 |---|---|
-| **Pristino** | [Pristino Beta](https://github.com/JaviMontano/jm-adk-beta) (privado) |
+| **Pristino** | [Pristino Beta](https://github.com/JaviMontano/jm-adk-beta) (publico / beta) |
 | **Material pedagogico** | [Cartilla Aprender, Aprehender y Revolucionar](https://github.com/JaviMontano/material-educativo-metodologia/blob/main/playbook-aprender-aprehender-revolucionar-2026.html)<br>[Recursos MetodologIA](https://metodologia.info/recursos/)<br>[material-educativo-metodologia](https://github.com/JaviMontano/material-educativo-metodologia)<br>[trabajar-amplificado](https://github.com/JaviMontano/trabajar-amplificado)<br>[Biblioteca Universal de Prompts](https://javimontano.github.io/prompt-amplificado/)<br>[discovery-producto](https://github.com/JaviMontano/discovery-producto) |
 | **MetodologIA / MAO** | [mao-iic](https://github.com/JaviMontano/mao-iic)<br>[mao-plugin-qa](https://github.com/JaviMontano/mao-plugin-qa)<br>[mao-pm-apex](https://github.com/JaviMontano/mao-pm-apex)<br>[mao-sovereign-architect](https://github.com/JaviMontano/mao-sovereign-architect) |
 | **Artefactos y casos** | [mao-scriba](https://github.com/JaviMontano/mao-scriba)<br>[jm-nexus-deep-dive](https://github.com/JaviMontano/jm-nexus-deep-dive)<br>[metodologia-campana-ecuador-1](https://github.com/JaviMontano/metodologia-campana-ecuador-1) |
