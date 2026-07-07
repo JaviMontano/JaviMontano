@@ -45,14 +45,14 @@
   <img src="https://img.shields.io/static/v1?label=Pristino&message=agentic%20OS&color=08111F&labelColor=172554&style=flat-square" alt="Pristino agentic OS" />
   <img src="https://img.shields.io/static/v1?label=MetodologIA&message=metodo%20abierto&color=08111F&labelColor=0F766E&style=flat-square" alt="MetodologIA metodo abierto" />
   <img src="https://img.shields.io/static/v1?label=JM%20Labs&message=experimentacion&color=08111F&labelColor=7C3AED&style=flat-square" alt="JM Labs experimentacion" />
-  <img src="https://img.shields.io/static/v1?label=Mamba&message=consultoria&color=08111F&labelColor=F59E0B&style=flat-square" alt="Mamba consultoria" />
+  <img src="https://img.shields.io/static/v1?label=Mamba%20Blanca&message=assets%20digitales&color=08111F&labelColor=F59E0B&style=flat-square" alt="Mamba Blanca assets digitales" />
 </p>
 
 ## Convierto retos en oportunidades y oportunidades en casos de exito
 
 **Method first, AI next.** Construyo repos, playbooks, agentes, prompts, cursos y artefactos para que los retos no se queden en diagnosticos y las oportunidades no se queden en intenciones. Mi campo de accion cruza **consultoria**, **operaciones**, **management**, **adopcion de IA** y **disrupcion digital**: pasar de **reto a oportunidad**, de **oportunidad a metodo**, de **metodo a sistema**, y de **sistema a caso de exito verificable**.
 
-Primero, soy **Founder & Empowerment Officer en MetodologIA**. En mi rol profesional actual soy **Senior Consultant / Offer Manager en Amaris Consulting**. Mis lineas propias se separan en **MetodologIA** para metodo abierto, **Mamba** para consultoria aplicada y **JM Labs** para experimentacion. Trabajo con **OpenAI Codex** como runtime de ejecucion agentica para convertir contexto, repos y decisiones en entregables verificables.
+Primero, soy **Founder & Empowerment Officer en MetodologIA**. En mi rol profesional actual soy **Senior Consultant / Offer Manager en Amaris Consulting**. Mis lineas propias se separan en **MetodologIA** para metodo abierto, **Mamba Blanca** para desarrollo de assets digitales y **JM Labs** para experimentacion. Trabajo con **OpenAI Codex** como runtime de ejecucion agentica para convertir contexto, repos y decisiones en entregables verificables.
 
 ## Escala publica verificable
 
@@ -95,9 +95,9 @@ Materiales, bootcamps, prompts, playbooks y guias que ayudan a equipos y profesi
 
 Trabajo en contextos reales de oferta, habilitacion y adopcion de IA. La clave no es prometer automatizacion: es leer retos, detectar oportunidades, estructurar valor, aterrizar delivery y dejar sistemas repetibles.
 
-### Mamba como consultoria propia
+### Mamba Blanca como consultora propia
 
-Mamba es la linea consultiva para empaquetar estrategia, IA, operaciones y gestion en servicios, activos y propuestas que una organizacion puede entender, comprar y ejecutar.
+Mamba Blanca es mi consultora propia para desarrollar assets digitales: playbooks, dashboards, mini apps, sitios, sistemas de conocimiento y artefactos de IA que una organizacion puede entender, usar y evolucionar.
 
 ### JM Labs como laboratorio
 
@@ -128,7 +128,7 @@ JM Labs es mi laboratorio de exploracion: pruebo agentes, prompts, repos, automa
 - **Method first, AI next:** primero metodo, criterio y evidencia; luego IA, herramientas y automatizacion.
 - **Pedagogia antes que dependencia:** un buen sistema debe poder explicarse y transferirse.
 - **Delivery antes que vitrina:** el artefacto debe poder probarse, usarse o mantenerse.
-- **Marca con frontera:** Amaris es mi contexto profesional actual; Mamba, MetodologIA y JM Labs son mis lineas propias.
+- **Marca con frontera:** Amaris es mi contexto profesional actual; Mamba Blanca, MetodologIA y JM Labs son mis lineas propias.
 
 ## Herramientas y sistemas de trabajo
 
@@ -170,11 +170,14 @@ BMAD | IIKit / IKIIT | Spec Driven Development | agile/lean | Design Thinking | 
 - **Amaris Consulting** - Senior Consultant / Offer Manager<br>
   Conecto estrategia, preventa y delivery para convertir necesidades de negocio en ofertas claras, casos de uso priorizados y planes de adopcion de IA que equipos tecnicos, comerciales y de gestion pueden entender, vender y ejecutar.
 
-- **Mamba** - consultoria propia<br>
-  Traduzco criterio de gestion, IA y operaciones en servicios consultivos, ofertas y activos de trabajo que ayudan a organizaciones a pasar de intencion estrategica a ejecucion repetible.
+- **Mamba Blanca** - consultora propia para assets digitales<br>
+  Desarrollo playbooks, dashboards, mini apps, sitios, sistemas de conocimiento y artefactos de IA que convierten estrategia, metodo y aprendizaje en activos digitales reutilizables.
 
 - **JM Labs** - laboratorio propio<br>
   Exploro sistemas agenticos, prompts, automatizacion y repos gobernados para convertir experimentos tecnicos en aprendizajes, prototipos y capacidades reutilizables.
+
+- **Sofka Technologies** - experiencia previa<br>
+  Fui GenAI Champion y PreSales Architect, conectando transformacion, preventa, liderazgo regional y adopcion de IA para convertir capacidades tecnicas en ofertas, habilitacion y casos de negocio comprensibles.
 
 - **Tech and Solve** - experiencia previa<br>
   Lidere proyectos y transformacion digital con equipos multidisciplinarios, conectando agilidad, coordinacion operativa y delivery para ordenar prioridades y mejorar ejecucion.
