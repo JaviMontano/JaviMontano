@@ -145,7 +145,7 @@ Google Drive | Google Workspace | Google Meet | Microsoft 365 | Notion | Obsidia
 Google Stitch | Google AI Studio | V0 by Vercel | Vercel | Hostinger | Figma | Canva | Napkin AI | Gamma | ElevenLabs | Lovable | Powtoon | SketchNow | Pomeli | Nano Banana | HTML artifacts | dashboards | mini apps
 
 **Methods & delivery patterns**<br>
-BMAD | IIKit / IKIIT | Spec Driven Development | agile/lean | Design Thinking | PARA | Zettelkasten | SOPs | OKRs | change plans | digital culture blueprints | capstones | innovation labs
+BMAD | IIKit / IKIIT | Spec Driven Development | agile/lean | Design Thinking | PIVOTE | Zettelkasten | SOPs | OKRs | change plans | digital culture blueprints | capstones | innovation labs
 
 ## Capacidades que capitalizo
 
