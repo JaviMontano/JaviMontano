@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/JaviMontano.png" alt="Javier Montaño" width="168" />
+  <img src="./assets/team_javier-montano.webp" alt="Javier Montaño" width="168" />
 </p>
 
 <h1 align="center">Javier Montaño</h1>
