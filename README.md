@@ -8,15 +8,20 @@
 
 <h1 align="center">Javier Montaño</h1>
 
-<p align="center"><strong>Founder & Empowerment Officer @ MetodologIA | Senior Consultant / Offer Manager @ Amaris Consulting | Pristino Beta</strong></p>
+<p align="center"><strong>Founder & Empowerment Officer @ MetodologIA | Pristino Author | Senior Consultant / Offer Manager @ Amaris Consulting</strong></p>
 
 <p align="center">
   <a href="https://metodologia.info">
     <img src="https://img.shields.io/badge/MetodologIA-open%20methodology-08111F?style=for-the-badge&labelColor=0F766E" alt="MetodologIA" />
   </a>
-  <img src="https://img.shields.io/badge/Pristino%20Beta-private%20release%20track-08111F?style=for-the-badge&labelColor=172554" alt="Pristino Beta private release track" />
+  <a href="https://github.com/JaviMontano/jm-adk-beta">
+    <img src="https://img.shields.io/badge/Pristino%20Beta-private%20release%20track-08111F?style=for-the-badge&labelColor=172554" alt="Pristino Beta private release track" />
+  </a>
   <a href="https://github.com/JaviMontano/trabajar-amplificado">
     <img src="https://img.shields.io/badge/Trabajo%20Amplificado-pedagogia%20IA-08111F?style=for-the-badge&labelColor=F59E0B" alt="Trabajo Amplificado" />
+  </a>
+  <a href="https://metodologia.info/recursos/">
+    <img src="https://img.shields.io/badge/Recursos%20MetodologIA-hub%20IA-08111F?style=for-the-badge&labelColor=0F766E" alt="Recursos MetodologIA" />
   </a>
   <a href="https://co.linkedin.com/in/javier-andr%C3%A9s-monta%C3%B1o-guzm%C3%A1n-35b02756/en">
     <img src="https://img.shields.io/badge/LinkedIn-Javier%20Monta%C3%B1o-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Javier Montaño" />
@@ -25,6 +30,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=MetodologIA&message=Founder%20%26%20Empowerment%20Officer&color=08111F&labelColor=0F766E&style=flat-square" alt="MetodologIA Founder and Empowerment Officer" />
+  <img src="https://img.shields.io/static/v1?label=Pristino&message=Author%20%2F%20Beta&color=08111F&labelColor=172554&style=flat-square" alt="Pristino Author Beta" />
   <img src="https://img.shields.io/static/v1?label=Amaris&message=Senior%20Consultant%20%2F%20Offer%20Manager&color=08111F&labelColor=111827&style=flat-square" alt="Amaris Senior Consultant and Offer Manager" />
   <img src="https://img.shields.io/static/v1?label=27&message=repos%20publicos&color=08111F&labelColor=38BDF8&style=flat-square" alt="27 repos publicos" />
   <img src="https://img.shields.io/static/v1?label=18&message=repos%20activos%20no%20fork&color=08111F&labelColor=34D399&style=flat-square" alt="18 repos publicos activos no fork" />
@@ -51,7 +57,7 @@ Primero, soy **Founder & Empowerment Officer en MetodologIA**. En mi rol profesi
 | **Repos publicos** | **27** | Superficie visible en GitHub para productos, material, plugins, experimentos y perfil |
 | **Repos activos no fork/no archivados** | **18** | Parte viva del ecosistema publico actual |
 | **Material pedagogico abierto** | **4 frentes** | Trabajo Amplificado, Material Educativo, Prompt Amplificado y Discovery de Producto |
-| **Pristino / agentic systems** | **Beta privado + frentes publicos** | Pristino Beta es el track privado; `jm-adk` y `jm-nexus-deep-dive` quedan como frentes publicos |
+| **Pristino / agentic systems** | **Beta privado** | [Pristino Beta](https://github.com/JaviMontano/jm-adk-beta) es la linea principal, sin exponer tracks anteriores |
 | **MetodologIA / MAO plugins** | **varios repos publicos** | Discovery, SDD, IIC, Plugin QA, PM APEX, Sovereign Architect y Scriba |
 
 No vendo esta tabla como un inventario total. Es la parte publica, legible y enlazable de un sistema de trabajo mas amplio.
@@ -60,11 +66,12 @@ No vendo esta tabla como un inventario total. Es la parte publica, legible y enl
 
 | Sistema | Que hace | Estado |
 |---|---|---|
-| **Pristino Beta** | Harness privado orientado a catalogos, vibe coders y knowledge workers AI-native | Privado / linea principal |
+| [**Pristino Beta**](https://github.com/JaviMontano/jm-adk-beta) | Harness privado orientado a catalogos, vibe coders y knowledge workers AI-native | Privado / linea principal |
 | [**trabajar-amplificado**](https://github.com/JaviMontano/trabajar-amplificado) | Bootcamp para managers con Claude Cowork y MetodologIA, con material ES/EN/PT | Publico / pedagogico |
-| [**material-educativo-metodologia**](https://github.com/JaviMontano/material-educativo-metodologia) | Biblioteca Universal de Prompting, playbook y skill operativa | Publico / educativo |
+| [**Cartilla Aprender, Aprehender y Revolucionar**](https://github.com/JaviMontano/material-educativo-metodologia/blob/main/playbook-aprender-aprehender-revolucionar-2026.html) | Guia HTML para aprender a aprender, transferir conocimiento y usar IA con metodo | Publico / cartilla |
+| [**Recursos MetodologIA**](https://metodologia.info/recursos/) | Hub publico de GPTs, Gems y NotebookLM para navegar recursos IA de MetodologIA | Publico / recursos |
+| [**material-educativo-metodologia**](https://github.com/JaviMontano/material-educativo-metodologia) | Repo de recursos pedagogicos, cartillas, playbooks y skills educativas | Publico / educativo |
 | [**prompt-amplificado**](https://github.com/JaviMontano/prompt-amplificado) | Ingenieria de prompts, contexto y arneses para trabajar con IA | Publico / metodologia |
-| [**jm-adk**](https://github.com/JaviMontano/jm-adk) | Pristino Agent: capacidades de desarrollo agentico y modos MAO / SA | Publico / agentic systems |
 | [**mao-discovery-framework**](https://github.com/JaviMontano/mao-discovery-framework) | Framework publico de discovery para profesionales de la era IA | Publico / MAO |
 | [**mao-sdd**](https://github.com/JaviMontano/mao-sdd) | Spec Driven Development aplicado al desarrollo con IA | Publico / plugin |
 | [**playbook-forge**](https://github.com/JaviMontano/playbook-forge) | Generador de playbooks HTML con marca y flujos AI-native | Publico / artifact engine |
@@ -77,7 +84,7 @@ La linea principal de Pristino se mueve a Beta: un harness privado, orientado po
 
 ### MetodologIA como pedagogia abierta
 
-Materiales, bootcamps, prompts, playbooks y guias que ayudan a equipos y profesionales a usar IA con metodo, no solo con entusiasmo. El objetivo es que otra persona pueda aprender, adaptar y ejecutar.
+Materiales, bootcamps, prompts, playbooks y guias que ayudan a equipos y profesionales a usar IA con metodo, no solo con entusiasmo. La ruta principal empieza en la [Cartilla Aprender, Aprehender y Revolucionar](https://github.com/JaviMontano/material-educativo-metodologia/blob/main/playbook-aprender-aprehender-revolucionar-2026.html) y continua en el [hub de recursos de MetodologIA](https://metodologia.info/recursos/).
 
 ### Consultoria aplicada en Amaris Consulting
 
@@ -96,14 +103,14 @@ JM Labs es mi laboratorio de exploracion. Marba Blanca es la capa empresarial/co
 - **Delivery consultivo:** discovery, ofertas, preventa, habilitacion, transferencia y operacion.
 - **Arquitectura de conocimiento:** convertir informacion dispersa en sistemas navegables y mantenibles.
 
-## Repositorios publicos clave
+## Rutas y repositorios clave
 
 | Linea | Repos |
 |---|---|
-| **Pristino / JM Labs** | Pristino Beta (privado)<br>[jm-adk](https://github.com/JaviMontano/jm-adk)<br>[jm-nexus-deep-dive](https://github.com/JaviMontano/jm-nexus-deep-dive)<br>[mao-sovereign-architect](https://github.com/JaviMontano/mao-sovereign-architect) |
-| **Material pedagogico** | [trabajar-amplificado](https://github.com/JaviMontano/trabajar-amplificado)<br>[material-educativo-metodologia](https://github.com/JaviMontano/material-educativo-metodologia)<br>[prompt-amplificado](https://github.com/JaviMontano/prompt-amplificado)<br>[discovery-producto](https://github.com/JaviMontano/discovery-producto) |
-| **MetodologIA / MAO** | [mao-discovery-framework](https://github.com/JaviMontano/mao-discovery-framework)<br>[mao-sdd](https://github.com/JaviMontano/mao-sdd)<br>[mao-iic](https://github.com/JaviMontano/mao-iic)<br>[mao-plugin-qa](https://github.com/JaviMontano/mao-plugin-qa)<br>[mao-pm-apex](https://github.com/JaviMontano/mao-pm-apex) |
-| **Artefactos y casos** | [playbook-forge](https://github.com/JaviMontano/playbook-forge)<br>[mao-scriba](https://github.com/JaviMontano/mao-scriba)<br>[metodologia-campana-ecuador-1](https://github.com/JaviMontano/metodologia-campana-ecuador-1) |
+| **Pristino** | [Pristino Beta](https://github.com/JaviMontano/jm-adk-beta) (privado) |
+| **Material pedagogico** | [Cartilla Aprender, Aprehender y Revolucionar](https://github.com/JaviMontano/material-educativo-metodologia/blob/main/playbook-aprender-aprehender-revolucionar-2026.html)<br>[Recursos MetodologIA](https://metodologia.info/recursos/)<br>[material-educativo-metodologia](https://github.com/JaviMontano/material-educativo-metodologia)<br>[trabajar-amplificado](https://github.com/JaviMontano/trabajar-amplificado)<br>[prompt-amplificado](https://github.com/JaviMontano/prompt-amplificado)<br>[discovery-producto](https://github.com/JaviMontano/discovery-producto) |
+| **MetodologIA / MAO** | [mao-discovery-framework](https://github.com/JaviMontano/mao-discovery-framework)<br>[mao-sdd](https://github.com/JaviMontano/mao-sdd)<br>[mao-iic](https://github.com/JaviMontano/mao-iic)<br>[mao-plugin-qa](https://github.com/JaviMontano/mao-plugin-qa)<br>[mao-pm-apex](https://github.com/JaviMontano/mao-pm-apex)<br>[mao-sovereign-architect](https://github.com/JaviMontano/mao-sovereign-architect) |
+| **Artefactos y casos** | [playbook-forge](https://github.com/JaviMontano/playbook-forge)<br>[mao-scriba](https://github.com/JaviMontano/mao-scriba)<br>[jm-nexus-deep-dive](https://github.com/JaviMontano/jm-nexus-deep-dive)<br>[metodologia-campana-ecuador-1](https://github.com/JaviMontano/metodologia-campana-ecuador-1) |
 
 ## Principios operativos
 
@@ -151,7 +158,11 @@ Si quieres hablar de **sistemas agenticos, IA aplicada a delivery, oferta consul
 <p align="center">
   <a href="https://metodologia.info">metodologia.info</a>
   |
-  <span>Pristino Beta</span>
+  <a href="https://github.com/JaviMontano/jm-adk-beta">Pristino Beta</a>
+  |
+  <a href="https://github.com/JaviMontano/material-educativo-metodologia/blob/main/playbook-aprender-aprehender-revolucionar-2026.html">Cartilla Aprender a Aprender</a>
+  |
+  <a href="https://metodologia.info/recursos/">Recursos MetodologIA</a>
   |
   <a href="https://github.com/JaviMontano/trabajar-amplificado">Trabajo Amplificado</a>
   |
