@@ -136,7 +136,7 @@ JM Labs es mi laboratorio de exploracion: pruebo agentes, prompts, repos, automa
 OpenAI Codex | Claude Code | Claude Desktop | ChatGPT | Claude | Gemini | Copilot | Perplexity | DeepSeek | Kimi | Grok | NotebookLM
 
 **Agentic engineering & automation**<br>
-Pristino Beta | Antigravity | n8n | Make | Zapier | OpenAI Agents SDK | Promster | prompts | skills | plugins | workflows multiagente | RAG operativo
+Pristino Beta | Antigravity | n8n | Make | Zapier | OpenAI Agents SDK | Prompster | Text Expanders | Bibliotecas de Prompts | skills | plugins | workflows multiagente | RAG operativo
 
 **Knowledge, collaboration & governance**<br>
 Google Drive | Google Workspace | Google Meet | Microsoft 365 | Notion | Obsidian | Miro | Mermaid | GitHub | Campus | source ledgers | context routers | quality gates | validators
