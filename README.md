@@ -190,19 +190,21 @@ BMAD | IIKit / IKIIT | Spec Driven Development | agile/lean | Design Thinking | 
 Busco mi siguiente caso de exito y mi proximo aliado: una organizacion, equipo o lider con un reto real que pueda convertirse en oportunidad, metodo, sistema y resultado visible. Si al leer este perfil sientes que puedes ser ese aliado, conversemos.
 
 <p align="center">
+  <a href="mailto:contacto@metodologia.info">contacto@metodologia.info</a>
+  |
   <a href="https://metodologia.info">metodologia.info</a>
   |
-  <a href="https://github.com/JaviMontano/jm-adk-beta">Pristino Beta</a>
+  <a href="https://co.linkedin.com/in/javier-andr%C3%A9s-monta%C3%B1o-guzm%C3%A1n-35b02756/en">LinkedIn</a>
+  |
+  <a href="https://metodologia.info/recursos/">Recursos MetodologIA</a>
   |
   <a href="https://javimontano.github.io/JaviMontano/">Conocer a Javier</a>
   |
-  <a href="https://github.com/JaviMontano/material-educativo-metodologia/blob/main/playbook-aprender-aprehender-revolucionar-2026.html">Cartilla Aprender a Aprender</a>
+  <a href="https://github.com/JaviMontano/jm-adk-beta">Pristino Beta</a>
   |
-  <a href="https://metodologia.info/recursos/">Recursos MetodologIA</a>
+  <a href="https://github.com/JaviMontano/material-educativo-metodologia/blob/main/playbook-aprender-aprehender-revolucionar-2026.html">Cartilla Aprender a Aprender</a>
   |
   <a href="https://github.com/JaviMontano/trabajar-amplificado">Trabajo Amplificado</a>
   |
   <a href="https://github.com/JaviMontano/material-educativo-metodologia">Material educativo</a>
-  |
-  <a href="https://co.linkedin.com/in/javier-andr%C3%A9s-monta%C3%B1o-guzm%C3%A1n-35b02756/en">LinkedIn</a>
 </p>
