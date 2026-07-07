@@ -24,7 +24,7 @@
     <img src="https://img.shields.io/badge/Recursos%20MetodologIA-hub%20IA-08111F?style=for-the-badge&labelColor=0F766E" alt="Recursos MetodologIA" />
   </a>
   <a href="https://javimontano.github.io/JaviMontano/">
-    <img src="https://img.shields.io/badge/Conocer%20a%20Javier-GitHub%20Page-08111F?style=for-the-badge&labelColor=C2410C" alt="Conocer a Javier GitHub Page" />
+    <img src="https://img.shields.io/badge/Dashboard%20Javier-GitHub%20Page-08111F?style=for-the-badge&labelColor=C2410C" alt="Dashboard Javier GitHub Page" />
   </a>
   <img src="https://img.shields.io/badge/OpenAI%20Codex-agentic%20execution-08111F?style=for-the-badge&labelColor=111827" alt="OpenAI Codex agentic execution" />
   <a href="https://co.linkedin.com/in/javier-andr%C3%A9s-monta%C3%B1o-guzm%C3%A1n-35b02756/en">
@@ -73,7 +73,7 @@ No vendo esta tabla como un inventario total. Es la parte publica, legible y enl
 | [**Pristino Beta**](https://github.com/JaviMontano/jm-adk-beta) | Harness privado orientado a catalogos, vibe coders y knowledge workers AI-native | Privado / linea principal |
 | [**trabajar-amplificado**](https://github.com/JaviMontano/trabajar-amplificado) | Bootcamp para managers con Claude Cowork y MetodologIA, con material ES/EN/PT | Publico / pedagogico |
 | [**Cartilla Aprender, Aprehender y Revolucionar**](https://github.com/JaviMontano/material-educativo-metodologia/blob/main/playbook-aprender-aprehender-revolucionar-2026.html) | Guia HTML para aprender a aprender, transferir conocimiento y usar IA con metodo | Publico / cartilla |
-| [**Conocer a Javier**](https://javimontano.github.io/JaviMontano/) | GitHub Page full brand para entender mi enfoque, CV publico, campos de accion y ecosistema | Publico / perfil |
+| [**Conocer a Javier / Dashboard**](https://javimontano.github.io/JaviMontano/) | GitHub Page full brand con CV publico, ecosistema, kanban de tareas, procedimientos y productividad | Publico / dashboard |
 | [**Recursos MetodologIA**](https://metodologia.info/recursos/) | Hub publico de GPTs, Gems y NotebookLM para navegar recursos IA de MetodologIA | Publico / recursos |
 | [**material-educativo-metodologia**](https://github.com/JaviMontano/material-educativo-metodologia) | Repo de recursos pedagogicos, cartillas, playbooks y skills educativas | Publico / educativo |
 | [**prompt-amplificado**](https://github.com/JaviMontano/prompt-amplificado) | Ingenieria de prompts, contexto y arneses para trabajar con IA | Publico / metodologia |
