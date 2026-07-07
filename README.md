@@ -46,18 +46,6 @@
 
 Primero, soy **Founder & Empowerment Officer en MetodologIA**. En mi rol profesional actual soy **Senior Consultant / Offer Manager en Amaris Consulting**. Mis lineas propias se separan en **MetodologIA** para metodo abierto, **Mamba Blanca** para desarrollo de assets digitales y **JM Labs** para experimentacion. Trabajo con **OpenAI Codex** como runtime de ejecucion agentica para convertir contexto, repos y decisiones en entregables verificables.
 
-## Escala publica verificable
-
-| Capa | Estado publico | Que significa |
-|---|---:|---|
-| **Repos publicos** | **27** | Superficie visible en GitHub para productos, material, plugins, experimentos y perfil |
-| **Repos activos no fork/no archivados** | **18** | Parte viva del ecosistema publico actual |
-| **Material pedagogico abierto** | **4 frentes** | Trabajo Amplificado, Material Educativo, Prompt Amplificado y Discovery de Producto |
-| **Pristino / agentic systems** | **Beta privado** | [Pristino Beta](https://github.com/JaviMontano/jm-adk-beta) concentra el trabajo privado de sistemas agenticos |
-| **MetodologIA / MAO plugins** | **varios repos publicos** | Discovery, SDD, IIC, Plugin QA, PM APEX, Sovereign Architect y Scriba |
-
-No vendo esta tabla como un inventario total. Es la parte publica, legible y enlazable de un sistema de trabajo mas amplio.
-
 ## Que ya esta vivo
 
 | Sistema | Que hace | Estado |
