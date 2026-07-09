@@ -110,6 +110,10 @@ JM Labs es mi laboratorio de exploración: pruebo agentes, prompts, repos, autom
 - **Delivery antes que vitrina:** el artefacto debe poder probarse, usarse o mantenerse.
 - **Marca con frontera:** Amaris es mi contexto profesional actual; Mamba Blanca, MetodologIA y JM Labs son mis líneas propias.
 
+## Método y estilo de intervención
+
+Uso **P.I.V.O.T.E.** como lente de intervención: **Personas, Interacciones, Valor, Organización, Tecnología y Evolución**. Primero entiendo el sistema de trabajo real; luego cocreo o mejoro el método, reduzco fricción, identifico puntos de automatización y decido si conviene un prompt simple, una plantilla, un asistente, un workflow, una automatización o delegación agéntica. La IA entra cuando hay criterio, reglas y evidencia para amplificar con control y claridad. [Ver método completo](https://metodologia.info/vision/).
+
 ## Herramientas y sistemas de trabajo
 
 **AI workbench**<br>

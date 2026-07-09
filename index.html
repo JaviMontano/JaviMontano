@@ -411,6 +411,7 @@
         border-radius: var(--radius);
         background: var(--gold);
         color: var(--ink);
+        cursor: pointer;
         font-weight: 900;
       }
 
@@ -684,6 +685,143 @@
         font-weight: 760;
       }
 
+      .method-modal {
+        position: fixed;
+        inset: 0;
+        z-index: 120;
+        display: grid;
+        place-items: center;
+        padding: clamp(.8rem, 3vw, 2rem);
+        background: rgba(7, 53, 107, .82);
+        backdrop-filter: blur(14px);
+      }
+
+      .method-modal[hidden] {
+        display: none;
+      }
+
+      .method-modal__panel {
+        position: relative;
+        width: min(1040px, 100%);
+        max-height: min(86vh, 860px);
+        overflow: auto;
+        padding: clamp(1rem, 3vw, 1.5rem);
+        border: 2px solid var(--bp-gold);
+        background:
+          linear-gradient(135deg, rgba(0, 51, 102, .96), rgba(0, 40, 80, .94)),
+          linear-gradient(var(--bp-grid) 1px, transparent 1px),
+          linear-gradient(90deg, var(--bp-grid) 1px, transparent 1px);
+        background-size: auto, 36px 36px, 36px 36px;
+        box-shadow: 0 28px 90px rgba(0, 0, 0, .36);
+      }
+
+      .method-modal__close {
+        position: absolute;
+        top: .75rem;
+        right: .75rem;
+        min-height: 38px;
+        padding: .45rem .7rem;
+        border: 1px solid var(--bp-border);
+        background: rgba(0, 40, 80, .68);
+        color: var(--bp-gold);
+        cursor: pointer;
+        font-family: var(--font-note);
+        font-size: .68rem;
+        font-weight: 900;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+      }
+
+      .method-modal__close:hover,
+      .method-modal__close:focus-visible {
+        border-color: var(--bp-gold);
+        outline: none;
+      }
+
+      .method-modal__head {
+        max-width: 820px;
+        padding-right: 5.4rem;
+      }
+
+      .method-modal__head h2 {
+        margin: .55rem 0 .7rem;
+        color: var(--bp-ink);
+        font-size: clamp(1.8rem, 4vw, 3.1rem);
+      }
+
+      .method-modal__head p {
+        color: var(--bp-muted);
+        font-weight: 650;
+      }
+
+      .pivote-grid,
+      .intervention-grid {
+        display: grid;
+        gap: .72rem;
+        margin-top: 1rem;
+      }
+
+      .pivote-grid {
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+      }
+
+      .intervention-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .pivote-card,
+      .intervention-card {
+        min-height: 156px;
+        padding: .9rem;
+        border: 1px solid var(--bp-border);
+        background: rgba(0, 40, 80, .58);
+      }
+
+      .pivote-card b {
+        display: inline-grid;
+        width: 36px;
+        height: 36px;
+        place-items: center;
+        border: 1px solid var(--bp-gold);
+        color: var(--bp-gold);
+        font-family: var(--font-note);
+        font-size: 1.05rem;
+      }
+
+      .pivote-card h3,
+      .intervention-card h3 {
+        margin: .72rem 0 .42rem;
+        color: var(--bp-ink);
+        font-size: .98rem;
+      }
+
+      .pivote-card p,
+      .intervention-card p {
+        color: var(--bp-muted);
+        font-size: .82rem;
+        line-height: 1.45;
+      }
+
+      .method-modal__callout {
+        margin-top: 1rem;
+        padding: .9rem 1rem;
+        border-left: 4px solid var(--bp-gold);
+        background: var(--bp-gold-dim);
+        color: var(--bp-muted);
+        font-weight: 650;
+      }
+
+      .method-modal__actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: .65rem;
+        margin-top: 1rem;
+      }
+
+      body.modal-open {
+        overflow: hidden;
+      }
+
       @media (max-width: 1100px) {
         .shell { grid-template-columns: 1fr; }
         .sidebar {
@@ -719,6 +857,13 @@
         .visual-system-grid,
         .stage-line,
         .palette {
+          grid-template-columns: 1fr;
+        }
+        .method-modal__head {
+          padding-right: 0;
+        }
+        .pivote-grid,
+        .intervention-grid {
           grid-template-columns: 1fr;
         }
         .profile-card {
@@ -1440,7 +1585,7 @@
             Historia <small>01</small>
           </button>
           <button class="tab-button" type="button" role="tab" aria-selected="false" data-tab="trust">
-            Confianza <small>02</small>
+            Estilo <small>02</small>
           </button>
           <button class="tab-button" type="button" role="tab" aria-selected="false" data-tab="procedures">
             Procedimientos <small>03</small>
@@ -1457,7 +1602,7 @@
         </div>
 
         <p class="sidebar-note">
-          Gu&iacute;a r&aacute;pida: Historia muestra el reto. Procedimientos muestra el m&eacute;todo. Trayectoria muestra credenciales.
+          Gu&iacute;a r&aacute;pida: Historia muestra el reto. Estilo muestra la intervenci&oacute;n. M&eacute;todo abre P.I.V.O.T.E.
         </p>
       </aside>
 
@@ -1489,8 +1634,8 @@
               </div>
             </div>
             <div class="cta-row">
-              <a class="btn" href="#trust" data-open-tab="trust">Ver se&ntilde;ales</a>
-              <a class="btn secondary" href="#procedures" data-open-tab="procedures">Ver m&eacute;todo</a>
+              <a class="btn" href="#trust" data-open-tab="trust">Ver estilo</a>
+              <button class="btn secondary" type="button" data-open-modal="pivote-modal">Ver m&eacute;todo</button>
             </div>
           </article>
 
@@ -1512,7 +1657,7 @@
               </div>
             </div>
 
-            <div class="hero-signal-grid" aria-label="Se&ntilde;ales de impacto">
+            <div class="hero-signal-grid" aria-label="Indicadores de impacto">
               <div>
                 <small>Operaci&oacute;n</small>
                 <strong>Decisiones con ruta</strong>
@@ -1532,7 +1677,7 @@
           </aside>
         </section>
 
-        <div class="metric-strip" aria-label="Se&ntilde;ales ejecutivas">
+        <div class="metric-strip" aria-label="Indicadores ejecutivos">
           <div class="metric"><strong>13+</strong><span>a&ntilde;os entre consultor&iacute;a, delivery y transformaci&oacute;n</span></div>
           <div class="metric"><strong>500+</strong><span>personas formadas: operaci&oacute;n, t&eacute;cnica, t&aacute;ctica, estrategia, direcci&oacute;n y C-level</span></div>
           <div class="metric"><strong>6 pa&iacute;ses</strong><span>adopci&oacute;n regional, preventa, delivery y gesti&oacute;n del cambio</span></div>
@@ -1582,25 +1727,25 @@
         <section class="tab-panel" id="panel-trust" role="tabpanel" data-panel="trust">
           <div class="section-head">
             <div>
-              <span class="slide-meta">Se&ntilde;ales de confianza</span>
-              <h2>Perfil para activar Data &amp; IA con criterio.</h2>
+              <span class="slide-meta">Estilo de intervenci&oacute;n</span>
+              <h2>Entender el trabajo real antes de amplificarlo.</h2>
             </div>
             <p>
-              Javier trabaja en consultor&iacute;a Data &amp; IA, offer management y disrupci&oacute;n digital:
-              convierte retos de negocio en ofertas, casos de uso, rutas de adopci&oacute;n y sistemas medibles.
-              Ha trabajado con freelancers y emprendedores, equipos operativos y t&eacute;cnicos,
-              empresas gubernamentales y corporativos multinacionales con presencia en bolsa.
+              Javier parte de c&oacute;mo el equipo ya trabaja: entiende el proceso, cocrea o mejora
+              el m&eacute;todo, reduce fricci&oacute;n y luego integra IA donde realmente acelera la
+              reingenier&iacute;a. No todo necesita agentes; a veces un prompt simple, un checklist
+              o un asistente barato resuelve mejor.
             </p>
           </div>
 
           <div class="proof-grid">
-            <article class="panel-card"><span class="slide-meta">Rol</span><h3>Consultor Data &amp; IA</h3><p>Conecta estrategia, preventa, delivery y adopci&oacute;n para aterrizar oportunidades de IA en ejecuci&oacute;n real.</p></article>
-            <article class="panel-card"><span class="slide-meta">Oferta</span><h3>Offer management</h3><p>Estructura propuestas, casos de uso, habilitaci&oacute;n y rutas de valor para negocio, tecnolog&iacute;a y gesti&oacute;n humana.</p></article>
-            <article class="panel-card"><span class="slide-meta">Pr&aacute;ctica</span><h3>Activos operables</h3><p>Dise&ntilde;o de asistentes, harnesses, workflows, prototipos, playbooks y sistemas de conocimiento reutilizables.</p></article>
-            <article class="panel-card"><span class="slide-meta">Sectores</span><h3>BFSI como foco natural</h3><p>Base fuerte en banca, seguros y servicios financieros; experiencia adicional en retail, grandes superficies y salud.</p></article>
-            <article class="panel-card"><span class="slide-meta">Sello</span><h3>Disrupci&oacute;n digital con m&eacute;todo</h3><p>Convierte oportunidades digitales en pilotos, victorias tempranas y capacidades medibles.</p></article>
-            <article class="panel-card"><span class="slide-meta">Frontera</span><h3>Marca con l&iacute;mites claros</h3><p>Amaris es empleo actual y contexto profesional. MetodologIA, Mamba Blanca y JM Labs son l&iacute;neas propias.</p></article>
-            <article class="panel-card"><span class="slide-meta">Resultado</span><h3>Impacto operable</h3><p>La meta es que el equipo pueda decidir, ejecutar, medir y sostener lo aprendido.</p></article>
+            <article class="panel-card"><span class="slide-meta">01 · Escucha</span><h3>Leer el sistema antes de intervenir.</h3><p>Mapeo decisiones, fricciones, restricciones, dolores y trabajo invisible antes de proponer herramientas.</p></article>
+            <article class="panel-card"><span class="slide-meta">02 · Cocreaci&oacute;n</span><h3>Mejorar el m&eacute;todo con el equipo.</h3><p>Combino oficio, contexto y pr&aacute;cticas simples para que el proceso sea entendible, adoptable y sostenible.</p></article>
+            <article class="panel-card"><span class="slide-meta">03 · Fricci&oacute;n</span><h3>Primero liberar energ&iacute;a operativa.</h3><p>Busco pasos repetitivos, decisiones lentas y p&eacute;rdida de contexto para activar victorias tempranas y medibles.</p></article>
+            <article class="panel-card"><span class="slide-meta">04 · IA pragm&aacute;tica</span><h3>Elegir el recurso m&iacute;nimo suficiente.</h3><p>Prompt, plantilla, asistente, workflow, automatizaci&oacute;n o agente: la soluci&oacute;n depende del riesgo, costo y valor esperado.</p></article>
+            <article class="panel-card"><span class="slide-meta">05 · Delegaci&oacute;n</span><h3>Delegar solo lo que ya tiene criterio.</h3><p>Cuando el proceso est&aacute; claro, aparecen puntos de automatizaci&oacute;n, revisi&oacute;n asistida y trabajo ag&eacute;ntico gobernable.</p></article>
+            <article class="panel-card"><span class="slide-meta">06 · Evoluci&oacute;n</span><h3>Convertir mejora en capacidad instalada.</h3><p>El cierre deja playbooks, prompts, SOPs, indicadores, repos o asistentes que el equipo puede ajustar con autonom&iacute;a.</p></article>
+            <article class="panel-card"><span class="slide-meta">Contexto</span><h3>De freelancers a corporativos.</h3><p>Trabajo con audiencias operativas, t&eacute;cnicas, t&aacute;cticas, estrat&eacute;gicas, directivas y C-level; foco fuerte en BFSI, retail, grandes superficies y salud.</p></article>
           </div>
         </section>
 
@@ -1750,6 +1895,47 @@ flowchart LR
       </main>
     </div>
 
+    <div class="method-modal" id="pivote-modal" role="dialog" aria-modal="true" aria-labelledby="pivote-title" aria-describedby="pivote-desc" hidden>
+      <div class="method-modal__panel">
+        <button class="method-modal__close" type="button" data-close-modal>Cerrar</button>
+        <div class="method-modal__head">
+          <span class="slide-meta">Framework P.I.V.O.T.E.</span>
+          <h2 id="pivote-title">Limpiar la se&ntilde;al antes de amplificar con IA.</h2>
+          <p id="pivote-desc">
+            P.I.V.O.T.E. ordena la intervenci&oacute;n en seis lentes: Personas, Interacciones,
+            Valor, Organizaci&oacute;n, Tecnolog&iacute;a y Evoluci&oacute;n. La tecnolog&iacute;a llega despu&eacute;s
+            de entender el sistema humano y operativo.
+          </p>
+        </div>
+
+        <div class="pivote-grid" aria-label="Lentes P.I.V.O.T.E.">
+          <article class="pivote-card"><b>P</b><h3>Personas</h3><p>Roles, capacidades, motivaciones y decisiones. Qui&eacute;n decide, qui&eacute;n ejecuta y qui&eacute;n aprende.</p></article>
+          <article class="pivote-card"><b>I</b><h3>Interacciones</h3><p>Flujos, dependencias, handoffs y fricciones. D&oacute;nde se pierde tiempo, energ&iacute;a y contexto.</p></article>
+          <article class="pivote-card"><b>V</b><h3>Valor</h3><p>Impacto medible. Qu&eacute; actividades mueven negocio y cu&aacute;les consumen energ&iacute;a sin retorno claro.</p></article>
+          <article class="pivote-card"><b>O</b><h3>Organizaci&oacute;n</h3><p>Estructura, SOPs, playbooks y base de conocimiento para que el aprendizaje no dependa de memoria individual.</p></article>
+          <article class="pivote-card"><b>T</b><h3>Tecnolog&iacute;a</h3><p>IA, automatizaci&oacute;n y agentes. Se elige el recurso m&iacute;nimo suficiente: prompt, asistente, workflow o sistema.</p></article>
+          <article class="pivote-card"><b>E</b><h3>Evoluci&oacute;n</h3><p>M&eacute;tricas, retrospectivas y mejora continua. El proceso aprende, pivota y se vuelve m&aacute;s gobernable.</p></article>
+        </div>
+
+        <div class="method-modal__callout">
+          La ruta pr&aacute;ctica es Fundamentar, Acelerar, Catalizar y Amplificar: entender el
+          proceso real, reducir fricci&oacute;n, convertir conocimiento en activos y delegar
+          en IA solo cuando hay criterio, reglas y evidencia.
+        </div>
+
+        <div class="intervention-grid" aria-label="Estilo de aplicaci&oacute;n del m&eacute;todo">
+          <article class="intervention-card"><h3>Reingenier&iacute;a visible</h3><p>Primero se entiende el trabajo como ocurre hoy; luego se redise&ntilde;a lo que duele, se mide y se vuelve repetible.</p></article>
+          <article class="intervention-card"><h3>IA costo-efectiva</h3><p>No todo requiere agentes. Muchas victorias nacen de prompts simples, checklists, plantillas o asistentes baratos y bien gobernados.</p></article>
+          <article class="intervention-card"><h3>Delegaci&oacute;n ag&eacute;ntica</h3><p>Cuando el proceso madura, aparecen automatizaciones, validadores y agentes para ejecutar tareas repetibles con supervisi&oacute;n humana.</p></article>
+        </div>
+
+        <div class="method-modal__actions">
+          <a class="btn" href="https://metodologia.info/vision/" target="_blank" rel="noopener">Ver m&eacute;todo completo</a>
+          <a class="btn secondary" href="https://metodologia.info/programas/" target="_blank" rel="noopener">Ver programas</a>
+        </div>
+      </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
     <script>
       function activateTab(tab) {
@@ -1783,6 +1969,45 @@ flowchart LR
           activateTab(link.dataset.openTab);
           document.getElementById("content").scrollIntoView({ behavior: "smooth" });
         });
+      });
+
+      let lastFocusedElement = null;
+
+      function openModal(modal) {
+        if (!modal) return;
+        lastFocusedElement = document.activeElement;
+        modal.hidden = false;
+        document.body.classList.add("modal-open");
+        const closeButton = modal.querySelector("[data-close-modal]");
+        requestAnimationFrame(() => closeButton?.focus());
+      }
+
+      function closeModal(modal) {
+        if (!modal || modal.hidden) return;
+        modal.hidden = true;
+        document.body.classList.remove("modal-open");
+        if (lastFocusedElement && typeof lastFocusedElement.focus === "function") {
+          lastFocusedElement.focus();
+        }
+      }
+
+      document.querySelectorAll("[data-open-modal]").forEach(button => {
+        button.addEventListener("click", () => {
+          openModal(document.getElementById(button.dataset.openModal));
+        });
+      });
+
+      document.querySelectorAll(".method-modal").forEach(modal => {
+        modal.addEventListener("click", event => {
+          if (event.target === modal || event.target.matches("[data-close-modal]")) {
+            closeModal(modal);
+          }
+        });
+      });
+
+      document.addEventListener("keydown", event => {
+        if (event.key !== "Escape") return;
+        document.querySelectorAll(".method-modal:not([hidden])").forEach(closeModal);
       });
 
       if (window.mermaid) {
