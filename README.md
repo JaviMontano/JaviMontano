@@ -51,6 +51,7 @@ Primero, soy **Founder & Empowerment Officer @ MetodologIA** y **Pristino Author
 | Sistema | Qué hace | Estado |
 |---|---|---|
 | [**Pristino Beta**](https://github.com/JaviMontano/jm-adk-beta) | Harness público orientado a catálogos, vibe coders y knowledge workers AI-native | Público / beta |
+| [**NotebookLM Empoderamiento en IA y Método**][notebook-empoderamiento] | Notebook vivo para estudiar, conectar fuentes y navegar el programa de empoderamiento con método | Público / NotebookLM |
 | [**trabajar-amplificado**](https://github.com/JaviMontano/trabajar-amplificado) | Bootcamp para managers con Claude Cowork y MetodologIA, con material ES/EN/PT | Público / pedagógico |
 | [**Cartilla Aprender, Aprehender y Revolucionar**](https://github.com/JaviMontano/material-educativo-metodologia/blob/main/playbook-aprender-aprehender-revolucionar-2026.html) | Guía HTML para aprender a aprender, transferir conocimiento y usar IA con método | Público / cartilla |
 | [**Conocer a Javier / Dashboard**](https://javimontano.github.io/JaviMontano/) | GitHub Page full brand con CV público, ecosistema, kanban de tareas, procedimientos y productividad | Público / dashboard |
@@ -95,7 +96,7 @@ JM Labs es mi laboratorio de exploración: pruebo agentes, prompts, repos, autom
 | Línea | Repos |
 |---|---|
 | **Pristino** | [Pristino Beta](https://github.com/JaviMontano/jm-adk-beta) (público / beta) |
-| **Material pedagógico** | [Cartilla Aprender, Aprehender y Revolucionar](https://github.com/JaviMontano/material-educativo-metodologia/blob/main/playbook-aprender-aprehender-revolucionar-2026.html)<br>[Recursos MetodologIA](https://metodologia.info/recursos/)<br>[material-educativo-metodologia](https://github.com/JaviMontano/material-educativo-metodologia)<br>[trabajar-amplificado](https://github.com/JaviMontano/trabajar-amplificado)<br>[Biblioteca Universal de Prompts](https://javimontano.github.io/prompt-amplificado/)<br>[discovery-producto](https://github.com/JaviMontano/discovery-producto) |
+| **Material pedagógico** | [NotebookLM Empoderamiento en IA y Método][notebook-empoderamiento]<br>[Cartilla Aprender, Aprehender y Revolucionar](https://github.com/JaviMontano/material-educativo-metodologia/blob/main/playbook-aprender-aprehender-revolucionar-2026.html)<br>[Recursos MetodologIA](https://metodologia.info/recursos/)<br>[material-educativo-metodologia](https://github.com/JaviMontano/material-educativo-metodologia)<br>[trabajar-amplificado](https://github.com/JaviMontano/trabajar-amplificado)<br>[Biblioteca Universal de Prompts](https://javimontano.github.io/prompt-amplificado/)<br>[discovery-producto](https://github.com/JaviMontano/discovery-producto) |
 | **MetodologIA / MAO** | [mao-iic](https://github.com/JaviMontano/mao-iic)<br>[mao-plugin-qa](https://github.com/JaviMontano/mao-plugin-qa)<br>[mao-pm-apex](https://github.com/JaviMontano/mao-pm-apex)<br>[mao-sovereign-architect](https://github.com/JaviMontano/mao-sovereign-architect) |
 | **Artefactos y casos** | [mao-scriba](https://github.com/JaviMontano/mao-scriba)<br>[jm-nexus-deep-dive](https://github.com/JaviMontano/jm-nexus-deep-dive)<br>[metodologia-campana-ecuador-1](https://github.com/JaviMontano/metodologia-campana-ecuador-1) |
 
@@ -178,6 +179,8 @@ Busco mi siguiente caso de éxito y mi próximo aliado: una organización, equip
   |
   <a href="https://metodologia.info/recursos/">Recursos MetodologIA</a>
   |
+  <a href="https://notebooklm.google.com/notebook/9fdf2de1-9d2f-40ec-a365-e00a4f444e51/artifact/5e28154c-8bfa-4364-b5f0-df9a44a57e98?utm_source=nlm_web_share&amp;utm_medium=google_oo&amp;utm_campaign=art_share_1&amp;utm_content=&amp;utm_smc=nlm_web_share_google_oo_art_share_1_">NotebookLM Empoderamiento</a>
+  |
   <a href="https://javimontano.github.io/JaviMontano/">Conocer a Javier</a>
   |
   <a href="https://github.com/JaviMontano/jm-adk-beta">Pristino Beta</a>
@@ -188,3 +191,5 @@ Busco mi siguiente caso de éxito y mi próximo aliado: una organización, equip
   |
   <a href="https://github.com/JaviMontano/material-educativo-metodologia">Material educativo</a>
 </p>
+
+[notebook-empoderamiento]: https://notebooklm.google.com/notebook/9fdf2de1-9d2f-40ec-a365-e00a4f444e51/artifact/5e28154c-8bfa-4364-b5f0-df9a44a57e98?utm_source=nlm_web_share&utm_medium=google_oo&utm_campaign=art_share_1&utm_content=&utm_smc=nlm_web_share_google_oo_art_share_1_
