@@ -73,6 +73,8 @@ Materiales, bootcamps, prompts, playbooks y guías que ayudan a equipos y profes
 
 Trabajo como consultor Data & IA y Offer Manager enfocado en disrupción digital. Leo retos de negocio, detecto oportunidades, estructuro valor, aterrizo delivery y convierto la adopción de IA en rutas con victorias tempranas, continuas y medibles.
 
+He trabajado con audiencias y organizaciones que van desde freelancers y emprendedores hasta empresas gubernamentales y corporativos multinacionales con presencia en bolsa. Mi base más fuerte está en banca, seguros y servicios financieros, con experiencia adicional en retail, grandes superficies y salud.
+
 ### Mamba Blanca como consultora propia
 
 Mamba Blanca es mi consultora propia para desarrollar assets digitales: playbooks, dashboards, mini apps, sitios, sistemas de conocimiento y artefactos de IA que una organización puede entender, usar y evolucionar.
@@ -155,7 +157,7 @@ BMAD | IIKit / IKIIT | Spec Driven Development | agile/lean | Design Thinking | 
   Exploro sistemas agénticos, prompts, automatización y repos gobernados para convertir experimentos técnicos en aprendizajes, prototipos y capacidades reutilizables.
 
 - **Amaris Consulting** - Senior Consultant / Offer Manager Data & IA<br>
-  Conecto estrategia, preventa, delivery y disrupción digital para convertir necesidades de negocio en ofertas claras, casos de uso priorizados y planes de adopción de IA que equipos técnicos, comerciales y de gestión pueden entender, vender y ejecutar.
+  Conecto estrategia, preventa, delivery y disrupción digital para convertir necesidades de negocio en ofertas claras, casos de uso priorizados y planes de adopción de IA que equipos técnicos, comerciales y de gestión pueden entender, vender y ejecutar. Trabajo con foco fuerte en banca, seguros y servicios financieros, y con experiencia en retail, grandes superficies, salud, organizaciones públicas y corporativos multinacionales.
 
 - **Sofka Technologies** - experiencia previa<br>
   Fui GenAI Champion y PreSales Architect, conectando transformación, preventa, liderazgo regional y adopción de IA para convertir capacidades técnicas en ofertas, habilitación y casos de negocio comprensibles.
