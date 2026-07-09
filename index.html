@@ -180,39 +180,6 @@
         text-transform: uppercase;
       }
 
-      .top-actions {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-end;
-        gap: .55rem;
-      }
-
-      .top-actions a,
-      .mini-link {
-        min-height: 40px;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        padding: .52rem .82rem;
-        border: 1px solid var(--soft-line);
-        border-radius: var(--radius);
-        background: rgba(187, 160, 204, .08);
-        color: var(--soft);
-        font-family: var(--font-note);
-        font-size: .78rem;
-        font-weight: 800;
-      }
-
-      .top-actions a:hover,
-      .top-actions a:focus-visible,
-      .mini-link:hover,
-      .mini-link:focus-visible {
-        border-color: var(--gold);
-        background: var(--gold);
-        color: var(--ink);
-        outline: none;
-      }
-
       .shell {
         max-width: 1440px;
         margin: 0 auto;
@@ -538,10 +505,6 @@
         margin-top: 1rem;
       }
 
-      .purpose-cta {
-        margin-top: 1rem;
-      }
-
       .stage-line {
         display: grid;
         grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -846,7 +809,6 @@
           align-items: flex-start;
           flex-direction: column;
         }
-        .top-actions { justify-content: flex-start; }
         .tabs,
         .metric-strip,
         .section-head,
@@ -950,8 +912,6 @@
       }
 
       .brand-text span,
-      .top-actions a,
-      .mini-link,
       .tab-button small,
       .sidebar-note,
       .eyebrow,
@@ -964,24 +924,6 @@
       .swatch,
       .footer {
         font-family: var(--font-note);
-      }
-
-      .top-actions a,
-      .mini-link {
-        border-radius: 4px;
-        border-color: var(--bp-border);
-        background: transparent;
-        color: var(--bp-muted);
-        letter-spacing: .08em;
-        text-transform: uppercase;
-      }
-
-      .top-actions a:hover,
-      .top-actions a:focus-visible,
-      .mini-link:hover,
-      .mini-link:focus-visible {
-        background: var(--bp-gold-dim);
-        color: var(--bp-gold);
       }
 
       .shell {
@@ -1319,62 +1261,6 @@
         line-height: 1.32;
       }
 
-      .hero-access-list {
-        display: grid;
-        gap: .38rem;
-        margin-top: .65rem;
-      }
-
-      .hero-access-list a {
-        min-height: 36px;
-        display: grid;
-        grid-template-columns: minmax(0, 1fr) auto;
-        gap: .55rem;
-        align-items: center;
-        padding: .42rem .5rem;
-        border: 1px solid var(--bp-border);
-        background: rgba(0, 40, 80, .44);
-        color: var(--bp-muted);
-        font-family: var(--font-note);
-        font-size: .68rem;
-        font-weight: 900;
-        letter-spacing: .04em;
-        line-height: 1.15;
-        text-transform: uppercase;
-      }
-
-      .hero-access-list a::after {
-        content: "ABRIR";
-        color: var(--bp-gold);
-        font-size: .58rem;
-      }
-
-      .hero-access-list a.hero-access-feature {
-        min-height: 46px;
-        border-color: var(--bp-gold);
-        background:
-          linear-gradient(90deg, rgba(212, 175, 55, .2), rgba(212, 175, 55, .05)),
-          rgba(0, 40, 80, .58);
-        box-shadow: inset 4px 0 0 var(--bp-gold);
-        color: var(--bp-ink);
-      }
-
-      .hero-access-list a.hero-access-feature::after {
-        content: "";
-        width: .46rem;
-        height: .46rem;
-        border-right: 2px solid var(--bp-gold);
-        border-top: 2px solid var(--bp-gold);
-        transform: rotate(45deg);
-      }
-
-      .hero-access-list a:hover,
-      .hero-access-list a:focus-visible {
-        border-color: var(--bp-gold);
-        color: var(--bp-ink);
-        outline: none;
-      }
-
       .hero-signal-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
         align-content: end;
@@ -1550,6 +1436,355 @@
           width: min(112px, 100%);
         }
       }
+
+      /* Replanned UI: compact header, narrative center, access rail on the right. */
+      .top-in {
+        min-height: 54px;
+        padding: .38rem clamp(.85rem, 2vw, 1.35rem);
+      }
+
+      .brand {
+        gap: .55rem;
+        font-size: .78rem;
+      }
+
+      .brand-logo {
+        width: 32px;
+        height: 32px;
+        font-size: .68rem;
+      }
+
+      .brand-text span {
+        margin-top: .08rem;
+        font-size: .56rem;
+        letter-spacing: .1em;
+      }
+
+      .top-meta {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: .45rem;
+        color: var(--bp-muted);
+        font-family: var(--font-note);
+        font-size: .62rem;
+        font-weight: 900;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+      }
+
+      .top-meta span {
+        min-height: 28px;
+        display: inline-flex;
+        align-items: center;
+        padding: .24rem .5rem;
+        border: 1px solid var(--bp-border);
+        background: rgba(0, 40, 80, .4);
+      }
+
+      .shell {
+        max-width: 1560px;
+        grid-template-columns: 248px minmax(0, 1fr) 304px;
+      }
+
+      .sidebar,
+      .link-rail {
+        top: 54px;
+        height: calc(100vh - 54px);
+      }
+
+      .sidebar {
+        padding: .75rem;
+      }
+
+      .profile-card {
+        padding: .75rem;
+      }
+
+      .profile-photo {
+        width: 92px;
+      }
+
+      .profile-card h1 {
+        margin: .7rem 0 .28rem;
+        font-size: 1.28rem;
+      }
+
+      .profile-card p {
+        font-size: .78rem;
+        line-height: 1.45;
+      }
+
+      .tabs {
+        gap: .42rem;
+        margin-top: .75rem;
+      }
+
+      .tab-button {
+        min-height: 40px;
+        padding: .58rem .62rem;
+        font-size: .7rem;
+      }
+
+      .sidebar-note {
+        margin-top: .75rem;
+        padding: .72rem;
+        font-size: .68rem;
+        line-height: 1.45;
+      }
+
+      .main {
+        padding: clamp(.75rem, 1.6vw, 1.2rem);
+      }
+
+      .link-rail {
+        position: sticky;
+        align-self: start;
+        overflow: auto;
+        padding: .75rem;
+        border-left: 1px solid var(--bp-border);
+        background: rgba(0, 40, 80, .34);
+      }
+
+      .rail-card {
+        padding: .8rem;
+        border: 1px solid var(--bp-border);
+        background: var(--bp-card);
+      }
+
+      .rail-card + .rail-card {
+        margin-top: .7rem;
+      }
+
+      .rail-primary {
+        background:
+          linear-gradient(135deg, rgba(212, 175, 55, .18), transparent 58%),
+          var(--bp-card);
+      }
+
+      .rail-card h2 {
+        margin: .48rem 0 .45rem;
+        color: var(--bp-ink);
+        font-size: 1.08rem;
+        line-height: 1.05;
+      }
+
+      .rail-card p {
+        color: var(--bp-muted);
+        font-size: .76rem;
+        line-height: 1.42;
+        font-weight: 650;
+      }
+
+      .rail-link-group {
+        display: grid;
+        gap: .4rem;
+        margin-top: .65rem;
+      }
+
+      .rail-link {
+        width: 100%;
+        min-height: 38px;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: .55rem;
+        align-items: center;
+        padding: .45rem .52rem;
+        border: 1px solid var(--bp-border);
+        background: rgba(0, 40, 80, .42);
+        color: var(--bp-muted);
+        cursor: pointer;
+        font-family: var(--font-note);
+        font-size: .66rem;
+        font-weight: 900;
+        letter-spacing: .04em;
+        line-height: 1.15;
+        text-align: left;
+        text-transform: uppercase;
+      }
+
+      .rail-link span {
+        min-width: 0;
+      }
+
+      .rail-link small {
+        color: var(--bp-gold);
+        font-size: .55rem;
+        letter-spacing: .08em;
+      }
+
+      .rail-link-feature,
+      .rail-action {
+        border-color: var(--bp-gold);
+        background:
+          linear-gradient(90deg, rgba(212, 175, 55, .18), rgba(212, 175, 55, .05)),
+          rgba(0, 40, 80, .58);
+        color: var(--bp-ink);
+        box-shadow: inset 3px 0 0 var(--bp-gold);
+      }
+
+      .rail-link:hover,
+      .rail-link:focus-visible {
+        border-color: var(--bp-gold);
+        color: var(--bp-ink);
+        outline: none;
+      }
+
+      .hero {
+        min-height: clamp(480px, calc(100vh - 122px), 610px);
+        grid-template-columns: minmax(0, 1fr) minmax(270px, .72fr);
+      }
+
+      .hero-copy {
+        padding: clamp(.9rem, 1.6vw, 1.25rem);
+      }
+
+      .hero-title {
+        max-width: 720px;
+        font-size: clamp(2rem, 2.55vw, 2.95rem);
+      }
+
+      .hero-lead {
+        font-size: .92rem;
+      }
+
+      .hero-hook {
+        max-width: 640px;
+        padding: .62rem .72rem;
+        font-size: .78rem;
+      }
+
+      .hero-companion-lockup {
+        grid-template-columns: 122px minmax(0, 1fr);
+      }
+
+      .companion-shell {
+        min-height: 142px;
+      }
+
+      .hero-companion-image {
+        width: min(126px, 100%);
+      }
+
+      .hero-nameplate {
+        padding: .68rem;
+      }
+
+      .hero-signal-grid div {
+        min-height: 82px;
+      }
+
+      .purpose-callout {
+        padding-bottom: 1rem;
+      }
+
+      @media (max-width: 1320px) {
+        .shell {
+          grid-template-columns: 230px minmax(0, 1fr) 282px;
+        }
+
+        .hero {
+          grid-template-columns: 1fr;
+          min-height: auto;
+        }
+
+        .hero-visual {
+          grid-template-rows: auto auto;
+        }
+      }
+
+      @media (max-width: 1100px) {
+        .shell {
+          grid-template-columns: 1fr;
+        }
+
+        .sidebar,
+        .link-rail {
+          position: static;
+          height: auto;
+        }
+
+        .sidebar {
+          order: 1;
+          border-right: 0;
+          border-bottom: 1px solid var(--bp-border);
+        }
+
+        .link-rail {
+          order: 2;
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          gap: .7rem;
+          border-left: 0;
+          border-bottom: 1px solid var(--bp-border);
+        }
+
+        .rail-card + .rail-card {
+          margin-top: 0;
+        }
+
+        .main {
+          order: 3;
+        }
+
+        .profile-card {
+          grid-template-columns: 84px minmax(0, 1fr);
+        }
+
+        .profile-photo {
+          width: 84px;
+        }
+
+        .tabs {
+          grid-template-columns: repeat(6, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 760px) {
+        .top-in {
+          min-height: 48px;
+          flex-direction: row;
+          align-items: center;
+        }
+
+        .brand {
+          font-size: .7rem;
+        }
+
+        .brand-logo {
+          width: 30px;
+          height: 30px;
+        }
+
+        .brand-text span,
+        .top-meta {
+          display: none;
+        }
+
+        .link-rail {
+          grid-template-columns: 1fr;
+        }
+
+        .rail-card {
+          padding: .72rem;
+        }
+
+        .tabs {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .hero-companion-lockup {
+          grid-template-columns: 96px minmax(0, 1fr);
+        }
+
+        .companion-shell {
+          min-height: 118px;
+        }
+
+        .hero-companion-image {
+          width: min(92px, 100%);
+        }
+      }
     </style>
   </head>
   <body>
@@ -1561,12 +1796,10 @@
           <span class="brand-logo" aria-hidden="true">JM</span>
           <span class="brand-text">Javier Monta&ntilde;o <span>Retos a casos de &eacute;xito</span></span>
         </a>
-        <nav class="top-actions" aria-label="Enlaces principales">
-          <a href="mailto:contacto@metodologia.info">Contacto</a>
-          <a href="https://metodologia.info/">MetodologIA</a>
-          <a href="https://co.linkedin.com/in/javier-andr%C3%A9s-monta%C3%B1o-guzm%C3%A1n-35b02756/en">LinkedIn</a>
-          <a href="https://metodologia.info/recursos/">Recursos</a>
-        </nav>
+        <div class="top-meta" aria-label="Posicionamiento profesional">
+          <span>Method first, AI next</span>
+          <span>Empowerment Officer · Pristino Author</span>
+        </div>
       </div>
     </header>
 
@@ -1645,15 +1878,9 @@
                 <img class="hero-companion-image" src="./assets/metodologia_logo_companion.png" alt="MetodologIA: asistentes y sistemas de trabajo" />
               </div>
               <div class="hero-nameplate">
-                <small>Accesos vivos</small>
-                <strong>Prueba el m&eacute;todo.</strong>
-                <p>Empieza por el notebook; sigue con asistentes, prompts y sistemas ag&eacute;nticos.</p>
-                <div class="hero-access-list" aria-label="Accesos directos">
-                  <a class="hero-access-feature" href="https://notebooklm.google.com/notebook/9fdf2de1-9d2f-40ec-a365-e00a4f444e51/artifact/5e28154c-8bfa-4364-b5f0-df9a44a57e98?utm_source=nlm_web_share&amp;utm_medium=google_oo&amp;utm_campaign=art_share_1&amp;utm_content=&amp;utm_smc=nlm_web_share_google_oo_art_share_1_" target="_blank" rel="noopener">NotebookLM IA y M&eacute;todo</a>
-                  <a href="https://metodologia.info/recursos/">Asistentes GPT</a>
-                  <a href="https://javimontano.github.io/prompt-amplificado/">Biblioteca de prompts</a>
-                  <a href="https://github.com/JaviMontano/jm-adk-beta">Pristino Beta Harness</a>
-                </div>
+                <small>M&eacute;todo visible</small>
+                <strong>Prueba con evidencia.</strong>
+                <p>Notebook, asistentes, prompts y harness p&uacute;blico sostienen la pr&aacute;ctica.</p>
               </div>
             </div>
 
@@ -1881,11 +2108,6 @@ flowchart LR
             <span class="slide-meta">Conversaci&oacute;n</span>
             <h3>Si esta forma de trabajar resuena con tu reto, abramos la conversaci&oacute;n.</h3>
             <p>Me interesa construir con aliados que quieran pasar de oportunidad a caso de &eacute;xito con criterio humano, trazabilidad y transferencia.</p>
-            <div class="cta-row purpose-cta">
-              <a class="btn" href="mailto:contacto@metodologia.info">Escribir</a>
-              <a class="btn secondary" href="https://co.linkedin.com/in/javier-andr%C3%A9s-monta%C3%B1o-guzm%C3%A1n-35b02756/en">LinkedIn</a>
-              <a class="btn secondary" href="https://metodologia.info/recursos/">Ver recursos</a>
-            </div>
           </div>
         </section>
 
@@ -1893,6 +2115,39 @@ flowchart LR
           Javier Monta&ntilde;o · Method first, AI next · Busco mi siguiente caso de &eacute;xito y mi pr&oacute;ximo aliado.
         </footer>
       </main>
+
+      <aside class="link-rail" aria-label="Accesos principales">
+        <section class="rail-card rail-primary">
+          <span class="slide-meta">Conversaci&oacute;n</span>
+          <h2>Hablemos del pr&oacute;ximo caso.</h2>
+          <p>Un reto real, una ruta visible y evidencia para decidir el siguiente movimiento.</p>
+          <div class="rail-link-group">
+            <a class="rail-link rail-link-feature" href="mailto:contacto@metodologia.info"><span>Escribir</span><small>MAIL</small></a>
+            <a class="rail-link" href="https://co.linkedin.com/in/javier-andr%C3%A9s-monta%C3%B1o-guzm%C3%A1n-35b02756/en" target="_blank" rel="noopener"><span>LinkedIn</span><small>PERFIL</small></a>
+          </div>
+        </section>
+
+        <section class="rail-card">
+          <span class="slide-meta">Prueba el m&eacute;todo</span>
+          <button class="rail-link rail-action" type="button" data-open-modal="pivote-modal"><span>Ver P.I.V.O.T.E.</span><small>M&Eacute;TODO</small></button>
+          <div class="rail-link-group">
+            <a class="rail-link rail-link-feature" href="https://notebooklm.google.com/notebook/9fdf2de1-9d2f-40ec-a365-e00a4f444e51/artifact/5e28154c-8bfa-4364-b5f0-df9a44a57e98?utm_source=nlm_web_share&amp;utm_medium=google_oo&amp;utm_campaign=art_share_1&amp;utm_content=&amp;utm_smc=nlm_web_share_google_oo_art_share_1_" target="_blank" rel="noopener"><span>NotebookLM IA y M&eacute;todo</span><small>VIVO</small></a>
+            <a class="rail-link" href="https://metodologia.info/" target="_blank" rel="noopener"><span>metodologia.info</span><small>SITIO</small></a>
+            <a class="rail-link" href="https://metodologia.info/recursos/" target="_blank" rel="noopener"><span>Recursos MetodologIA</span><small>HUB</small></a>
+          </div>
+        </section>
+
+        <section class="rail-card">
+          <span class="slide-meta">Activos abiertos</span>
+          <div class="rail-link-group">
+            <a class="rail-link" href="https://github.com/JaviMontano/jm-adk-beta" target="_blank" rel="noopener"><span>Pristino Beta Harness</span><small>GITHUB</small></a>
+            <a class="rail-link" href="https://javimontano.github.io/prompt-amplificado/" target="_blank" rel="noopener"><span>Biblioteca de prompts</span><small>PAGE</small></a>
+            <a class="rail-link" href="https://javimontano.github.io/trabajar-amplificado/" target="_blank" rel="noopener"><span>Trabajo Amplificado</span><small>PROGRAMA</small></a>
+            <a class="rail-link" href="https://github.com/JaviMontano/material-educativo-metodologia/blob/main/playbook-aprender-aprehender-revolucionar-2026.html" target="_blank" rel="noopener"><span>Aprender a aprender</span><small>CARTILLA</small></a>
+            <a class="rail-link" href="https://github.com/JaviMontano/material-educativo-metodologia" target="_blank" rel="noopener"><span>Material educativo</span><small>REPO</small></a>
+          </div>
+        </section>
+      </aside>
     </div>
 
     <div class="method-modal" id="pivote-modal" role="dialog" aria-modal="true" aria-labelledby="pivote-title" aria-describedby="pivote-desc" hidden>
