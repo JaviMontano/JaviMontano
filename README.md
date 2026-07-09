@@ -27,7 +27,7 @@
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=MetodologIA&message=Founder%20%26%20Empowerment%20Officer&color=08111F&labelColor=0F766E&style=flat-square" alt="MetodologIA Founder and Empowerment Officer" />
   <img src="https://img.shields.io/static/v1?label=Pristino&message=Author%20%2F%20Beta&color=08111F&labelColor=172554&style=flat-square" alt="Pristino Author Beta" />
-  <img src="https://img.shields.io/static/v1?label=Amaris&message=Senior%20Consultant%20%2F%20Offer%20Manager&color=08111F&labelColor=111827&style=flat-square" alt="Amaris Senior Consultant and Offer Manager" />
+  <img src="https://img.shields.io/static/v1?label=Amaris&message=Senior%20Consultant%20%2F%20Offer%20Manager%20Data%20%26%20IA&color=08111F&labelColor=111827&style=flat-square" alt="Amaris Senior Consultant and Offer Manager Data IA" />
   <img src="https://img.shields.io/static/v1?label=27&message=repos%20p%C3%BAblicos&color=08111F&labelColor=38BDF8&style=flat-square" alt="27 repos públicos" />
   <img src="https://img.shields.io/static/v1?label=18&message=repos%20activos%20no%20fork&color=08111F&labelColor=34D399&style=flat-square" alt="18 repos públicos activos no fork" />
   <img src="https://img.shields.io/static/v1?label=4&message=frentes%20pedag%C3%B3gicos&color=08111F&labelColor=FBBF24&style=flat-square" alt="4 frentes pedagógicos públicos" />
@@ -44,7 +44,7 @@
 
 **Method first, AI next.** Construyo repos, playbooks, agentes, prompts, cursos y artefactos para que los retos no se queden en diagnósticos y las oportunidades no se queden en intenciones. Mi campo de acción cruza **consultoría**, **operaciones**, **management**, **adopción de IA** y **disrupción digital**: pasar de **reto a oportunidad**, de **oportunidad a método**, de **método a sistema**, y de **sistema a caso de éxito verificable**.
 
-Primero, soy **Founder & Empowerment Officer @ MetodologIA** y **Pristino Author**. En mi rol profesional actual soy **Senior Consultant / Offer Manager @ Amaris Consulting**. Mis líneas propias se separan en **MetodologIA** para método abierto, **Mamba Blanca** para desarrollo de assets digitales y **JM Labs** para experimentación. Trabajo con **OpenAI Codex** como runtime de ejecución agéntica para convertir contexto, repos y decisiones en entregables verificables.
+Primero, soy **Founder & Empowerment Officer @ MetodologIA** y **Pristino Author**. En mi rol profesional actual soy **Senior Consultant / Offer Manager Data & IA @ Amaris Consulting**. Mis líneas propias se separan en **MetodologIA** para método abierto, **Mamba Blanca** para desarrollo de assets digitales y **JM Labs** para experimentación. Trabajo con **OpenAI Codex** como runtime de ejecución agéntica para convertir contexto, repos y decisiones en entregables verificables.
 
 ## Lo que ya está vivo
 
@@ -70,7 +70,7 @@ Materiales, bootcamps, prompts, playbooks y guías que ayudan a equipos y profes
 
 ### Consultoría aplicada en Amaris Consulting
 
-Trabajo en contextos reales de oferta, habilitación y adopción de IA. La clave no es prometer automatización: es leer retos, detectar oportunidades, estructurar valor, aterrizar delivery y dejar sistemas repetibles.
+Trabajo como consultor Data & IA y Offer Manager enfocado en disrupción digital. Leo retos de negocio, detecto oportunidades, estructuro valor, aterrizo delivery y convierto la adopción de IA en rutas con victorias tempranas, continuas y medibles.
 
 ### Mamba Blanca como consultora propia
 
@@ -87,7 +87,7 @@ JM Labs es mi laboratorio de exploración: pruebo agentes, prompts, repos, autom
 - **Segundos cerebros y digital twins:** bases de conocimiento, notebooks, repos y mapas de contexto que convierten conocimiento tácito en sistemas navegables.
 - **Skills, prompts y plugins:** capacidades reutilizables con instrucciones, contexto mínimo, plantillas, fuentes y criterios de salida.
 - **Prototipado hiper acelerado:** pasar de boceto a prototipo funcional, mini app, dashboard o HTML publicable para validar hipótesis de negocio.
-- **Gestión consultiva y cambio:** discovery, ofertas, preventa, adopción de IA, enablement, transferencia y operación.
+- **Gestión consultiva Data & IA:** discovery, ofertas, preventa, disrupción digital, adopción de IA, enablement, transferencia y operación.
 - **Material pedagógico:** cursos, bootcamps, playbooks, guías y artefactos compartibles para que otros aprendan a operar con método.
 
 ## Rutas y repositorios clave
@@ -153,8 +153,8 @@ BMAD | IIKit / IKIIT | Spec Driven Development | agile/lean | Design Thinking | 
 - **JM Labs** - laboratorio propio<br>
   Exploro sistemas agénticos, prompts, automatización y repos gobernados para convertir experimentos técnicos en aprendizajes, prototipos y capacidades reutilizables.
 
-- **Amaris Consulting** - Senior Consultant / Offer Manager<br>
-  Conecto estrategia, preventa y delivery para convertir necesidades de negocio en ofertas claras, casos de uso priorizados y planes de adopción de IA que equipos técnicos, comerciales y de gestión pueden entender, vender y ejecutar.
+- **Amaris Consulting** - Senior Consultant / Offer Manager Data & IA<br>
+  Conecto estrategia, preventa, delivery y disrupción digital para convertir necesidades de negocio en ofertas claras, casos de uso priorizados y planes de adopción de IA que equipos técnicos, comerciales y de gestión pueden entender, vender y ejecutar.
 
 - **Sofka Technologies** - experiencia previa<br>
   Fui GenAI Champion y PreSales Architect, conectando transformación, preventa, liderazgo regional y adopción de IA para convertir capacidades técnicas en ofertas, habilitación y casos de negocio comprensibles.
