@@ -541,69 +541,6 @@
         margin-top: 1rem;
       }
 
-      .notebook-feature {
-        display: grid;
-        grid-template-columns: minmax(0, 1fr) auto;
-        gap: 1rem;
-        align-items: end;
-        margin: 1rem 0;
-        padding: 1rem;
-        border: 2px solid var(--bp-gold);
-        background:
-          linear-gradient(135deg, rgba(0, 40, 80, .88), rgba(0, 51, 102, .66)),
-          linear-gradient(var(--bp-grid) 1px, transparent 1px),
-          linear-gradient(90deg, var(--bp-grid) 1px, transparent 1px);
-        background-size: auto, 32px 32px, 32px 32px;
-        color: var(--bp-ink);
-      }
-
-      .notebook-feature small {
-        color: var(--bp-gold);
-        font-family: var(--font-note);
-        font-size: .72rem;
-        font-weight: 900;
-        letter-spacing: .18em;
-        text-transform: uppercase;
-      }
-
-      .notebook-feature strong {
-        display: block;
-        margin: .5rem 0 .4rem;
-        color: var(--bp-ink);
-        font-family: var(--font-title);
-        font-size: clamp(1.3rem, 2.4vw, 2rem);
-        line-height: 1.05;
-      }
-
-      .notebook-feature p {
-        max-width: 720px;
-        color: var(--bp-muted);
-        font-size: .94rem;
-        font-weight: 640;
-        line-height: 1.45;
-      }
-
-      .notebook-feature span {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 42px;
-        padding: .55rem .75rem;
-        border: 1px solid var(--bp-gold);
-        color: var(--bp-gold);
-        font-family: var(--font-note);
-        font-size: .7rem;
-        font-weight: 900;
-        letter-spacing: .08em;
-        text-transform: uppercase;
-      }
-
-      .notebook-feature:hover,
-      .notebook-feature:focus-visible {
-        border-color: var(--bp-ink);
-        outline: none;
-      }
-
       .stage-line {
         display: grid;
         grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -775,7 +712,6 @@
         .tabs,
         .metric-strip,
         .section-head,
-        .notebook-feature,
         .story-grid,
         .proof-grid,
         .repo-grid,
@@ -1271,12 +1207,20 @@
       .hero-access-list a.hero-access-feature {
         min-height: 46px;
         border-color: var(--bp-gold);
-        background: rgba(212, 175, 55, .14);
+        background:
+          linear-gradient(90deg, rgba(212, 175, 55, .2), rgba(212, 175, 55, .05)),
+          rgba(0, 40, 80, .58);
+        box-shadow: inset 4px 0 0 var(--bp-gold);
         color: var(--bp-ink);
       }
 
       .hero-access-list a.hero-access-feature::after {
-        content: "DESTACADO";
+        content: "";
+        width: .46rem;
+        height: .46rem;
+        border-right: 2px solid var(--bp-gold);
+        border-top: 2px solid var(--bp-gold);
+        transform: rotate(45deg);
       }
 
       .hero-access-list a:hover,
@@ -1633,14 +1577,6 @@
             </article>
           </div>
 
-          <a class="notebook-feature" href="https://notebooklm.google.com/notebook/9fdf2de1-9d2f-40ec-a365-e00a4f444e51/artifact/5e28154c-8bfa-4364-b5f0-df9a44a57e98?utm_source=nlm_web_share&amp;utm_medium=google_oo&amp;utm_campaign=art_share_1&amp;utm_content=&amp;utm_smc=nlm_web_share_google_oo_art_share_1_" target="_blank" rel="noopener" aria-label="Abrir NotebookLM de Empoderamiento en IA y M&eacute;todo">
-            <div>
-              <small>NotebookLM destacado</small>
-              <strong>Empoderamiento en IA y M&eacute;todo</strong>
-              <p>Un notebook vivo para recorrer fuentes, ideas y artefactos del programa: m&eacute;todo primero, IA despu&eacute;s, con rutas de estudio y consulta.</p>
-            </div>
-            <span>Abrir notebook</span>
-          </a>
         </section>
 
         <section class="tab-panel" id="panel-trust" role="tabpanel" data-panel="trust">
@@ -1746,14 +1682,6 @@ flowchart LR
               Estos enlaces muestran c&oacute;mo pienso, c&oacute;mo ense&ntilde;o y c&oacute;mo convierto una idea en trabajo repetible.
             </p>
           </div>
-          <a class="notebook-feature" href="https://notebooklm.google.com/notebook/9fdf2de1-9d2f-40ec-a365-e00a4f444e51/artifact/5e28154c-8bfa-4364-b5f0-df9a44a57e98?utm_source=nlm_web_share&amp;utm_medium=google_oo&amp;utm_campaign=art_share_1&amp;utm_content=&amp;utm_smc=nlm_web_share_google_oo_art_share_1_" target="_blank" rel="noopener" aria-label="Abrir NotebookLM de Empoderamiento en IA y M&eacute;todo">
-            <div>
-              <small>Recurso principal</small>
-              <strong>NotebookLM: Empoderamiento en IA y M&eacute;todo</strong>
-              <p>Entrada prioritaria para navegar el programa, conectar conceptos y consultar materiales desde una base viva de conocimiento.</p>
-            </div>
-            <span>Abrir notebook</span>
-          </a>
           <div class="repo-grid">
             <a class="repo-card" href="https://metodologia.info/"><small>Sitio</small><strong>metodologia.info</strong><span>Entrada principal a m&eacute;todo, comunidad y recursos.</span></a>
             <a class="repo-card" href="https://metodologia.info/recursos/"><small>Biblioteca</small><strong>Recursos MetodologIA</strong><span>GPTs, Gems, NotebookLM, prompts y playbooks para aprender IA con m&eacute;todo.</span></a>
