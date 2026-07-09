@@ -44,7 +44,7 @@
 
 **Method first, AI next.** Construyo repos, playbooks, agentes, prompts, cursos y artefactos para que los retos no se queden en diagnósticos y las oportunidades no se queden en intenciones. Mi campo de acción cruza **consultoría**, **operaciones**, **management**, **adopción de IA** y **disrupción digital**: pasar de **reto a oportunidad**, de **oportunidad a método**, de **método a sistema**, y de **sistema a caso de éxito verificable**.
 
-Primero, soy **Founder & Empowerment Officer en MetodologIA**. En mi rol profesional actual soy **Senior Consultant / Offer Manager en Amaris Consulting**. Mis líneas propias se separan en **MetodologIA** para método abierto, **Mamba Blanca** para desarrollo de assets digitales y **JM Labs** para experimentación. Trabajo con **OpenAI Codex** como runtime de ejecución agéntica para convertir contexto, repos y decisiones en entregables verificables.
+Primero, soy **Founder & Empowerment Officer @ MetodologIA** y **Pristino Author**. En mi rol profesional actual soy **Senior Consultant / Offer Manager @ Amaris Consulting**. Mis líneas propias se separan en **MetodologIA** para método abierto, **Mamba Blanca** para desarrollo de assets digitales y **JM Labs** para experimentación. Trabajo con **OpenAI Codex** como runtime de ejecución agéntica para convertir contexto, repos y decisiones en entregables verificables.
 
 ## Lo que ya está vivo
 
@@ -144,14 +144,17 @@ BMAD | IIKit / IKIIT | Spec Driven Development | agile/lean | Design Thinking | 
 - **MetodologIA** - Founder & Empowerment Officer<br>
   Construyo metodología abierta, comunidad, frameworks, programas y cartillas para que profesionales y equipos aprendan IA con criterio, conviertan conocimiento en prácticas transferibles y ganen autonomía operativa.
 
-- **Amaris Consulting** - Senior Consultant / Offer Manager<br>
-  Conecto estrategia, preventa y delivery para convertir necesidades de negocio en ofertas claras, casos de uso priorizados y planes de adopción de IA que equipos técnicos, comerciales y de gestión pueden entender, vender y ejecutar.
+- **Pristino Beta** - Author / public harness<br>
+  Desarrollo un harness público para sistemas agénticos, procedimientos, validadores y trabajo asistido por repos.
 
 - **Mamba Blanca** - consultora propia para assets digitales<br>
   Desarrollo playbooks, dashboards, mini apps, sitios, sistemas de conocimiento y artefactos de IA que convierten estrategia, método y aprendizaje en activos digitales reutilizables.
 
 - **JM Labs** - laboratorio propio<br>
   Exploro sistemas agénticos, prompts, automatización y repos gobernados para convertir experimentos técnicos en aprendizajes, prototipos y capacidades reutilizables.
+
+- **Amaris Consulting** - Senior Consultant / Offer Manager<br>
+  Conecto estrategia, preventa y delivery para convertir necesidades de negocio en ofertas claras, casos de uso priorizados y planes de adopción de IA que equipos técnicos, comerciales y de gestión pueden entender, vender y ejecutar.
 
 - **Sofka Technologies** - experiencia previa<br>
   Fui GenAI Champion y PreSales Architect, conectando transformación, preventa, liderazgo regional y adopción de IA para convertir capacidades técnicas en ofertas, habilitación y casos de negocio comprensibles.
