@@ -1,0 +1,2306 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex, nofollow, noarchive" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Javier Monta&ntilde;o · Retos a casos de &eacute;xito con m&eacute;todo e IA</title>
+    <meta
+      name="description"
+      content="Historia navegable de Javier Monta&ntilde;o: m&eacute;todo primero, IA despu&eacute;s. Consultor&iacute;a, adopci&oacute;n de IA, sistemas de trabajo y activos pedag&oacute;gicos para convertir retos en casos de &eacute;xito."
+    />
+    <meta property="og:title" content="Javier Monta&ntilde;o · Retos a casos de &eacute;xito con m&eacute;todo e IA" />
+    <meta
+      property="og:description"
+      content="Si tienes un reto real, esta p&aacute;gina muestra c&oacute;mo Javier lo convierte en oportunidad, sistema, evidencia y capacidad instalada."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./assets/hero.png" />
+    <link rel="icon" href="./assets/team_javier-montano.webp" type="image/webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Javier Montano",
+        "url": "https://javimontano.github.io/JaviMontano/",
+        "image": "https://javimontano.github.io/JaviMontano/assets/team_javier-montano.webp",
+        "jobTitle": "Founder & Empowerment Officer @ MetodologIA; Pristino Author; Senior Consultant / Offer Manager Data & IA @ Amaris Consulting",
+        "worksFor": { "@type": "Organization", "name": "Amaris Consulting" },
+        "affiliation": [
+          { "@type": "Organization", "name": "MetodologIA" },
+          { "@type": "Organization", "name": "Mamba Blanca" },
+          { "@type": "Organization", "name": "JM Labs" }
+        ],
+        "knowsAbout": [
+          "Generative AI",
+          "Agentic systems",
+          "Digital transformation",
+          "Change management",
+          "Consulting",
+          "Operations",
+          "Spec Driven Development",
+          "Knowledge systems",
+          "AI adoption"
+        ],
+        "sameAs": [
+          "https://github.com/JaviMontano",
+          "https://metodologia.info",
+          "https://javimontano.github.io/trabajar-amplificado/"
+        ]
+      }
+    </script>
+    <style>
+      :root {
+        --blueprint: #07356b;
+        --gold: #D4AF37;
+        --signal: #003366;
+        --ink: #f5f7fa;
+        --soft: #a0b0c8;
+        --muted: #a0b0c8;
+        --font-title: "Poppins", system-ui, sans-serif;
+        --font-body: "Montserrat", system-ui, sans-serif;
+        --font-note: "JetBrains Mono", ui-monospace, monospace;
+        --radius: 8px;
+        --shadow: 0 24px 70px rgba(31, 40, 51, .26);
+        --line: rgba(31, 40, 51, .22);
+        --soft-line: rgba(187, 160, 204, .34);
+        --gold-line: rgba(255, 215, 0, .42);
+        --ease: cubic-bezier(.4, 0, .2, 1);
+      }
+
+      * { box-sizing: border-box; }
+
+      html {
+        scroll-behavior: smooth;
+        -webkit-text-size-adjust: 100%;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        color: var(--ink);
+        background:
+          linear-gradient(90deg, rgba(18, 37, 98, .08) 1px, transparent 1px),
+          linear-gradient(0deg, rgba(18, 37, 98, .08) 1px, transparent 1px),
+          var(--soft);
+        background-size: 64px 64px;
+        font-family: var(--font-body);
+        font-size: 16px;
+        line-height: 1.58;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      a { color: inherit; text-decoration: none; }
+      button { color: inherit; font: inherit; }
+      img, svg { max-width: 100%; height: auto; }
+      p, h1, h2, h3, h4 { margin-top: 0; }
+      p { margin-bottom: 0; }
+      strong { color: var(--blueprint); }
+      code { font-family: var(--font-note); }
+
+      h1, h2, h3, h4 {
+        font-family: var(--font-title);
+        letter-spacing: 0;
+        line-height: 1.05;
+      }
+
+      .skip-link {
+        position: absolute;
+        top: 12px;
+        left: 12px;
+        z-index: 120;
+        transform: translateY(-150%);
+        padding: .7rem .9rem;
+        border: 2px solid var(--ink);
+        border-radius: var(--radius);
+        background: var(--gold);
+        color: var(--ink);
+        font-weight: 900;
+      }
+
+      .skip-link:focus { transform: translateY(0); }
+
+      .top {
+        position: sticky;
+        top: 0;
+        z-index: 90;
+        border-bottom: 1px solid var(--soft-line);
+        background: rgba(31, 40, 51, .94);
+        backdrop-filter: blur(18px);
+      }
+
+      .top-in {
+        max-width: 1440px;
+        min-height: 72px;
+        margin: 0 auto;
+        padding: .7rem clamp(1rem, 3vw, 2rem);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: .72rem;
+        min-width: 0;
+        color: var(--soft);
+        font-family: var(--font-title);
+        font-weight: 900;
+      }
+
+      .brand-logo {
+        width: 42px;
+        height: 42px;
+        border: 2px solid var(--gold);
+        border-radius: var(--radius);
+        display: grid;
+        place-items: center;
+        background: var(--blueprint);
+        color: var(--gold);
+        font-size: .82rem;
+      }
+
+      .brand-text {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.05;
+      }
+
+      .brand-text span {
+        margin-top: .18rem;
+        color: var(--gold);
+        font-family: var(--font-note);
+        font-size: .68rem;
+        font-weight: 800;
+        letter-spacing: .12em;
+        text-transform: uppercase;
+      }
+
+      .shell {
+        max-width: 1440px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 292px minmax(0, 1fr);
+      }
+
+      .sidebar {
+        position: sticky;
+        top: 72px;
+        height: calc(100vh - 72px);
+        padding: 1rem;
+        border-right: 1px solid var(--line);
+        overflow: auto;
+      }
+
+      .profile-card,
+      .story-card,
+      .visual-card,
+      .panel-card {
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: rgba(187, 160, 204, .7);
+        box-shadow: var(--shadow);
+      }
+
+      .profile-card {
+        padding: 1rem;
+      }
+
+      .profile-photo {
+        width: 112px;
+        aspect-ratio: 1;
+        object-fit: cover;
+        border: 3px solid var(--gold);
+        border-radius: var(--radius);
+        background: var(--blueprint);
+      }
+
+      .profile-card h1 {
+        margin: .95rem 0 .32rem;
+        color: var(--blueprint);
+        font-size: 1.62rem;
+      }
+
+      .profile-card p {
+        color: var(--ink);
+        font-size: .9rem;
+        font-weight: 650;
+      }
+
+      .tabs {
+        display: grid;
+        gap: .52rem;
+        margin-top: 1rem;
+      }
+
+      .tab-button {
+        width: 100%;
+        min-height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: .8rem;
+        padding: .74rem .82rem;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: rgba(187, 160, 204, .54);
+        color: var(--ink);
+        text-align: left;
+        cursor: pointer;
+        font-weight: 850;
+      }
+
+      .tab-button small {
+        color: var(--blueprint);
+        font-family: var(--font-note);
+        font-size: .68rem;
+        font-weight: 900;
+      }
+
+      .tab-button:hover,
+      .tab-button:focus-visible,
+      .tab-button[aria-selected="true"] {
+        border-color: var(--gold);
+        background: var(--blueprint);
+        color: var(--gold);
+        outline: none;
+      }
+
+      .tab-button[aria-selected="true"] small,
+      .tab-button:hover small,
+      .tab-button:focus-visible small {
+        color: var(--soft);
+      }
+
+      .sidebar-note {
+        margin-top: 1rem;
+        padding: .9rem;
+        border: 1px dashed var(--gold-line);
+        border-radius: var(--radius);
+        background: rgba(255, 215, 0, .09);
+        color: var(--ink);
+        font-family: var(--font-note);
+        font-size: .82rem;
+        font-weight: 700;
+      }
+
+      .main {
+        min-width: 0;
+        padding: clamp(1rem, 3vw, 2rem);
+      }
+
+      .hero {
+        min-height: 540px;
+        display: grid;
+        grid-template-columns: minmax(0, 1.02fr) minmax(340px, .98fr);
+        gap: 1rem;
+        align-items: stretch;
+        margin-bottom: 1rem;
+      }
+
+      .hero-copy {
+        padding: clamp(1.35rem, 4vw, 2.4rem);
+        display: grid;
+        align-content: space-between;
+        background:
+          linear-gradient(135deg, rgba(19, 125, 197, .18), transparent 54%),
+          var(--ink);
+        color: var(--soft);
+      }
+
+      .eyebrow,
+      .slide-meta {
+        display: inline-flex;
+        width: fit-content;
+        align-items: center;
+        gap: .42rem;
+        color: var(--gold);
+        font-family: var(--font-note);
+        font-size: .72rem;
+        font-weight: 900;
+        letter-spacing: .16em;
+        text-transform: uppercase;
+      }
+
+      .eyebrow::before,
+      .slide-meta::before {
+        content: "";
+        width: 9px;
+        height: 9px;
+        border-radius: 999px;
+        background: var(--gold);
+      }
+
+      .hero-title {
+        max-width: 780px;
+        margin: .9rem 0 .85rem;
+        color: var(--gold);
+        font-size: clamp(2.35rem, 6vw, 5.2rem);
+        font-weight: 900;
+      }
+
+      .hero-lead {
+        max-width: 760px;
+        color: var(--soft);
+        font-size: clamp(1rem, 1.6vw, 1.22rem);
+        font-weight: 650;
+      }
+
+      .hero-hook {
+        margin-top: 1.1rem;
+        padding: .9rem 1rem;
+        border-left: 6px solid var(--gold);
+        background: rgba(18, 37, 98, .48);
+        color: var(--soft);
+        font-family: var(--font-note);
+        font-size: .95rem;
+        font-weight: 800;
+      }
+
+      .cta-row,
+      .chip-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: .65rem;
+      }
+
+      .btn {
+        min-height: 46px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: .45rem;
+        padding: .78rem 1.1rem;
+        border: 2px solid var(--gold);
+        border-radius: var(--radius);
+        background: var(--gold);
+        color: var(--ink);
+        cursor: pointer;
+        font-weight: 900;
+      }
+
+      .btn.secondary {
+        background: transparent;
+        color: var(--gold);
+      }
+
+      .wa-inline {
+        display: inline-grid;
+        width: 1.75rem;
+        height: 1.75rem;
+        place-items: center;
+        border: 1px solid currentColor;
+        color: inherit;
+        font-family: var(--font-note);
+        font-size: .62rem;
+        font-weight: 900;
+        letter-spacing: .05em;
+        line-height: 1;
+      }
+
+      .chip {
+        display: inline-flex;
+        align-items: center;
+        min-height: 28px;
+        padding: .28rem .62rem;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: rgba(18, 37, 98, .08);
+        color: var(--blueprint);
+        font-family: var(--font-note);
+        font-size: .78rem;
+        font-weight: 900;
+      }
+
+      .hero-visual {
+        padding: 1rem;
+        display: grid;
+        align-content: stretch;
+        background:
+          linear-gradient(90deg, rgba(18, 37, 98, .14) 1px, transparent 1px),
+          linear-gradient(0deg, rgba(18, 37, 98, .14) 1px, transparent 1px),
+          var(--soft);
+        background-size: 42px 42px;
+      }
+
+      .story-svg {
+        width: 100%;
+        min-height: 360px;
+        align-self: center;
+      }
+
+      .metric-strip {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: .72rem;
+        margin: 1rem 0;
+      }
+
+      .metric {
+        min-height: 116px;
+        padding: .92rem;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: rgba(187, 160, 204, .7);
+      }
+
+      .metric strong {
+        display: block;
+        color: var(--blueprint);
+        font-family: var(--font-title);
+        font-size: clamp(1.55rem, 3vw, 2.2rem);
+        line-height: 1;
+      }
+
+      .metric span {
+        display: block;
+        margin-top: .48rem;
+        color: var(--ink);
+        font-family: var(--font-note);
+        font-size: .82rem;
+        font-weight: 800;
+      }
+
+      .tab-panel { display: none; }
+      .tab-panel.active { display: block; }
+
+      .section-head {
+        display: grid;
+        grid-template-columns: minmax(0, .9fr) minmax(300px, 1.1fr);
+        gap: 1.2rem;
+        align-items: end;
+        margin: 1.45rem 0 1rem;
+      }
+
+      .section-head h2 {
+        margin: .55rem 0 0;
+        color: var(--blueprint);
+        font-size: clamp(1.7rem, 4vw, 2.75rem);
+      }
+
+      .section-head p {
+        color: var(--ink);
+        font-weight: 650;
+      }
+
+      .story-grid,
+      .proof-grid,
+      .repo-grid,
+      .cv-grid,
+      .visual-system-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: .85rem;
+      }
+
+      .story-card,
+      .panel-card {
+        padding: 1rem;
+      }
+
+      .story-card h3,
+      .panel-card h3 {
+        margin: .45rem 0 .6rem;
+        color: var(--blueprint);
+        font-size: 1.03rem;
+      }
+
+      .story-card p,
+      .panel-card p {
+        color: var(--ink);
+        font-size: .92rem;
+        font-weight: 620;
+      }
+
+      .purpose-callout {
+        margin-top: 1rem;
+      }
+
+      .stage-line {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: .5rem;
+        margin: 1rem 0;
+      }
+
+      .stage {
+        min-height: 116px;
+        padding: .9rem;
+        border: 1px solid var(--line);
+        border-top: 5px solid var(--gold);
+        border-radius: var(--radius);
+        background: rgba(187, 160, 204, .72);
+      }
+
+      .stage b {
+        display: block;
+        color: var(--blueprint);
+        font-family: var(--font-title);
+        font-size: 1rem;
+      }
+
+      .stage span {
+        display: block;
+        margin-top: .42rem;
+        color: var(--ink);
+        font-family: var(--font-note);
+        font-size: .82rem;
+        font-weight: 760;
+      }
+
+      .mermaid-wrap {
+        padding: 1rem;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: rgba(187, 160, 204, .72);
+        overflow: auto;
+      }
+
+      .mermaid {
+        min-width: 700px;
+        color: var(--ink);
+      }
+
+      .data-table {
+        width: 100%;
+        border-collapse: collapse;
+        overflow: hidden;
+        border-radius: var(--radius);
+        font-size: .92rem;
+      }
+
+      .data-table th,
+      .data-table td {
+        padding: .78rem .8rem;
+        border-bottom: 1px solid var(--line);
+        text-align: left;
+        vertical-align: top;
+      }
+
+      .data-table th {
+        color: var(--gold);
+        background: var(--blueprint);
+        font-family: var(--font-note);
+        font-size: .76rem;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+      }
+
+      .data-table td {
+        color: var(--ink);
+        background: rgba(187, 160, 204, .64);
+        font-weight: 620;
+      }
+
+      .repo-card {
+        min-height: 148px;
+        padding: 1rem;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: rgba(187, 160, 204, .72);
+        display: grid;
+        align-content: space-between;
+        gap: .8rem;
+      }
+
+      .repo-card strong {
+        display: block;
+        color: var(--blueprint);
+        font-family: var(--font-title);
+      }
+
+      .repo-card span {
+        color: var(--ink);
+        font-size: .9rem;
+        font-weight: 640;
+      }
+
+      .repo-card small {
+        color: var(--signal);
+        font-family: var(--font-note);
+        font-size: .74rem;
+        font-weight: 900;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+      }
+
+      .palette {
+        display: grid;
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+        gap: .5rem;
+      }
+
+      .swatch {
+        min-height: 96px;
+        padding: .7rem;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        display: grid;
+        align-content: end;
+        color: var(--soft);
+        font-family: var(--font-note);
+        font-size: .72rem;
+        font-weight: 900;
+      }
+
+      .swatch[data-color="blueprint"] { background: var(--blueprint); }
+      .swatch[data-color="gold"] { background: var(--gold); color: var(--ink); }
+      .swatch[data-color="signal"] { background: var(--signal); }
+      .swatch[data-color="ink"] { background: var(--ink); }
+      .swatch[data-color="soft"] { background: var(--soft); color: var(--ink); }
+      .swatch[data-color="muted"] { background: var(--muted); color: var(--ink); }
+
+      .footer {
+        margin-top: 2rem;
+        padding: 1rem 0;
+        color: var(--ink);
+        font-family: var(--font-note);
+        font-size: .84rem;
+        font-weight: 760;
+      }
+
+      .method-modal {
+        position: fixed;
+        inset: 0;
+        z-index: 120;
+        display: grid;
+        place-items: center;
+        padding: clamp(.8rem, 3vw, 2rem);
+        background: rgba(7, 53, 107, .82);
+        backdrop-filter: blur(14px);
+      }
+
+      .method-modal[hidden] {
+        display: none;
+      }
+
+      .method-modal__panel {
+        position: relative;
+        width: min(1040px, 100%);
+        max-height: min(86vh, 860px);
+        overflow: auto;
+        padding: clamp(1rem, 3vw, 1.5rem);
+        border: 2px solid var(--bp-gold);
+        background:
+          linear-gradient(135deg, rgba(0, 51, 102, .96), rgba(0, 40, 80, .94)),
+          linear-gradient(var(--bp-grid) 1px, transparent 1px),
+          linear-gradient(90deg, var(--bp-grid) 1px, transparent 1px);
+        background-size: auto, 36px 36px, 36px 36px;
+        box-shadow: 0 28px 90px rgba(0, 0, 0, .36);
+      }
+
+      .method-modal__close {
+        position: absolute;
+        top: .75rem;
+        right: .75rem;
+        min-height: 38px;
+        padding: .45rem .7rem;
+        border: 1px solid var(--bp-border);
+        background: rgba(0, 40, 80, .68);
+        color: var(--bp-gold);
+        cursor: pointer;
+        font-family: var(--font-note);
+        font-size: .68rem;
+        font-weight: 900;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+      }
+
+      .method-modal__close:hover,
+      .method-modal__close:focus-visible {
+        border-color: var(--bp-gold);
+        outline: none;
+      }
+
+      .method-modal__head {
+        max-width: 820px;
+        padding-right: 5.4rem;
+      }
+
+      .method-modal__head h2 {
+        margin: .55rem 0 .7rem;
+        color: var(--bp-ink);
+        font-size: clamp(1.8rem, 4vw, 3.1rem);
+      }
+
+      .method-modal__head p {
+        color: var(--bp-muted);
+        font-weight: 650;
+      }
+
+      .pivote-grid,
+      .intervention-grid {
+        display: grid;
+        gap: .72rem;
+        margin-top: 1rem;
+      }
+
+      .pivote-grid {
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+      }
+
+      .intervention-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .pivote-card,
+      .intervention-card {
+        min-height: 156px;
+        padding: .9rem;
+        border: 1px solid var(--bp-border);
+        background: rgba(0, 40, 80, .58);
+      }
+
+      .pivote-card b {
+        display: inline-grid;
+        width: 36px;
+        height: 36px;
+        place-items: center;
+        border: 1px solid var(--bp-gold);
+        color: var(--bp-gold);
+        font-family: var(--font-note);
+        font-size: 1.05rem;
+      }
+
+      .pivote-card h3,
+      .intervention-card h3 {
+        margin: .72rem 0 .42rem;
+        color: var(--bp-ink);
+        font-size: .98rem;
+      }
+
+      .pivote-card p,
+      .intervention-card p {
+        color: var(--bp-muted);
+        font-size: .82rem;
+        line-height: 1.45;
+      }
+
+      .method-modal__callout {
+        margin-top: 1rem;
+        padding: .9rem 1rem;
+        border-left: 4px solid var(--bp-gold);
+        background: var(--bp-gold-dim);
+        color: var(--bp-muted);
+        font-weight: 650;
+      }
+
+      .method-modal__actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: .65rem;
+        margin-top: 1rem;
+      }
+
+      body.modal-open {
+        overflow: hidden;
+      }
+
+      @media (max-width: 1100px) {
+        .shell { grid-template-columns: 1fr; }
+        .sidebar {
+          position: static;
+          height: auto;
+          border-right: 0;
+          border-bottom: 1px solid var(--line);
+        }
+        .profile-card {
+          display: grid;
+          grid-template-columns: auto minmax(0, 1fr);
+          gap: 1rem;
+          align-items: center;
+        }
+        .profile-card h1 { margin-top: 0; }
+        .tabs { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+        .hero { grid-template-columns: 1fr; }
+      }
+
+      @media (max-width: 760px) {
+        .top-in {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+        .tabs,
+        .metric-strip,
+        .section-head,
+        .story-grid,
+        .proof-grid,
+        .repo-grid,
+        .cv-grid,
+        .visual-system-grid,
+        .stage-line,
+        .palette {
+          grid-template-columns: 1fr;
+        }
+        .method-modal__head {
+          padding-right: 0;
+        }
+        .pivote-grid,
+        .intervention-grid {
+          grid-template-columns: 1fr;
+        }
+        .profile-card {
+          grid-template-columns: 84px minmax(0, 1fr);
+          gap: .8rem;
+        }
+        .profile-photo { width: 84px; }
+        .hero-title { font-size: 2.15rem; }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        html { scroll-behavior: auto; }
+        * { transition: none !important; }
+      }
+
+      /* Blueprint manifesto theme adapted from versiones-html/javier.html */
+      :root {
+        --bp-bg: #07356b;
+        --bp-card: rgba(0, 51, 102, .6);
+        --bp-card-strong: rgba(0, 40, 80, .72);
+        --bp-ink: #f5f7fa;
+        --bp-gold: #D4AF37;
+        --bp-gold-dim: rgba(212, 175, 55, .15);
+        --bp-grid: rgba(255, 255, 255, .07);
+        --bp-muted: rgba(255, 255, 255, .70);
+        --bp-border: rgba(212, 175, 55, .3);
+        --font-title: "Poppins", system-ui, sans-serif;
+        --font-body: "Montserrat", system-ui, sans-serif;
+        --font-note: "JetBrains Mono", ui-monospace, monospace;
+        --radius: 4px;
+        --shadow: 0 0 30px rgba(212, 175, 55, .08);
+        --line: var(--bp-border);
+        --soft-line: var(--bp-border);
+        --gold-line: var(--bp-border);
+        --blueprint: var(--bp-gold);
+        --gold: var(--bp-gold);
+        --signal: var(--bp-gold);
+        --ink: var(--bp-ink);
+        --soft: var(--bp-muted);
+        --muted: var(--bp-muted);
+      }
+
+      body {
+        color: var(--bp-ink);
+        background-color: var(--bp-bg);
+        background-image:
+          linear-gradient(var(--bp-grid) 1px, transparent 1px),
+          linear-gradient(90deg, var(--bp-grid) 1px, transparent 1px);
+        background-size: 40px 40px;
+        font-weight: 500;
+        line-height: 1.75;
+      }
+
+      strong { color: var(--bp-ink); }
+
+      .skip-link {
+        border-color: var(--bp-gold);
+        background: var(--bp-bg);
+        color: var(--bp-gold);
+        font-family: var(--font-note);
+      }
+
+      .top {
+        background: rgba(0, 51, 102, .85);
+        border-bottom: 1px solid var(--bp-border);
+      }
+
+      .brand {
+        color: var(--bp-ink);
+        font-family: var(--font-note);
+        font-size: .9rem;
+        letter-spacing: .05em;
+        text-transform: uppercase;
+      }
+
+      .brand-logo {
+        width: 40px;
+        height: 40px;
+        border: 1px solid var(--bp-border);
+        border-radius: 50%;
+        background: transparent;
+        color: var(--bp-gold);
+        box-shadow: 0 0 24px rgba(212, 175, 55, .12);
+      }
+
+      .brand-text span,
+      .tab-button small,
+      .sidebar-note,
+      .eyebrow,
+      .slide-meta,
+      .chip,
+      .metric span,
+      .stage span,
+      .data-table th,
+      .repo-card small,
+      .swatch,
+      .footer {
+        font-family: var(--font-note);
+      }
+
+      .shell {
+        max-width: 1280px;
+        gap: 0;
+      }
+
+      .sidebar {
+        border-right: 1px solid var(--bp-border);
+        background: rgba(0, 40, 80, .36);
+      }
+
+      .profile-card,
+      .story-card,
+      .visual-card,
+      .panel-card,
+      .metric,
+      .stage,
+      .mermaid-wrap,
+      .repo-card {
+        border: 1px solid var(--bp-border);
+        border-radius: 0;
+        background: var(--bp-card);
+        box-shadow: none;
+      }
+
+      .profile-card,
+      .story-card,
+      .panel-card,
+      .repo-card {
+        position: relative;
+      }
+
+      .story-card::before,
+      .panel-card::before,
+      .repo-card::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 3px;
+        background: var(--bp-gold);
+      }
+
+      .profile-photo {
+        border-radius: 50%;
+        border-color: var(--bp-gold);
+        box-shadow: 0 0 30px rgba(212, 175, 55, .15);
+      }
+
+      .profile-card h1,
+      .section-head h2,
+      .story-card h3,
+      .panel-card h3,
+      .stage b,
+      .metric strong,
+      .repo-card strong {
+        color: var(--bp-ink);
+      }
+
+      .profile-card p,
+      .section-head p,
+      .story-card p,
+      .panel-card p,
+      .stage span,
+      .data-table td,
+      .repo-card span,
+      .footer {
+        color: var(--bp-muted);
+      }
+
+      .tabs { gap: 6px; }
+
+      .tab-button {
+        border-radius: 4px;
+        border-color: var(--bp-border);
+        background: transparent;
+        color: var(--bp-muted);
+        font-family: var(--font-note);
+        font-size: .78rem;
+        letter-spacing: .04em;
+        text-transform: uppercase;
+      }
+
+      .tab-button:hover,
+      .tab-button:focus-visible,
+      .tab-button[aria-selected="true"] {
+        background: var(--bp-gold-dim);
+        border-color: var(--bp-gold);
+        color: var(--bp-gold);
+      }
+
+      .tab-button[aria-selected="true"] small,
+      .tab-button:hover small,
+      .tab-button:focus-visible small {
+        color: var(--bp-gold);
+      }
+
+      .sidebar-note {
+        border-color: var(--bp-border);
+        background: var(--bp-gold-dim);
+        color: var(--bp-muted);
+        letter-spacing: .02em;
+      }
+
+      .hero {
+        position: relative;
+        min-height: clamp(560px, calc(100vh - 138px), 680px);
+        padding: clamp(.9rem, 1.6vw, 1.15rem);
+        border: 2px solid var(--bp-gold);
+        grid-template-columns: minmax(0, 1.08fr) minmax(320px, .92fr);
+        gap: clamp(.9rem, 1.5vw, 1.2rem);
+        overflow: hidden;
+        background:
+          linear-gradient(135deg, rgba(0, 51, 102, .86), rgba(7, 53, 107, .64) 52%, rgba(0, 40, 80, .9)),
+          linear-gradient(var(--bp-grid) 1px, transparent 1px),
+          linear-gradient(90deg, var(--bp-grid) 1px, transparent 1px);
+        background-size: auto, 40px 40px, 40px 40px;
+      }
+
+      .hero::after {
+        content: "";
+        position: absolute;
+        inset: auto -12% 18% 48%;
+        height: 2px;
+        transform: rotate(-18deg);
+        background: linear-gradient(90deg, transparent, rgba(212, 175, 55, .74), transparent);
+        pointer-events: none;
+      }
+
+      .hero-copy {
+        position: relative;
+        z-index: 1;
+        min-height: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 1.2rem;
+        background: transparent;
+        border: 0;
+        box-shadow: none;
+        padding: clamp(1rem, 2vw, 1.5rem);
+      }
+
+      .hero-copy::before { display: none; }
+
+      .hero-title {
+        color: var(--bp-ink);
+        max-width: 820px;
+        font-size: clamp(2.25rem, 3vw, 3.1rem);
+        line-height: .98;
+        letter-spacing: 0;
+      }
+
+      .hero-lead {
+        max-width: 720px;
+        color: var(--bp-muted);
+        font-size: .98rem;
+        line-height: 1.55;
+        font-weight: 500;
+      }
+
+      .hero-hook,
+      .quote-block {
+        border-left: 3px solid var(--bp-gold);
+        background: var(--bp-gold-dim);
+        color: var(--bp-muted);
+      }
+
+      .btn {
+        border-radius: 4px;
+        border-color: var(--bp-gold);
+        background: var(--bp-gold);
+        color: var(--bp-bg);
+        font-family: var(--font-note);
+        letter-spacing: .08em;
+        text-transform: uppercase;
+      }
+
+      .btn.secondary {
+        background: transparent;
+        color: var(--bp-gold);
+      }
+
+      .hero-visual {
+        position: relative;
+        z-index: 1;
+        min-height: 0;
+        display: grid;
+        grid-template-rows: auto auto auto;
+        align-content: start;
+        gap: .75rem;
+        padding: clamp(.85rem, 1.4vw, 1rem);
+        background:
+          linear-gradient(var(--bp-grid) 1px, transparent 1px),
+          linear-gradient(90deg, var(--bp-grid) 1px, transparent 1px),
+          rgba(0, 40, 80, .28);
+        background-size: 40px 40px;
+      }
+
+      .hero-field-row,
+      .hero-method-map,
+      .hero-proof-list,
+      .hero-nameplate,
+      .hero-signal-grid {
+        display: grid;
+        gap: .55rem;
+      }
+
+      .hero-field-row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1rem 0 1.25rem;
+      }
+
+      .hero-field-row span,
+      .hero-method-map span,
+      .hero-proof-list span,
+      .hero-signal-grid span {
+        min-height: 34px;
+        display: inline-flex;
+        flex: 0 1 auto;
+        align-items: center;
+        justify-content: center;
+        padding: .3rem .45rem;
+        border: 1px solid var(--bp-border);
+        background: rgba(0, 40, 80, .36);
+        color: var(--bp-muted);
+        font-family: var(--font-note);
+        font-size: .66rem;
+        font-weight: 900;
+        letter-spacing: .08em;
+        line-height: 1.2;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      .hero-field-row span {
+        white-space: nowrap;
+      }
+
+      .hero-method-map {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        margin-top: .95rem;
+      }
+
+      .hero-method-map span {
+        position: relative;
+        min-height: 42px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: .6rem .55rem;
+        color: var(--bp-ink);
+        text-align: left;
+      }
+
+      .hero-method-map span::after {
+        content: "";
+        position: absolute;
+        right: .65rem;
+        bottom: .65rem;
+        width: 18px;
+        height: 2px;
+        background: var(--bp-gold);
+      }
+
+      .hero-hook {
+        max-width: 700px;
+        padding: .72rem .85rem;
+        font-size: .86rem;
+        line-height: 1.45;
+      }
+
+      .hero-companion-lockup {
+        display: grid;
+        grid-template-columns: minmax(164px, .46fr) minmax(0, 1fr);
+        gap: .75rem;
+        align-items: stretch;
+      }
+
+      .companion-shell {
+        min-height: 180px;
+        display: grid;
+        place-items: center;
+        padding: .55rem;
+        border: 1px solid var(--bp-gold);
+        background:
+          linear-gradient(135deg, rgba(19, 125, 197, .34), rgba(0, 40, 80, .72)),
+          linear-gradient(var(--bp-grid) 1px, transparent 1px),
+          linear-gradient(90deg, var(--bp-grid) 1px, transparent 1px);
+        background-size: auto, 28px 28px, 28px 28px;
+      }
+
+      .hero-companion-image {
+        width: min(176px, 100%);
+        aspect-ratio: 1;
+        object-fit: cover;
+        border: 1px solid rgba(245, 247, 250, .18);
+        border-radius: 4px;
+        background: #07356b;
+        box-shadow: 0 18px 38px rgba(0, 0, 0, .22);
+      }
+
+      .hero-nameplate {
+        align-content: center;
+        padding: .8rem;
+        border: 1px solid var(--bp-border);
+        background: rgba(0, 40, 80, .5);
+      }
+
+      .hero-nameplate small,
+      .hero-proof-list small,
+      .hero-signal-grid small {
+        color: var(--bp-gold);
+        font-family: var(--font-note);
+        font-size: .72rem;
+        font-weight: 900;
+        letter-spacing: .14em;
+        text-transform: uppercase;
+      }
+
+      .hero-nameplate strong {
+        display: block;
+        color: var(--bp-ink);
+        font-family: var(--font-title);
+        font-size: clamp(1.25rem, 1.8vw, 1.55rem);
+        line-height: 1;
+      }
+
+      .hero-nameplate p {
+        color: var(--bp-muted);
+        font-size: .82rem;
+        line-height: 1.32;
+      }
+
+      .hero-signal-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        align-content: end;
+      }
+
+      .hero-signal-grid div {
+        min-height: 88px;
+        padding: .62rem .68rem;
+        border: 1px solid var(--bp-border);
+        background: rgba(0, 40, 80, .44);
+      }
+
+      .hero-signal-grid div:nth-child(3) {
+        grid-column: 1 / -1;
+        min-height: 74px;
+      }
+
+      .hero-signal-grid strong {
+        display: block;
+        margin: .35rem 0 .2rem;
+        color: var(--bp-ink);
+        font-family: var(--font-title);
+        font-size: .88rem;
+        line-height: 1.05;
+      }
+
+      .hero-signal-grid p {
+        color: var(--bp-muted);
+        font-size: .74rem;
+        line-height: 1.28;
+      }
+
+      .metric-strip {
+        padding: 1rem;
+        border: 2px solid var(--bp-gold);
+        background: rgba(0, 40, 80, .24);
+      }
+
+      .metric strong,
+      .metric .stat-num {
+        color: var(--bp-gold);
+        font-family: var(--font-note);
+      }
+
+      .metric span {
+        color: var(--bp-muted);
+        letter-spacing: .08em;
+        text-transform: uppercase;
+      }
+
+      .section-head {
+        padding: 1rem 0 .5rem;
+        border-bottom: 1px solid var(--bp-border);
+      }
+
+      .section-head h2::after {
+        content: "";
+        display: block;
+        height: 1px;
+        margin-top: .65rem;
+        background: linear-gradient(to right, var(--bp-gold), transparent);
+      }
+
+      .eyebrow,
+      .slide-meta,
+      .page-label {
+        color: var(--bp-gold);
+        letter-spacing: .22em;
+      }
+
+      .eyebrow::before,
+      .slide-meta::before {
+        border-radius: 0;
+        transform: rotate(45deg);
+        background: transparent;
+        border: 2px solid var(--bp-gold);
+      }
+
+      .stage {
+        border-top: 0;
+        border-left: 3px solid var(--bp-gold);
+      }
+
+      .data-table th {
+        background: rgba(0, 40, 80, .82);
+        color: var(--bp-gold);
+      }
+
+      .data-table td {
+        background: var(--bp-card);
+      }
+
+      .repo-card small,
+      .metric,
+      .chip {
+        color: var(--bp-gold);
+      }
+
+      .chip {
+        border-color: var(--bp-border);
+        border-radius: 0;
+        background: transparent;
+      }
+
+      .swatch {
+        border-color: var(--bp-border);
+      }
+
+      .swatch[data-color="bp-bg"] { background: #07356b; }
+      .swatch[data-color="bp-card"] { background: #003366; }
+      .swatch[data-color="bp-gold"] { background: #D4AF37; color: #07356b; }
+      .swatch[data-color="bp-ink"] { background: #f5f7fa; color: #07356b; }
+      .swatch[data-color="bp-muted"] { background: #a0b0c8; color: #07356b; }
+      .swatch[data-color="bp-grid"] { background: rgba(255, 255, 255, .07); }
+
+      @media (max-width: 1100px) {
+        .hero {
+          grid-template-columns: 1fr;
+        }
+
+        .hero-visual {
+          grid-template-rows: auto auto auto;
+        }
+      }
+
+      @media (max-width: 760px) {
+        .tabs {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .sidebar-note {
+          display: none;
+        }
+
+        .hero {
+          min-height: auto;
+          padding: .75rem;
+        }
+
+        .hero-copy {
+          gap: .9rem;
+        }
+
+        .hero-field-row,
+        .hero-method-map,
+        .hero-signal-grid {
+          display: none;
+        }
+
+        .cta-row {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .btn {
+          min-height: 42px;
+          padding: .6rem .45rem;
+          font-size: .68rem;
+          letter-spacing: .04em;
+          text-align: center;
+        }
+
+        .hero-companion-lockup {
+          grid-template-columns: 116px minmax(0, 1fr);
+        }
+
+        .companion-shell {
+          min-height: 144px;
+          padding: .4rem;
+        }
+
+        .hero-companion-image {
+          width: min(112px, 100%);
+        }
+      }
+
+      /* Replanned UI: compact header, narrative center, access rail on the right. */
+      .top-in {
+        min-height: 54px;
+        padding: .38rem clamp(.85rem, 2vw, 1.35rem);
+      }
+
+      .brand {
+        gap: .55rem;
+        font-size: .78rem;
+      }
+
+      .brand-logo {
+        width: 32px;
+        height: 32px;
+        font-size: .68rem;
+      }
+
+      .brand-text span {
+        margin-top: .08rem;
+        font-size: .56rem;
+        letter-spacing: .1em;
+      }
+
+      .top-meta {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: .45rem;
+        color: var(--bp-muted);
+        font-family: var(--font-note);
+        font-size: .62rem;
+        font-weight: 900;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+      }
+
+      .top-meta span {
+        min-height: 28px;
+        display: inline-flex;
+        align-items: center;
+        padding: .24rem .5rem;
+        border: 1px solid var(--bp-border);
+        background: rgba(0, 40, 80, .4);
+      }
+
+      .shell {
+        max-width: 1560px;
+        grid-template-columns: 248px minmax(0, 1fr) 304px;
+      }
+
+      .sidebar,
+      .link-rail {
+        top: 54px;
+        height: calc(100vh - 54px);
+      }
+
+      .sidebar {
+        padding: .75rem;
+      }
+
+      .profile-card {
+        padding: .75rem;
+      }
+
+      .profile-photo {
+        width: 92px;
+      }
+
+      .profile-card h1 {
+        margin: .7rem 0 .28rem;
+        font-size: 1.28rem;
+      }
+
+      .profile-card p {
+        font-size: .78rem;
+        line-height: 1.45;
+      }
+
+      .tabs {
+        gap: .42rem;
+        margin-top: .75rem;
+      }
+
+      .tab-button {
+        min-height: 40px;
+        padding: .58rem .62rem;
+        font-size: .7rem;
+      }
+
+      .sidebar-note {
+        margin-top: .75rem;
+        padding: .72rem;
+        font-size: .68rem;
+        line-height: 1.45;
+      }
+
+      .main {
+        padding: clamp(.75rem, 1.6vw, 1.2rem);
+      }
+
+      .link-rail {
+        position: sticky;
+        align-self: start;
+        overflow: auto;
+        padding: .75rem;
+        border-left: 1px solid var(--bp-border);
+        background: rgba(0, 40, 80, .34);
+      }
+
+      .rail-card {
+        padding: .8rem;
+        border: 1px solid var(--bp-border);
+        background: var(--bp-card);
+      }
+
+      .rail-card + .rail-card {
+        margin-top: .7rem;
+      }
+
+      .rail-primary {
+        background:
+          linear-gradient(135deg, rgba(212, 175, 55, .18), transparent 58%),
+          var(--bp-card);
+      }
+
+      .rail-card h2 {
+        margin: .48rem 0 .45rem;
+        color: var(--bp-ink);
+        font-size: 1.08rem;
+        line-height: 1.05;
+      }
+
+      .rail-card p {
+        color: var(--bp-muted);
+        font-size: .76rem;
+        line-height: 1.42;
+        font-weight: 650;
+      }
+
+      .rail-link-group {
+        display: grid;
+        gap: .4rem;
+        margin-top: .65rem;
+      }
+
+      .rail-link {
+        width: 100%;
+        min-height: 38px;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: .55rem;
+        align-items: center;
+        padding: .45rem .52rem;
+        border: 1px solid var(--bp-border);
+        background: rgba(0, 40, 80, .42);
+        color: var(--bp-muted);
+        cursor: pointer;
+        font-family: var(--font-note);
+        font-size: .66rem;
+        font-weight: 900;
+        letter-spacing: .04em;
+        line-height: 1.15;
+        text-align: left;
+        text-transform: uppercase;
+      }
+
+      .rail-link span {
+        min-width: 0;
+      }
+
+      .rail-link small {
+        color: var(--bp-gold);
+        font-size: .55rem;
+        letter-spacing: .08em;
+      }
+
+      .rail-link-feature,
+      .rail-action {
+        border-color: var(--bp-gold);
+        background:
+          linear-gradient(90deg, rgba(212, 175, 55, .18), rgba(212, 175, 55, .05)),
+          rgba(0, 40, 80, .58);
+        color: var(--bp-ink);
+        box-shadow: inset 3px 0 0 var(--bp-gold);
+      }
+
+      .rail-link:hover,
+      .rail-link:focus-visible {
+        border-color: var(--bp-gold);
+        color: var(--bp-ink);
+        outline: none;
+      }
+
+      .hero {
+        min-height: clamp(480px, calc(100vh - 122px), 610px);
+        grid-template-columns: minmax(0, 1fr) minmax(270px, .72fr);
+      }
+
+      .hero-copy {
+        padding: clamp(.9rem, 1.6vw, 1.25rem);
+      }
+
+      .hero-title {
+        max-width: 720px;
+        font-size: clamp(2rem, 2.55vw, 2.95rem);
+      }
+
+      .hero-lead {
+        font-size: .92rem;
+      }
+
+      .hero-hook {
+        max-width: 640px;
+        padding: .62rem .72rem;
+        font-size: .78rem;
+      }
+
+      .hero-companion-lockup {
+        grid-template-columns: 122px minmax(0, 1fr);
+      }
+
+      .companion-shell {
+        min-height: 142px;
+      }
+
+      .hero-companion-image {
+        width: min(126px, 100%);
+      }
+
+      .hero-nameplate {
+        padding: .68rem;
+      }
+
+      .hero-signal-grid div {
+        min-height: 82px;
+      }
+
+      .purpose-callout {
+        padding-bottom: 1rem;
+      }
+
+      @media (max-width: 1320px) {
+        .shell {
+          grid-template-columns: 230px minmax(0, 1fr) 282px;
+        }
+
+        .hero {
+          grid-template-columns: 1fr;
+          min-height: auto;
+        }
+
+        .hero-visual {
+          grid-template-rows: auto auto;
+        }
+      }
+
+      @media (max-width: 1100px) {
+        .shell {
+          grid-template-columns: 1fr;
+        }
+
+        .sidebar,
+        .link-rail {
+          position: static;
+          height: auto;
+        }
+
+        .sidebar {
+          order: 1;
+          border-right: 0;
+          border-bottom: 1px solid var(--bp-border);
+        }
+
+        .link-rail {
+          order: 2;
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          gap: .7rem;
+          border-left: 0;
+          border-bottom: 1px solid var(--bp-border);
+        }
+
+        .rail-card + .rail-card {
+          margin-top: 0;
+        }
+
+        .main {
+          order: 3;
+        }
+
+        .profile-card {
+          grid-template-columns: 84px minmax(0, 1fr);
+        }
+
+        .profile-photo {
+          width: 84px;
+        }
+
+        .tabs {
+          grid-template-columns: repeat(6, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 760px) {
+        .top-in {
+          min-height: 48px;
+          flex-direction: row;
+          align-items: center;
+        }
+
+        .brand {
+          font-size: .7rem;
+        }
+
+        .brand-logo {
+          width: 30px;
+          height: 30px;
+        }
+
+        .brand-text span,
+        .top-meta {
+          display: none;
+        }
+
+        .link-rail {
+          grid-template-columns: 1fr;
+        }
+
+        .rail-card {
+          padding: .72rem;
+        }
+
+        .tabs {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .hero-companion-lockup {
+          grid-template-columns: 96px minmax(0, 1fr);
+        }
+
+        .companion-shell {
+          min-height: 118px;
+        }
+
+        .hero-companion-image {
+          width: min(92px, 100%);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Saltar a la historia</a>
+
+    <header class="top">
+      <div class="top-in">
+        <a class="brand" href="#content" aria-label="Javier Monta&ntilde;o historia navegable">
+          <span class="brand-logo" aria-hidden="true">JM</span>
+          <span class="brand-text">Javier Monta&ntilde;o <span>Retos a casos de &eacute;xito</span></span>
+        </a>
+        <div class="top-meta" aria-label="Posicionamiento profesional">
+          <span>Method first, AI next</span>
+          <span>Empowerment Officer · Pristino Author</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="shell">
+      <aside class="sidebar" aria-label="Panel de navegaci&oacute;n">
+        <section class="profile-card">
+          <img class="profile-photo" src="./assets/team_javier-montano.webp" alt="Javier Monta&ntilde;o" />
+          <div>
+            <h1>Javier Monta&ntilde;o</h1>
+            <p>Founder & Empowerment Officer @ MetodologIA. Pristino Author. Senior Consultant / Offer Manager Data &amp; IA @ Amaris Consulting.</p>
+          </div>
+        </section>
+
+        <div class="tabs" role="tablist" aria-label="Vistas de la historia">
+          <button class="tab-button" type="button" role="tab" aria-selected="true" data-tab="overview">
+            Historia <small>01</small>
+          </button>
+          <button class="tab-button" type="button" role="tab" aria-selected="false" data-tab="trust">
+            Estilo <small>02</small>
+          </button>
+          <button class="tab-button" type="button" role="tab" aria-selected="false" data-tab="procedures">
+            Procedimientos <small>03</small>
+          </button>
+          <button class="tab-button" type="button" role="tab" aria-selected="false" data-tab="cv">
+            Trayectoria <small>04</small>
+          </button>
+          <button class="tab-button" type="button" role="tab" aria-selected="false" data-tab="ecosystem">
+            Rutas <small>05</small>
+          </button>
+          <button class="tab-button" type="button" role="tab" aria-selected="false" data-tab="visual">
+            Prop&oacute;sito <small>06</small>
+          </button>
+        </div>
+
+        <p class="sidebar-note">
+          Gu&iacute;a r&aacute;pida: Historia muestra el reto. Estilo muestra la intervenci&oacute;n. M&eacute;todo abre P.I.V.O.T.E.
+        </p>
+      </aside>
+
+      <main class="main" id="content">
+        <section class="hero" aria-label="Resumen ejecutivo">
+          <article class="hero-copy">
+            <div>
+              <span class="eyebrow">Consulting · Operations · Management · AI · Digital disruption</span>
+              <h2 class="hero-title">Convierto retos en casos de &eacute;xito.</h2>
+              <div class="hero-field-row" aria-label="Campos de acci&oacute;n">
+                <span>Consulting</span>
+                <span>Operations</span>
+                <span>Management</span>
+                <span>AI adoption</span>
+                <span>Digital disruption</span>
+              </div>
+              <p class="hero-lead">
+                M&eacute;todo primero, IA despu&eacute;s: oportunidades convertidas en sistemas accionables,
+                adopci&oacute;n fluida, victorias tempranas, continuas y medibles.
+              </p>
+              <p class="hero-hook">
+                Busco mi siguiente caso de &eacute;xito y mi pr&oacute;ximo aliado. Conversemos desde un reto real.
+              </p>
+              <div class="hero-method-map" aria-label="Ruta de conversi&oacute;n">
+                <span>01 Reto</span>
+                <span>02 Criterio</span>
+                <span>03 Sistema</span>
+                <span>04 Evidencia</span>
+              </div>
+            </div>
+            <div class="cta-row">
+              <a class="btn" href="https://wa.me/573005353628?text=Hola%20Javier%2C%20vi%20tu%20perfil%20y%20quiero%20conversar%20sobre%20un%20reto%20real%20para%20convertirlo%20en%20caso%20de%20%C3%A9xito." target="_blank" rel="noopener" aria-label="Contactar a Javier por WhatsApp"><span class="wa-inline">WA</span><span>Contactar a Javier</span></a>
+              <button class="btn secondary" type="button" data-open-modal="pivote-modal">Ver m&eacute;todo</button>
+            </div>
+          </article>
+
+          <aside class="hero-visual" aria-label="Identidad, marca y evidencia">
+            <div class="hero-companion-lockup">
+              <div class="companion-shell">
+                <img class="hero-companion-image" src="./assets/metodologia_logo_companion.png" alt="MetodologIA: asistentes y sistemas de trabajo" />
+              </div>
+              <div class="hero-nameplate">
+                <small>M&eacute;todo visible</small>
+                <strong>Prueba con evidencia.</strong>
+                <p>Notebook, asistentes, prompts y harness p&uacute;blico sostienen la pr&aacute;ctica.</p>
+              </div>
+            </div>
+
+            <div class="hero-signal-grid" aria-label="Indicadores de impacto">
+              <div>
+                <small>Operaci&oacute;n</small>
+                <strong>Decisiones con ruta</strong>
+                <p>Contexto, criterio y siguiente acci&oacute;n visible.</p>
+              </div>
+              <div>
+                <small>Delivery</small>
+                <strong>Artefactos usables</strong>
+                <p>Playbooks, dashboards, repos y prototipos verificables.</p>
+              </div>
+              <div>
+                <small>Adopci&oacute;n</small>
+                <strong>Transferencia real</strong>
+                <p>Capacidad que el equipo puede repetir y gobernar.</p>
+              </div>
+            </div>
+          </aside>
+        </section>
+
+        <div class="metric-strip" aria-label="Indicadores ejecutivos">
+          <div class="metric"><strong>13+</strong><span>a&ntilde;os entre consultor&iacute;a, delivery y transformaci&oacute;n</span></div>
+          <div class="metric"><strong>500+</strong><span>personas formadas: operaci&oacute;n, t&eacute;cnica, t&aacute;ctica, estrategia, direcci&oacute;n y C-level</span></div>
+          <div class="metric"><strong>6 pa&iacute;ses</strong><span>adopci&oacute;n regional, preventa, delivery y gesti&oacute;n del cambio</span></div>
+          <div class="metric"><strong>160+</strong><span>iniciativas movilizadas con criterio, valor y ejecuci&oacute;n verificable</span></div>
+        </div>
+
+        <section class="tab-panel active" id="panel-overview" role="tabpanel" data-panel="overview">
+          <div class="section-head">
+            <div>
+              <span class="slide-meta">Idea central</span>
+              <h2>De reto a caso de &eacute;xito.</h2>
+            </div>
+            <p>
+              Esta p&aacute;gina responde tres preguntas: qui&eacute;n facilita, c&oacute;mo ense&ntilde;a
+              y qu&eacute; capacidad deja instalada.
+            </p>
+          </div>
+
+          <div class="stage-line" aria-label="Narrativa de conversi&oacute;n">
+            <div class="stage"><b>Reto</b><span>Reto real, oportunidad o decisi&oacute;n pendiente.</span></div>
+            <div class="stage"><b>Lectura</b><span>Contexto, restricciones y criterio de negocio.</span></div>
+            <div class="stage"><b>M&eacute;todo</b><span>Ruta simple para elegir la herramienta correcta.</span></div>
+            <div class="stage"><b>Sistema</b><span>Playbook, asistente, workflow, repositorio o prototipo.</span></div>
+            <div class="stage"><b>Evidencia</b><span>Resultado visible, reusable y transferible.</span></div>
+          </div>
+
+          <div class="story-grid">
+            <article class="story-card">
+              <span class="slide-meta">Tesis</span>
+              <h3>Con m&eacute;todo sabemos si avanzamos en la direcci&oacute;n correcta.</h3>
+              <p>La IA amplifica mejor cuando el criterio, el proceso y la decisi&oacute;n est&aacute;n claros.</p>
+            </article>
+            <article class="story-card">
+              <span class="slide-meta">Oferta humana</span>
+              <h3>Trabajo con evidencia verificable.</h3>
+              <p>Uso casos, documentos autorizados, datos sint&eacute;ticos y materiales revisables.</p>
+            </article>
+            <article class="story-card">
+              <span class="slide-meta">Transferencia</span>
+              <h3>Trabajo para dejar autonom&iacute;a en el equipo.</h3>
+              <p>El aprendizaje queda como activo: prompts, reglas, gu&iacute;as, sistemas guiados y criterio compartido.</p>
+            </article>
+          </div>
+
+        </section>
+
+        <section class="tab-panel" id="panel-trust" role="tabpanel" data-panel="trust">
+          <div class="section-head">
+            <div>
+              <span class="slide-meta">Estilo de intervenci&oacute;n</span>
+              <h2>Entender el trabajo real antes de amplificarlo.</h2>
+            </div>
+            <p>
+              Javier parte de c&oacute;mo el equipo ya trabaja: entiende el proceso, cocrea o mejora
+              el m&eacute;todo, reduce fricci&oacute;n y luego integra IA donde realmente acelera la
+              reingenier&iacute;a. No todo necesita agentes; a veces un prompt simple, un checklist
+              o un asistente barato resuelve mejor.
+            </p>
+          </div>
+
+          <div class="proof-grid">
+            <article class="panel-card"><span class="slide-meta">01 · Escucha</span><h3>Leer el sistema antes de intervenir.</h3><p>Mapeo decisiones, fricciones, restricciones, dolores y trabajo invisible antes de proponer herramientas.</p></article>
+            <article class="panel-card"><span class="slide-meta">02 · Cocreaci&oacute;n</span><h3>Mejorar el m&eacute;todo con el equipo.</h3><p>Combino oficio, contexto y pr&aacute;cticas simples para que el proceso sea entendible, adoptable y sostenible.</p></article>
+            <article class="panel-card"><span class="slide-meta">03 · Fricci&oacute;n</span><h3>Primero liberar energ&iacute;a operativa.</h3><p>Busco pasos repetitivos, decisiones lentas y p&eacute;rdida de contexto para activar victorias tempranas y medibles.</p></article>
+            <article class="panel-card"><span class="slide-meta">04 · IA pragm&aacute;tica</span><h3>Elegir el recurso m&iacute;nimo suficiente.</h3><p>Prompt, plantilla, asistente, workflow, automatizaci&oacute;n o agente: la soluci&oacute;n depende del riesgo, costo y valor esperado.</p></article>
+            <article class="panel-card"><span class="slide-meta">05 · Delegaci&oacute;n</span><h3>Delegar solo lo que ya tiene criterio.</h3><p>Cuando el proceso est&aacute; claro, aparecen puntos de automatizaci&oacute;n, revisi&oacute;n asistida y trabajo ag&eacute;ntico gobernable.</p></article>
+            <article class="panel-card"><span class="slide-meta">06 · Evoluci&oacute;n</span><h3>Convertir mejora en capacidad instalada.</h3><p>El cierre deja playbooks, prompts, SOPs, indicadores, repos o asistentes que el equipo puede ajustar con autonom&iacute;a.</p></article>
+            <article class="panel-card"><span class="slide-meta">Contexto</span><h3>De freelancers a corporativos.</h3><p>Trabajo con audiencias operativas, t&eacute;cnicas, t&aacute;cticas, estrat&eacute;gicas, directivas y C-level; foco fuerte en BFSI, retail, grandes superficies y salud.</p></article>
+          </div>
+        </section>
+
+        <section class="tab-panel" id="panel-procedures" role="tabpanel" data-panel="procedures">
+          <div class="section-head">
+            <div>
+              <span class="slide-meta">M&eacute;todo de facilitaci&oacute;n</span>
+              <h2>M&eacute;todo primero, herramienta despu&eacute;s.</h2>
+            </div>
+            <p>
+              La pregunta &uacute;til es: qu&eacute; trabajo queremos hacer mejor,
+              con qu&eacute; evidencia, con qu&eacute; reglas y con qu&eacute; criterio humano.
+            </p>
+          </div>
+
+          <div class="story-grid">
+            <article class="story-card"><span class="slide-meta">01 · Lenguaje</span><h3>Crear lenguaje com&uacute;n</h3><p>Prompt, asistente, skill, agente y workflow se explican con ejemplos pr&aacute;cticos.</p></article>
+            <article class="story-card"><span class="slide-meta">02 · Pr&aacute;ctica</span><h3>Practicar con entregables</h3><p>Cada sesi&oacute;n deja una plantilla, gu&iacute;a, asistente, sistema de revisi&oacute;n o prototipo.</p></article>
+            <article class="story-card"><span class="slide-meta">03 · Criterio</span><h3>Adoptar con criterio</h3><p>La IA propone; la persona confirma fuentes, supuestos, trazabilidad y decisiones sensibles.</p></article>
+            <article class="story-card"><span class="slide-meta">04 · Capacidad</span><h3>Dejar capacidad instalada</h3><p>Lo aprendido queda como material editable, corregible y gobernable por el equipo.</p></article>
+            <article class="story-card"><span class="slide-meta">05 · Sistema</span><h3>Hacer repetible lo valioso</h3><p>Cuando una pr&aacute;ctica funciona, se vuelve procedimiento, checklist, prompt o flujo reutilizable.</p></article>
+            <article class="story-card"><span class="slide-meta">06 · Evidencia</span><h3>Cerrar con prueba</h3><p>Un avance serio deja resultado visible, criterio de aceptaci&oacute;n o siguiente decisi&oacute;n clara.</p></article>
+          </div>
+
+          <div class="section-head">
+            <div>
+              <span class="slide-meta">Diagrama</span>
+              <h2>La curva de conversi&oacute;n.</h2>
+            </div>
+            <p>Un reto avanza con lectura, ruta, ejecuci&oacute;n y cierre.</p>
+          </div>
+          <div class="mermaid-wrap">
+            <pre class="mermaid">
+flowchart LR
+  A["Reto real"] --> B["Lectura de contexto"]
+  B --> C["M&eacute;todo y criterios"]
+  C --> D["Sistema accionable"]
+  D --> E["Revisi&oacute;n humana"]
+  E --> F["Evidencia"]
+  F --> G["Capacidad instalada"]
+            </pre>
+          </div>
+        </section>
+
+        <section class="tab-panel" id="panel-cv" role="tabpanel" data-panel="cv">
+          <div class="section-head">
+            <div>
+              <span class="slide-meta">Trayectoria</span>
+              <h2>Donde he construido.</h2>
+            </div>
+            <p>
+              Lectura clara para reclutadores t&eacute;cnicos, gesti&oacute;n humana y aliados:
+              gesti&oacute;n, delivery, preventa, adopci&oacute;n de IA, cambio y sistemas de trabajo.
+              Experiencia desde freelancers y emprendedores hasta empresas gubernamentales
+              y corporativos multinacionales con presencia en bolsa.
+            </p>
+          </div>
+
+          <div class="panel-card" style="overflow:auto">
+            <table class="data-table">
+              <thead>
+                <tr><th>L&iacute;nea</th><th>Impacto claro</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>MetodologIA</td><td>Founder & Empowerment Officer. M&eacute;todo abierto, programas, comunidad, cartillas, recursos, workflows, playbooks y pedagog&iacute;a de IA.</td></tr>
+                <tr><td>Pristino Beta</td><td>Pristino Author. Harness p&uacute;blico para sistemas ag&eacute;nticos, procedimientos, validadores y trabajo asistido por repos.</td></tr>
+                <tr><td>Mamba Blanca</td><td>Consultora propia para desarrollar assets digitales: playbooks, dashboards, mini apps, sitios, sistemas de conocimiento y artefactos de IA reutilizables.</td></tr>
+                <tr><td>JM Labs</td><td>Laboratorio de sistemas ag&eacute;nticos, prompts, automatizaci&oacute;n, repos gobernados, segundos cerebros, digital twins y prototipos reutilizables.</td></tr>
+                <tr><td>Amaris Consulting</td><td>Senior Consultant / Offer Manager Data &amp; IA. Consultor&iacute;a, ofertas, disrupci&oacute;n digital, habilitaci&oacute;n y adopci&oacute;n de IA aplicada a delivery, preventa y sistemas de trabajo.</td></tr>
+                <tr><td>Sofka Technologies</td><td>Experiencia previa en GenAI, preventa, liderazgo de gesti&oacute;n, delivery, transformaci&oacute;n y adopci&oacute;n de IA con ofertas y habilitaci&oacute;n.</td></tr>
+                <tr><td>Tech and Solve / Cl&iacute;nica Pajonal</td><td>Gesti&oacute;n, agilidad, proyectos, transformaci&oacute;n digital, procesos, operaciones, salud y entornos regulados.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="tab-panel" id="panel-ecosystem" role="tabpanel" data-panel="ecosystem">
+          <div class="section-head">
+            <div>
+              <span class="slide-meta">Rutas p&uacute;blicas</span>
+              <h2>Recursos abiertos para probar criterio.</h2>
+            </div>
+            <p>
+              Estos enlaces muestran c&oacute;mo pienso, c&oacute;mo ense&ntilde;o y c&oacute;mo convierto una idea en trabajo repetible.
+            </p>
+          </div>
+          <div class="repo-grid">
+            <a class="repo-card" href="https://metodologia.info/"><small>Sitio</small><strong>metodologia.info</strong><span>Entrada principal a m&eacute;todo, comunidad y recursos.</span></a>
+            <a class="repo-card" href="https://metodologia.info/recursos/"><small>Biblioteca</small><strong>Recursos MetodologIA</strong><span>GPTs, Gems, NotebookLM, prompts y playbooks para aprender IA con m&eacute;todo.</span></a>
+            <a class="repo-card" href="https://github.com/JaviMontano/jm-adk-beta"><small>Harness</small><strong>Pristino Beta</strong><span>Harness p&uacute;blico para sistemas ag&eacute;nticos: repos, procedimientos, validadores y trabajo asistido.</span></a>
+            <a class="repo-card" href="https://javimontano.github.io/trabajar-amplificado/"><small>Programa</small><strong>Trabajo Amplificado</strong><span>Ruta pedag&oacute;gica para managers y equipos AI-native.</span></a>
+            <a class="repo-card" href="https://github.com/JaviMontano/material-educativo-metodologia/blob/main/playbook-aprender-aprehender-revolucionar-2026.html"><small>Cartilla</small><strong>Aprender, Aprehender y Revolucionar</strong><span>Gu&iacute;a para aprender a aprender, transferir conocimiento y usar IA con criterio.</span></a>
+            <a class="repo-card" href="https://github.com/JaviMontano/material-educativo-metodologia"><small>Repositorio</small><strong>Material educativo</strong><span>Cartillas, playbooks y recursos pedag&oacute;gicos abiertos.</span></a>
+          </div>
+        </section>
+
+        <section class="tab-panel" id="panel-visual" role="tabpanel" data-panel="visual">
+          <div class="section-head">
+            <div>
+              <span class="slide-meta">Prop&oacute;sito</span>
+              <h2>Compartir m&eacute;todo para convertir incertidumbre en capacidad.</h2>
+            </div>
+            <p>
+              Este perfil invita a conversar con personas y organizaciones que quieren pasar
+              de la curiosidad por la IA a resultados gobernables.
+            </p>
+          </div>
+
+          <div class="visual-system-grid">
+            <article class="panel-card"><span class="slide-meta">Por qu&eacute; existe</span><h3>Convertir retos en decisiones accionables.</h3><p>Cuando aparece una oportunidad, ayudo a darle lenguaje, prioridad, criterio y una primera versi&oacute;n usable.</p></article>
+            <article class="panel-card"><span class="slide-meta">Lo que defiendo</span><h3>Method first, AI next.</h3><p>La IA amplifica criterio humano. Primero ruta, evidencia y responsabilidad; despu&eacute;s modelos, agentes y automatizaci&oacute;n.</p></article>
+            <article class="panel-card"><span class="slide-meta">Con qui&eacute;n converso</span><h3>Aliados que quieren construir capacidad.</h3><p>L&iacute;deres, equipos, founders, reclutadores y organizaciones que necesitan convertir complejidad en sistemas que otros puedan usar.</p></article>
+          </div>
+
+          <div class="section-head">
+            <div>
+              <span class="slide-meta">Invitaci&oacute;n</span>
+              <h2>Busco mi siguiente caso de &eacute;xito y mi pr&oacute;ximo aliado.</h2>
+            </div>
+            <p>
+              Si tienes un reto de adopci&oacute;n, delivery, gesti&oacute;n del cambio, sistemas de conocimiento,
+              prototipado o trabajo ag&eacute;ntico, quiero entenderlo desde el negocio y construir evidencia contigo.
+            </p>
+          </div>
+
+          <div class="story-grid">
+            <article class="story-card"><span class="slide-meta">01 · Reto</span><h3>Empezar por una pregunta real.</h3><p>Primero entiendo el contexto, las restricciones y la decisi&oacute;n que el equipo necesita tomar.</p></article>
+            <article class="story-card"><span class="slide-meta">02 · Sistema</span><h3>Convertir criterio en un activo reusable.</h3><p>El resultado se ve, se prueba y se mantiene: playbook, dashboard, asistente, repo, protocolo o prototipo.</p></article>
+            <article class="story-card"><span class="slide-meta">03 · Capacidad</span><h3>Dejar transferencia y autonom&iacute;a.</h3><p>Una buena colaboraci&oacute;n deja personas m&aacute;s aut&oacute;nomas, una ruta m&aacute;s clara y evidencia para decidir el siguiente movimiento.</p></article>
+          </div>
+
+          <div class="panel-card purpose-callout">
+            <span class="slide-meta">Conversaci&oacute;n</span>
+            <h3>Si esta forma de trabajar resuena con tu reto, abramos la conversaci&oacute;n.</h3>
+            <p>Me interesa construir con aliados que quieran pasar de oportunidad a caso de &eacute;xito con criterio humano, trazabilidad y transferencia.</p>
+          </div>
+        </section>
+
+        <footer class="footer">
+          Javier Monta&ntilde;o · Method first, AI next · Busco mi siguiente caso de &eacute;xito y mi pr&oacute;ximo aliado.
+        </footer>
+      </main>
+
+      <aside class="link-rail" aria-label="Accesos principales">
+        <section class="rail-card rail-primary">
+          <span class="slide-meta">Conversaci&oacute;n</span>
+          <h2>Hablemos del pr&oacute;ximo caso.</h2>
+          <p>Un reto real, una ruta visible y evidencia para decidir el siguiente movimiento.</p>
+          <div class="rail-link-group">
+            <a class="rail-link rail-link-feature" href="https://wa.me/573005353628?text=Hola%20Javier%2C%20vi%20tu%20perfil%20y%20quiero%20conversar%20sobre%20un%20reto%20real%20para%20convertirlo%20en%20caso%20de%20%C3%A9xito." target="_blank" rel="noopener"><span>WhatsApp</span><small>WA</small></a>
+            <a class="rail-link" href="https://co.linkedin.com/in/javier-andr%C3%A9s-monta%C3%B1o-guzm%C3%A1n-35b02756/en" target="_blank" rel="noopener"><span>LinkedIn</span><small>PERFIL</small></a>
+          </div>
+        </section>
+
+        <section class="rail-card">
+          <span class="slide-meta">Prueba el m&eacute;todo</span>
+          <button class="rail-link rail-action" type="button" data-open-modal="pivote-modal"><span>Ver P.I.V.O.T.E.</span><small>M&Eacute;TODO</small></button>
+          <div class="rail-link-group">
+            <a class="rail-link rail-link-feature" href="https://notebooklm.google.com/notebook/9fdf2de1-9d2f-40ec-a365-e00a4f444e51/artifact/5e28154c-8bfa-4364-b5f0-df9a44a57e98?utm_source=nlm_web_share&amp;utm_medium=google_oo&amp;utm_campaign=art_share_1&amp;utm_content=&amp;utm_smc=nlm_web_share_google_oo_art_share_1_" target="_blank" rel="noopener"><span>NotebookLM IA y M&eacute;todo</span><small>VIVO</small></a>
+            <a class="rail-link" href="https://metodologia.info/" target="_blank" rel="noopener"><span>metodologia.info</span><small>SITIO</small></a>
+            <a class="rail-link" href="https://metodologia.info/recursos/" target="_blank" rel="noopener"><span>Recursos MetodologIA</span><small>HUB</small></a>
+          </div>
+        </section>
+
+        <section class="rail-card">
+          <span class="slide-meta">Activos abiertos</span>
+          <div class="rail-link-group">
+            <a class="rail-link" href="https://github.com/JaviMontano/jm-adk-beta" target="_blank" rel="noopener"><span>Pristino Beta Harness</span><small>GITHUB</small></a>
+            <a class="rail-link" href="https://javimontano.github.io/prompt-amplificado/" target="_blank" rel="noopener"><span>Biblioteca de prompts</span><small>PAGE</small></a>
+            <a class="rail-link" href="https://javimontano.github.io/trabajar-amplificado/" target="_blank" rel="noopener"><span>Trabajo Amplificado</span><small>PROGRAMA</small></a>
+            <a class="rail-link" href="https://github.com/JaviMontano/material-educativo-metodologia/blob/main/playbook-aprender-aprehender-revolucionar-2026.html" target="_blank" rel="noopener"><span>Aprender a aprender</span><small>CARTILLA</small></a>
+            <a class="rail-link" href="https://github.com/JaviMontano/material-educativo-metodologia" target="_blank" rel="noopener"><span>Material educativo</span><small>REPO</small></a>
+          </div>
+        </section>
+      </aside>
+    </div>
+
+    <div class="method-modal" id="pivote-modal" role="dialog" aria-modal="true" aria-labelledby="pivote-title" aria-describedby="pivote-desc" hidden>
+      <div class="method-modal__panel">
+        <button class="method-modal__close" type="button" data-close-modal>Cerrar</button>
+        <div class="method-modal__head">
+          <span class="slide-meta">Framework P.I.V.O.T.E.</span>
+          <h2 id="pivote-title">Limpiar la se&ntilde;al antes de amplificar con IA.</h2>
+          <p id="pivote-desc">
+            P.I.V.O.T.E. ordena la intervenci&oacute;n en seis lentes: Personas, Interacciones,
+            Valor, Organizaci&oacute;n, Tecnolog&iacute;a y Evoluci&oacute;n. La tecnolog&iacute;a llega despu&eacute;s
+            de entender el sistema humano y operativo.
+          </p>
+        </div>
+
+        <div class="pivote-grid" aria-label="Lentes P.I.V.O.T.E.">
+          <article class="pivote-card"><b>P</b><h3>Personas</h3><p>Roles, capacidades, motivaciones y decisiones. Qui&eacute;n decide, qui&eacute;n ejecuta y qui&eacute;n aprende.</p></article>
+          <article class="pivote-card"><b>I</b><h3>Interacciones</h3><p>Flujos, dependencias, handoffs y fricciones. D&oacute;nde se pierde tiempo, energ&iacute;a y contexto.</p></article>
+          <article class="pivote-card"><b>V</b><h3>Valor</h3><p>Impacto medible. Qu&eacute; actividades mueven negocio y cu&aacute;les consumen energ&iacute;a sin retorno claro.</p></article>
+          <article class="pivote-card"><b>O</b><h3>Organizaci&oacute;n</h3><p>Estructura, SOPs, playbooks y base de conocimiento para que el aprendizaje no dependa de memoria individual.</p></article>
+          <article class="pivote-card"><b>T</b><h3>Tecnolog&iacute;a</h3><p>IA, automatizaci&oacute;n y agentes. Se elige el recurso m&iacute;nimo suficiente: prompt, asistente, workflow o sistema.</p></article>
+          <article class="pivote-card"><b>E</b><h3>Evoluci&oacute;n</h3><p>M&eacute;tricas, retrospectivas y mejora continua. El proceso aprende, pivota y se vuelve m&aacute;s gobernable.</p></article>
+        </div>
+
+        <div class="method-modal__callout">
+          La ruta pr&aacute;ctica es Fundamentar, Acelerar, Catalizar y Amplificar: entender el
+          proceso real, reducir fricci&oacute;n, convertir conocimiento en activos y delegar
+          en IA solo cuando hay criterio, reglas y evidencia.
+        </div>
+
+        <div class="intervention-grid" aria-label="Estilo de aplicaci&oacute;n del m&eacute;todo">
+          <article class="intervention-card"><h3>Reingenier&iacute;a visible</h3><p>Primero se entiende el trabajo como ocurre hoy; luego se redise&ntilde;a lo que duele, se mide y se vuelve repetible.</p></article>
+          <article class="intervention-card"><h3>IA costo-efectiva</h3><p>No todo requiere agentes. Muchas victorias nacen de prompts simples, checklists, plantillas o asistentes baratos y bien gobernados.</p></article>
+          <article class="intervention-card"><h3>Delegaci&oacute;n ag&eacute;ntica</h3><p>Cuando el proceso madura, aparecen automatizaciones, validadores y agentes para ejecutar tareas repetibles con supervisi&oacute;n humana.</p></article>
+        </div>
+
+        <div class="method-modal__actions">
+          <a class="btn" href="https://metodologia.info/vision/" target="_blank" rel="noopener">Ver m&eacute;todo completo</a>
+          <a class="btn secondary" href="https://metodologia.info/programas/" target="_blank" rel="noopener">Ver programas</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script>
+      function activateTab(tab) {
+        document.querySelectorAll(".tab-button").forEach(button => {
+          button.setAttribute("aria-selected", button.dataset.tab === tab ? "true" : "false");
+        });
+        document.querySelectorAll(".tab-panel").forEach(panel => {
+          panel.classList.toggle("active", panel.dataset.panel === tab);
+        });
+        if (location.hash !== `#${tab}`) history.replaceState(null, "", `#${tab}`);
+        renderActiveMermaid();
+      }
+
+      function renderActiveMermaid() {
+        if (!window.mermaid || !mermaid.run) return;
+        const nodes = Array.from(document.querySelectorAll(".tab-panel.active .mermaid"))
+          .filter(node => node.getAttribute("data-processed") !== "true");
+        if (!nodes.length) return;
+        requestAnimationFrame(() => {
+          mermaid.run({ nodes }).catch(error => console.error("Mermaid render failed", error));
+        });
+      }
+
+      document.querySelectorAll(".tab-button").forEach(button => {
+        button.addEventListener("click", () => activateTab(button.dataset.tab));
+      });
+
+      document.querySelectorAll("[data-open-tab]").forEach(link => {
+        link.addEventListener("click", event => {
+          event.preventDefault();
+          activateTab(link.dataset.openTab);
+          document.getElementById("content").scrollIntoView({ behavior: "smooth" });
+        });
+      });
+
+      let lastFocusedElement = null;
+
+      function openModal(modal) {
+        if (!modal) return;
+        lastFocusedElement = document.activeElement;
+        modal.hidden = false;
+        document.body.classList.add("modal-open");
+        const closeButton = modal.querySelector("[data-close-modal]");
+        requestAnimationFrame(() => closeButton?.focus());
+      }
+
+      function closeModal(modal) {
+        if (!modal || modal.hidden) return;
+        modal.hidden = true;
+        document.body.classList.remove("modal-open");
+        if (lastFocusedElement && typeof lastFocusedElement.focus === "function") {
+          lastFocusedElement.focus();
+        }
+      }
+
+      document.querySelectorAll("[data-open-modal]").forEach(button => {
+        button.addEventListener("click", () => {
+          openModal(document.getElementById(button.dataset.openModal));
+        });
+      });
+
+      document.querySelectorAll(".method-modal").forEach(modal => {
+        modal.addEventListener("click", event => {
+          if (event.target === modal || event.target.matches("[data-close-modal]")) {
+            closeModal(modal);
+          }
+        });
+      });
+
+      document.addEventListener("keydown", event => {
+        if (event.key !== "Escape") return;
+        document.querySelectorAll(".method-modal:not([hidden])").forEach(closeModal);
+      });
+
+      if (window.mermaid) {
+        mermaid.initialize({
+          startOnLoad: false,
+          theme: "base",
+          securityLevel: "loose",
+          themeVariables: {
+            primaryColor: "#003366",
+            primaryTextColor: "#f5f7fa",
+            primaryBorderColor: "#D4AF37",
+            lineColor: "#D4AF37",
+            secondaryColor: "#07356b",
+            tertiaryColor: "#003366",
+            fontFamily: "Montserrat, system-ui, sans-serif"
+          }
+        });
+      }
+
+      const requested = location.hash.replace("#", "");
+      if (requested && document.querySelector(`[data-tab="${requested}"]`)) activateTab(requested);
+      renderActiveMermaid();
+    </script>
+  </body>
+</html>

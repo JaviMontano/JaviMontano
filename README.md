@@ -40,6 +40,12 @@
   <img src="https://img.shields.io/static/v1?label=Mamba%20Blanca&message=assets%20digitales&color=08111F&labelColor=F59E0B&style=flat-square" alt="Mamba Blanca assets digitales" />
 </p>
 
+## Versiones del perfil
+
+- [Neo-Swiss Editorial](https://javimontano.github.io/JaviMontano/) — versión pública principal.
+- [Blueprint Executive](https://javimontano.github.io/JaviMontano/blueprint/) — alternativa técnica con accesos directos a PASA, PIVOTE y recursos abiertos.
+- [Versión anterior](https://javimontano.github.io/JaviMontano/legacy/) — respaldo histórico, excluido de indexación.
+
 ## Convierto retos en oportunidades y oportunidades en casos de éxito
 
 **Method first, AI next.** Construyo repos, playbooks, agentes, prompts, cursos y artefactos para que los retos no se queden en diagnósticos y las oportunidades no se queden en intenciones. Mi campo de acción cruza **consultoría**, **operaciones**, **management**, **adopción de IA** y **disrupción digital**: pasar de **reto a oportunidad**, de **oportunidad a método**, de **método a sistema**, y de **sistema a caso de éxito verificable**.

@@ -1,0 +1,102 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-labelledby="title desc">
+  <title id="title">Javier Montaño profile banner</title>
+  <desc id="desc">Professional banner for Javier Montaño with integrated portrait, MetodologIA and Pristino Beta brand marks, consulting, operations, management, AI and digital disruption.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#08111f"/>
+      <stop offset="0.44" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="68" y1="58" x2="1128" y2="386" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111f" stop-opacity="0.92"/>
+      <stop offset="0.62" stop-color="#082f36" stop-opacity="0.78"/>
+      <stop offset="1" stop-color="#111827" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="mesh" x1="158" y1="-20" x2="1024" y2="452" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38bdf8" stop-opacity="0.45"/>
+      <stop offset="0.5" stop-color="#f8fafc" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#f59e0b" stop-opacity="0.36"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-40%" width="140%" height="180%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#020617" flood-opacity="0.28"/>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <clipPath id="portraitClip">
+      <circle cx="958" cy="186" r="120"/>
+    </clipPath>
+    <clipPath id="metodologiaLogoClip">
+      <rect x="885" y="322" width="38" height="38" rx="10"/>
+    </clipPath>
+    <clipPath id="pristinoLogoClip">
+      <rect x="1025" y="322" width="38" height="38" rx="10"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="430" rx="0" fill="url(#bg)"/>
+  <rect width="1200" height="430" fill="url(#grid)"/>
+  <path d="M-24 314C124 204 251 185 421 256C611 334 737 170 902 112C1039 60 1138 108 1232 176V456H-24V314Z" fill="url(#mesh)"/>
+  <circle cx="1000" cy="74" r="126" fill="#ffffff" fill-opacity="0.07"/>
+  <circle cx="1110" cy="252" r="72" fill="#020617" fill-opacity="0.18"/>
+  <circle cx="130" cy="112" r="74" fill="#38bdf8" fill-opacity="0.14"/>
+  <circle cx="950" cy="186" r="152" fill="#020617" fill-opacity="0.16"/>
+
+  <g filter="url(#softShadow)">
+    <rect x="64" y="52" width="1072" height="326" rx="30" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.18"/>
+  </g>
+
+  <text x="96" y="108" fill="#a7f3d0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800" letter-spacing="2">
+    CONSULTING / OPERATIONS / MANAGEMENT / AI
+  </text>
+  <text x="96" y="168" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="62" font-weight="850">
+    Javier Montaño
+  </text>
+  <text x="100" y="214" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="750">
+    Retos a oportunidades. Oportunidades a casos de éxito.
+  </text>
+  <text x="100" y="250" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="600">
+    Method first, AI next: disrupción digital con sistemas accionables.
+  </text>
+
+  <g aria-label="Current roles">
+    <rect x="100" y="280" width="362" height="40" rx="12" fill="#020617" fill-opacity="0.46" stroke="#ffd700" stroke-opacity="0.26"/>
+    <text x="120" y="306" fill="#fde68a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">
+      Founder &amp; Empowerment Officer @ MetodologIA
+    </text>
+    <rect x="478" y="280" width="342" height="40" rx="12" fill="#020617" fill-opacity="0.42" stroke="#38bdf8" stroke-opacity="0.24"/>
+    <text x="498" y="306" fill="#e0f2fe" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">
+      Senior Consultant / Offer Manager @ Amaris
+    </text>
+  </g>
+
+  <g aria-label="Profile portrait">
+    <circle cx="958" cy="186" r="134" fill="#ffd700" fill-opacity="0.98"/>
+    <circle cx="958" cy="186" r="128" fill="#07111f" fill-opacity="0.96" stroke="#ffffff" stroke-opacity="0.18" stroke-width="2"/>
+    <image href="team_javier-montano.webp" xlink:href="team_javier-montano.webp" x="838" y="66" width="240" height="240" preserveAspectRatio="xMidYMid slice" clip-path="url(#portraitClip)"/>
+    <circle cx="958" cy="186" r="120" fill="none" stroke="#ffd700" stroke-opacity="0.72" stroke-width="5"/>
+    <rect x="840" y="278" width="236" height="34" rx="17" fill="#020617" fill-opacity="0.82" stroke="#ffffff" stroke-opacity="0.16"/>
+    <text x="958" y="301" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="850" text-anchor="middle">
+      Pristino Author · AI Operator
+    </text>
+  </g>
+
+  <g aria-label="MetodologIA and Pristino brand marks">
+    <rect x="100" y="338" width="720" height="40" rx="12" fill="#020617" fill-opacity="0.34" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="120" y="364" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="760">
+      Busco mi siguiente caso de éxito y mi próximo aliado.
+    </text>
+    <rect x="842" y="314" width="124" height="64" rx="18" fill="#08111f" fill-opacity="0.88" stroke="#ffd700" stroke-opacity="0.34"/>
+    <text x="904" y="348" fill="#ffd700" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="900" text-anchor="middle">M!</text>
+    <text x="904" y="370" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="850" text-anchor="middle">MetodologIA</text>
+
+    <rect x="982" y="314" width="124" height="64" rx="18" fill="#08111f" fill-opacity="0.88" stroke="#38bdf8" stroke-opacity="0.38"/>
+    <text x="1044" y="348" fill="#67e8f9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="900" text-anchor="middle">P</text>
+    <text x="1044" y="370" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="850" text-anchor="middle">Pristino Beta</text>
+  </g>
+
+  <g aria-hidden="true">
+    <image href="metodologia_logo_primary.png" xlink:href="metodologia_logo_primary.png" x="885" y="322" width="38" height="38" preserveAspectRatio="xMidYMid slice" clip-path="url(#metodologiaLogoClip)"/>
+    <image href="pristino_logo_primary.png" xlink:href="pristino_logo_primary.png" x="1025" y="322" width="38" height="38" preserveAspectRatio="xMidYMid slice" clip-path="url(#pristinoLogoClip)"/>
+  </g>
+</svg>
